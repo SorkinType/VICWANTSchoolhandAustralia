@@ -31,17 +31,17 @@ fontbakery version: 0.9.2
     subset declarations to METADATA.pb, or by editing the glyphset
     definitions.
 
- * U+02C7 CARON: try adding one of: canadian-aboriginal, tifinagh, yi
- * U+02D8 BREVE: try adding one of: canadian-aboriginal, yi
- * U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi
- * U+02DB OGONEK: try adding one of: canadian-aboriginal, yi
+ * U+02C7 CARON: try adding one of: tifinagh, canadian-aboriginal, yi
+ * U+02D8 BREVE: try adding one of: yi, canadian-aboriginal
+ * U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal
+ * U+02DB OGONEK: try adding one of: yi, canadian-aboriginal
  * U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition
- * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: coptic, math, cherokee, tifinagh
+ * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: tifinagh, cherokee, coptic, math
  * U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic
- * U+0307 COMBINING DOT ABOVE: try adding one of: tai-le, malayalam, coptic, canadian-aboriginal, math, syriac, tifinagh, old-permic
+ * U+0307 COMBINING DOT ABOVE: try adding one of: old-permic, malayalam, tai-le, syriac, math, canadian-aboriginal, tifinagh, coptic
  * U+030A COMBINING RING ABOVE: try adding syriac
- * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee
- * U+030C COMBINING CARON: try adding one of: tai-le, cherokee
+ * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage
+ * U+030C COMBINING CARON: try adding one of: cherokee, tai-le
  * U+0312 COMBINING TURNED COMMA ABOVE: not included in any glyphset definition
  * U+0326 COMBINING COMMA BELOW: not included in any glyphset definition
  * U+0327 COMBINING CEDILLA: not included in any glyphset definition
@@ -57,26 +57,26 @@ fontbakery version: 0.9.2
  * U+2007 FIGURE SPACE: not included in any glyphset definition
  * U+2008 PUNCTUATION SPACE: not included in any glyphset definition
  * U+200A HAIR SPACE: not included in any glyphset definition
- * U+200C ZERO WIDTH NON-JOINER: try adding one of: tamil, pahawh-hmong, siddham, hanifi-rohingya, khudawadi, yi, devanagari, khmer, tai-tham, avestan, takri, thai, telugu, nko, limbu, lepcha, malayalam, sinhala, buginese, warang-citi, mandaic, hatran, mahajani, dogra, syriac, oriya, tirhuta, gunjala-gondi, syloti-nagri, meetei-mayek, tagbanwa, tifinagh, bengali, balinese, psalter-pahlavi, sogdian, sharada, tibetan, tagalog, kayah-li, kharoshthi, chakma, gujarati, sundanese, thaana, saurashtra, hanunoo, gurmukhi, duployan, javanese, newa, rejang, tai-le, manichaean, cham, mongolian, batak, new-tai-lue, brahmi, buhid, phags-pa, kannada, kaithi, modi, tai-viet, khojki, myanmar, grantha
- * U+200D ZERO WIDTH JOINER: try adding one of: tamil, pahawh-hmong, siddham, hanifi-rohingya, khudawadi, yi, devanagari, tai-tham, avestan, takri, thai, old-hungarian, telugu, nko, limbu, lepcha, malayalam, sinhala, buginese, warang-citi, mandaic, mahajani, dogra, syriac, oriya, tirhuta, gunjala-gondi, syloti-nagri, meetei-mayek, tagbanwa, tifinagh, bengali, balinese, psalter-pahlavi, tibetan, grantha, sharada, tagalog, kayah-li, kharoshthi, chakma, gujarati, sundanese, thaana, saurashtra, hanunoo, gurmukhi, duployan, newa, rejang, tai-le, manichaean, cham, mongolian, batak, new-tai-lue, brahmi, buhid, phags-pa, kannada, kaithi, modi, tai-viet, khojki, myanmar, javanese
+ * U+200C ZERO WIDTH NON-JOINER: try adding one of: cham, bengali, hanunoo, kannada, lepcha, tai-tham, buginese, tamil, batak, gurmukhi, nko, khmer, kharoshthi, hanifi-rohingya, devanagari, newa, yi, meetei-mayek, buhid, gunjala-gondi, tagbanwa, chakma, kaithi, malayalam, avestan, gujarati, siddham, tai-le, syloti-nagri, dogra, mandaic, tai-viet, new-tai-lue, khojki, duployan, telugu, warang-citi, kayah-li, hatran, myanmar, pahawh-hmong, tibetan, balinese, mongolian, syriac, tagalog, thai, sharada, sogdian, sinhala, tifinagh, javanese, thaana, brahmi, oriya, tirhuta, phags-pa, grantha, khudawadi, saurashtra, limbu, mahajani, manichaean, sundanese, modi, rejang, psalter-pahlavi, takri
+ * U+200D ZERO WIDTH JOINER: try adding one of: cham, bengali, hanunoo, kannada, lepcha, tai-tham, buginese, tamil, old-hungarian, batak, gurmukhi, nko, kharoshthi, hanifi-rohingya, devanagari, newa, yi, meetei-mayek, buhid, gunjala-gondi, tagbanwa, chakma, kaithi, malayalam, avestan, gujarati, siddham, tai-le, syloti-nagri, dogra, mandaic, tai-viet, new-tai-lue, khojki, duployan, telugu, warang-citi, kayah-li, myanmar, pahawh-hmong, tibetan, balinese, mongolian, syriac, tagalog, thai, sharada, sinhala, tifinagh, javanese, thaana, brahmi, oriya, tirhuta, phags-pa, grantha, khudawadi, saurashtra, limbu, mahajani, manichaean, sundanese, modi, rejang, psalter-pahlavi, takri
  * U+2021 DOUBLE DAGGER: try adding adlam
  * U+202F NARROW NO-BREAK SPACE: try adding one of: mongolian, yi
  * U+205F MEDIUM MATHEMATICAL SPACE: not included in any glyphset definition
  * U+2116 NUMERO SIGN: try adding cyrillic
  * U+212E ESTIMATED SYMBOL: not included in any glyphset definition
- * U+2190 LEFTWARDS ARROW: try adding one of: math, symbols
- * U+2192 RIGHTWARDS ARROW: try adding one of: math, symbols
- * U+2196 NORTH WEST ARROW: try adding one of: math, symbols
- * U+2197 NORTH EAST ARROW: try adding one of: math, symbols
- * U+2198 SOUTH EAST ARROW: try adding one of: math, symbols
- * U+2199 SOUTH WEST ARROW: try adding one of: math, symbols
+ * U+2190 LEFTWARDS ARROW: try adding one of: symbols, math
+ * U+2192 RIGHTWARDS ARROW: try adding one of: symbols, math
+ * U+2196 NORTH WEST ARROW: try adding one of: symbols, math
+ * U+2197 NORTH EAST ARROW: try adding one of: symbols, math
+ * U+2198 SOUTH EAST ARROW: try adding one of: symbols, math
+ * U+2199 SOUTH WEST ARROW: try adding one of: symbols, math
  * U+221E INFINITY: try adding math
  * U+2248 ALMOST EQUAL TO: try adding math
  * U+2260 NOT EQUAL TO: try adding math
  * U+2264 LESS-THAN OR EQUAL TO: try adding math
  * U+2265 GREATER-THAN OR EQUAL TO: try adding math
- * U+25CA LOZENGE: try adding one of: math, symbols
- * U+25CC DOTTED CIRCLE: try adding one of: khudawadi, yi, khmer, marchen, telugu, buginese, oriya, elbasan, syloti-nagri, meetei-mayek, psalter-pahlavi, gujarati, caucasian-albanian, cham, miao, kannada, tai-viet, siddham, devanagari, thai, nko, lepcha, malayalam, music, gunjala-gondi, old-permic, tibetan, osage, thaana, hanunoo, mende-kikakui, gurmukhi, duployan, bhaiksuki, tai-le, bassa-vah, phags-pa, buhid, hebrew, tagalog, javanese, tamil, pahawh-hmong, limbu, sinhala, coptic, zanabazar-square, mahajani, dogra, tagbanwa, bengali, sogdian, ahom, newa, manichaean, modi, khojki, tirhuta, hanifi-rohingya, takri, adlam, mandaic, syriac, tifinagh, balinese, symbols, sharada, kayah-li, kharoshthi, soyombo, chakma, sundanese, rejang, masaram-gondi, mongolian, batak, new-tai-lue, brahmi, math, wancho, kaithi, lao, myanmar, grantha
+ * U+25CA LOZENGE: try adding one of: symbols, math
+ * U+25CC DOTTED CIRCLE: try adding one of: newa, yi, buhid, adlam, old-permic, dogra, marchen, new-tai-lue, duployan, pahawh-hmong, tibetan, mongolian, syriac, tagalog, thai, sinhala, miao, brahmi, limbu, psalter-pahlavi, tamil, buginese, hebrew, symbols, khmer, kharoshthi, devanagari, coptic, wancho, malayalam, tai-le, siddham, bassa-vah, ahom, tai-viet, telugu, balinese, javanese, oriya, grantha, music, bhaiksuki, manichaean, modi, lao, mende-kikakui, takri, cham, bengali, kannada, gurmukhi, elbasan, soyombo, hanifi-rohingya, meetei-mayek, caucasian-albanian, kaithi, mandaic, math, khojki, masaram-gondi, tifinagh, thaana, phags-pa, mahajani, sundanese, hanunoo, lepcha, osage, batak, zanabazar-square, nko, gunjala-gondi, tagbanwa, chakma, gujarati, syloti-nagri, kayah-li, myanmar, sharada, sogdian, tirhuta, khudawadi, rejang
  * U+FB01 LATIN SMALL LIGATURE FI: not included in any glyphset definition
  * U+FB02 LATIN SMALL LIGATURE FL: not included in any glyphset definition
 
@@ -125,8 +125,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: p	Contours detected: 1	Expected: 2
 
-	- Glyph name: Eth	Contours detected: 3	Expected: 2
-
 	- Glyph name: aogonek	Contours detected: 3	Expected: 2
 
 	- Glyph name: dcroat	Contours detected: 3	Expected: 2
@@ -146,8 +144,6 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: uni0228	Contours detected: 2	Expected: 1
 
 	- Glyph name: uni0229	Contours detected: 3	Expected: 2
-
-	- Glyph name: Eth	Contours detected: 3	Expected: 2
 
 	- Glyph name: OE	Contours detected: 3	Expected: 2
 
@@ -183,7 +179,7 @@ Width = 1083:
 less
 
 Width = 1156:
-equal, lessequal, greaterequal
+lessequal, greaterequal, equal
 
 Width = 1086:
 greater
@@ -209,17 +205,17 @@ notequal
 
 	* slash (U+002F): X=864.0,Y=1834.0 (should be at cap-height 1835?)
 
-	* eight (U+0038): X=844.5,Y=1834.5 (should be at cap-height 1835?)
+	* eight (U+0038): X=944.5,Y=1834.5 (should be at cap-height 1835?)
 
-	* nine (U+0039): X=1286.0,Y=1833.5 (should be at cap-height 1835?)
+	* nine (U+0039): X=1306.0,Y=1833.5 (should be at cap-height 1835?)
 
-	* B (U+0042): X=440.5,Y=1834.5 (should be at cap-height 1835?)
+	* B (U+0042): X=483.5,Y=1834.5 (should be at cap-height 1835?)
 
 	* J (U+004A): X=163.5,Y=1.0 (should be at baseline 0?)
 
-	* M (U+004D): X=855.0,Y=1833.0 (should be at cap-height 1835?)
+	* M (U+004D): X=853.0,Y=1833.0 (should be at cap-height 1835?)
 
-	* N (U+004E): X=1401.0,Y=1834.0 (should be at cap-height 1835?)
+	* N (U+004E): X=1446.0,Y=1834.0 (should be at cap-height 1835?)
 
 	* W (U+0057): X=2291.0,Y=1835.5 (should be at cap-height 1835?)
 
@@ -231,13 +227,13 @@ notequal
 
 	* h (U+0068): X=433.0,Y=1833.0 (should be at cap-height 1835?)
 
-	* k (U+006B): X=433.5,Y=1833.0 (should be at cap-height 1835?)
+	* k (U+006B): X=434.5,Y=1833.0 (should be at cap-height 1835?)
 
-	* k (U+006B): X=997.0,Y=994.0 (should be at x-height 995?)
+	* k (U+006B): X=998.0,Y=994.0 (should be at x-height 995?)
 
-	* l (U+006C): X=433.0,Y=1833.0 (should be at cap-height 1835?)
+	* l (U+006C): X=434.0,Y=1833.0 (should be at cap-height 1835?)
 
-	* r (U+0072): X=796.0,Y=996.0 (should be at x-height 995?)
+	* r (U+0072): X=798.0,Y=996.0 (should be at x-height 995?)
 
 	* s (U+0073): X=296.5,Y=-0.5 (should be at baseline 0?)
 
@@ -251,63 +247,63 @@ notequal
 
 	* Ccedilla (U+00C7): X=674.0,Y=-1.0 (should be at baseline 0?)
 
-	* Ntilde (U+00D1): X=1401.0,Y=1834.0 (should be at cap-height 1835?)
+	* Ntilde (U+00D1): X=1446.0,Y=1834.0 (should be at cap-height 1835?)
 
 	* Yacute (U+00DD): X=446.5,Y=1835.5 (should be at cap-height 1835?)
 
-	* germandbls (U+00DF): X=759.5,Y=1834.0 (should be at cap-height 1835?)
+	* germandbls (U+00DF): X=760.5,Y=1834.0 (should be at cap-height 1835?)
 
-	* ccedilla (U+00E7): X=281.0,Y=-1.0 (should be at baseline 0?)
+	* ccedilla (U+00E7): X=313.0,Y=-1.0 (should be at baseline 0?)
 
-	* oslash (U+00F8): X=357.0,Y=2.0 (should be at baseline 0?)
+	* oslash (U+00F8): X=377.0,Y=2.0 (should be at baseline 0?)
 
 	* Ccaron (U+010C): X=1116.5,Y=2574.0 (should be at ascender 2576?)
 
 	* Ccaron (U+010C): X=1411.5,Y=2577.0 (should be at ascender 2576?)
 
-	* Dcaron (U+010E): X=1024.5,Y=2574.0 (should be at ascender 2576?)
+	* Dcaron (U+010E): X=1069.5,Y=2574.0 (should be at ascender 2576?)
 
-	* Dcaron (U+010E): X=1319.5,Y=2577.0 (should be at ascender 2576?)
+	* Dcaron (U+010E): X=1364.5,Y=2577.0 (should be at ascender 2576?)
 
 	* dcaron (U+010F): X=1009.0,Y=1833.0 (should be at cap-height 1835?)
 
 	* dcroat (U+0111): X=1009.0,Y=1833.0 (should be at cap-height 1835?)
 
-	* Ecaron (U+011A): X=1019.5,Y=2574.0 (should be at ascender 2576?)
+	* Ecaron (U+011A): X=1065.5,Y=2574.0 (should be at ascender 2576?)
 
-	* Ecaron (U+011A): X=1314.5,Y=2577.0 (should be at ascender 2576?)
+	* Ecaron (U+011A): X=1360.5,Y=2577.0 (should be at ascender 2576?)
 
 	* hbar (U+0127): X=433.0,Y=1833.0 (should be at cap-height 1835?)
 
 	* IJ (U+0132): X=1219.5,Y=1.0 (should be at baseline 0?)
 
-	* uni0137 (U+0137): X=433.5,Y=1833.0 (should be at cap-height 1835?)
+	* uni0137 (U+0137): X=434.5,Y=1833.0 (should be at cap-height 1835?)
 
-	* lacute (U+013A): X=433.0,Y=1833.0 (should be at cap-height 1835?)
+	* lacute (U+013A): X=434.0,Y=1833.0 (should be at cap-height 1835?)
 
-	* uni013C (U+013C): X=433.0,Y=1833.0 (should be at cap-height 1835?)
+	* uni013C (U+013C): X=434.0,Y=1833.0 (should be at cap-height 1835?)
 
-	* lcaron (U+013E): X=433.0,Y=1833.0 (should be at cap-height 1835?)
+	* lcaron (U+013E): X=434.0,Y=1833.0 (should be at cap-height 1835?)
 
-	* Nacute (U+0143): X=1401.0,Y=1834.0 (should be at cap-height 1835?)
+	* Nacute (U+0143): X=1446.0,Y=1834.0 (should be at cap-height 1835?)
 
-	* uni0145 (U+0145): X=1401.0,Y=1834.0 (should be at cap-height 1835?)
+	* uni0145 (U+0145): X=1446.0,Y=1834.0 (should be at cap-height 1835?)
 
-	* Ncaron (U+0147): X=1401.0,Y=1834.0 (should be at cap-height 1835?)
+	* Ncaron (U+0147): X=1446.0,Y=1834.0 (should be at cap-height 1835?)
 
-	* Ncaron (U+0147): X=1005.5,Y=2574.0 (should be at ascender 2576?)
+	* Ncaron (U+0147): X=1050.5,Y=2574.0 (should be at ascender 2576?)
 
-	* Ncaron (U+0147): X=1300.5,Y=2577.0 (should be at ascender 2576?)
+	* Ncaron (U+0147): X=1345.5,Y=2577.0 (should be at ascender 2576?)
 
-	* Eng (U+014A): X=245.0,Y=-1.0 (should be at baseline 0?)
+	* Eng (U+014A): X=288.0,Y=-1.0 (should be at baseline 0?)
 
-	* Eng (U+014A): X=449.0,Y=1834.0 (should be at cap-height 1835?)
+	* Eng (U+014A): X=492.0,Y=1834.0 (should be at cap-height 1835?)
 
-	* Eng (U+014A): X=245.0,Y=-1.0 (should be at baseline 0?)
+	* Eng (U+014A): X=288.0,Y=-1.0 (should be at baseline 0?)
 
-	* Rcaron (U+0158): X=927.5,Y=2574.0 (should be at ascender 2576?)
+	* Rcaron (U+0158): X=970.5,Y=2574.0 (should be at ascender 2576?)
 
-	* Rcaron (U+0158): X=1222.5,Y=2577.0 (should be at ascender 2576?)
+	* Rcaron (U+0158): X=1265.5,Y=2577.0 (should be at ascender 2576?)
 
 	* sacute (U+015B): X=296.5,Y=-0.5 (should be at baseline 0?)
 
@@ -321,7 +317,7 @@ notequal
 
 	* scaron (U+0161): X=296.5,Y=-0.5 (should be at baseline 0?)
 
-	* Uogonek (U+0172): X=985.5,Y=-1.5 (should be at baseline 0?)
+	* Uogonek (U+0172): X=975.5,Y=-1.5 (should be at baseline 0?)
 
 	* uogonek (U+0173): X=616.5,Y=1.5 (should be at baseline 0?)
 
@@ -343,13 +339,13 @@ notequal
 
 	* uni01D1 (U+01D1): X=1333.5,Y=2577.0 (should be at ascender 2576?)
 
-	* Gcaron (U+01E6): X=1057.5,Y=2574.0 (should be at ascender 2576?)
+	* Gcaron (U+01E6): X=1061.5,Y=2574.0 (should be at ascender 2576?)
 
-	* Gcaron (U+01E6): X=1352.5,Y=2577.0 (should be at ascender 2576?)
+	* Gcaron (U+01E6): X=1356.5,Y=2577.0 (should be at ascender 2576?)
 
 	* uni0219 (U+0219): X=296.5,Y=-0.5 (should be at baseline 0?)
 
-	* uni1E3E (U+1E3E): X=855.0,Y=1833.0 (should be at cap-height 1835?)
+	* uni1E3E (U+1E3E): X=853.0,Y=1833.0 (should be at cap-height 1835?)
 
 	* Wgrave (U+1E80): X=2291.0,Y=1835.5 (should be at cap-height 1835?)
 
@@ -357,7 +353,7 @@ notequal
 
 	* Wdieresis (U+1E84): X=2291.0,Y=1835.5 (should be at cap-height 1835?)
 
-	* uni1E9E (U+1E9E): X=1698.5,Y=1837.0 (should be at cap-height 1835?)
+	* uni1E9E (U+1E9E): X=1741.5,Y=1837.0 (should be at cap-height 1835?)
 
 	* Ygrave (U+1EF2): X=446.5,Y=1835.5 (should be at cap-height 1835?)
 
@@ -369,17 +365,17 @@ notequal
 
 	* quotedblleft (U+201C): X=902.0,Y=1836.5 (should be at cap-height 1835?)
 
-	* uni2116 (U+2116): X=1401.0,Y=1834.0 (should be at cap-height 1835?)
+	* uni2116 (U+2116): X=1446.0,Y=1834.0 (should be at cap-height 1835?)
 
-	* estimated (U+212E): X=1757.5,Y=1833.5 (should be at cap-height 1835?)
+	* estimated (U+212E): X=1656.5,Y=1833.5 (should be at cap-height 1835?)
 
-	* fl (U+FB02): X=1222.0,Y=1833.0 (should be at cap-height 1835?) [code: found-misalignments]
+	* fl (U+FB02): X=1223.0,Y=1833.0 (should be at cap-height 1835?) [code: found-misalignments]
 </div></details><details><summary>⚠ <b>WARN:</b> Are any segments inordinately short? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_short_segments">com.google.fonts/check/outline_short_segments</a>)</summary><div>
 
 
 * ⚠ **WARN** The following glyphs have segments which seem very short:
 
-	* six (U+0036) contains a short segment B<<413.0,1190.0>-<408.0,1182.0>-<400.5,1171.5>>
+	* six (U+0036) contains a short segment B<<500.0,1190.0>-<495.0,1182.0>-<487.5,1171.5>>
 
 	* at (U+0040) contains a short segment B<<1283.0,512.0>-<1278.0,491.0>-<1273.5,462.0>>
 
@@ -387,7 +383,7 @@ notequal
 
 	* at (U+0040) contains a short segment B<<1273.5,411.0>-<1278.0,389.0>-<1300.0,389.0>>
 
-	* M (U+004D) contains a short segment B<<1245.0,89.0>-<1232.0,64.0>-<1201.5,32.0>>
+	* M (U+004D) contains a short segment B<<1243.0,89.0>-<1230.0,64.0>-<1199.5,32.0>>
 
 	* Q (U+0051) contains a short segment B<<802.0,257.0>-<810.0,257.0>-<818.0,257.5>>
 
@@ -399,11 +395,11 @@ notequal
 
 	* Z (U+005A) contains a short segment B<<1391.0,1745.0>-<1391.0,1723.0>-<1383.0,1699.0>>
 
-	* k (U+006B) contains a short segment B<<594.5,522.0>-<608.0,541.0>-<624.0,551.0>>
+	* k (U+006B) contains a short segment B<<595.5,522.0>-<609.0,541.0>-<625.0,551.0>>
 
-	* k (U+006B) contains a short segment B<<824.0,748.0>-<824.0,776.0>-<800.0,776.0>>
+	* k (U+006B) contains a short segment B<<825.0,748.0>-<825.0,776.0>-<801.0,776.0>>
 
-	* p (U+0070) contains a short segment L<<1047.0,455.0>--<1056.0,460.0>>
+	* p (U+0070) contains a short segment L<<1202.0,455.0>--<1211.0,460.0>>
 
 	* q (U+0071) contains a short segment L<<869.0,-397.0>--<878.0,-392.0>>
 
@@ -425,13 +421,15 @@ notequal
 
 	* yen (U+00A5) contains a short segment B<<226.0,1714.0>-<222.0,1730.0>-<222.0,1752.0>>
 
-	* oslash (U+00F8) contains a short segment L<<568.0,765.0>--<567.0,765.0>>
+	* Eth (U+00D0) contains a short segment L<<232.0,852.0>--<222.0,852.0>>
+
+	* oslash (U+00F8) contains a short segment L<<588.0,765.0>--<587.0,765.0>>
 
 	* Dcroat (U+0110) contains a short segment L<<232.0,852.0>--<222.0,852.0>>
 
-	* uni0137 (U+0137) contains a short segment B<<594.5,522.0>-<608.0,541.0>-<624.0,551.0>>
+	* uni0137 (U+0137) contains a short segment B<<595.5,522.0>-<609.0,541.0>-<625.0,551.0>>
 
-	* uni0137 (U+0137) contains a short segment B<<824.0,748.0>-<824.0,776.0>-<800.0,776.0>>
+	* uni0137 (U+0137) contains a short segment B<<825.0,748.0>-<825.0,776.0>-<801.0,776.0>>
 
 	* Wcircumflex (U+0174) contains a short segment B<<1124.0,1769.0>-<1137.0,1796.0>-<1164.0,1826.5>>
 
@@ -447,7 +445,7 @@ notequal
 
 	* Zcaron (U+017D) contains a short segment B<<1391.0,1745.0>-<1391.0,1723.0>-<1383.0,1699.0>>
 
-	* uni1E3E (U+1E3E) contains a short segment B<<1245.0,89.0>-<1232.0,64.0>-<1201.5,32.0>>
+	* uni1E3E (U+1E3E) contains a short segment B<<1243.0,89.0>-<1230.0,64.0>-<1199.5,32.0>>
 
 	* Wgrave (U+1E80) contains a short segment B<<1124.0,1769.0>-<1137.0,1796.0>-<1164.0,1826.5>>
 
@@ -473,9 +471,9 @@ notequal
 
 	* wdieresis (U+1E85) contains a short segment L<<1783.0,705.0>--<1776.0,688.0>>
 
-	* uni1E9E (U+1E9E) contains a short segment B<<696.0,0.0>-<676.0,1.0>-<643.5,11.0>>
+	* uni1E9E (U+1E9E) contains a short segment B<<739.0,0.0>-<719.0,1.0>-<686.5,11.0>>
 
-	* daggerdbl (U+2021) contains a short segment L<<461.0,781.0>--<432.0,781.0>>
+	* daggerdbl (U+2021) contains a short segment L<<661.0,781.0>--<632.0,781.0>>
 
 	* Euro (U+20AC) contains a short segment B<<345.0,789.0>-<347.0,809.0>-<350.0,830.0>>
 
@@ -493,9 +491,9 @@ notequal
 
 	* Euro (U+20AC) contains a short segment B<<636.5,829.0>-<634.0,809.0>-<632.0,789.0>>
 
-	* estimated (U+212E) contains a short segment B<<578.0,948.0>-<559.0,948.0>-<547.5,940.5>>
+	* estimated (U+212E) contains a short segment B<<477.0,948.0>-<458.0,948.0>-<446.5,940.5>>
 
-	* estimated (U+212E) contains a short segment B<<547.5,940.5>-<536.0,933.0>-<536.0,896.0>> [code: found-short-segments]
+	* estimated (U+212E) contains a short segment B<<446.5,940.5>-<435.0,933.0>-<435.0,896.0>> [code: found-short-segments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
 
 
@@ -503,13 +501,13 @@ notequal
 
 	* AE (U+00C6): L<<927.0,1492.0>--<844.0,1282.0>> -> L<<844.0,1282.0>--<738.0,1074.0>>
 
-	* oslash (U+00F8): L<<377.0,381.0>--<444.0,503.0>> -> L<<444.0,503.0>--<568.0,765.0>> [code: found-colinear-vectors]
+	* oslash (U+00F8): L<<397.0,381.0>--<464.0,503.0>> -> L<<464.0,503.0>--<588.0,765.0>> [code: found-colinear-vectors]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
 
 
 * ⚠ **WARN** The following glyphs have jaggy segments:
 
-	* six (U+0036): B<<372.0,1132.0>-<351.0,1103.0>-<305.0,1039.0>>/B<<305.0,1039.0>-<393.0,1116.0>-<465.0,1153.5>> = 13.107383433687474 [code: found-jaggy-segments]
+	* six (U+0036): B<<459.0,1132.0>-<438.0,1103.0>-<392.0,1039.0>>/B<<392.0,1039.0>-<480.0,1116.0>-<552.0,1153.5>> = 13.107383433687474 [code: found-jaggy-segments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
 
 
@@ -522,7 +520,7 @@ notequal
 	* arrowright (U+2192): L<<1131.0,797.0>--<259.0,798.0>>
 
 	* arrowright (U+2192): L<<270.0,1036.0>--<1165.0,1035.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[19] VICWANTSchoolhand-Medium.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[18] VICWANTSchoolhand-Medium.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
 
 
 * 💔 **ERROR** The condition <FontBakeryCondition:registered_vendor_ids> had an error: ModuleNotFoundError: No module named 'bs4'
@@ -551,17 +549,17 @@ notequal
     subset declarations to METADATA.pb, or by editing the glyphset
     definitions.
 
- * U+02C7 CARON: try adding one of: canadian-aboriginal, tifinagh, yi
- * U+02D8 BREVE: try adding one of: canadian-aboriginal, yi
- * U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi
- * U+02DB OGONEK: try adding one of: canadian-aboriginal, yi
+ * U+02C7 CARON: try adding one of: tifinagh, canadian-aboriginal, yi
+ * U+02D8 BREVE: try adding one of: yi, canadian-aboriginal
+ * U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal
+ * U+02DB OGONEK: try adding one of: yi, canadian-aboriginal
  * U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition
- * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: coptic, math, cherokee, tifinagh
+ * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: tifinagh, cherokee, coptic, math
  * U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic
- * U+0307 COMBINING DOT ABOVE: try adding one of: tai-le, malayalam, coptic, canadian-aboriginal, math, syriac, tifinagh, old-permic
+ * U+0307 COMBINING DOT ABOVE: try adding one of: old-permic, malayalam, tai-le, syriac, math, canadian-aboriginal, tifinagh, coptic
  * U+030A COMBINING RING ABOVE: try adding syriac
- * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee
- * U+030C COMBINING CARON: try adding one of: tai-le, cherokee
+ * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage
+ * U+030C COMBINING CARON: try adding one of: cherokee, tai-le
  * U+0312 COMBINING TURNED COMMA ABOVE: not included in any glyphset definition
  * U+0326 COMBINING COMMA BELOW: not included in any glyphset definition
  * U+0327 COMBINING CEDILLA: not included in any glyphset definition
@@ -577,26 +575,26 @@ notequal
  * U+2007 FIGURE SPACE: not included in any glyphset definition
  * U+2008 PUNCTUATION SPACE: not included in any glyphset definition
  * U+200A HAIR SPACE: not included in any glyphset definition
- * U+200C ZERO WIDTH NON-JOINER: try adding one of: tamil, pahawh-hmong, siddham, hanifi-rohingya, khudawadi, yi, devanagari, khmer, tai-tham, avestan, takri, thai, telugu, nko, limbu, lepcha, malayalam, sinhala, buginese, warang-citi, mandaic, hatran, mahajani, dogra, syriac, oriya, tirhuta, gunjala-gondi, syloti-nagri, meetei-mayek, tagbanwa, tifinagh, bengali, balinese, psalter-pahlavi, sogdian, sharada, tibetan, tagalog, kayah-li, kharoshthi, chakma, gujarati, sundanese, thaana, saurashtra, hanunoo, gurmukhi, duployan, javanese, newa, rejang, tai-le, manichaean, cham, mongolian, batak, new-tai-lue, brahmi, buhid, phags-pa, kannada, kaithi, modi, tai-viet, khojki, myanmar, grantha
- * U+200D ZERO WIDTH JOINER: try adding one of: tamil, pahawh-hmong, siddham, hanifi-rohingya, khudawadi, yi, devanagari, tai-tham, avestan, takri, thai, old-hungarian, telugu, nko, limbu, lepcha, malayalam, sinhala, buginese, warang-citi, mandaic, mahajani, dogra, syriac, oriya, tirhuta, gunjala-gondi, syloti-nagri, meetei-mayek, tagbanwa, tifinagh, bengali, balinese, psalter-pahlavi, tibetan, grantha, sharada, tagalog, kayah-li, kharoshthi, chakma, gujarati, sundanese, thaana, saurashtra, hanunoo, gurmukhi, duployan, newa, rejang, tai-le, manichaean, cham, mongolian, batak, new-tai-lue, brahmi, buhid, phags-pa, kannada, kaithi, modi, tai-viet, khojki, myanmar, javanese
+ * U+200C ZERO WIDTH NON-JOINER: try adding one of: cham, bengali, hanunoo, kannada, lepcha, tai-tham, buginese, tamil, batak, gurmukhi, nko, khmer, kharoshthi, hanifi-rohingya, devanagari, newa, yi, meetei-mayek, buhid, gunjala-gondi, tagbanwa, chakma, kaithi, malayalam, avestan, gujarati, siddham, tai-le, syloti-nagri, dogra, mandaic, tai-viet, new-tai-lue, khojki, duployan, telugu, warang-citi, kayah-li, hatran, myanmar, pahawh-hmong, tibetan, balinese, mongolian, syriac, tagalog, thai, sharada, sogdian, sinhala, tifinagh, javanese, thaana, brahmi, oriya, tirhuta, phags-pa, grantha, khudawadi, saurashtra, limbu, mahajani, manichaean, sundanese, modi, rejang, psalter-pahlavi, takri
+ * U+200D ZERO WIDTH JOINER: try adding one of: cham, bengali, hanunoo, kannada, lepcha, tai-tham, buginese, tamil, old-hungarian, batak, gurmukhi, nko, kharoshthi, hanifi-rohingya, devanagari, newa, yi, meetei-mayek, buhid, gunjala-gondi, tagbanwa, chakma, kaithi, malayalam, avestan, gujarati, siddham, tai-le, syloti-nagri, dogra, mandaic, tai-viet, new-tai-lue, khojki, duployan, telugu, warang-citi, kayah-li, myanmar, pahawh-hmong, tibetan, balinese, mongolian, syriac, tagalog, thai, sharada, sinhala, tifinagh, javanese, thaana, brahmi, oriya, tirhuta, phags-pa, grantha, khudawadi, saurashtra, limbu, mahajani, manichaean, sundanese, modi, rejang, psalter-pahlavi, takri
  * U+2021 DOUBLE DAGGER: try adding adlam
  * U+202F NARROW NO-BREAK SPACE: try adding one of: mongolian, yi
  * U+205F MEDIUM MATHEMATICAL SPACE: not included in any glyphset definition
  * U+2116 NUMERO SIGN: try adding cyrillic
  * U+212E ESTIMATED SYMBOL: not included in any glyphset definition
- * U+2190 LEFTWARDS ARROW: try adding one of: math, symbols
- * U+2192 RIGHTWARDS ARROW: try adding one of: math, symbols
- * U+2196 NORTH WEST ARROW: try adding one of: math, symbols
- * U+2197 NORTH EAST ARROW: try adding one of: math, symbols
- * U+2198 SOUTH EAST ARROW: try adding one of: math, symbols
- * U+2199 SOUTH WEST ARROW: try adding one of: math, symbols
+ * U+2190 LEFTWARDS ARROW: try adding one of: symbols, math
+ * U+2192 RIGHTWARDS ARROW: try adding one of: symbols, math
+ * U+2196 NORTH WEST ARROW: try adding one of: symbols, math
+ * U+2197 NORTH EAST ARROW: try adding one of: symbols, math
+ * U+2198 SOUTH EAST ARROW: try adding one of: symbols, math
+ * U+2199 SOUTH WEST ARROW: try adding one of: symbols, math
  * U+221E INFINITY: try adding math
  * U+2248 ALMOST EQUAL TO: try adding math
  * U+2260 NOT EQUAL TO: try adding math
  * U+2264 LESS-THAN OR EQUAL TO: try adding math
  * U+2265 GREATER-THAN OR EQUAL TO: try adding math
- * U+25CA LOZENGE: try adding one of: math, symbols
- * U+25CC DOTTED CIRCLE: try adding one of: khudawadi, yi, khmer, marchen, telugu, buginese, oriya, elbasan, syloti-nagri, meetei-mayek, psalter-pahlavi, gujarati, caucasian-albanian, cham, miao, kannada, tai-viet, siddham, devanagari, thai, nko, lepcha, malayalam, music, gunjala-gondi, old-permic, tibetan, osage, thaana, hanunoo, mende-kikakui, gurmukhi, duployan, bhaiksuki, tai-le, bassa-vah, phags-pa, buhid, hebrew, tagalog, javanese, tamil, pahawh-hmong, limbu, sinhala, coptic, zanabazar-square, mahajani, dogra, tagbanwa, bengali, sogdian, ahom, newa, manichaean, modi, khojki, tirhuta, hanifi-rohingya, takri, adlam, mandaic, syriac, tifinagh, balinese, symbols, sharada, kayah-li, kharoshthi, soyombo, chakma, sundanese, rejang, masaram-gondi, mongolian, batak, new-tai-lue, brahmi, math, wancho, kaithi, lao, myanmar, grantha
+ * U+25CA LOZENGE: try adding one of: symbols, math
+ * U+25CC DOTTED CIRCLE: try adding one of: newa, yi, buhid, adlam, old-permic, dogra, marchen, new-tai-lue, duployan, pahawh-hmong, tibetan, mongolian, syriac, tagalog, thai, sinhala, miao, brahmi, limbu, psalter-pahlavi, tamil, buginese, hebrew, symbols, khmer, kharoshthi, devanagari, coptic, wancho, malayalam, tai-le, siddham, bassa-vah, ahom, tai-viet, telugu, balinese, javanese, oriya, grantha, music, bhaiksuki, manichaean, modi, lao, mende-kikakui, takri, cham, bengali, kannada, gurmukhi, elbasan, soyombo, hanifi-rohingya, meetei-mayek, caucasian-albanian, kaithi, mandaic, math, khojki, masaram-gondi, tifinagh, thaana, phags-pa, mahajani, sundanese, hanunoo, lepcha, osage, batak, zanabazar-square, nko, gunjala-gondi, tagbanwa, chakma, gujarati, syloti-nagri, kayah-li, myanmar, sharada, sogdian, tirhuta, khudawadi, rejang
  * U+FB01 LATIN SMALL LIGATURE FI: not included in any glyphset definition
  * U+FB02 LATIN SMALL LIGATURE FL: not included in any glyphset definition
 
@@ -652,8 +650,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: p	Contours detected: 1	Expected: 2
 
-	- Glyph name: Eth	Contours detected: 3	Expected: 2
-
 	- Glyph name: aogonek	Contours detected: 3	Expected: 2
 
 	- Glyph name: dcroat	Contours detected: 3	Expected: 2
@@ -673,8 +669,6 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: uni0228	Contours detected: 2	Expected: 1
 
 	- Glyph name: uni0229	Contours detected: 3	Expected: 2
-
-	- Glyph name: Eth	Contours detected: 3	Expected: 2
 
 	- Glyph name: OE	Contours detected: 3	Expected: 2
 
@@ -741,17 +735,17 @@ lessequal, greaterequal
 
 	* slash (U+002F): X=706.5,Y=1839.0 (should be at cap-height 1841?)
 
-	* four (U+0034): X=780.0,Y=1841.5 (should be at cap-height 1841?)
+	* four (U+0034): X=920.0,Y=1841.5 (should be at cap-height 1841?)
 
-	* eight (U+0038): X=835.0,Y=1839.0 (should be at cap-height 1841?)
+	* eight (U+0038): X=913.5,Y=1839.0 (should be at cap-height 1841?)
 
-	* nine (U+0039): X=1250.5,Y=1840.0 (should be at cap-height 1841?)
+	* nine (U+0039): X=1292.0,Y=1840.0 (should be at cap-height 1841?)
 
-	* B (U+0042): X=430.5,Y=1839.5 (should be at cap-height 1841?)
+	* B (U+0042): X=502.5,Y=1839.5 (should be at cap-height 1841?)
 
 	* J (U+004A): X=65.5,Y=-1.5 (should be at baseline 0?)
 
-	* M (U+004D): X=873.5,Y=1839.5 (should be at cap-height 1841?)
+	* M (U+004D): X=871.5,Y=1839.5 (should be at cap-height 1841?)
 
 	* T (U+0054): X=572.0,Y=-1.0 (should be at baseline 0?)
 
@@ -765,9 +759,9 @@ lessequal, greaterequal
 
 	* Y (U+0059): X=384.5,Y=1843.0 (should be at cap-height 1841?)
 
-	* b (U+0062): X=757.0,Y=996.0 (should be at x-height 995?)
+	* b (U+0062): X=700.0,Y=996.0 (should be at x-height 995?)
 
-	* d (U+0064): X=1004.5,Y=1842.0 (should be at cap-height 1841?)
+	* d (U+0064): X=1005.5,Y=1842.0 (should be at cap-height 1841?)
 
 	* f (U+0066): X=109.0,Y=997.0 (should be at x-height 995?)
 
@@ -777,7 +771,7 @@ lessequal, greaterequal
 
 	* f (U+0066): X=625.0,Y=997.0 (should be at x-height 995?)
 
-	* l (U+006C): X=427.5,Y=1840.0 (should be at cap-height 1841?)
+	* l (U+006C): X=427.0,Y=1840.0 (should be at cap-height 1841?)
 
 	* s (U+0073): X=617.5,Y=997.0 (should be at x-height 995?)
 
@@ -797,27 +791,29 @@ lessequal, greaterequal
 
 	* Yacute (U+00DD): X=384.5,Y=1843.0 (should be at cap-height 1841?)
 
-	* germandbls (U+00DF): X=1073.0,Y=1842.0 (should be at cap-height 1841?)
+	* germandbls (U+00DF): X=1072.5,Y=1842.0 (should be at cap-height 1841?)
 
 	* aring (U+00E5): X=890.0,Y=1839.0 (should be at cap-height 1841?)
 
-	* ccedilla (U+00E7): X=263.0,Y=-2.0 (should be at baseline 0?)
+	* ccedilla (U+00E7): X=285.0,Y=-2.0 (should be at baseline 0?)
 
-	* thorn (U+00FE): X=432.5,Y=1839.0 (should be at cap-height 1841?)
+	* thorn (U+00FE): X=586.0,Y=1839.0 (should be at cap-height 1841?)
 
-	* dcaron (U+010F): X=1004.5,Y=1842.0 (should be at cap-height 1841?)
+	* dcaron (U+010F): X=1005.5,Y=1842.0 (should be at cap-height 1841?)
 
-	* dcroat (U+0111): X=1004.5,Y=1842.0 (should be at cap-height 1841?)
+	* dcroat (U+0111): X=1005.5,Y=1842.0 (should be at cap-height 1841?)
 
 	* IJ (U+0132): X=990.5,Y=-1.5 (should be at baseline 0?)
 
-	* lacute (U+013A): X=427.5,Y=1840.0 (should be at cap-height 1841?)
+	* lacute (U+013A): X=427.0,Y=1840.0 (should be at cap-height 1841?)
 
-	* uni013C (U+013C): X=427.5,Y=1840.0 (should be at cap-height 1841?)
+	* uni013C (U+013C): X=427.0,Y=1840.0 (should be at cap-height 1841?)
 
-	* lcaron (U+013E): X=427.5,Y=1840.0 (should be at cap-height 1841?)
+	* Lcaron (U+013D): X=1293.0,Y=1839.0 (should be at cap-height 1841?)
 
-	* Eng (U+014A): X=1024.5,Y=-1.0 (should be at baseline 0?)
+	* lcaron (U+013E): X=427.0,Y=1840.0 (should be at cap-height 1841?)
+
+	* Eng (U+014A): X=1098.0,Y=-1.0 (should be at baseline 0?)
 
 	* uni0162 (U+0162): X=572.0,Y=-1.0 (should be at baseline 0?)
 
@@ -834,6 +830,8 @@ lessequal, greaterequal
 	* tcaron (U+0165): X=182.0,Y=1.0 (should be at baseline 0?)
 
 	* tcaron (U+0165): X=182.0,Y=1.0 (should be at baseline 0?)
+
+	* tcaron (U+0165): X=926.0,Y=1839.0 (should be at cap-height 1841?)
 
 	* Ycircumflex (U+0176): X=384.5,Y=1843.0 (should be at cap-height 1841?)
 
@@ -847,11 +845,11 @@ lessequal, greaterequal
 
 	* uni021B (U+021B): X=182.0,Y=1.0 (should be at baseline 0?)
 
-	* uni1E3E (U+1E3E): X=873.5,Y=1839.5 (should be at cap-height 1841?)
+	* uni1E3E (U+1E3E): X=871.5,Y=1839.5 (should be at cap-height 1841?)
 
-	* uni1E9E (U+1E9E): X=826.0,Y=-2.0 (should be at baseline 0?)
+	* uni1E9E (U+1E9E): X=901.0,Y=-2.0 (should be at baseline 0?)
 
-	* uni1E9E (U+1E9E): X=826.0,Y=-2.0 (should be at baseline 0?)
+	* uni1E9E (U+1E9E): X=901.0,Y=-2.0 (should be at baseline 0?)
 
 	* Ygrave (U+1EF2): X=384.5,Y=1843.0 (should be at cap-height 1841?)
 
@@ -867,9 +865,9 @@ lessequal, greaterequal
 
 	* trademark (U+2122): X=921.0,Y=1840.5 (should be at cap-height 1841?)
 
-	* estimated (U+212E): X=939.0,Y=1840.0 (should be at cap-height 1841?)
+	* estimated (U+212E): X=838.0,Y=1840.0 (should be at cap-height 1841?)
 
-	* fl (U+FB02): X=1115.5,Y=1840.0 (should be at cap-height 1841?) [code: found-misalignments]
+	* fl (U+FB02): X=1115.0,Y=1840.0 (should be at cap-height 1841?) [code: found-misalignments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
 
 
@@ -899,39 +897,13 @@ lessequal, greaterequal
 
 	* Atilde (U+00C3): L<<923.0,1618.0>--<821.0,1376.0>> -> L<<821.0,1376.0>--<644.0,1030.0>>
 
-	* oslash (U+00F8): L<<312.0,263.0>--<440.0,512.0>> -> L<<440.0,512.0>--<593.0,833.0>>
+	* oslash (U+00F8): L<<322.0,263.0>--<450.0,512.0>> -> L<<450.0,512.0>--<602.0,833.0>>
 
-	* oslash (U+00F8): L<<701.0,748.0>--<545.0,460.0>> -> L<<545.0,460.0>--<411.0,169.0>>
+	* oslash (U+00F8): L<<710.0,748.0>--<554.0,460.0>> -> L<<554.0,460.0>--<420.0,169.0>>
 
 	* uni01CD (U+01CD): L<<923.0,1618.0>--<821.0,1376.0>> -> L<<821.0,1376.0>--<644.0,1030.0>>
 
 	* uni01DE (U+01DE): L<<923.0,1618.0>--<821.0,1376.0>> -> L<<821.0,1376.0>--<644.0,1030.0>> [code: found-colinear-vectors]
-</div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
-
-
-* ⚠ **WARN** The following glyphs have jaggy segments:
-
-	* U (U+0055): L<<1068.0,100.0>--<1186.0,770.0>>/B<<1186.0,770.0>-<1069.0,509.0>-<933.5,334.0>> = 14.157077069503964
-
-	* Uacute (U+00DA): L<<1068.0,100.0>--<1186.0,770.0>>/B<<1186.0,770.0>-<1069.0,509.0>-<933.5,334.0>> = 14.157077069503964
-
-	* Ubreve (U+016C): L<<1068.0,100.0>--<1186.0,770.0>>/B<<1186.0,770.0>-<1069.0,509.0>-<933.5,334.0>> = 14.157077069503964
-
-	* Ucircumflex (U+00DB): L<<1068.0,100.0>--<1186.0,770.0>>/B<<1186.0,770.0>-<1069.0,509.0>-<933.5,334.0>> = 14.157077069503964
-
-	* Udieresis (U+00DC): L<<1068.0,100.0>--<1186.0,770.0>>/B<<1186.0,770.0>-<1069.0,509.0>-<933.5,334.0>> = 14.157077069503964
-
-	* Ugrave (U+00D9): L<<1068.0,100.0>--<1186.0,770.0>>/B<<1186.0,770.0>-<1069.0,509.0>-<933.5,334.0>> = 14.157077069503964
-
-	* Uhungarumlaut (U+0170): L<<1068.0,100.0>--<1186.0,770.0>>/B<<1186.0,770.0>-<1069.0,509.0>-<933.5,334.0>> = 14.157077069503964
-
-	* Umacron (U+016A): L<<1068.0,100.0>--<1186.0,770.0>>/B<<1186.0,770.0>-<1069.0,509.0>-<933.5,334.0>> = 14.157077069503964
-
-	* Uogonek (U+0172): L<<1068.0,100.0>--<1186.0,770.0>>/B<<1186.0,770.0>-<1069.0,509.0>-<933.5,334.0>> = 14.157077069503964
-
-	* Uring (U+016E): L<<1068.0,100.0>--<1186.0,770.0>>/B<<1186.0,770.0>-<1069.0,509.0>-<933.5,334.0>> = 14.157077069503964
-
-	* Utilde (U+0168): L<<1068.0,100.0>--<1186.0,770.0>>/B<<1186.0,770.0>-<1069.0,509.0>-<933.5,334.0>> = 14.157077069503964 [code: found-jaggy-segments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
 
 
@@ -943,7 +915,7 @@ lessequal, greaterequal
 
 	* arrowright (U+2192): L<<1199.0,809.0>--<186.0,810.0>>
 
-	* uni1E9E (U+1E9E): L<<625.0,184.0>--<826.0,183.0>> [code: found-semi-vertical]
+	* uni1E9E (U+1E9E): L<<700.0,184.0>--<900.0,183.0>> [code: found-semi-vertical]
 </div></details><br></div></details><details><summary><b>[17] VICWANTSchoolhand-Regular.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
 
 
@@ -973,17 +945,17 @@ lessequal, greaterequal
     subset declarations to METADATA.pb, or by editing the glyphset
     definitions.
 
- * U+02C7 CARON: try adding one of: canadian-aboriginal, tifinagh, yi
- * U+02D8 BREVE: try adding one of: canadian-aboriginal, yi
- * U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi
- * U+02DB OGONEK: try adding one of: canadian-aboriginal, yi
+ * U+02C7 CARON: try adding one of: tifinagh, canadian-aboriginal, yi
+ * U+02D8 BREVE: try adding one of: yi, canadian-aboriginal
+ * U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal
+ * U+02DB OGONEK: try adding one of: yi, canadian-aboriginal
  * U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition
- * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: coptic, math, cherokee, tifinagh
+ * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: tifinagh, cherokee, coptic, math
  * U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic
- * U+0307 COMBINING DOT ABOVE: try adding one of: tai-le, malayalam, coptic, canadian-aboriginal, math, syriac, tifinagh, old-permic
+ * U+0307 COMBINING DOT ABOVE: try adding one of: old-permic, malayalam, tai-le, syriac, math, canadian-aboriginal, tifinagh, coptic
  * U+030A COMBINING RING ABOVE: try adding syriac
- * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee
- * U+030C COMBINING CARON: try adding one of: tai-le, cherokee
+ * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage
+ * U+030C COMBINING CARON: try adding one of: cherokee, tai-le
  * U+0312 COMBINING TURNED COMMA ABOVE: not included in any glyphset definition
  * U+0326 COMBINING COMMA BELOW: not included in any glyphset definition
  * U+0327 COMBINING CEDILLA: not included in any glyphset definition
@@ -999,26 +971,26 @@ lessequal, greaterequal
  * U+2007 FIGURE SPACE: not included in any glyphset definition
  * U+2008 PUNCTUATION SPACE: not included in any glyphset definition
  * U+200A HAIR SPACE: not included in any glyphset definition
- * U+200C ZERO WIDTH NON-JOINER: try adding one of: tamil, pahawh-hmong, siddham, hanifi-rohingya, khudawadi, yi, devanagari, khmer, tai-tham, avestan, takri, thai, telugu, nko, limbu, lepcha, malayalam, sinhala, buginese, warang-citi, mandaic, hatran, mahajani, dogra, syriac, oriya, tirhuta, gunjala-gondi, syloti-nagri, meetei-mayek, tagbanwa, tifinagh, bengali, balinese, psalter-pahlavi, sogdian, sharada, tibetan, tagalog, kayah-li, kharoshthi, chakma, gujarati, sundanese, thaana, saurashtra, hanunoo, gurmukhi, duployan, javanese, newa, rejang, tai-le, manichaean, cham, mongolian, batak, new-tai-lue, brahmi, buhid, phags-pa, kannada, kaithi, modi, tai-viet, khojki, myanmar, grantha
- * U+200D ZERO WIDTH JOINER: try adding one of: tamil, pahawh-hmong, siddham, hanifi-rohingya, khudawadi, yi, devanagari, tai-tham, avestan, takri, thai, old-hungarian, telugu, nko, limbu, lepcha, malayalam, sinhala, buginese, warang-citi, mandaic, mahajani, dogra, syriac, oriya, tirhuta, gunjala-gondi, syloti-nagri, meetei-mayek, tagbanwa, tifinagh, bengali, balinese, psalter-pahlavi, tibetan, grantha, sharada, tagalog, kayah-li, kharoshthi, chakma, gujarati, sundanese, thaana, saurashtra, hanunoo, gurmukhi, duployan, newa, rejang, tai-le, manichaean, cham, mongolian, batak, new-tai-lue, brahmi, buhid, phags-pa, kannada, kaithi, modi, tai-viet, khojki, myanmar, javanese
+ * U+200C ZERO WIDTH NON-JOINER: try adding one of: cham, bengali, hanunoo, kannada, lepcha, tai-tham, buginese, tamil, batak, gurmukhi, nko, khmer, kharoshthi, hanifi-rohingya, devanagari, newa, yi, meetei-mayek, buhid, gunjala-gondi, tagbanwa, chakma, kaithi, malayalam, avestan, gujarati, siddham, tai-le, syloti-nagri, dogra, mandaic, tai-viet, new-tai-lue, khojki, duployan, telugu, warang-citi, kayah-li, hatran, myanmar, pahawh-hmong, tibetan, balinese, mongolian, syriac, tagalog, thai, sharada, sogdian, sinhala, tifinagh, javanese, thaana, brahmi, oriya, tirhuta, phags-pa, grantha, khudawadi, saurashtra, limbu, mahajani, manichaean, sundanese, modi, rejang, psalter-pahlavi, takri
+ * U+200D ZERO WIDTH JOINER: try adding one of: cham, bengali, hanunoo, kannada, lepcha, tai-tham, buginese, tamil, old-hungarian, batak, gurmukhi, nko, kharoshthi, hanifi-rohingya, devanagari, newa, yi, meetei-mayek, buhid, gunjala-gondi, tagbanwa, chakma, kaithi, malayalam, avestan, gujarati, siddham, tai-le, syloti-nagri, dogra, mandaic, tai-viet, new-tai-lue, khojki, duployan, telugu, warang-citi, kayah-li, myanmar, pahawh-hmong, tibetan, balinese, mongolian, syriac, tagalog, thai, sharada, sinhala, tifinagh, javanese, thaana, brahmi, oriya, tirhuta, phags-pa, grantha, khudawadi, saurashtra, limbu, mahajani, manichaean, sundanese, modi, rejang, psalter-pahlavi, takri
  * U+2021 DOUBLE DAGGER: try adding adlam
  * U+202F NARROW NO-BREAK SPACE: try adding one of: mongolian, yi
  * U+205F MEDIUM MATHEMATICAL SPACE: not included in any glyphset definition
  * U+2116 NUMERO SIGN: try adding cyrillic
  * U+212E ESTIMATED SYMBOL: not included in any glyphset definition
- * U+2190 LEFTWARDS ARROW: try adding one of: math, symbols
- * U+2192 RIGHTWARDS ARROW: try adding one of: math, symbols
- * U+2196 NORTH WEST ARROW: try adding one of: math, symbols
- * U+2197 NORTH EAST ARROW: try adding one of: math, symbols
- * U+2198 SOUTH EAST ARROW: try adding one of: math, symbols
- * U+2199 SOUTH WEST ARROW: try adding one of: math, symbols
+ * U+2190 LEFTWARDS ARROW: try adding one of: symbols, math
+ * U+2192 RIGHTWARDS ARROW: try adding one of: symbols, math
+ * U+2196 NORTH WEST ARROW: try adding one of: symbols, math
+ * U+2197 NORTH EAST ARROW: try adding one of: symbols, math
+ * U+2198 SOUTH EAST ARROW: try adding one of: symbols, math
+ * U+2199 SOUTH WEST ARROW: try adding one of: symbols, math
  * U+221E INFINITY: try adding math
  * U+2248 ALMOST EQUAL TO: try adding math
  * U+2260 NOT EQUAL TO: try adding math
  * U+2264 LESS-THAN OR EQUAL TO: try adding math
  * U+2265 GREATER-THAN OR EQUAL TO: try adding math
- * U+25CA LOZENGE: try adding one of: math, symbols
- * U+25CC DOTTED CIRCLE: try adding one of: khudawadi, yi, khmer, marchen, telugu, buginese, oriya, elbasan, syloti-nagri, meetei-mayek, psalter-pahlavi, gujarati, caucasian-albanian, cham, miao, kannada, tai-viet, siddham, devanagari, thai, nko, lepcha, malayalam, music, gunjala-gondi, old-permic, tibetan, osage, thaana, hanunoo, mende-kikakui, gurmukhi, duployan, bhaiksuki, tai-le, bassa-vah, phags-pa, buhid, hebrew, tagalog, javanese, tamil, pahawh-hmong, limbu, sinhala, coptic, zanabazar-square, mahajani, dogra, tagbanwa, bengali, sogdian, ahom, newa, manichaean, modi, khojki, tirhuta, hanifi-rohingya, takri, adlam, mandaic, syriac, tifinagh, balinese, symbols, sharada, kayah-li, kharoshthi, soyombo, chakma, sundanese, rejang, masaram-gondi, mongolian, batak, new-tai-lue, brahmi, math, wancho, kaithi, lao, myanmar, grantha
+ * U+25CA LOZENGE: try adding one of: symbols, math
+ * U+25CC DOTTED CIRCLE: try adding one of: newa, yi, buhid, adlam, old-permic, dogra, marchen, new-tai-lue, duployan, pahawh-hmong, tibetan, mongolian, syriac, tagalog, thai, sinhala, miao, brahmi, limbu, psalter-pahlavi, tamil, buginese, hebrew, symbols, khmer, kharoshthi, devanagari, coptic, wancho, malayalam, tai-le, siddham, bassa-vah, ahom, tai-viet, telugu, balinese, javanese, oriya, grantha, music, bhaiksuki, manichaean, modi, lao, mende-kikakui, takri, cham, bengali, kannada, gurmukhi, elbasan, soyombo, hanifi-rohingya, meetei-mayek, caucasian-albanian, kaithi, mandaic, math, khojki, masaram-gondi, tifinagh, thaana, phags-pa, mahajani, sundanese, hanunoo, lepcha, osage, batak, zanabazar-square, nko, gunjala-gondi, tagbanwa, chakma, gujarati, syloti-nagri, kayah-li, myanmar, sharada, sogdian, tirhuta, khudawadi, rejang
  * U+FB01 LATIN SMALL LIGATURE FI: not included in any glyphset definition
  * U+FB02 LATIN SMALL LIGATURE FL: not included in any glyphset definition
 
@@ -1067,8 +1039,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: p	Contours detected: 1	Expected: 2
 
-	- Glyph name: Eth	Contours detected: 3	Expected: 2
-
 	- Glyph name: aogonek	Contours detected: 3	Expected: 2
 
 	- Glyph name: dcroat	Contours detected: 3	Expected: 2
@@ -1088,8 +1058,6 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: uni0228	Contours detected: 2	Expected: 1
 
 	- Glyph name: uni0229	Contours detected: 3	Expected: 2
-
-	- Glyph name: Eth	Contours detected: 3	Expected: 2
 
 	- Glyph name: OE	Contours detected: 3	Expected: 2
 
@@ -1207,27 +1175,27 @@ lessequal, greaterequal
 
 * ⚠ **WARN** The following glyphs have jaggy segments:
 
-	* U (U+0055): L<<1071.0,65.0>--<1235.0,993.0>>/B<<1235.0,993.0>-<1101.0,651.0>-<947.0,426.5>> = 11.373817184570274
+	* U (U+0055): L<<1112.0,65.0>--<1276.0,993.0>>/B<<1276.0,993.0>-<1142.0,651.0>-<988.0,426.5>> = 11.373817184570274
 
-	* Uacute (U+00DA): L<<1071.0,65.0>--<1235.0,993.0>>/B<<1235.0,993.0>-<1101.0,651.0>-<947.0,426.5>> = 11.373817184570274
+	* Uacute (U+00DA): L<<1112.0,65.0>--<1276.0,993.0>>/B<<1276.0,993.0>-<1142.0,651.0>-<988.0,426.5>> = 11.373817184570274
 
-	* Ubreve (U+016C): L<<1071.0,65.0>--<1235.0,993.0>>/B<<1235.0,993.0>-<1101.0,651.0>-<947.0,426.5>> = 11.373817184570274
+	* Ubreve (U+016C): L<<1112.0,65.0>--<1276.0,993.0>>/B<<1276.0,993.0>-<1142.0,651.0>-<988.0,426.5>> = 11.373817184570274
 
-	* Ucircumflex (U+00DB): L<<1071.0,65.0>--<1235.0,993.0>>/B<<1235.0,993.0>-<1101.0,651.0>-<947.0,426.5>> = 11.373817184570274
+	* Ucircumflex (U+00DB): L<<1112.0,65.0>--<1276.0,993.0>>/B<<1276.0,993.0>-<1142.0,651.0>-<988.0,426.5>> = 11.373817184570274
 
-	* Udieresis (U+00DC): L<<1071.0,65.0>--<1235.0,993.0>>/B<<1235.0,993.0>-<1101.0,651.0>-<947.0,426.5>> = 11.373817184570274
+	* Udieresis (U+00DC): L<<1112.0,65.0>--<1276.0,993.0>>/B<<1276.0,993.0>-<1142.0,651.0>-<988.0,426.5>> = 11.373817184570274
 
-	* Ugrave (U+00D9): L<<1071.0,65.0>--<1235.0,993.0>>/B<<1235.0,993.0>-<1101.0,651.0>-<947.0,426.5>> = 11.373817184570274
+	* Ugrave (U+00D9): L<<1112.0,65.0>--<1276.0,993.0>>/B<<1276.0,993.0>-<1142.0,651.0>-<988.0,426.5>> = 11.373817184570274
 
-	* Uhungarumlaut (U+0170): L<<1071.0,65.0>--<1235.0,993.0>>/B<<1235.0,993.0>-<1101.0,651.0>-<947.0,426.5>> = 11.373817184570274
+	* Uhungarumlaut (U+0170): L<<1112.0,65.0>--<1276.0,993.0>>/B<<1276.0,993.0>-<1142.0,651.0>-<988.0,426.5>> = 11.373817184570274
 
-	* Umacron (U+016A): L<<1071.0,65.0>--<1235.0,993.0>>/B<<1235.0,993.0>-<1101.0,651.0>-<947.0,426.5>> = 11.373817184570274
+	* Umacron (U+016A): L<<1112.0,65.0>--<1276.0,993.0>>/B<<1276.0,993.0>-<1142.0,651.0>-<988.0,426.5>> = 11.373817184570274
 
-	* Uogonek (U+0172): L<<1071.0,65.0>--<1235.0,993.0>>/B<<1235.0,993.0>-<1101.0,651.0>-<947.0,426.5>> = 11.373817184570274
+	* Uogonek (U+0172): L<<1112.0,65.0>--<1276.0,993.0>>/B<<1276.0,993.0>-<1142.0,651.0>-<988.0,426.5>> = 11.373817184570274
 
-	* Uring (U+016E): L<<1071.0,65.0>--<1235.0,993.0>>/B<<1235.0,993.0>-<1101.0,651.0>-<947.0,426.5>> = 11.373817184570274
+	* Uring (U+016E): L<<1112.0,65.0>--<1276.0,993.0>>/B<<1276.0,993.0>-<1142.0,651.0>-<988.0,426.5>> = 11.373817184570274
 
-	* Utilde (U+0168): L<<1071.0,65.0>--<1235.0,993.0>>/B<<1235.0,993.0>-<1101.0,651.0>-<947.0,426.5>> = 11.373817184570274 [code: found-jaggy-segments]
+	* Utilde (U+0168): L<<1112.0,65.0>--<1276.0,993.0>>/B<<1276.0,993.0>-<1142.0,651.0>-<988.0,426.5>> = 11.373817184570274 [code: found-jaggy-segments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
 
 
@@ -1237,7 +1205,7 @@ lessequal, greaterequal
 
 	* arrowright (U+2192): L<<1259.0,820.0>--<123.0,821.0>>
 
-	* uni1E9E (U+1E9E): L<<755.0,-1.0>--<565.0,0.0>> [code: found-semi-vertical]
+	* uni1E9E (U+1E9E): L<<857.0,-1.0>--<667.0,0.0>> [code: found-semi-vertical]
 </div></details><br></div></details><details><summary><b>[18] VICWANTSchoolhand-SemiBold.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
 
 
@@ -1267,17 +1235,17 @@ lessequal, greaterequal
     subset declarations to METADATA.pb, or by editing the glyphset
     definitions.
 
- * U+02C7 CARON: try adding one of: canadian-aboriginal, tifinagh, yi
- * U+02D8 BREVE: try adding one of: canadian-aboriginal, yi
- * U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi
- * U+02DB OGONEK: try adding one of: canadian-aboriginal, yi
+ * U+02C7 CARON: try adding one of: tifinagh, canadian-aboriginal, yi
+ * U+02D8 BREVE: try adding one of: yi, canadian-aboriginal
+ * U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal
+ * U+02DB OGONEK: try adding one of: yi, canadian-aboriginal
  * U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition
- * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: coptic, math, cherokee, tifinagh
+ * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: tifinagh, cherokee, coptic, math
  * U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic
- * U+0307 COMBINING DOT ABOVE: try adding one of: tai-le, malayalam, coptic, canadian-aboriginal, math, syriac, tifinagh, old-permic
+ * U+0307 COMBINING DOT ABOVE: try adding one of: old-permic, malayalam, tai-le, syriac, math, canadian-aboriginal, tifinagh, coptic
  * U+030A COMBINING RING ABOVE: try adding syriac
- * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee
- * U+030C COMBINING CARON: try adding one of: tai-le, cherokee
+ * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage
+ * U+030C COMBINING CARON: try adding one of: cherokee, tai-le
  * U+0312 COMBINING TURNED COMMA ABOVE: not included in any glyphset definition
  * U+0326 COMBINING COMMA BELOW: not included in any glyphset definition
  * U+0327 COMBINING CEDILLA: not included in any glyphset definition
@@ -1293,26 +1261,26 @@ lessequal, greaterequal
  * U+2007 FIGURE SPACE: not included in any glyphset definition
  * U+2008 PUNCTUATION SPACE: not included in any glyphset definition
  * U+200A HAIR SPACE: not included in any glyphset definition
- * U+200C ZERO WIDTH NON-JOINER: try adding one of: tamil, pahawh-hmong, siddham, hanifi-rohingya, khudawadi, yi, devanagari, khmer, tai-tham, avestan, takri, thai, telugu, nko, limbu, lepcha, malayalam, sinhala, buginese, warang-citi, mandaic, hatran, mahajani, dogra, syriac, oriya, tirhuta, gunjala-gondi, syloti-nagri, meetei-mayek, tagbanwa, tifinagh, bengali, balinese, psalter-pahlavi, sogdian, sharada, tibetan, tagalog, kayah-li, kharoshthi, chakma, gujarati, sundanese, thaana, saurashtra, hanunoo, gurmukhi, duployan, javanese, newa, rejang, tai-le, manichaean, cham, mongolian, batak, new-tai-lue, brahmi, buhid, phags-pa, kannada, kaithi, modi, tai-viet, khojki, myanmar, grantha
- * U+200D ZERO WIDTH JOINER: try adding one of: tamil, pahawh-hmong, siddham, hanifi-rohingya, khudawadi, yi, devanagari, tai-tham, avestan, takri, thai, old-hungarian, telugu, nko, limbu, lepcha, malayalam, sinhala, buginese, warang-citi, mandaic, mahajani, dogra, syriac, oriya, tirhuta, gunjala-gondi, syloti-nagri, meetei-mayek, tagbanwa, tifinagh, bengali, balinese, psalter-pahlavi, tibetan, grantha, sharada, tagalog, kayah-li, kharoshthi, chakma, gujarati, sundanese, thaana, saurashtra, hanunoo, gurmukhi, duployan, newa, rejang, tai-le, manichaean, cham, mongolian, batak, new-tai-lue, brahmi, buhid, phags-pa, kannada, kaithi, modi, tai-viet, khojki, myanmar, javanese
+ * U+200C ZERO WIDTH NON-JOINER: try adding one of: cham, bengali, hanunoo, kannada, lepcha, tai-tham, buginese, tamil, batak, gurmukhi, nko, khmer, kharoshthi, hanifi-rohingya, devanagari, newa, yi, meetei-mayek, buhid, gunjala-gondi, tagbanwa, chakma, kaithi, malayalam, avestan, gujarati, siddham, tai-le, syloti-nagri, dogra, mandaic, tai-viet, new-tai-lue, khojki, duployan, telugu, warang-citi, kayah-li, hatran, myanmar, pahawh-hmong, tibetan, balinese, mongolian, syriac, tagalog, thai, sharada, sogdian, sinhala, tifinagh, javanese, thaana, brahmi, oriya, tirhuta, phags-pa, grantha, khudawadi, saurashtra, limbu, mahajani, manichaean, sundanese, modi, rejang, psalter-pahlavi, takri
+ * U+200D ZERO WIDTH JOINER: try adding one of: cham, bengali, hanunoo, kannada, lepcha, tai-tham, buginese, tamil, old-hungarian, batak, gurmukhi, nko, kharoshthi, hanifi-rohingya, devanagari, newa, yi, meetei-mayek, buhid, gunjala-gondi, tagbanwa, chakma, kaithi, malayalam, avestan, gujarati, siddham, tai-le, syloti-nagri, dogra, mandaic, tai-viet, new-tai-lue, khojki, duployan, telugu, warang-citi, kayah-li, myanmar, pahawh-hmong, tibetan, balinese, mongolian, syriac, tagalog, thai, sharada, sinhala, tifinagh, javanese, thaana, brahmi, oriya, tirhuta, phags-pa, grantha, khudawadi, saurashtra, limbu, mahajani, manichaean, sundanese, modi, rejang, psalter-pahlavi, takri
  * U+2021 DOUBLE DAGGER: try adding adlam
  * U+202F NARROW NO-BREAK SPACE: try adding one of: mongolian, yi
  * U+205F MEDIUM MATHEMATICAL SPACE: not included in any glyphset definition
  * U+2116 NUMERO SIGN: try adding cyrillic
  * U+212E ESTIMATED SYMBOL: not included in any glyphset definition
- * U+2190 LEFTWARDS ARROW: try adding one of: math, symbols
- * U+2192 RIGHTWARDS ARROW: try adding one of: math, symbols
- * U+2196 NORTH WEST ARROW: try adding one of: math, symbols
- * U+2197 NORTH EAST ARROW: try adding one of: math, symbols
- * U+2198 SOUTH EAST ARROW: try adding one of: math, symbols
- * U+2199 SOUTH WEST ARROW: try adding one of: math, symbols
+ * U+2190 LEFTWARDS ARROW: try adding one of: symbols, math
+ * U+2192 RIGHTWARDS ARROW: try adding one of: symbols, math
+ * U+2196 NORTH WEST ARROW: try adding one of: symbols, math
+ * U+2197 NORTH EAST ARROW: try adding one of: symbols, math
+ * U+2198 SOUTH EAST ARROW: try adding one of: symbols, math
+ * U+2199 SOUTH WEST ARROW: try adding one of: symbols, math
  * U+221E INFINITY: try adding math
  * U+2248 ALMOST EQUAL TO: try adding math
  * U+2260 NOT EQUAL TO: try adding math
  * U+2264 LESS-THAN OR EQUAL TO: try adding math
  * U+2265 GREATER-THAN OR EQUAL TO: try adding math
- * U+25CA LOZENGE: try adding one of: math, symbols
- * U+25CC DOTTED CIRCLE: try adding one of: khudawadi, yi, khmer, marchen, telugu, buginese, oriya, elbasan, syloti-nagri, meetei-mayek, psalter-pahlavi, gujarati, caucasian-albanian, cham, miao, kannada, tai-viet, siddham, devanagari, thai, nko, lepcha, malayalam, music, gunjala-gondi, old-permic, tibetan, osage, thaana, hanunoo, mende-kikakui, gurmukhi, duployan, bhaiksuki, tai-le, bassa-vah, phags-pa, buhid, hebrew, tagalog, javanese, tamil, pahawh-hmong, limbu, sinhala, coptic, zanabazar-square, mahajani, dogra, tagbanwa, bengali, sogdian, ahom, newa, manichaean, modi, khojki, tirhuta, hanifi-rohingya, takri, adlam, mandaic, syriac, tifinagh, balinese, symbols, sharada, kayah-li, kharoshthi, soyombo, chakma, sundanese, rejang, masaram-gondi, mongolian, batak, new-tai-lue, brahmi, math, wancho, kaithi, lao, myanmar, grantha
+ * U+25CA LOZENGE: try adding one of: symbols, math
+ * U+25CC DOTTED CIRCLE: try adding one of: newa, yi, buhid, adlam, old-permic, dogra, marchen, new-tai-lue, duployan, pahawh-hmong, tibetan, mongolian, syriac, tagalog, thai, sinhala, miao, brahmi, limbu, psalter-pahlavi, tamil, buginese, hebrew, symbols, khmer, kharoshthi, devanagari, coptic, wancho, malayalam, tai-le, siddham, bassa-vah, ahom, tai-viet, telugu, balinese, javanese, oriya, grantha, music, bhaiksuki, manichaean, modi, lao, mende-kikakui, takri, cham, bengali, kannada, gurmukhi, elbasan, soyombo, hanifi-rohingya, meetei-mayek, caucasian-albanian, kaithi, mandaic, math, khojki, masaram-gondi, tifinagh, thaana, phags-pa, mahajani, sundanese, hanunoo, lepcha, osage, batak, zanabazar-square, nko, gunjala-gondi, tagbanwa, chakma, gujarati, syloti-nagri, kayah-li, myanmar, sharada, sogdian, tirhuta, khudawadi, rejang
  * U+FB01 LATIN SMALL LIGATURE FI: not included in any glyphset definition
  * U+FB02 LATIN SMALL LIGATURE FL: not included in any glyphset definition
 
@@ -1368,8 +1336,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: p	Contours detected: 1	Expected: 2
 
-	- Glyph name: Eth	Contours detected: 3	Expected: 2
-
 	- Glyph name: aogonek	Contours detected: 3	Expected: 2
 
 	- Glyph name: dcroat	Contours detected: 3	Expected: 2
@@ -1389,8 +1355,6 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: uni0228	Contours detected: 2	Expected: 1
 
 	- Glyph name: uni0229	Contours detected: 3	Expected: 2
-
-	- Glyph name: Eth	Contours detected: 3	Expected: 2
 
 	- Glyph name: OE	Contours detected: 3	Expected: 2
 
@@ -1457,13 +1421,13 @@ lessequal, greaterequal
 
 	* at (U+0040) contains a short segment B<<1231.5,388.5>-<1238.0,364.0>-<1261.0,364.0>>
 
-	* M (U+004D) contains a short segment B<<73.0,-1.0>-<35.0,-1.0>-<4.0,21.5>>
+	* M (U+004D) contains a short segment B<<71.0,-1.0>-<33.0,-1.0>-<2.0,21.5>>
 
-	* M (U+004D) contains a short segment B<<4.0,21.5>-<-27.0,44.0>-<-37.0,81.5>>
+	* M (U+004D) contains a short segment B<<2.0,21.5>-<-29.0,44.0>-<-39.0,81.5>>
 
-	* M (U+004D) contains a short segment B<<816.0,1771.0>-<837.0,1813.0>-<861.5,1835.5>>
+	* M (U+004D) contains a short segment B<<814.0,1771.0>-<835.0,1813.0>-<859.5,1835.5>>
 
-	* M (U+004D) contains a short segment B<<1229.0,83.0>-<1217.0,60.0>-<1189.0,29.5>>
+	* M (U+004D) contains a short segment B<<1227.0,83.0>-<1215.0,60.0>-<1187.0,29.5>>
 
 	* W (U+0057) contains a short segment B<<1136.0,1775.0>-<1148.0,1800.0>-<1173.5,1829.0>>
 
@@ -1473,11 +1437,11 @@ lessequal, greaterequal
 
 	* Z (U+005A) contains a short segment B<<1374.0,1760.0>-<1374.0,1740.0>-<1366.5,1717.5>>
 
-	* k (U+006B) contains a short segment B<<580.5,517.5>-<593.0,536.0>-<612.0,547.0>>
+	* k (U+006B) contains a short segment B<<581.5,517.5>-<594.0,536.0>-<612.0,547.0>>
 
-	* m (U+006D) contains a short segment B<<233.0,892.0>-<236.0,910.0>-<250.0,935.5>>
+	* m (U+006D) contains a short segment B<<236.0,892.0>-<239.0,910.0>-<253.0,935.5>>
 
-	* p (U+0070) contains a short segment L<<1010.0,404.0>--<1042.0,429.0>>
+	* p (U+0070) contains a short segment L<<1164.0,404.0>--<1196.0,429.0>>
 
 	* v (U+0076) contains a short segment B<<1041.0,1000.0>-<1047.0,1000.0>-<1063.0,997.0>>
 
@@ -1495,11 +1459,13 @@ lessequal, greaterequal
 
 	* yen (U+00A5) contains a short segment B<<279.5,1727.5>-<276.0,1741.0>-<276.0,1762.0>>
 
+	* Eth (U+00D0) contains a short segment L<<236.0,872.0>--<209.0,872.0>>
+
 	* Yacute (U+00DD) contains a short segment B<<227.5,1731.0>-<224.0,1745.0>-<224.0,1765.0>>
 
 	* Dcroat (U+0110) contains a short segment L<<236.0,872.0>--<209.0,872.0>>
 
-	* uni0137 (U+0137) contains a short segment B<<580.5,517.5>-<593.0,536.0>-<612.0,547.0>>
+	* uni0137 (U+0137) contains a short segment B<<581.5,517.5>-<594.0,536.0>-<612.0,547.0>>
 
 	* Lslash (U+0141) contains a short segment L<<187.0,473.0>--<163.0,461.0>>
 
@@ -1523,15 +1489,15 @@ lessequal, greaterequal
 
 	* Zcaron (U+017D) contains a short segment B<<1374.0,1760.0>-<1374.0,1740.0>-<1366.5,1717.5>>
 
-	* uni1E3E (U+1E3E) contains a short segment B<<73.0,-1.0>-<35.0,-1.0>-<4.0,21.5>>
+	* uni1E3E (U+1E3E) contains a short segment B<<71.0,-1.0>-<33.0,-1.0>-<2.0,21.5>>
 
-	* uni1E3E (U+1E3E) contains a short segment B<<4.0,21.5>-<-27.0,44.0>-<-37.0,81.5>>
+	* uni1E3E (U+1E3E) contains a short segment B<<2.0,21.5>-<-29.0,44.0>-<-39.0,81.5>>
 
-	* uni1E3E (U+1E3E) contains a short segment B<<816.0,1771.0>-<837.0,1813.0>-<861.5,1835.5>>
+	* uni1E3E (U+1E3E) contains a short segment B<<814.0,1771.0>-<835.0,1813.0>-<859.5,1835.5>>
 
-	* uni1E3E (U+1E3E) contains a short segment B<<1229.0,83.0>-<1217.0,60.0>-<1189.0,29.5>>
+	* uni1E3E (U+1E3E) contains a short segment B<<1227.0,83.0>-<1215.0,60.0>-<1187.0,29.5>>
 
-	* uni1E3F (U+1E3F) contains a short segment B<<233.0,892.0>-<236.0,910.0>-<250.0,935.5>>
+	* uni1E3F (U+1E3F) contains a short segment B<<236.0,892.0>-<239.0,910.0>-<253.0,935.5>>
 
 	* Wgrave (U+1E80) contains a short segment B<<1136.0,1775.0>-<1148.0,1800.0>-<1173.5,1829.0>>
 
@@ -1557,13 +1523,13 @@ lessequal, greaterequal
 
 	* wdieresis (U+1E85) contains a short segment L<<1771.0,739.0>--<1762.0,719.0>>
 
-	* uni1E9E (U+1E9E) contains a short segment B<<670.0,0.0>-<651.0,0.0>-<622.5,9.5>>
+	* uni1E9E (U+1E9E) contains a short segment B<<725.0,0.0>-<706.0,0.0>-<677.5,9.5>>
 
-	* uni1E9E (U+1E9E) contains a short segment B<<622.5,9.5>-<594.0,19.0>-<572.0,42.5>>
+	* uni1E9E (U+1E9E) contains a short segment B<<677.5,9.5>-<649.0,19.0>-<626.5,42.5>>
 
-	* uni1E9E (U+1E9E) contains a short segment B<<1679.5,1839.5>-<1709.0,1822.0>-<1724.0,1793.0>>
+	* uni1E9E (U+1E9E) contains a short segment B<<1734.5,1839.5>-<1764.0,1822.0>-<1778.0,1793.0>>
 
-	* uni1E9E (U+1E9E) contains a short segment B<<1724.0,1793.0>-<1738.0,1765.0>-<1736.0,1730.0>>
+	* uni1E9E (U+1E9E) contains a short segment B<<1778.0,1793.0>-<1793.0,1765.0>-<1791.0,1730.0>>
 
 	* Ygrave (U+1EF2) contains a short segment B<<227.5,1731.0>-<224.0,1745.0>-<224.0,1765.0>>
 
@@ -1581,9 +1547,9 @@ lessequal, greaterequal
 
 	* Euro (U+20AC) contains a short segment B<<637.5,901.5>-<635.0,886.0>-<632.0,869.0>>
 
-	* estimated (U+212E) contains a short segment B<<578.0,948.0>-<559.0,948.0>-<547.5,940.5>>
+	* estimated (U+212E) contains a short segment B<<477.0,948.0>-<458.0,948.0>-<446.5,940.5>>
 
-	* estimated (U+212E) contains a short segment B<<547.5,940.5>-<536.0,933.0>-<536.0,896.0>> [code: found-short-segments]
+	* estimated (U+212E) contains a short segment B<<446.5,940.5>-<435.0,933.0>-<435.0,896.0>> [code: found-short-segments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
 
 
@@ -1611,9 +1577,9 @@ lessequal, greaterequal
 
 	* Atilde (U+00C3): L<<925.0,1540.0>--<835.0,1317.0>> -> L<<835.0,1317.0>--<680.0,1012.0>>
 
-	* oslash (U+00F8): L<<351.0,334.0>--<443.0,506.0>> -> L<<443.0,506.0>--<578.0,791.0>>
+	* oslash (U+00F8): L<<367.0,334.0>--<459.0,506.0>> -> L<<459.0,506.0>--<594.0,791.0>>
 
-	* oslash (U+00F8): L<<691.0,695.0>--<554.0,457.0>> -> L<<554.0,457.0>--<444.0,213.0>>
+	* oslash (U+00F8): L<<707.0,695.0>--<570.0,457.0>> -> L<<570.0,457.0>--<460.0,213.0>>
 
 	* uni01CD (U+01CD): L<<925.0,1540.0>--<835.0,1317.0>> -> L<<835.0,1317.0>--<680.0,1012.0>>
 
@@ -1634,7 +1600,7 @@ lessequal, greaterequal
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 12 | 8 | 53 | 474 | 21 | 377 | 0 |
+| 12 | 8 | 52 | 474 | 21 | 378 | 0 |
 | 1% | 1% | 6% | 50% | 2% | 40% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
