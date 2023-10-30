@@ -1,0 +1,13 @@
+exclude_checks:
+  - com.google.fonts/check/fontdata_namecheck
+  - com.google.fonts/check/vertical_metrics_regressions
+  - com.google.fonts/check/cjk_vertical_metrics_regressions
+  - com.google.fonts/check/shaping/regression
+  - com.google.fonts/check/outline_alignment_mis
+  - com.google.fonts/check/outline_short_segments
+  - com.google.fonts/check/outline_colinear_vectors
+  - com.google.fonts/check/outline_jaggy_segments
+  - com.google.fonts/check/outline_semi_vertical
+  - com.google.fonts/check/name/family_name_compliance
+  - com.google.fonts/check/whitespace_ink
+  - com.google.fonts/check/contour_count

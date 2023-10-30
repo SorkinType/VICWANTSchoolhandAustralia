@@ -1,5 +1,34 @@
+recipeProvider: fontprimer
 sources:
-  - Vicwants.glyphs
-axisOrder:
-  - wght
-familyName: Vicwants
+- Vicwants.glyphs
+shortFamilyName: WICWANT
+variants:
+  - name: Precursive
+    alias: Pre
+    steps:
+      - operation: featureFreeze
+        args: -f ss01
+  - name: Outline
+    steps:
+      - operation: featureFreeze
+        args: -f ss02
+  - name: Cursive
+    steps:
+      - operation: featureFreeze
+        args: -f ss03
+  - name: Starters
+    steps:
+      - operation: featureFreeze
+        args: -f ss04
+  - name: Outline Arrows
+    alias: Arrows
+    steps:
+      - operation: featureFreeze
+        args: -f ss05
+  - name: Dotted
+    steps:
+      - operation: featureFreeze
+        args: -f ss06
+doGuidelines: true
+buildStatic: true
+buildColorVariable: true
