@@ -1,5 +1,5 @@
-SOURCES=sources/Vicwants.glyphs
-FAMILY=VIC WA NT School Hand
+SOURCES=sources/AuVICWANT.glyphs
+FAMILY=Edu VIC WA NT Hand
 DRAWBOT_SCRIPTS=$(shell ls documentation/*.py)
 DRAWBOT_OUTPUT=$(shell ls documentation/*.py | sed 's/\.py/.png/g')
 
