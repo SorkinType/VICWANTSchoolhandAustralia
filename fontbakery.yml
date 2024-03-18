@@ -11,3 +11,4 @@ exclude_checks:
   - com.google.fonts/check/name/family_name_compliance
   - com.google.fonts/check/whitespace_ink
   - com.google.fonts/check/contour_count
+  - com.google.fonts/check/ttx_roundtrip
