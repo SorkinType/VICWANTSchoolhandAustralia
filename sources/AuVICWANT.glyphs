@@ -2,7 +2,7 @@
 .appVersion = "3243";
 .formatVersion = 3;
 DisplayStrings = (
-"◌"
+"/_part.x/_part.x.out.fin/x.fina"
 );
 axes = (
 {
@@ -129085,7 +129085,7 @@ width = 1901;
 {
 export = 0;
 glyphname = _part.x;
-lastChange = "2023-10-04 05:41:18 +0000";
+lastChange = "2024-03-19 13:00:44 +0000";
 layers = (
 {
 anchors = (
@@ -129264,15 +129264,6 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(108,250,o),
-(64,204,o),
-(47,151,cs),
-(32,104,o),
-(38,51,o),
-(80,27,cs),
-(104,13,o),
-(189,-18,o),
-(254,-18,cs),
 (390,-18,o),
 (489,38,o),
 (561,141,c),
@@ -129332,7 +129323,16 @@ nodes = (
 (254,217,cs),
 (228,217,o),
 (179,227,o),
-(157,234,cs)
+(157,234,cs),
+(108,250,o),
+(64,204,o),
+(47,151,cs),
+(32,104,o),
+(38,51,o),
+(80,27,cs),
+(104,13,o),
+(189,-18,o),
+(254,-18,cs)
 );
 }
 );
@@ -276112,8 +276112,8 @@ value = "Tina and Corey Anderson, Eben Sorkin, Mirko Velimirovic";
 );
 },
 {
-key = manufacturerURL;
-value = "https://github.com/SorkinType/VICWANTSchoolhandAustralia";
+key = designerURL;
+value = "https://github.com/MezMerrit/AU-School-Handwriting-Fonts";
 },
 {
 key = licenses;
@@ -276138,8 +276138,8 @@ value = "Google for Education";
 );
 },
 {
-key = designerURL;
-value = "https://github.com/MezMerrit/AU-School-Handwriting-Fonts";
+key = manufacturerURL;
+value = "https://github.com/SorkinType/VICWANTSchoolhandAustralia";
 },
 {
 key = vendorID;
