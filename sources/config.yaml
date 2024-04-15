@@ -26,7 +26,7 @@ variants:
     steps:
       - operation: featureFreeze
         args: -f ss05
-  - name: Dotted
+  - name: Dots
     steps:
       - operation: featureFreeze
         args: -f ss06
