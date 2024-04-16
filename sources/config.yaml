@@ -13,6 +13,9 @@ variants:
     steps:
       - operation: featureFreeze
         args: -f ss02
+      - operation: exec
+        args: --output-file=$out --unicodes=20,30-39,61-7A,41-5A --notdef-outline --name-IDs=* --layout-features=* $in
+        exe: hb-subset
   - name: Cursive
     steps:
       - operation: featureFreeze
@@ -21,15 +24,24 @@ variants:
     steps:
       - operation: featureFreeze
         args: -f ss04
+      - operation: exec
+        args: --output-file=$out --unicodes=20,30-39,61-7A,41-5A --notdef-outline --name-IDs=* --layout-features=* $in
+        exe: hb-subset
   - name: Outline Arrows
     alias: Arrows
     steps:
       - operation: featureFreeze
         args: -f ss05
+      - operation: exec
+        args: --output-file=$out --unicodes=20,30-39,61-7A,41-5A --notdef-outline --name-IDs=* --layout-features=* $in
+        exe: hb-subset
   - name: Dots
     steps:
       - operation: featureFreeze
         args: -f ss06
+      - operation: exec
+        args: --output-file=$out --unicodes=20,30-39,61-7A,41-5A --notdef-outline --name-IDs=* --layout-features=* $in
+        exe: hb-subset
 doGuidelines: true
 buildStatic: true
 buildColorVariable: true
