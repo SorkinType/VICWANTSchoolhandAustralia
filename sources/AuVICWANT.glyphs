@@ -1,5 +1,5 @@
 {
-.appVersion = "3217";
+.appVersion = "3243";
 .formatVersion = 3;
 DisplayStrings = (
 "/_part.x.cv01.alt/x.cv02/_part.x.out.fin/x.fina",
@@ -7,8 +7,7 @@ a2,
 "ıï",
 "/_part.i/_part.idotless",
 "/i.ss03/i.ss01 ȷ/_part.j/j.ss03/_part.jdotless/i.cv01",
-"/_part.i.cv01.alt/i.cv01/i.cv02/_part.i.cv01.alt/idotless.cv01/i.cv03/i.cv04/i.fina/idotless.fina",
-"↓"
+"/_part.i.cv01.alt/i.cv01/i.cv02/_part.i.cv01.alt/idotless.cv01/i.cv03/i.cv04/i.fina/idotless.fina"
 );
 axes = (
 {
@@ -140,6 +139,19 @@ value = 1;
 {
 name = "Variable Font Origin";
 value = m01;
+},
+{
+name = "meta Table";
+value = (
+{
+data = Latn;
+tag = slng;
+},
+{
+data = Latn;
+tag = dlng;
+}
+);
 }
 );
 date = "2023-10-27 06:22:53 +0000";
@@ -115020,7 +115032,7 @@ R = NoKerning;
 },
 {
 glyphname = nbspace;
-lastChange = "2024-03-08 04:55:17 +0000";
+lastChange = "2024-04-22 09:14:14 +0000";
 layers = (
 {
 layerId = m01;
@@ -115032,6 +115044,7 @@ width = 250;
 }
 );
 metricWidth = space;
+production = uni00A0;
 unicode = 160;
 userData = {
 KernOnSpecialSpacing = {
@@ -115265,42 +115278,6 @@ width = 50;
 );
 metricWidth = "=space*0.2";
 unicode = 8239;
-},
-{
-glyphname = "mediumspace-math";
-layers = (
-{
-layerId = m01;
-width = 444;
-},
-{
-layerId = "140DECC1-64C4-40C0-9C07-503DBC3F4160";
-width = 444;
-}
-);
-metricWidth = "=444";
-unicode = 8287;
-},
-{
-glyphname = nbspace.001;
-lastChange = "2024-03-08 04:55:17 +0000";
-layers = (
-{
-layerId = m01;
-width = 250;
-},
-{
-layerId = "140DECC1-64C4-40C0-9C07-503DBC3F4160";
-width = 250;
-}
-);
-metricWidth = "=space";
-userData = {
-KernOnSpecialSpacing = {
-L = NoKerning;
-R = NoKerning;
-};
-};
 },
 {
 glyphname = .notdef;
