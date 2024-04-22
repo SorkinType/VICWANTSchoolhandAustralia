@@ -7,8 +7,8 @@ variants:
   - name: Precursive
     alias: Pre
     steps:
-      - operation: featureFreeze
-        args: -f ss01
+      - operation: remapLayout
+        args: "'ss01=>ccmp'"
   - name: Outline
     steps:
       - operation: featureFreeze
@@ -18,8 +18,8 @@ variants:
         exe: hb-subset
   - name: Cursive
     steps:
-      - operation: featureFreeze
-        args: -f ss03
+      - operation: remapLayout
+        args: "'ss03=>ccmp'"
   - name: Starters
     steps:
       - operation: featureFreeze
