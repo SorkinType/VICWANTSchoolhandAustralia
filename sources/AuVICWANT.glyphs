@@ -226,7 +226,7 @@ sub ccaron by c caroncomb;
 sub ccedilla by c cedillacomb;
 sub cdotaccent by c dotaccentcomb;
 
-sub dcaron by d caroncomb;
+sub dcaron by d caroncomb.alt;
 
 sub eacute by e acutecomb;
 sub ecaron by e caroncomb;
@@ -258,7 +258,7 @@ sub jacute by jdotless acutecomb;
 
 sub kcommaaccent by k commaaccentcomb;
 sub lacute by l acutecomb;
-sub lcaron by l caroncomb;
+sub lcaron by l caroncomb.alt;
 sub lcommaaccent by l commaaccentcomb;
 sub macute by m acutecomb;
 sub nacute by n acutecomb;
@@ -284,7 +284,7 @@ sub sacute by s acutecomb;
 sub scaron by s caroncomb;
 sub scedilla by s cedillacomb;
 sub scommaaccent by s commaaccentcomb;
-sub tcaron by t caroncomb;
+sub tcaron by t caroncomb.alt;
 sub tcedilla by t cedillacomb;
 sub tcommaaccent by t commaaccentcomb;
 sub uacute by u acutecomb;
