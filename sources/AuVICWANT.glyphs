@@ -1011,15 +1011,6 @@ value = 488;
 {
 name = strikeoutSize;
 value = 98;
-},
-{
-name = "Axis Location";
-value = (
-{
-Axis = wght;
-Location = 400;
-}
-);
 }
 );
 id = m01;
@@ -1362,15 +1353,6 @@ value = 488;
 {
 name = strikeoutSize;
 value = 98;
-},
-{
-name = "Axis Location";
-value = (
-{
-Axis = wght;
-Location = 700;
-}
-);
 }
 );
 iconName = Bold;
@@ -137771,17 +137753,6 @@ name = Regular;
 axesValues = (
 540
 );
-customParameters = (
-{
-name = "Axis Location";
-value = (
-{
-Axis = wght;
-Location = 500;
-}
-);
-}
-);
 name = Medium;
 weightClass = 500;
 },
@@ -137789,34 +137760,12 @@ weightClass = 500;
 axesValues = (
 640
 );
-customParameters = (
-{
-name = "Axis Location";
-value = (
-{
-Axis = wght;
-Location = 600;
-}
-);
-}
-);
 name = SemiBold;
 weightClass = 600;
 },
 {
 axesValues = (
 700
-);
-customParameters = (
-{
-name = "Axis Location";
-value = (
-{
-Axis = wght;
-Location = 700;
-}
-);
-}
 );
 isBold = 1;
 name = Bold;
