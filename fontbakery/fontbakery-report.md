@@ -1398,26 +1398,8 @@ These won't break the CI job for now, but will become effective after some time 
 </div>
 </details>
 
-<details><summary>[8] EduAUVICWANTOutlineGuides-SemiBold.ttf</summary>
+<details><summary>[7] EduAUVICWANTOutlineGuides-SemiBold.ttf</summary>
 <div>
-<details>
-    <summary>🔥 <b>FAIL</b> Space and non-breaking space have the same width? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* 🔥 **FAIL** <p>Space and non-breaking space have differing width: The space glyph named space is 360 font units wide, non-breaking space named (uni00A0) is 290 font units wide, and both should be positive and the same. GlyphsApp has &quot;Sidebearing arithmetic&quot; (<a href="https://glyphsapp.com/tutorials/spacing">https://glyphsapp.com/tutorials/spacing</a>) which allows you to set the non-breaking space width to always equal the space width.</p>
- [code: different-widths]
-
-
-
-</div>
-</details>
-
 <details>
     <summary>🔥 <b>FAIL</b> Shapes languages in all GF glyphsets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.glyphset.html#"></a></summary>
     <div>
@@ -2275,70 +2257,70 @@ be served. You can solve this by either manually adding additional
 subset declarations to METADATA.pb, or by editing the glyphset
 definitions.</p>
 <ul>
-<li>U+0020 SPACE: try adding one of: lycian, chinese-hongkong, palmyrene, linear-a, myanmar, braille, chinese-traditional, hanunoo, coptic, chinese-simplified, dives-akuru, vietnamese, marchen, imperial-aramaic, takri, zanabazar-square, medefaidrin, cuneiform, old-persian, elbasan, sogdian, kharoshthi, bamum, egyptian-hieroglyphs, elymaic, old-uyghur, grantha, toto, meroitic-hieroglyphs, latin, mayan-numerals, rejang, lao, vithkuqi, javanese, syriac, sinhala, saurashtra, math, phoenician, yi, mandaic, cyrillic, phags-pa, devanagari, inscriptional-parthian, korean, manichaean, tamil-supplement, buhid, tifinagh, cypro-minoan, lydian, tai-tham, mongolian, glagolitic, tai-viet, osmanya, batak, bhaiksuki, modi, linear-b, khitan-small-script, ethiopic, kaithi, vai, cherokee, mende-kikakui, malayalam, canadian-aboriginal, sharada, kana-extended, ol-chiki, mahajani, tamil, masaram-gondi, lisu, sora-sompeng, brahmi, signwriting, music, makasar, symbols, nag-mundari, japanese, tagbanwa, thai, latin-ext, dogra, tangsa, ugaritic, nabataean, buginese, kannada, indic-siyaq-numbers, balinese, old-south-arabian, chakma, greek-ext, greek, gunjala-gondi, soyombo, chorasmian, hanifi-rohingya, cyrillic-ext, nushu, old-north-arabian, avestan, meroitic, lepcha, pau-cin-hau, old-hungarian, deseret, kawi, ottoman-siyaq-numbers, telugu, gothic, samaritan, shavian, nko, bassa-vah, oriya, osage, hebrew, khojki, armenian, old-turkic, caucasian-albanian, miao, newa, thaana, tagalog, tibetan, tangut, znamenny, duployan, nandinagari, meroitic-cursive, new-tai-lue, bengali, anatolian-hieroglyphs, meetei-mayek, nyiakeng-puachue-hmong, old-sogdian, hatran, ogham, mro, limbu, syloti-nagri, carian, ahom, khudawadi, wancho, multani, adlam, sundanese, kayah-li, siddham, runic, georgian, old-italic, cypriot, pahawh-hmong, gujarati, tai-le, tirhuta, arabic, yezidi, cham, inscriptional-pahlavi, old-permic, warang-citi, gurmukhi, psalter-pahlavi</li>
-<li>U+0030 DIGIT ZERO: try adding one of: nushu, latin, symbols, math</li>
-<li>U+0031 DIGIT ONE: try adding one of: nushu, latin, symbols, math</li>
-<li>U+0032 DIGIT TWO: try adding one of: nushu, latin, symbols, math</li>
-<li>U+0033 DIGIT THREE: try adding one of: nushu, latin, symbols, math</li>
-<li>U+0034 DIGIT FOUR: try adding one of: nushu, latin, symbols, math</li>
-<li>U+0035 DIGIT FIVE: try adding one of: nushu, latin, symbols, math</li>
-<li>U+0036 DIGIT SIX: try adding one of: nushu, latin, symbols, math</li>
-<li>U+0037 DIGIT SEVEN: try adding one of: nushu, latin, symbols, math</li>
-<li>U+0038 DIGIT EIGHT: try adding one of: nushu, latin, symbols, math</li>
-<li>U+0039 DIGIT NINE: try adding one of: nushu, latin, symbols, math</li>
-<li>U+0041 LATIN CAPITAL LETTER A: try adding one of: nushu, latin, symbols, math</li>
-<li>U+0042 LATIN CAPITAL LETTER B: try adding one of: nushu, latin, symbols, math</li>
-<li>U+0043 LATIN CAPITAL LETTER C: try adding one of: nushu, latin, symbols, math</li>
-<li>U+0044 LATIN CAPITAL LETTER D: try adding one of: nushu, latin, symbols, math</li>
-<li>U+0045 LATIN CAPITAL LETTER E: try adding one of: nushu, latin, symbols, math</li>
-<li>U+0046 LATIN CAPITAL LETTER F: try adding one of: nushu, latin, symbols, math</li>
-<li>U+0047 LATIN CAPITAL LETTER G: try adding one of: nushu, latin, symbols, math</li>
-<li>U+0048 LATIN CAPITAL LETTER H: try adding one of: nushu, latin, symbols, math</li>
-<li>U+0049 LATIN CAPITAL LETTER I: try adding one of: nushu, latin, symbols, math</li>
-<li>U+004A LATIN CAPITAL LETTER J: try adding one of: nushu, latin, symbols, math</li>
-<li>U+004B LATIN CAPITAL LETTER K: try adding one of: nushu, latin, symbols, math</li>
-<li>U+004C LATIN CAPITAL LETTER L: try adding one of: nushu, latin, symbols, math</li>
-<li>U+004D LATIN CAPITAL LETTER M: try adding one of: nushu, latin, symbols, math</li>
-<li>U+004E LATIN CAPITAL LETTER N: try adding one of: nushu, latin, symbols, math</li>
-<li>U+004F LATIN CAPITAL LETTER O: try adding one of: nushu, latin, symbols, math</li>
-<li>U+0050 LATIN CAPITAL LETTER P: try adding one of: nushu, latin, symbols, math</li>
-<li>U+0051 LATIN CAPITAL LETTER Q: try adding one of: nushu, latin, symbols, math</li>
-<li>U+0052 LATIN CAPITAL LETTER R: try adding one of: nushu, latin, symbols, math</li>
-<li>U+0053 LATIN CAPITAL LETTER S: try adding one of: nushu, latin, symbols, math</li>
-<li>U+0054 LATIN CAPITAL LETTER T: try adding one of: nushu, latin, symbols, math</li>
-<li>U+0055 LATIN CAPITAL LETTER U: try adding one of: nushu, latin, symbols, math</li>
-<li>U+0056 LATIN CAPITAL LETTER V: try adding one of: nushu, latin, symbols, math</li>
-<li>U+0057 LATIN CAPITAL LETTER W: try adding one of: nushu, latin, symbols, math</li>
-<li>U+0058 LATIN CAPITAL LETTER X: try adding one of: nushu, latin, symbols, math</li>
-<li>U+0059 LATIN CAPITAL LETTER Y: try adding one of: nushu, latin, symbols, math</li>
-<li>U+005A LATIN CAPITAL LETTER Z: try adding one of: nushu, latin, symbols, math</li>
-<li>U+0061 LATIN SMALL LETTER A: try adding one of: nushu, latin, symbols, math</li>
-<li>U+0062 LATIN SMALL LETTER B: try adding one of: nushu, latin, symbols, math</li>
-<li>U+0063 LATIN SMALL LETTER C: try adding one of: nushu, latin, symbols, math</li>
-<li>U+0064 LATIN SMALL LETTER D: try adding one of: nushu, latin, symbols, math</li>
-<li>U+0065 LATIN SMALL LETTER E: try adding one of: nushu, latin, symbols, math</li>
-<li>U+0066 LATIN SMALL LETTER F: try adding one of: nushu, latin, symbols, math</li>
-<li>U+0067 LATIN SMALL LETTER G: try adding one of: nushu, latin, symbols, math</li>
-<li>U+0068 LATIN SMALL LETTER H: try adding one of: nushu, latin, symbols, math</li>
-<li>U+0069 LATIN SMALL LETTER I: try adding one of: nushu, latin, symbols, math</li>
-<li>U+006A LATIN SMALL LETTER J: try adding one of: nushu, latin, symbols, math</li>
-<li>U+006B LATIN SMALL LETTER K: try adding one of: nushu, latin, symbols, math</li>
-<li>U+006C LATIN SMALL LETTER L: try adding one of: nushu, latin, symbols, math</li>
-<li>U+006D LATIN SMALL LETTER M: try adding one of: nushu, latin, symbols, math</li>
-<li>U+006E LATIN SMALL LETTER N: try adding one of: nushu, latin, symbols, math</li>
-<li>U+006F LATIN SMALL LETTER O: try adding one of: nushu, latin, symbols, math</li>
-<li>U+0070 LATIN SMALL LETTER P: try adding one of: nushu, latin, symbols, math</li>
-<li>U+0071 LATIN SMALL LETTER Q: try adding one of: nushu, latin, symbols, math</li>
-<li>U+0072 LATIN SMALL LETTER R: try adding one of: nushu, latin, symbols, math</li>
-<li>U+0073 LATIN SMALL LETTER S: try adding one of: nushu, latin, symbols, math</li>
-<li>U+0074 LATIN SMALL LETTER T: try adding one of: nushu, latin, symbols, math</li>
-<li>U+0075 LATIN SMALL LETTER U: try adding one of: nushu, latin, symbols, math</li>
-<li>U+0076 LATIN SMALL LETTER V: try adding one of: nushu, latin, symbols, math</li>
-<li>U+0077 LATIN SMALL LETTER W: try adding one of: nushu, latin, symbols, math</li>
-<li>U+0078 LATIN SMALL LETTER X: try adding one of: nushu, latin, symbols, math</li>
-<li>U+0079 LATIN SMALL LETTER Y: try adding one of: nushu, latin, symbols, math</li>
-<li>U+007A LATIN SMALL LETTER Z: try adding one of: nushu, latin, symbols, math</li>
-<li>U+00A0 NO-BREAK SPACE: try adding one of: lycian, chinese-hongkong, palmyrene, linear-a, myanmar, braille, chinese-traditional, hanunoo, coptic, chinese-simplified, dives-akuru, vietnamese, marchen, imperial-aramaic, takri, zanabazar-square, medefaidrin, cuneiform, old-persian, elbasan, sogdian, kharoshthi, bamum, egyptian-hieroglyphs, elymaic, old-uyghur, grantha, toto, meroitic-hieroglyphs, latin, mayan-numerals, rejang, lao, vithkuqi, javanese, syriac, sinhala, saurashtra, math, phoenician, yi, mandaic, cyrillic, phags-pa, devanagari, inscriptional-parthian, korean, manichaean, tamil-supplement, buhid, tifinagh, cypro-minoan, lydian, tai-tham, mongolian, glagolitic, tai-viet, osmanya, batak, bhaiksuki, modi, linear-b, khitan-small-script, ethiopic, kaithi, vai, cherokee, mende-kikakui, malayalam, canadian-aboriginal, sharada, kana-extended, ol-chiki, mahajani, tamil, masaram-gondi, lisu, sora-sompeng, brahmi, signwriting, music, makasar, symbols, nag-mundari, japanese, tagbanwa, thai, latin-ext, dogra, tangsa, ugaritic, nabataean, buginese, kannada, indic-siyaq-numbers, balinese, old-south-arabian, chakma, greek-ext, greek, gunjala-gondi, soyombo, chorasmian, hanifi-rohingya, cyrillic-ext, nushu, old-north-arabian, avestan, meroitic, lepcha, pau-cin-hau, old-hungarian, deseret, kawi, ottoman-siyaq-numbers, telugu, gothic, samaritan, shavian, nko, bassa-vah, oriya, osage, hebrew, khojki, armenian, old-turkic, caucasian-albanian, miao, newa, thaana, tagalog, tibetan, tangut, znamenny, duployan, nandinagari, meroitic-cursive, new-tai-lue, bengali, anatolian-hieroglyphs, meetei-mayek, nyiakeng-puachue-hmong, old-sogdian, hatran, ogham, mro, limbu, syloti-nagri, carian, ahom, khudawadi, wancho, multani, adlam, sundanese, kayah-li, siddham, runic, georgian, old-italic, cypriot, pahawh-hmong, gujarati, tai-le, tirhuta, arabic, yezidi, cham, inscriptional-pahlavi, old-permic, warang-citi, gurmukhi, psalter-pahlavi</li>
+<li>U+0020 SPACE: try adding one of: sora-sompeng, bhaiksuki, chinese-simplified, soyombo, meroitic-cursive, deseret, samaritan, psalter-pahlavi, tangut, javanese, elymaic, znamenny, latin-ext, multani, meroitic, balinese, braille, tai-tham, old-hungarian, armenian, meroitic-hieroglyphs, hanunoo, oriya, chinese-traditional, tibetan, elbasan, cyrillic, cham, anatolian-hieroglyphs, hatran, hebrew, sundanese, vithkuqi, hanifi-rohingya, thai, cypriot, inscriptional-pahlavi, masaram-gondi, palmyrene, coptic, japanese, glagolitic, tirhuta, ottoman-siyaq-numbers, tamil, batak, sinhala, lydian, makasar, runic, latin, cypro-minoan, toto, limbu, greek-ext, khojki, old-italic, tifinagh, new-tai-lue, old-uyghur, sharada, tagbanwa, old-sogdian, adlam, lao, carian, sogdian, mahajani, tai-viet, saurashtra, gurmukhi, bamum, lycian, dives-akuru, tangsa, mende-kikakui, imperial-aramaic, buginese, grantha, old-persian, old-permic, math, kayah-li, linear-b, indic-siyaq-numbers, nushu, ogham, phags-pa, signwriting, kaithi, brahmi, kharoshthi, nabataean, newa, osage, siddham, syloti-nagri, telugu, thaana, greek, mandaic, cuneiform, nandinagari, syriac, chakma, canadian-aboriginal, ol-chiki, pau-cin-hau, chorasmian, marchen, lepcha, ugaritic, arabic, kana-extended, modi, gothic, duployan, vietnamese, yezidi, music, wancho, kannada, kawi, pahawh-hmong, gujarati, tagalog, zanabazar-square, bengali, symbols, chinese-hongkong, mongolian, devanagari, malayalam, tai-le, gunjala-gondi, dogra, myanmar, manichaean, cyrillic-ext, caucasian-albanian, avestan, khudawadi, mayan-numerals, buhid, georgian, shavian, miao, old-south-arabian, takri, egyptian-hieroglyphs, meetei-mayek, medefaidrin, linear-a, tamil-supplement, osmanya, korean, mro, old-north-arabian, nyiakeng-puachue-hmong, ahom, inscriptional-parthian, ethiopic, nag-mundari, warang-citi, lisu, rejang, vai, old-turkic, nko, cherokee, phoenician, yi, bassa-vah, khitan-small-script</li>
+<li>U+0030 DIGIT ZERO: try adding one of: latin, symbols, math, nushu</li>
+<li>U+0031 DIGIT ONE: try adding one of: latin, symbols, math, nushu</li>
+<li>U+0032 DIGIT TWO: try adding one of: latin, symbols, math, nushu</li>
+<li>U+0033 DIGIT THREE: try adding one of: latin, symbols, math, nushu</li>
+<li>U+0034 DIGIT FOUR: try adding one of: latin, symbols, math, nushu</li>
+<li>U+0035 DIGIT FIVE: try adding one of: latin, symbols, math, nushu</li>
+<li>U+0036 DIGIT SIX: try adding one of: latin, symbols, math, nushu</li>
+<li>U+0037 DIGIT SEVEN: try adding one of: latin, symbols, math, nushu</li>
+<li>U+0038 DIGIT EIGHT: try adding one of: latin, symbols, math, nushu</li>
+<li>U+0039 DIGIT NINE: try adding one of: latin, symbols, math, nushu</li>
+<li>U+0041 LATIN CAPITAL LETTER A: try adding one of: latin, symbols, math, nushu</li>
+<li>U+0042 LATIN CAPITAL LETTER B: try adding one of: latin, symbols, math, nushu</li>
+<li>U+0043 LATIN CAPITAL LETTER C: try adding one of: latin, symbols, math, nushu</li>
+<li>U+0044 LATIN CAPITAL LETTER D: try adding one of: latin, symbols, math, nushu</li>
+<li>U+0045 LATIN CAPITAL LETTER E: try adding one of: latin, symbols, math, nushu</li>
+<li>U+0046 LATIN CAPITAL LETTER F: try adding one of: latin, symbols, math, nushu</li>
+<li>U+0047 LATIN CAPITAL LETTER G: try adding one of: latin, symbols, math, nushu</li>
+<li>U+0048 LATIN CAPITAL LETTER H: try adding one of: latin, symbols, math, nushu</li>
+<li>U+0049 LATIN CAPITAL LETTER I: try adding one of: latin, symbols, math, nushu</li>
+<li>U+004A LATIN CAPITAL LETTER J: try adding one of: latin, symbols, math, nushu</li>
+<li>U+004B LATIN CAPITAL LETTER K: try adding one of: latin, symbols, math, nushu</li>
+<li>U+004C LATIN CAPITAL LETTER L: try adding one of: latin, symbols, math, nushu</li>
+<li>U+004D LATIN CAPITAL LETTER M: try adding one of: latin, symbols, math, nushu</li>
+<li>U+004E LATIN CAPITAL LETTER N: try adding one of: latin, symbols, math, nushu</li>
+<li>U+004F LATIN CAPITAL LETTER O: try adding one of: latin, symbols, math, nushu</li>
+<li>U+0050 LATIN CAPITAL LETTER P: try adding one of: latin, symbols, math, nushu</li>
+<li>U+0051 LATIN CAPITAL LETTER Q: try adding one of: latin, symbols, math, nushu</li>
+<li>U+0052 LATIN CAPITAL LETTER R: try adding one of: latin, symbols, math, nushu</li>
+<li>U+0053 LATIN CAPITAL LETTER S: try adding one of: latin, symbols, math, nushu</li>
+<li>U+0054 LATIN CAPITAL LETTER T: try adding one of: latin, symbols, math, nushu</li>
+<li>U+0055 LATIN CAPITAL LETTER U: try adding one of: latin, symbols, math, nushu</li>
+<li>U+0056 LATIN CAPITAL LETTER V: try adding one of: latin, symbols, math, nushu</li>
+<li>U+0057 LATIN CAPITAL LETTER W: try adding one of: latin, symbols, math, nushu</li>
+<li>U+0058 LATIN CAPITAL LETTER X: try adding one of: latin, symbols, math, nushu</li>
+<li>U+0059 LATIN CAPITAL LETTER Y: try adding one of: latin, symbols, math, nushu</li>
+<li>U+005A LATIN CAPITAL LETTER Z: try adding one of: latin, symbols, math, nushu</li>
+<li>U+0061 LATIN SMALL LETTER A: try adding one of: latin, symbols, math, nushu</li>
+<li>U+0062 LATIN SMALL LETTER B: try adding one of: latin, symbols, math, nushu</li>
+<li>U+0063 LATIN SMALL LETTER C: try adding one of: latin, symbols, math, nushu</li>
+<li>U+0064 LATIN SMALL LETTER D: try adding one of: latin, symbols, math, nushu</li>
+<li>U+0065 LATIN SMALL LETTER E: try adding one of: latin, symbols, math, nushu</li>
+<li>U+0066 LATIN SMALL LETTER F: try adding one of: latin, symbols, math, nushu</li>
+<li>U+0067 LATIN SMALL LETTER G: try adding one of: latin, symbols, math, nushu</li>
+<li>U+0068 LATIN SMALL LETTER H: try adding one of: latin, symbols, math, nushu</li>
+<li>U+0069 LATIN SMALL LETTER I: try adding one of: latin, symbols, math, nushu</li>
+<li>U+006A LATIN SMALL LETTER J: try adding one of: latin, symbols, math, nushu</li>
+<li>U+006B LATIN SMALL LETTER K: try adding one of: latin, symbols, math, nushu</li>
+<li>U+006C LATIN SMALL LETTER L: try adding one of: latin, symbols, math, nushu</li>
+<li>U+006D LATIN SMALL LETTER M: try adding one of: latin, symbols, math, nushu</li>
+<li>U+006E LATIN SMALL LETTER N: try adding one of: latin, symbols, math, nushu</li>
+<li>U+006F LATIN SMALL LETTER O: try adding one of: latin, symbols, math, nushu</li>
+<li>U+0070 LATIN SMALL LETTER P: try adding one of: latin, symbols, math, nushu</li>
+<li>U+0071 LATIN SMALL LETTER Q: try adding one of: latin, symbols, math, nushu</li>
+<li>U+0072 LATIN SMALL LETTER R: try adding one of: latin, symbols, math, nushu</li>
+<li>U+0073 LATIN SMALL LETTER S: try adding one of: latin, symbols, math, nushu</li>
+<li>U+0074 LATIN SMALL LETTER T: try adding one of: latin, symbols, math, nushu</li>
+<li>U+0075 LATIN SMALL LETTER U: try adding one of: latin, symbols, math, nushu</li>
+<li>U+0076 LATIN SMALL LETTER V: try adding one of: latin, symbols, math, nushu</li>
+<li>U+0077 LATIN SMALL LETTER W: try adding one of: latin, symbols, math, nushu</li>
+<li>U+0078 LATIN SMALL LETTER X: try adding one of: latin, symbols, math, nushu</li>
+<li>U+0079 LATIN SMALL LETTER Y: try adding one of: latin, symbols, math, nushu</li>
+<li>U+007A LATIN SMALL LETTER Z: try adding one of: latin, symbols, math, nushu</li>
+<li>U+00A0 NO-BREAK SPACE: try adding one of: sora-sompeng, bhaiksuki, chinese-simplified, soyombo, meroitic-cursive, deseret, samaritan, psalter-pahlavi, tangut, javanese, elymaic, znamenny, latin-ext, multani, meroitic, balinese, braille, tai-tham, old-hungarian, armenian, meroitic-hieroglyphs, hanunoo, oriya, chinese-traditional, tibetan, elbasan, cyrillic, cham, anatolian-hieroglyphs, hatran, hebrew, sundanese, vithkuqi, hanifi-rohingya, thai, cypriot, inscriptional-pahlavi, masaram-gondi, palmyrene, coptic, japanese, glagolitic, tirhuta, ottoman-siyaq-numbers, tamil, batak, sinhala, lydian, makasar, runic, latin, cypro-minoan, toto, limbu, greek-ext, khojki, old-italic, tifinagh, new-tai-lue, old-uyghur, sharada, tagbanwa, old-sogdian, adlam, lao, carian, sogdian, mahajani, tai-viet, saurashtra, gurmukhi, bamum, lycian, dives-akuru, tangsa, mende-kikakui, imperial-aramaic, buginese, grantha, old-persian, old-permic, math, kayah-li, linear-b, indic-siyaq-numbers, nushu, ogham, phags-pa, signwriting, kaithi, brahmi, kharoshthi, nabataean, newa, osage, siddham, syloti-nagri, telugu, thaana, greek, mandaic, cuneiform, nandinagari, syriac, chakma, canadian-aboriginal, ol-chiki, pau-cin-hau, chorasmian, marchen, lepcha, ugaritic, arabic, kana-extended, modi, gothic, duployan, vietnamese, yezidi, music, wancho, kannada, kawi, pahawh-hmong, gujarati, tagalog, zanabazar-square, bengali, symbols, chinese-hongkong, mongolian, devanagari, malayalam, tai-le, gunjala-gondi, dogra, myanmar, manichaean, cyrillic-ext, caucasian-albanian, avestan, khudawadi, mayan-numerals, buhid, georgian, shavian, miao, old-south-arabian, takri, egyptian-hieroglyphs, meetei-mayek, medefaidrin, linear-a, tamil-supplement, osmanya, korean, mro, old-north-arabian, nyiakeng-puachue-hmong, ahom, inscriptional-parthian, ethiopic, nag-mundari, warang-citi, lisu, rejang, vai, old-turkic, nko, cherokee, phoenician, yi, bassa-vah, khitan-small-script</li>
 </ul>
 <p>Or you can add the above codepoints to one of the subsets supported by the font:</p>
  [code: unreachable-subsetting]
@@ -2386,26 +2368,8 @@ definitions.</p>
 </div>
 </details>
 
-<details><summary>[7] EduAUVICWANTDots-Bold.ttf</summary>
+<details><summary>[6] EduAUVICWANTDots-Bold.ttf</summary>
 <div>
-<details>
-    <summary>🔥 <b>FAIL</b> Space and non-breaking space have the same width? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* 🔥 **FAIL** <p>Space and non-breaking space have differing width: The space glyph named space is 360 font units wide, non-breaking space named (uni00A0) is 290 font units wide, and both should be positive and the same. GlyphsApp has &quot;Sidebearing arithmetic&quot; (<a href="https://glyphsapp.com/tutorials/spacing">https://glyphsapp.com/tutorials/spacing</a>) which allows you to set the non-breaking space width to always equal the space width.</p>
- [code: different-widths]
-
-
-
-</div>
-</details>
-
 <details>
     <summary>🔥 <b>FAIL</b> Shapes languages in all GF glyphsets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.glyphset.html#"></a></summary>
     <div>
@@ -3240,70 +3204,70 @@ be served. You can solve this by either manually adding additional
 subset declarations to METADATA.pb, or by editing the glyphset
 definitions.</p>
 <ul>
-<li>U+0020 SPACE: try adding one of: lycian, chinese-hongkong, palmyrene, linear-a, myanmar, braille, chinese-traditional, hanunoo, coptic, chinese-simplified, dives-akuru, vietnamese, marchen, imperial-aramaic, takri, zanabazar-square, medefaidrin, cuneiform, old-persian, elbasan, sogdian, kharoshthi, bamum, egyptian-hieroglyphs, elymaic, old-uyghur, grantha, toto, meroitic-hieroglyphs, latin, mayan-numerals, rejang, lao, vithkuqi, javanese, syriac, sinhala, saurashtra, math, phoenician, yi, mandaic, cyrillic, phags-pa, devanagari, inscriptional-parthian, korean, manichaean, tamil-supplement, buhid, tifinagh, cypro-minoan, lydian, tai-tham, mongolian, glagolitic, tai-viet, osmanya, batak, bhaiksuki, modi, linear-b, khitan-small-script, ethiopic, kaithi, vai, cherokee, mende-kikakui, malayalam, canadian-aboriginal, sharada, kana-extended, ol-chiki, mahajani, tamil, masaram-gondi, lisu, sora-sompeng, brahmi, signwriting, music, makasar, symbols, nag-mundari, japanese, tagbanwa, thai, latin-ext, dogra, tangsa, ugaritic, nabataean, buginese, kannada, indic-siyaq-numbers, balinese, old-south-arabian, chakma, greek-ext, greek, gunjala-gondi, soyombo, chorasmian, hanifi-rohingya, cyrillic-ext, nushu, old-north-arabian, avestan, meroitic, lepcha, pau-cin-hau, old-hungarian, deseret, kawi, ottoman-siyaq-numbers, telugu, gothic, samaritan, shavian, nko, bassa-vah, oriya, osage, hebrew, khojki, armenian, old-turkic, caucasian-albanian, miao, newa, thaana, tagalog, tibetan, tangut, znamenny, duployan, nandinagari, meroitic-cursive, new-tai-lue, bengali, anatolian-hieroglyphs, meetei-mayek, nyiakeng-puachue-hmong, old-sogdian, hatran, ogham, mro, limbu, syloti-nagri, carian, ahom, khudawadi, wancho, multani, adlam, sundanese, kayah-li, siddham, runic, georgian, old-italic, cypriot, pahawh-hmong, gujarati, tai-le, tirhuta, arabic, yezidi, cham, inscriptional-pahlavi, old-permic, warang-citi, gurmukhi, psalter-pahlavi</li>
-<li>U+0030 DIGIT ZERO: try adding one of: nushu, latin, symbols, math</li>
-<li>U+0031 DIGIT ONE: try adding one of: nushu, latin, symbols, math</li>
-<li>U+0032 DIGIT TWO: try adding one of: nushu, latin, symbols, math</li>
-<li>U+0033 DIGIT THREE: try adding one of: nushu, latin, symbols, math</li>
-<li>U+0034 DIGIT FOUR: try adding one of: nushu, latin, symbols, math</li>
-<li>U+0035 DIGIT FIVE: try adding one of: nushu, latin, symbols, math</li>
-<li>U+0036 DIGIT SIX: try adding one of: nushu, latin, symbols, math</li>
-<li>U+0037 DIGIT SEVEN: try adding one of: nushu, latin, symbols, math</li>
-<li>U+0038 DIGIT EIGHT: try adding one of: nushu, latin, symbols, math</li>
-<li>U+0039 DIGIT NINE: try adding one of: nushu, latin, symbols, math</li>
-<li>U+0041 LATIN CAPITAL LETTER A: try adding one of: nushu, latin, symbols, math</li>
-<li>U+0042 LATIN CAPITAL LETTER B: try adding one of: nushu, latin, symbols, math</li>
-<li>U+0043 LATIN CAPITAL LETTER C: try adding one of: nushu, latin, symbols, math</li>
-<li>U+0044 LATIN CAPITAL LETTER D: try adding one of: nushu, latin, symbols, math</li>
-<li>U+0045 LATIN CAPITAL LETTER E: try adding one of: nushu, latin, symbols, math</li>
-<li>U+0046 LATIN CAPITAL LETTER F: try adding one of: nushu, latin, symbols, math</li>
-<li>U+0047 LATIN CAPITAL LETTER G: try adding one of: nushu, latin, symbols, math</li>
-<li>U+0048 LATIN CAPITAL LETTER H: try adding one of: nushu, latin, symbols, math</li>
-<li>U+0049 LATIN CAPITAL LETTER I: try adding one of: nushu, latin, symbols, math</li>
-<li>U+004A LATIN CAPITAL LETTER J: try adding one of: nushu, latin, symbols, math</li>
-<li>U+004B LATIN CAPITAL LETTER K: try adding one of: nushu, latin, symbols, math</li>
-<li>U+004C LATIN CAPITAL LETTER L: try adding one of: nushu, latin, symbols, math</li>
-<li>U+004D LATIN CAPITAL LETTER M: try adding one of: nushu, latin, symbols, math</li>
-<li>U+004E LATIN CAPITAL LETTER N: try adding one of: nushu, latin, symbols, math</li>
-<li>U+004F LATIN CAPITAL LETTER O: try adding one of: nushu, latin, symbols, math</li>
-<li>U+0050 LATIN CAPITAL LETTER P: try adding one of: nushu, latin, symbols, math</li>
-<li>U+0051 LATIN CAPITAL LETTER Q: try adding one of: nushu, latin, symbols, math</li>
-<li>U+0052 LATIN CAPITAL LETTER R: try adding one of: nushu, latin, symbols, math</li>
-<li>U+0053 LATIN CAPITAL LETTER S: try adding one of: nushu, latin, symbols, math</li>
-<li>U+0054 LATIN CAPITAL LETTER T: try adding one of: nushu, latin, symbols, math</li>
-<li>U+0055 LATIN CAPITAL LETTER U: try adding one of: nushu, latin, symbols, math</li>
-<li>U+0056 LATIN CAPITAL LETTER V: try adding one of: nushu, latin, symbols, math</li>
-<li>U+0057 LATIN CAPITAL LETTER W: try adding one of: nushu, latin, symbols, math</li>
-<li>U+0058 LATIN CAPITAL LETTER X: try adding one of: nushu, latin, symbols, math</li>
-<li>U+0059 LATIN CAPITAL LETTER Y: try adding one of: nushu, latin, symbols, math</li>
-<li>U+005A LATIN CAPITAL LETTER Z: try adding one of: nushu, latin, symbols, math</li>
-<li>U+0061 LATIN SMALL LETTER A: try adding one of: nushu, latin, symbols, math</li>
-<li>U+0062 LATIN SMALL LETTER B: try adding one of: nushu, latin, symbols, math</li>
-<li>U+0063 LATIN SMALL LETTER C: try adding one of: nushu, latin, symbols, math</li>
-<li>U+0064 LATIN SMALL LETTER D: try adding one of: nushu, latin, symbols, math</li>
-<li>U+0065 LATIN SMALL LETTER E: try adding one of: nushu, latin, symbols, math</li>
-<li>U+0066 LATIN SMALL LETTER F: try adding one of: nushu, latin, symbols, math</li>
-<li>U+0067 LATIN SMALL LETTER G: try adding one of: nushu, latin, symbols, math</li>
-<li>U+0068 LATIN SMALL LETTER H: try adding one of: nushu, latin, symbols, math</li>
-<li>U+0069 LATIN SMALL LETTER I: try adding one of: nushu, latin, symbols, math</li>
-<li>U+006A LATIN SMALL LETTER J: try adding one of: nushu, latin, symbols, math</li>
-<li>U+006B LATIN SMALL LETTER K: try adding one of: nushu, latin, symbols, math</li>
-<li>U+006C LATIN SMALL LETTER L: try adding one of: nushu, latin, symbols, math</li>
-<li>U+006D LATIN SMALL LETTER M: try adding one of: nushu, latin, symbols, math</li>
-<li>U+006E LATIN SMALL LETTER N: try adding one of: nushu, latin, symbols, math</li>
-<li>U+006F LATIN SMALL LETTER O: try adding one of: nushu, latin, symbols, math</li>
-<li>U+0070 LATIN SMALL LETTER P: try adding one of: nushu, latin, symbols, math</li>
-<li>U+0071 LATIN SMALL LETTER Q: try adding one of: nushu, latin, symbols, math</li>
-<li>U+0072 LATIN SMALL LETTER R: try adding one of: nushu, latin, symbols, math</li>
-<li>U+0073 LATIN SMALL LETTER S: try adding one of: nushu, latin, symbols, math</li>
-<li>U+0074 LATIN SMALL LETTER T: try adding one of: nushu, latin, symbols, math</li>
-<li>U+0075 LATIN SMALL LETTER U: try adding one of: nushu, latin, symbols, math</li>
-<li>U+0076 LATIN SMALL LETTER V: try adding one of: nushu, latin, symbols, math</li>
-<li>U+0077 LATIN SMALL LETTER W: try adding one of: nushu, latin, symbols, math</li>
-<li>U+0078 LATIN SMALL LETTER X: try adding one of: nushu, latin, symbols, math</li>
-<li>U+0079 LATIN SMALL LETTER Y: try adding one of: nushu, latin, symbols, math</li>
-<li>U+007A LATIN SMALL LETTER Z: try adding one of: nushu, latin, symbols, math</li>
-<li>U+00A0 NO-BREAK SPACE: try adding one of: lycian, chinese-hongkong, palmyrene, linear-a, myanmar, braille, chinese-traditional, hanunoo, coptic, chinese-simplified, dives-akuru, vietnamese, marchen, imperial-aramaic, takri, zanabazar-square, medefaidrin, cuneiform, old-persian, elbasan, sogdian, kharoshthi, bamum, egyptian-hieroglyphs, elymaic, old-uyghur, grantha, toto, meroitic-hieroglyphs, latin, mayan-numerals, rejang, lao, vithkuqi, javanese, syriac, sinhala, saurashtra, math, phoenician, yi, mandaic, cyrillic, phags-pa, devanagari, inscriptional-parthian, korean, manichaean, tamil-supplement, buhid, tifinagh, cypro-minoan, lydian, tai-tham, mongolian, glagolitic, tai-viet, osmanya, batak, bhaiksuki, modi, linear-b, khitan-small-script, ethiopic, kaithi, vai, cherokee, mende-kikakui, malayalam, canadian-aboriginal, sharada, kana-extended, ol-chiki, mahajani, tamil, masaram-gondi, lisu, sora-sompeng, brahmi, signwriting, music, makasar, symbols, nag-mundari, japanese, tagbanwa, thai, latin-ext, dogra, tangsa, ugaritic, nabataean, buginese, kannada, indic-siyaq-numbers, balinese, old-south-arabian, chakma, greek-ext, greek, gunjala-gondi, soyombo, chorasmian, hanifi-rohingya, cyrillic-ext, nushu, old-north-arabian, avestan, meroitic, lepcha, pau-cin-hau, old-hungarian, deseret, kawi, ottoman-siyaq-numbers, telugu, gothic, samaritan, shavian, nko, bassa-vah, oriya, osage, hebrew, khojki, armenian, old-turkic, caucasian-albanian, miao, newa, thaana, tagalog, tibetan, tangut, znamenny, duployan, nandinagari, meroitic-cursive, new-tai-lue, bengali, anatolian-hieroglyphs, meetei-mayek, nyiakeng-puachue-hmong, old-sogdian, hatran, ogham, mro, limbu, syloti-nagri, carian, ahom, khudawadi, wancho, multani, adlam, sundanese, kayah-li, siddham, runic, georgian, old-italic, cypriot, pahawh-hmong, gujarati, tai-le, tirhuta, arabic, yezidi, cham, inscriptional-pahlavi, old-permic, warang-citi, gurmukhi, psalter-pahlavi</li>
+<li>U+0020 SPACE: try adding one of: sora-sompeng, bhaiksuki, chinese-simplified, soyombo, meroitic-cursive, deseret, samaritan, psalter-pahlavi, tangut, javanese, elymaic, znamenny, latin-ext, multani, meroitic, balinese, braille, tai-tham, old-hungarian, armenian, meroitic-hieroglyphs, hanunoo, oriya, chinese-traditional, tibetan, elbasan, cyrillic, cham, anatolian-hieroglyphs, hatran, hebrew, sundanese, vithkuqi, hanifi-rohingya, thai, cypriot, inscriptional-pahlavi, masaram-gondi, palmyrene, coptic, japanese, glagolitic, tirhuta, ottoman-siyaq-numbers, tamil, batak, sinhala, lydian, makasar, runic, latin, cypro-minoan, toto, limbu, greek-ext, khojki, old-italic, tifinagh, new-tai-lue, old-uyghur, sharada, tagbanwa, old-sogdian, adlam, lao, carian, sogdian, mahajani, tai-viet, saurashtra, gurmukhi, bamum, lycian, dives-akuru, tangsa, mende-kikakui, imperial-aramaic, buginese, grantha, old-persian, old-permic, math, kayah-li, linear-b, indic-siyaq-numbers, nushu, ogham, phags-pa, signwriting, kaithi, brahmi, kharoshthi, nabataean, newa, osage, siddham, syloti-nagri, telugu, thaana, greek, mandaic, cuneiform, nandinagari, syriac, chakma, canadian-aboriginal, ol-chiki, pau-cin-hau, chorasmian, marchen, lepcha, ugaritic, arabic, kana-extended, modi, gothic, duployan, vietnamese, yezidi, music, wancho, kannada, kawi, pahawh-hmong, gujarati, tagalog, zanabazar-square, bengali, symbols, chinese-hongkong, mongolian, devanagari, malayalam, tai-le, gunjala-gondi, dogra, myanmar, manichaean, cyrillic-ext, caucasian-albanian, avestan, khudawadi, mayan-numerals, buhid, georgian, shavian, miao, old-south-arabian, takri, egyptian-hieroglyphs, meetei-mayek, medefaidrin, linear-a, tamil-supplement, osmanya, korean, mro, old-north-arabian, nyiakeng-puachue-hmong, ahom, inscriptional-parthian, ethiopic, nag-mundari, warang-citi, lisu, rejang, vai, old-turkic, nko, cherokee, phoenician, yi, bassa-vah, khitan-small-script</li>
+<li>U+0030 DIGIT ZERO: try adding one of: latin, symbols, math, nushu</li>
+<li>U+0031 DIGIT ONE: try adding one of: latin, symbols, math, nushu</li>
+<li>U+0032 DIGIT TWO: try adding one of: latin, symbols, math, nushu</li>
+<li>U+0033 DIGIT THREE: try adding one of: latin, symbols, math, nushu</li>
+<li>U+0034 DIGIT FOUR: try adding one of: latin, symbols, math, nushu</li>
+<li>U+0035 DIGIT FIVE: try adding one of: latin, symbols, math, nushu</li>
+<li>U+0036 DIGIT SIX: try adding one of: latin, symbols, math, nushu</li>
+<li>U+0037 DIGIT SEVEN: try adding one of: latin, symbols, math, nushu</li>
+<li>U+0038 DIGIT EIGHT: try adding one of: latin, symbols, math, nushu</li>
+<li>U+0039 DIGIT NINE: try adding one of: latin, symbols, math, nushu</li>
+<li>U+0041 LATIN CAPITAL LETTER A: try adding one of: latin, symbols, math, nushu</li>
+<li>U+0042 LATIN CAPITAL LETTER B: try adding one of: latin, symbols, math, nushu</li>
+<li>U+0043 LATIN CAPITAL LETTER C: try adding one of: latin, symbols, math, nushu</li>
+<li>U+0044 LATIN CAPITAL LETTER D: try adding one of: latin, symbols, math, nushu</li>
+<li>U+0045 LATIN CAPITAL LETTER E: try adding one of: latin, symbols, math, nushu</li>
+<li>U+0046 LATIN CAPITAL LETTER F: try adding one of: latin, symbols, math, nushu</li>
+<li>U+0047 LATIN CAPITAL LETTER G: try adding one of: latin, symbols, math, nushu</li>
+<li>U+0048 LATIN CAPITAL LETTER H: try adding one of: latin, symbols, math, nushu</li>
+<li>U+0049 LATIN CAPITAL LETTER I: try adding one of: latin, symbols, math, nushu</li>
+<li>U+004A LATIN CAPITAL LETTER J: try adding one of: latin, symbols, math, nushu</li>
+<li>U+004B LATIN CAPITAL LETTER K: try adding one of: latin, symbols, math, nushu</li>
+<li>U+004C LATIN CAPITAL LETTER L: try adding one of: latin, symbols, math, nushu</li>
+<li>U+004D LATIN CAPITAL LETTER M: try adding one of: latin, symbols, math, nushu</li>
+<li>U+004E LATIN CAPITAL LETTER N: try adding one of: latin, symbols, math, nushu</li>
+<li>U+004F LATIN CAPITAL LETTER O: try adding one of: latin, symbols, math, nushu</li>
+<li>U+0050 LATIN CAPITAL LETTER P: try adding one of: latin, symbols, math, nushu</li>
+<li>U+0051 LATIN CAPITAL LETTER Q: try adding one of: latin, symbols, math, nushu</li>
+<li>U+0052 LATIN CAPITAL LETTER R: try adding one of: latin, symbols, math, nushu</li>
+<li>U+0053 LATIN CAPITAL LETTER S: try adding one of: latin, symbols, math, nushu</li>
+<li>U+0054 LATIN CAPITAL LETTER T: try adding one of: latin, symbols, math, nushu</li>
+<li>U+0055 LATIN CAPITAL LETTER U: try adding one of: latin, symbols, math, nushu</li>
+<li>U+0056 LATIN CAPITAL LETTER V: try adding one of: latin, symbols, math, nushu</li>
+<li>U+0057 LATIN CAPITAL LETTER W: try adding one of: latin, symbols, math, nushu</li>
+<li>U+0058 LATIN CAPITAL LETTER X: try adding one of: latin, symbols, math, nushu</li>
+<li>U+0059 LATIN CAPITAL LETTER Y: try adding one of: latin, symbols, math, nushu</li>
+<li>U+005A LATIN CAPITAL LETTER Z: try adding one of: latin, symbols, math, nushu</li>
+<li>U+0061 LATIN SMALL LETTER A: try adding one of: latin, symbols, math, nushu</li>
+<li>U+0062 LATIN SMALL LETTER B: try adding one of: latin, symbols, math, nushu</li>
+<li>U+0063 LATIN SMALL LETTER C: try adding one of: latin, symbols, math, nushu</li>
+<li>U+0064 LATIN SMALL LETTER D: try adding one of: latin, symbols, math, nushu</li>
+<li>U+0065 LATIN SMALL LETTER E: try adding one of: latin, symbols, math, nushu</li>
+<li>U+0066 LATIN SMALL LETTER F: try adding one of: latin, symbols, math, nushu</li>
+<li>U+0067 LATIN SMALL LETTER G: try adding one of: latin, symbols, math, nushu</li>
+<li>U+0068 LATIN SMALL LETTER H: try adding one of: latin, symbols, math, nushu</li>
+<li>U+0069 LATIN SMALL LETTER I: try adding one of: latin, symbols, math, nushu</li>
+<li>U+006A LATIN SMALL LETTER J: try adding one of: latin, symbols, math, nushu</li>
+<li>U+006B LATIN SMALL LETTER K: try adding one of: latin, symbols, math, nushu</li>
+<li>U+006C LATIN SMALL LETTER L: try adding one of: latin, symbols, math, nushu</li>
+<li>U+006D LATIN SMALL LETTER M: try adding one of: latin, symbols, math, nushu</li>
+<li>U+006E LATIN SMALL LETTER N: try adding one of: latin, symbols, math, nushu</li>
+<li>U+006F LATIN SMALL LETTER O: try adding one of: latin, symbols, math, nushu</li>
+<li>U+0070 LATIN SMALL LETTER P: try adding one of: latin, symbols, math, nushu</li>
+<li>U+0071 LATIN SMALL LETTER Q: try adding one of: latin, symbols, math, nushu</li>
+<li>U+0072 LATIN SMALL LETTER R: try adding one of: latin, symbols, math, nushu</li>
+<li>U+0073 LATIN SMALL LETTER S: try adding one of: latin, symbols, math, nushu</li>
+<li>U+0074 LATIN SMALL LETTER T: try adding one of: latin, symbols, math, nushu</li>
+<li>U+0075 LATIN SMALL LETTER U: try adding one of: latin, symbols, math, nushu</li>
+<li>U+0076 LATIN SMALL LETTER V: try adding one of: latin, symbols, math, nushu</li>
+<li>U+0077 LATIN SMALL LETTER W: try adding one of: latin, symbols, math, nushu</li>
+<li>U+0078 LATIN SMALL LETTER X: try adding one of: latin, symbols, math, nushu</li>
+<li>U+0079 LATIN SMALL LETTER Y: try adding one of: latin, symbols, math, nushu</li>
+<li>U+007A LATIN SMALL LETTER Z: try adding one of: latin, symbols, math, nushu</li>
+<li>U+00A0 NO-BREAK SPACE: try adding one of: sora-sompeng, bhaiksuki, chinese-simplified, soyombo, meroitic-cursive, deseret, samaritan, psalter-pahlavi, tangut, javanese, elymaic, znamenny, latin-ext, multani, meroitic, balinese, braille, tai-tham, old-hungarian, armenian, meroitic-hieroglyphs, hanunoo, oriya, chinese-traditional, tibetan, elbasan, cyrillic, cham, anatolian-hieroglyphs, hatran, hebrew, sundanese, vithkuqi, hanifi-rohingya, thai, cypriot, inscriptional-pahlavi, masaram-gondi, palmyrene, coptic, japanese, glagolitic, tirhuta, ottoman-siyaq-numbers, tamil, batak, sinhala, lydian, makasar, runic, latin, cypro-minoan, toto, limbu, greek-ext, khojki, old-italic, tifinagh, new-tai-lue, old-uyghur, sharada, tagbanwa, old-sogdian, adlam, lao, carian, sogdian, mahajani, tai-viet, saurashtra, gurmukhi, bamum, lycian, dives-akuru, tangsa, mende-kikakui, imperial-aramaic, buginese, grantha, old-persian, old-permic, math, kayah-li, linear-b, indic-siyaq-numbers, nushu, ogham, phags-pa, signwriting, kaithi, brahmi, kharoshthi, nabataean, newa, osage, siddham, syloti-nagri, telugu, thaana, greek, mandaic, cuneiform, nandinagari, syriac, chakma, canadian-aboriginal, ol-chiki, pau-cin-hau, chorasmian, marchen, lepcha, ugaritic, arabic, kana-extended, modi, gothic, duployan, vietnamese, yezidi, music, wancho, kannada, kawi, pahawh-hmong, gujarati, tagalog, zanabazar-square, bengali, symbols, chinese-hongkong, mongolian, devanagari, malayalam, tai-le, gunjala-gondi, dogra, myanmar, manichaean, cyrillic-ext, caucasian-albanian, avestan, khudawadi, mayan-numerals, buhid, georgian, shavian, miao, old-south-arabian, takri, egyptian-hieroglyphs, meetei-mayek, medefaidrin, linear-a, tamil-supplement, osmanya, korean, mro, old-north-arabian, nyiakeng-puachue-hmong, ahom, inscriptional-parthian, ethiopic, nag-mundari, warang-citi, lisu, rejang, vai, old-turkic, nko, cherokee, phoenician, yi, bassa-vah, khitan-small-script</li>
 </ul>
 <p>Or you can add the above codepoints to one of the subsets supported by the font:</p>
  [code: unreachable-subsetting]
@@ -3351,26 +3315,8 @@ definitions.</p>
 </div>
 </details>
 
-<details><summary>[7] EduAUVICWANTOutlineGuides-Medium.ttf</summary>
+<details><summary>[6] EduAUVICWANTOutlineGuides-Medium.ttf</summary>
 <div>
-<details>
-    <summary>🔥 <b>FAIL</b> Space and non-breaking space have the same width? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* 🔥 **FAIL** <p>Space and non-breaking space have differing width: The space glyph named space is 360 font units wide, non-breaking space named (uni00A0) is 290 font units wide, and both should be positive and the same. GlyphsApp has &quot;Sidebearing arithmetic&quot; (<a href="https://glyphsapp.com/tutorials/spacing">https://glyphsapp.com/tutorials/spacing</a>) which allows you to set the non-breaking space width to always equal the space width.</p>
- [code: different-widths]
-
-
-
-</div>
-</details>
-
 <details>
     <summary>🔥 <b>FAIL</b> Shapes languages in all GF glyphsets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.glyphset.html#"></a></summary>
     <div>
@@ -4250,26 +4196,8 @@ definitions.</p>
 </div>
 </details>
 
-<details><summary>[7] EduAUVICWANTStarters-Regular.ttf</summary>
+<details><summary>[6] EduAUVICWANTStarters-Regular.ttf</summary>
 <div>
-<details>
-    <summary>🔥 <b>FAIL</b> Space and non-breaking space have the same width? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* 🔥 **FAIL** <p>Space and non-breaking space have differing width: The space glyph named space is 360 font units wide, non-breaking space named (uni00A0) is 290 font units wide, and both should be positive and the same. GlyphsApp has &quot;Sidebearing arithmetic&quot; (<a href="https://glyphsapp.com/tutorials/spacing">https://glyphsapp.com/tutorials/spacing</a>) which allows you to set the non-breaking space width to always equal the space width.</p>
- [code: different-widths]
-
-
-
-</div>
-</details>
-
 <details>
     <summary>🔥 <b>FAIL</b> Shapes languages in all GF glyphsets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.glyphset.html#"></a></summary>
     <div>
@@ -5144,26 +5072,8 @@ definitions.</p>
 </div>
 </details>
 
-<details><summary>[7] EduAUVICWANTArrowsGuides-Regular.ttf</summary>
+<details><summary>[6] EduAUVICWANTArrowsGuides-Regular.ttf</summary>
 <div>
-<details>
-    <summary>🔥 <b>FAIL</b> Space and non-breaking space have the same width? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* 🔥 **FAIL** <p>Space and non-breaking space have differing width: The space glyph named space is 360 font units wide, non-breaking space named (uni00A0) is 290 font units wide, and both should be positive and the same. GlyphsApp has &quot;Sidebearing arithmetic&quot; (<a href="https://glyphsapp.com/tutorials/spacing">https://glyphsapp.com/tutorials/spacing</a>) which allows you to set the non-breaking space width to always equal the space width.</p>
- [code: different-widths]
-
-
-
-</div>
-</details>
-
 <details>
     <summary>🔥 <b>FAIL</b> Shapes languages in all GF glyphsets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.glyphset.html#"></a></summary>
     <div>
@@ -6038,26 +5948,8 @@ definitions.</p>
 </div>
 </details>
 
-<details><summary>[7] EduAUVICWANTStartersGuides-SemiBold.ttf</summary>
+<details><summary>[6] EduAUVICWANTStartersGuides-SemiBold.ttf</summary>
 <div>
-<details>
-    <summary>🔥 <b>FAIL</b> Space and non-breaking space have the same width? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* 🔥 **FAIL** <p>Space and non-breaking space have differing width: The space glyph named space is 360 font units wide, non-breaking space named (uni00A0) is 290 font units wide, and both should be positive and the same. GlyphsApp has &quot;Sidebearing arithmetic&quot; (<a href="https://glyphsapp.com/tutorials/spacing">https://glyphsapp.com/tutorials/spacing</a>) which allows you to set the non-breaking space width to always equal the space width.</p>
- [code: different-widths]
-
-
-
-</div>
-</details>
-
 <details>
     <summary>🔥 <b>FAIL</b> Shapes languages in all GF glyphsets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.glyphset.html#"></a></summary>
     <div>
@@ -6937,26 +6829,8 @@ definitions.</p>
 </div>
 </details>
 
-<details><summary>[6] EduAUVICWANTDots-SemiBold.ttf</summary>
+<details><summary>[5] EduAUVICWANTDots-SemiBold.ttf</summary>
 <div>
-<details>
-    <summary>🔥 <b>FAIL</b> Space and non-breaking space have the same width? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* 🔥 **FAIL** <p>Space and non-breaking space have differing width: The space glyph named space is 360 font units wide, non-breaking space named (uni00A0) is 290 font units wide, and both should be positive and the same. GlyphsApp has &quot;Sidebearing arithmetic&quot; (<a href="https://glyphsapp.com/tutorials/spacing">https://glyphsapp.com/tutorials/spacing</a>) which allows you to set the non-breaking space width to always equal the space width.</p>
- [code: different-widths]
-
-
-
-</div>
-</details>
-
 <details>
     <summary>🔥 <b>FAIL</b> Shapes languages in all GF glyphsets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.glyphset.html#"></a></summary>
     <div>
@@ -7813,26 +7687,8 @@ definitions.</p>
 </div>
 </details>
 
-<details><summary>[6] EduAUVICWANTOutline-Regular.ttf</summary>
+<details><summary>[5] EduAUVICWANTOutline-Regular.ttf</summary>
 <div>
-<details>
-    <summary>🔥 <b>FAIL</b> Space and non-breaking space have the same width? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* 🔥 **FAIL** <p>Space and non-breaking space have differing width: The space glyph named space is 360 font units wide, non-breaking space named (uni00A0) is 290 font units wide, and both should be positive and the same. GlyphsApp has &quot;Sidebearing arithmetic&quot; (<a href="https://glyphsapp.com/tutorials/spacing">https://glyphsapp.com/tutorials/spacing</a>) which allows you to set the non-breaking space width to always equal the space width.</p>
- [code: different-widths]
-
-
-
-</div>
-</details>
-
 <details>
     <summary>🔥 <b>FAIL</b> Shapes languages in all GF glyphsets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.glyphset.html#"></a></summary>
     <div>
@@ -8689,26 +8545,8 @@ definitions.</p>
 </div>
 </details>
 
-<details><summary>[7] EduAUVICWANTStarters-SemiBold.ttf</summary>
+<details><summary>[6] EduAUVICWANTStarters-SemiBold.ttf</summary>
 <div>
-<details>
-    <summary>🔥 <b>FAIL</b> Space and non-breaking space have the same width? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* 🔥 **FAIL** <p>Space and non-breaking space have differing width: The space glyph named space is 360 font units wide, non-breaking space named (uni00A0) is 290 font units wide, and both should be positive and the same. GlyphsApp has &quot;Sidebearing arithmetic&quot; (<a href="https://glyphsapp.com/tutorials/spacing">https://glyphsapp.com/tutorials/spacing</a>) which allows you to set the non-breaking space width to always equal the space width.</p>
- [code: different-widths]
-
-
-
-</div>
-</details>
-
 <details>
     <summary>🔥 <b>FAIL</b> Shapes languages in all GF glyphsets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.glyphset.html#"></a></summary>
     <div>
@@ -9588,26 +9426,8 @@ definitions.</p>
 </div>
 </details>
 
-<details><summary>[7] EduAUVICWANTOutlineGuides-Regular.ttf</summary>
+<details><summary>[6] EduAUVICWANTOutlineGuides-Regular.ttf</summary>
 <div>
-<details>
-    <summary>🔥 <b>FAIL</b> Space and non-breaking space have the same width? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* 🔥 **FAIL** <p>Space and non-breaking space have differing width: The space glyph named space is 360 font units wide, non-breaking space named (uni00A0) is 290 font units wide, and both should be positive and the same. GlyphsApp has &quot;Sidebearing arithmetic&quot; (<a href="https://glyphsapp.com/tutorials/spacing">https://glyphsapp.com/tutorials/spacing</a>) which allows you to set the non-breaking space width to always equal the space width.</p>
- [code: different-widths]
-
-
-
-</div>
-</details>
-
 <details>
     <summary>🔥 <b>FAIL</b> Shapes languages in all GF glyphsets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.glyphset.html#"></a></summary>
     <div>
@@ -10482,26 +10302,8 @@ definitions.</p>
 </div>
 </details>
 
-<details><summary>[7] EduAUVICWANTStartersGuides-Bold.ttf</summary>
+<details><summary>[6] EduAUVICWANTStartersGuides-Bold.ttf</summary>
 <div>
-<details>
-    <summary>🔥 <b>FAIL</b> Space and non-breaking space have the same width? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* 🔥 **FAIL** <p>Space and non-breaking space have differing width: The space glyph named space is 360 font units wide, non-breaking space named (uni00A0) is 290 font units wide, and both should be positive and the same. GlyphsApp has &quot;Sidebearing arithmetic&quot; (<a href="https://glyphsapp.com/tutorials/spacing">https://glyphsapp.com/tutorials/spacing</a>) which allows you to set the non-breaking space width to always equal the space width.</p>
- [code: different-widths]
-
-
-
-</div>
-</details>
-
 <details>
     <summary>🔥 <b>FAIL</b> Shapes languages in all GF glyphsets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.glyphset.html#"></a></summary>
     <div>
@@ -11376,26 +11178,8 @@ definitions.</p>
 </div>
 </details>
 
-<details><summary>[7] EduAUVICWANTDotsGuides-Regular.ttf</summary>
+<details><summary>[6] EduAUVICWANTDotsGuides-Regular.ttf</summary>
 <div>
-<details>
-    <summary>🔥 <b>FAIL</b> Space and non-breaking space have the same width? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* 🔥 **FAIL** <p>Space and non-breaking space have differing width: The space glyph named space is 360 font units wide, non-breaking space named (uni00A0) is 290 font units wide, and both should be positive and the same. GlyphsApp has &quot;Sidebearing arithmetic&quot; (<a href="https://glyphsapp.com/tutorials/spacing">https://glyphsapp.com/tutorials/spacing</a>) which allows you to set the non-breaking space width to always equal the space width.</p>
- [code: different-widths]
-
-
-
-</div>
-</details>
-
 <details>
     <summary>🔥 <b>FAIL</b> Shapes languages in all GF glyphsets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.glyphset.html#"></a></summary>
     <div>
@@ -12270,26 +12054,8 @@ definitions.</p>
 </div>
 </details>
 
-<details><summary>[7] EduAUVICWANTArrowsGuides-Medium.ttf</summary>
+<details><summary>[6] EduAUVICWANTArrowsGuides-Medium.ttf</summary>
 <div>
-<details>
-    <summary>🔥 <b>FAIL</b> Space and non-breaking space have the same width? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* 🔥 **FAIL** <p>Space and non-breaking space have differing width: The space glyph named space is 360 font units wide, non-breaking space named (uni00A0) is 290 font units wide, and both should be positive and the same. GlyphsApp has &quot;Sidebearing arithmetic&quot; (<a href="https://glyphsapp.com/tutorials/spacing">https://glyphsapp.com/tutorials/spacing</a>) which allows you to set the non-breaking space width to always equal the space width.</p>
- [code: different-widths]
-
-
-
-</div>
-</details>
-
 <details>
     <summary>🔥 <b>FAIL</b> Shapes languages in all GF glyphsets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.glyphset.html#"></a></summary>
     <div>
@@ -13169,26 +12935,8 @@ definitions.</p>
 </div>
 </details>
 
-<details><summary>[7] EduAUVICWANTArrowsGuides-SemiBold.ttf</summary>
+<details><summary>[6] EduAUVICWANTArrowsGuides-SemiBold.ttf</summary>
 <div>
-<details>
-    <summary>🔥 <b>FAIL</b> Space and non-breaking space have the same width? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* 🔥 **FAIL** <p>Space and non-breaking space have differing width: The space glyph named space is 360 font units wide, non-breaking space named (uni00A0) is 290 font units wide, and both should be positive and the same. GlyphsApp has &quot;Sidebearing arithmetic&quot; (<a href="https://glyphsapp.com/tutorials/spacing">https://glyphsapp.com/tutorials/spacing</a>) which allows you to set the non-breaking space width to always equal the space width.</p>
- [code: different-widths]
-
-
-
-</div>
-</details>
-
 <details>
     <summary>🔥 <b>FAIL</b> Shapes languages in all GF glyphsets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.glyphset.html#"></a></summary>
     <div>
@@ -14068,26 +13816,8 @@ definitions.</p>
 </div>
 </details>
 
-<details><summary>[6] EduAUVICWANTStarters-Medium.ttf</summary>
+<details><summary>[5] EduAUVICWANTStarters-Medium.ttf</summary>
 <div>
-<details>
-    <summary>🔥 <b>FAIL</b> Space and non-breaking space have the same width? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* 🔥 **FAIL** <p>Space and non-breaking space have differing width: The space glyph named space is 360 font units wide, non-breaking space named (uni00A0) is 290 font units wide, and both should be positive and the same. GlyphsApp has &quot;Sidebearing arithmetic&quot; (<a href="https://glyphsapp.com/tutorials/spacing">https://glyphsapp.com/tutorials/spacing</a>) which allows you to set the non-breaking space width to always equal the space width.</p>
- [code: different-widths]
-
-
-
-</div>
-</details>
-
 <details>
     <summary>🔥 <b>FAIL</b> Shapes languages in all GF glyphsets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.glyphset.html#"></a></summary>
     <div>
@@ -14944,26 +14674,8 @@ definitions.</p>
 </div>
 </details>
 
-<details><summary>[6] EduAUVICWANTOutline-Medium.ttf</summary>
+<details><summary>[5] EduAUVICWANTOutline-Medium.ttf</summary>
 <div>
-<details>
-    <summary>🔥 <b>FAIL</b> Space and non-breaking space have the same width? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* 🔥 **FAIL** <p>Space and non-breaking space have differing width: The space glyph named space is 360 font units wide, non-breaking space named (uni00A0) is 290 font units wide, and both should be positive and the same. GlyphsApp has &quot;Sidebearing arithmetic&quot; (<a href="https://glyphsapp.com/tutorials/spacing">https://glyphsapp.com/tutorials/spacing</a>) which allows you to set the non-breaking space width to always equal the space width.</p>
- [code: different-widths]
-
-
-
-</div>
-</details>
-
 <details>
     <summary>🔥 <b>FAIL</b> Shapes languages in all GF glyphsets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.glyphset.html#"></a></summary>
     <div>
@@ -15820,26 +15532,8 @@ definitions.</p>
 </div>
 </details>
 
-<details><summary>[6] EduAUVICWANTDots-Medium.ttf</summary>
+<details><summary>[5] EduAUVICWANTDots-Medium.ttf</summary>
 <div>
-<details>
-    <summary>🔥 <b>FAIL</b> Space and non-breaking space have the same width? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* 🔥 **FAIL** <p>Space and non-breaking space have differing width: The space glyph named space is 360 font units wide, non-breaking space named (uni00A0) is 290 font units wide, and both should be positive and the same. GlyphsApp has &quot;Sidebearing arithmetic&quot; (<a href="https://glyphsapp.com/tutorials/spacing">https://glyphsapp.com/tutorials/spacing</a>) which allows you to set the non-breaking space width to always equal the space width.</p>
- [code: different-widths]
-
-
-
-</div>
-</details>
-
 <details>
     <summary>🔥 <b>FAIL</b> Shapes languages in all GF glyphsets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.glyphset.html#"></a></summary>
     <div>
@@ -16696,26 +16390,8 @@ definitions.</p>
 </div>
 </details>
 
-<details><summary>[6] EduAUVICWANTArrows-Bold.ttf</summary>
+<details><summary>[5] EduAUVICWANTArrows-Bold.ttf</summary>
 <div>
-<details>
-    <summary>🔥 <b>FAIL</b> Space and non-breaking space have the same width? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* 🔥 **FAIL** <p>Space and non-breaking space have differing width: The space glyph named space is 360 font units wide, non-breaking space named (uni00A0) is 290 font units wide, and both should be positive and the same. GlyphsApp has &quot;Sidebearing arithmetic&quot; (<a href="https://glyphsapp.com/tutorials/spacing">https://glyphsapp.com/tutorials/spacing</a>) which allows you to set the non-breaking space width to always equal the space width.</p>
- [code: different-widths]
-
-
-
-</div>
-</details>
-
 <details>
     <summary>🔥 <b>FAIL</b> Shapes languages in all GF glyphsets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.glyphset.html#"></a></summary>
     <div>
@@ -17572,26 +17248,8 @@ definitions.</p>
 </div>
 </details>
 
-<details><summary>[7] EduAUVICWANTStartersGuides-Medium.ttf</summary>
+<details><summary>[6] EduAUVICWANTStartersGuides-Medium.ttf</summary>
 <div>
-<details>
-    <summary>🔥 <b>FAIL</b> Space and non-breaking space have the same width? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* 🔥 **FAIL** <p>Space and non-breaking space have differing width: The space glyph named space is 360 font units wide, non-breaking space named (uni00A0) is 290 font units wide, and both should be positive and the same. GlyphsApp has &quot;Sidebearing arithmetic&quot; (<a href="https://glyphsapp.com/tutorials/spacing">https://glyphsapp.com/tutorials/spacing</a>) which allows you to set the non-breaking space width to always equal the space width.</p>
- [code: different-widths]
-
-
-
-</div>
-</details>
-
 <details>
     <summary>🔥 <b>FAIL</b> Shapes languages in all GF glyphsets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.glyphset.html#"></a></summary>
     <div>
@@ -18471,26 +18129,8 @@ definitions.</p>
 </div>
 </details>
 
-<details><summary>[7] EduAUVICWANTOutline-SemiBold.ttf</summary>
+<details><summary>[6] EduAUVICWANTOutline-SemiBold.ttf</summary>
 <div>
-<details>
-    <summary>🔥 <b>FAIL</b> Space and non-breaking space have the same width? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* 🔥 **FAIL** <p>Space and non-breaking space have differing width: The space glyph named space is 360 font units wide, non-breaking space named (uni00A0) is 290 font units wide, and both should be positive and the same. GlyphsApp has &quot;Sidebearing arithmetic&quot; (<a href="https://glyphsapp.com/tutorials/spacing">https://glyphsapp.com/tutorials/spacing</a>) which allows you to set the non-breaking space width to always equal the space width.</p>
- [code: different-widths]
-
-
-
-</div>
-</details>
-
 <details>
     <summary>🔥 <b>FAIL</b> Shapes languages in all GF glyphsets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.glyphset.html#"></a></summary>
     <div>
@@ -19370,26 +19010,8 @@ definitions.</p>
 </div>
 </details>
 
-<details><summary>[6] EduAUVICWANTDots-Regular.ttf</summary>
+<details><summary>[5] EduAUVICWANTDots-Regular.ttf</summary>
 <div>
-<details>
-    <summary>🔥 <b>FAIL</b> Space and non-breaking space have the same width? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* 🔥 **FAIL** <p>Space and non-breaking space have differing width: The space glyph named space is 360 font units wide, non-breaking space named (uni00A0) is 290 font units wide, and both should be positive and the same. GlyphsApp has &quot;Sidebearing arithmetic&quot; (<a href="https://glyphsapp.com/tutorials/spacing">https://glyphsapp.com/tutorials/spacing</a>) which allows you to set the non-breaking space width to always equal the space width.</p>
- [code: different-widths]
-
-
-
-</div>
-</details>
-
 <details>
     <summary>🔥 <b>FAIL</b> Shapes languages in all GF glyphsets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.glyphset.html#"></a></summary>
     <div>
@@ -20246,26 +19868,8 @@ definitions.</p>
 </div>
 </details>
 
-<details><summary>[6] EduAUVICWANTDotsGuides-Bold.ttf</summary>
+<details><summary>[5] EduAUVICWANTDotsGuides-Bold.ttf</summary>
 <div>
-<details>
-    <summary>🔥 <b>FAIL</b> Space and non-breaking space have the same width? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* 🔥 **FAIL** <p>Space and non-breaking space have differing width: The space glyph named space is 360 font units wide, non-breaking space named (uni00A0) is 290 font units wide, and both should be positive and the same. GlyphsApp has &quot;Sidebearing arithmetic&quot; (<a href="https://glyphsapp.com/tutorials/spacing">https://glyphsapp.com/tutorials/spacing</a>) which allows you to set the non-breaking space width to always equal the space width.</p>
- [code: different-widths]
-
-
-
-</div>
-</details>
-
 <details>
     <summary>🔥 <b>FAIL</b> Shapes languages in all GF glyphsets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.glyphset.html#"></a></summary>
     <div>
@@ -21122,26 +20726,8 @@ definitions.</p>
 </div>
 </details>
 
-<details><summary>[7] EduAUVICWANTDotsGuides-SemiBold.ttf</summary>
+<details><summary>[6] EduAUVICWANTDotsGuides-SemiBold.ttf</summary>
 <div>
-<details>
-    <summary>🔥 <b>FAIL</b> Space and non-breaking space have the same width? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* 🔥 **FAIL** <p>Space and non-breaking space have differing width: The space glyph named space is 360 font units wide, non-breaking space named (uni00A0) is 290 font units wide, and both should be positive and the same. GlyphsApp has &quot;Sidebearing arithmetic&quot; (<a href="https://glyphsapp.com/tutorials/spacing">https://glyphsapp.com/tutorials/spacing</a>) which allows you to set the non-breaking space width to always equal the space width.</p>
- [code: different-widths]
-
-
-
-</div>
-</details>
-
 <details>
     <summary>🔥 <b>FAIL</b> Shapes languages in all GF glyphsets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.glyphset.html#"></a></summary>
     <div>
@@ -22021,26 +21607,8 @@ definitions.</p>
 </div>
 </details>
 
-<details><summary>[6] EduAUVICWANTArrows-SemiBold.ttf</summary>
+<details><summary>[5] EduAUVICWANTArrows-SemiBold.ttf</summary>
 <div>
-<details>
-    <summary>🔥 <b>FAIL</b> Space and non-breaking space have the same width? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* 🔥 **FAIL** <p>Space and non-breaking space have differing width: The space glyph named space is 360 font units wide, non-breaking space named (uni00A0) is 290 font units wide, and both should be positive and the same. GlyphsApp has &quot;Sidebearing arithmetic&quot; (<a href="https://glyphsapp.com/tutorials/spacing">https://glyphsapp.com/tutorials/spacing</a>) which allows you to set the non-breaking space width to always equal the space width.</p>
- [code: different-widths]
-
-
-
-</div>
-</details>
-
 <details>
     <summary>🔥 <b>FAIL</b> Shapes languages in all GF glyphsets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.glyphset.html#"></a></summary>
     <div>
@@ -22897,26 +22465,8 @@ definitions.</p>
 </div>
 </details>
 
-<details><summary>[6] EduAUVICWANTOutline-Bold.ttf</summary>
+<details><summary>[5] EduAUVICWANTOutline-Bold.ttf</summary>
 <div>
-<details>
-    <summary>🔥 <b>FAIL</b> Space and non-breaking space have the same width? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* 🔥 **FAIL** <p>Space and non-breaking space have differing width: The space glyph named space is 360 font units wide, non-breaking space named (uni00A0) is 290 font units wide, and both should be positive and the same. GlyphsApp has &quot;Sidebearing arithmetic&quot; (<a href="https://glyphsapp.com/tutorials/spacing">https://glyphsapp.com/tutorials/spacing</a>) which allows you to set the non-breaking space width to always equal the space width.</p>
- [code: different-widths]
-
-
-
-</div>
-</details>
-
 <details>
     <summary>🔥 <b>FAIL</b> Shapes languages in all GF glyphsets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.glyphset.html#"></a></summary>
     <div>
@@ -23773,26 +23323,8 @@ definitions.</p>
 </div>
 </details>
 
-<details><summary>[6] EduAUVICWANTArrows-Medium.ttf</summary>
+<details><summary>[5] EduAUVICWANTArrows-Medium.ttf</summary>
 <div>
-<details>
-    <summary>🔥 <b>FAIL</b> Space and non-breaking space have the same width? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* 🔥 **FAIL** <p>Space and non-breaking space have differing width: The space glyph named space is 360 font units wide, non-breaking space named (uni00A0) is 290 font units wide, and both should be positive and the same. GlyphsApp has &quot;Sidebearing arithmetic&quot; (<a href="https://glyphsapp.com/tutorials/spacing">https://glyphsapp.com/tutorials/spacing</a>) which allows you to set the non-breaking space width to always equal the space width.</p>
- [code: different-widths]
-
-
-
-</div>
-</details>
-
 <details>
     <summary>🔥 <b>FAIL</b> Shapes languages in all GF glyphsets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.glyphset.html#"></a></summary>
     <div>
@@ -24649,26 +24181,8 @@ definitions.</p>
 </div>
 </details>
 
-<details><summary>[6] EduAUVICWANTStarters-Bold.ttf</summary>
+<details><summary>[5] EduAUVICWANTStarters-Bold.ttf</summary>
 <div>
-<details>
-    <summary>🔥 <b>FAIL</b> Space and non-breaking space have the same width? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* 🔥 **FAIL** <p>Space and non-breaking space have differing width: The space glyph named space is 360 font units wide, non-breaking space named (uni00A0) is 290 font units wide, and both should be positive and the same. GlyphsApp has &quot;Sidebearing arithmetic&quot; (<a href="https://glyphsapp.com/tutorials/spacing">https://glyphsapp.com/tutorials/spacing</a>) which allows you to set the non-breaking space width to always equal the space width.</p>
- [code: different-widths]
-
-
-
-</div>
-</details>
-
 <details>
     <summary>🔥 <b>FAIL</b> Shapes languages in all GF glyphsets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.glyphset.html#"></a></summary>
     <div>
@@ -25525,26 +25039,8 @@ definitions.</p>
 </div>
 </details>
 
-<details><summary>[7] EduAUVICWANTArrowsGuides-Bold.ttf</summary>
+<details><summary>[6] EduAUVICWANTArrowsGuides-Bold.ttf</summary>
 <div>
-<details>
-    <summary>🔥 <b>FAIL</b> Space and non-breaking space have the same width? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* 🔥 **FAIL** <p>Space and non-breaking space have differing width: The space glyph named space is 360 font units wide, non-breaking space named (uni00A0) is 290 font units wide, and both should be positive and the same. GlyphsApp has &quot;Sidebearing arithmetic&quot; (<a href="https://glyphsapp.com/tutorials/spacing">https://glyphsapp.com/tutorials/spacing</a>) which allows you to set the non-breaking space width to always equal the space width.</p>
- [code: different-widths]
-
-
-
-</div>
-</details>
-
 <details>
     <summary>🔥 <b>FAIL</b> Shapes languages in all GF glyphsets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.glyphset.html#"></a></summary>
     <div>
@@ -26419,26 +25915,8 @@ definitions.</p>
 </div>
 </details>
 
-<details><summary>[6] EduAUVICWANTArrows-Regular.ttf</summary>
+<details><summary>[5] EduAUVICWANTArrows-Regular.ttf</summary>
 <div>
-<details>
-    <summary>🔥 <b>FAIL</b> Space and non-breaking space have the same width? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* 🔥 **FAIL** <p>Space and non-breaking space have differing width: The space glyph named space is 360 font units wide, non-breaking space named (uni00A0) is 290 font units wide, and both should be positive and the same. GlyphsApp has &quot;Sidebearing arithmetic&quot; (<a href="https://glyphsapp.com/tutorials/spacing">https://glyphsapp.com/tutorials/spacing</a>) which allows you to set the non-breaking space width to always equal the space width.</p>
- [code: different-widths]
-
-
-
-</div>
-</details>
-
 <details>
     <summary>🔥 <b>FAIL</b> Shapes languages in all GF glyphsets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.glyphset.html#"></a></summary>
     <div>
@@ -27295,26 +26773,8 @@ definitions.</p>
 </div>
 </details>
 
-<details><summary>[7] EduAUVICWANTOutlineGuides-Bold.ttf</summary>
+<details><summary>[6] EduAUVICWANTOutlineGuides-Bold.ttf</summary>
 <div>
-<details>
-    <summary>🔥 <b>FAIL</b> Space and non-breaking space have the same width? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* 🔥 **FAIL** <p>Space and non-breaking space have differing width: The space glyph named space is 360 font units wide, non-breaking space named (uni00A0) is 290 font units wide, and both should be positive and the same. GlyphsApp has &quot;Sidebearing arithmetic&quot; (<a href="https://glyphsapp.com/tutorials/spacing">https://glyphsapp.com/tutorials/spacing</a>) which allows you to set the non-breaking space width to always equal the space width.</p>
- [code: different-widths]
-
-
-
-</div>
-</details>
-
 <details>
     <summary>🔥 <b>FAIL</b> Shapes languages in all GF glyphsets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.glyphset.html#"></a></summary>
     <div>
@@ -28189,26 +27649,8 @@ definitions.</p>
 </div>
 </details>
 
-<details><summary>[7] EduAUVICWANTStartersGuides-Regular.ttf</summary>
+<details><summary>[6] EduAUVICWANTStartersGuides-Regular.ttf</summary>
 <div>
-<details>
-    <summary>🔥 <b>FAIL</b> Space and non-breaking space have the same width? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* 🔥 **FAIL** <p>Space and non-breaking space have differing width: The space glyph named space is 360 font units wide, non-breaking space named (uni00A0) is 290 font units wide, and both should be positive and the same. GlyphsApp has &quot;Sidebearing arithmetic&quot; (<a href="https://glyphsapp.com/tutorials/spacing">https://glyphsapp.com/tutorials/spacing</a>) which allows you to set the non-breaking space width to always equal the space width.</p>
- [code: different-widths]
-
-
-
-</div>
-</details>
-
 <details>
     <summary>🔥 <b>FAIL</b> Shapes languages in all GF glyphsets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.glyphset.html#"></a></summary>
     <div>
@@ -29083,26 +28525,8 @@ definitions.</p>
 </div>
 </details>
 
-<details><summary>[7] EduAUVICWANTDotsGuides-Medium.ttf</summary>
+<details><summary>[6] EduAUVICWANTDotsGuides-Medium.ttf</summary>
 <div>
-<details>
-    <summary>🔥 <b>FAIL</b> Space and non-breaking space have the same width? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* 🔥 **FAIL** <p>Space and non-breaking space have differing width: The space glyph named space is 360 font units wide, non-breaking space named (uni00A0) is 290 font units wide, and both should be positive and the same. GlyphsApp has &quot;Sidebearing arithmetic&quot; (<a href="https://glyphsapp.com/tutorials/spacing">https://glyphsapp.com/tutorials/spacing</a>) which allows you to set the non-breaking space width to always equal the space width.</p>
- [code: different-widths]
-
-
-
-</div>
-</details>
-
 <details>
     <summary>🔥 <b>FAIL</b> Shapes languages in all GF glyphsets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.glyphset.html#"></a></summary>
     <div>
@@ -29982,26 +29406,8 @@ definitions.</p>
 </div>
 </details>
 
-<details><summary>[9] EduAUVICWANTPre-SemiBold.ttf</summary>
+<details><summary>[7] EduAUVICWANTPre-SemiBold.ttf</summary>
 <div>
-<details>
-    <summary>🔥 <b>FAIL</b> Space and non-breaking space have the same width? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* 🔥 **FAIL** <p>Space and non-breaking space have differing width: The space glyph named space is 360 font units wide, non-breaking space named (nbspace) is 290 font units wide, and both should be positive and the same. GlyphsApp has &quot;Sidebearing arithmetic&quot; (<a href="https://glyphsapp.com/tutorials/spacing">https://glyphsapp.com/tutorials/spacing</a>) which allows you to set the non-breaking space width to always equal the space width.</p>
- [code: different-widths]
-
-
-
-</div>
-</details>
-
 <details>
     <summary>🔥 <b>FAIL</b> Shapes languages in all GF glyphsets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.glyphset.html#"></a></summary>
     <div>
@@ -30047,16 +29453,16 @@ definitions.</p>
 * ⚠️ **WARN** <p>The following glyphs have coordinates which are out of bounds:
 * ('Acaron', 902, 2571)
 * ('Ccaron', 1046, 2571)
-* ('Dcaron', 1009, 2570)
-* ('Ecaron', 1007, 2570)
+* ('Dcaron', 934, 2570)
+* ('Ecaron', 1000, 2571)
 * ('Gcaron', 993, 2570)
 * ('IJ', 2592, 1799)
 * ('IJ', 2592, 1748)
 * ('IJ', 2592, 1698)
 * ('Icircumflex', 1094, 2091)
-* ('Itilde', 1178, 2269)
-* ('Itilde', 1178, 2235)
-* ('Itilde', 1178, 2197)
+* ('Itilde', 1178, 2259)
+* ('Itilde', 1178, 2225)
+* ('Itilde', 1178, 2187)
 * ('Ncaron', 995, 2570)
 * ('Ocaron', 971, 2570)
 * ('Rcaron', 916, 2570)
@@ -30071,14 +29477,14 @@ definitions.</p>
 * ('emacron', 1002, 1360)
 * ('emacron', 1002, 1311)
 * ('emacron', 1002, 1265)
-* ('etilde', 1078, 1413)
-* ('etilde', 1078, 1379)
-* ('etilde', 1078, 1341)
+* ('etilde', 1078, 1403)
+* ('etilde', 1078, 1369)
+* ('etilde', 1078, 1331)
 * ('gcaron', 488, 1714)
 * ('ncaron', 599, 1714)
-* ('ntilde', 1158, 1413)
-* ('ntilde', 1158, 1379)
-* ('ntilde', 1158, 1341)
+* ('ntilde', 1158, 1403)
+* ('ntilde', 1158, 1369)
+* ('ntilde', 1158, 1331)
 * ('ocaron', 517, 1714)
 * ('rcaron', 480, 1714)
 * ('scaron', 463, 1714)
@@ -30165,17 +29571,17 @@ be served. You can solve this by either manually adding additional
 subset declarations to METADATA.pb, or by editing the glyphset
 definitions.</p>
 <ul>
-<li>U+02C7 CARON: try adding one of: canadian-aboriginal, yi, tifinagh</li>
-<li>U+02D8 BREVE: try adding one of: canadian-aboriginal, yi</li>
-<li>U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi</li>
-<li>U+02DB OGONEK: try adding one of: canadian-aboriginal, yi</li>
+<li>U+02C7 CARON: try adding one of: tifinagh, yi, canadian-aboriginal</li>
+<li>U+02D8 BREVE: try adding one of: yi, canadian-aboriginal</li>
+<li>U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal</li>
+<li>U+02DB OGONEK: try adding one of: yi, canadian-aboriginal</li>
 <li>U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: coptic, math, tifinagh, cherokee</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, coptic, math, tifinagh</li>
 <li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: malayalam, canadian-aboriginal, tai-le, syriac, math, old-permic, coptic, tifinagh</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: tifinagh, malayalam, math, tai-le, syriac, coptic, canadian-aboriginal, old-permic</li>
 <li>U+030A COMBINING RING ABOVE: try adding syriac</li>
-<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
-<li>U+030C COMBINING CARON: try adding one of: tai-le, cherokee</li>
+<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
+<li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
 <li>U+0312 COMBINING TURNED COMMA ABOVE: not included in any glyphset definition</li>
 <li>U+0326 COMBINING COMMA BELOW: not included in any glyphset definition</li>
 <li>U+0327 COMBINING CEDILLA: not included in any glyphset definition</li>
@@ -30191,8 +29597,8 @@ definitions.</p>
 <li>U+2007 FIGURE SPACE: not included in any glyphset definition</li>
 <li>U+2008 PUNCTUATION SPACE: not included in any glyphset definition</li>
 <li>U+200A HAIR SPACE: not included in any glyphset definition</li>
-<li>U+200C ZERO WIDTH NON-JOINER: try adding one of: phags-pa, devanagari, duployan, myanmar, manichaean, hanunoo, tagbanwa, tibetan, thai, dogra, bengali, buhid, meetei-mayek, new-tai-lue, tifinagh, hatran, buginese, kannada, tirhuta, balinese, khmer, limbu, zanabazar-square, chakma, syloti-nagri, mongolian, tai-tham, takri, gunjala-gondi, sogdian, kharoshthi, tai-viet, hanifi-rohingya, khudawadi, sundanese, batak, avestan, bhaiksuki, kayah-li, modi, siddham, lepcha, grantha, thaana, telugu, kaithi, rejang, lao, malayalam, sharada, pahawh-hmong, gujarati, nko, tamil, mahajani, tai-le, masaram-gondi, arabic, javanese, cham, brahmi, oriya, saurashtra, sinhala, syriac, yi, hebrew, khojki, warang-citi, gurmukhi, psalter-pahlavi, newa, mandaic, tagalog</li>
-<li>U+200D ZERO WIDTH JOINER: try adding one of: phags-pa, devanagari, duployan, myanmar, manichaean, hanunoo, tagbanwa, tibetan, thai, dogra, bengali, buhid, meetei-mayek, new-tai-lue, tifinagh, buginese, kannada, tirhuta, balinese, khmer, limbu, zanabazar-square, chakma, syloti-nagri, mongolian, tai-tham, takri, gunjala-gondi, sogdian, kharoshthi, tai-viet, hanifi-rohingya, khudawadi, sundanese, batak, avestan, bhaiksuki, kayah-li, modi, siddham, lepcha, grantha, thaana, old-hungarian, telugu, kaithi, rejang, lao, malayalam, sharada, pahawh-hmong, gujarati, nko, tamil, mahajani, tai-le, masaram-gondi, arabic, javanese, cham, brahmi, oriya, saurashtra, sinhala, syriac, yi, hebrew, khojki, warang-citi, gurmukhi, psalter-pahlavi, newa, mandaic, tagalog</li>
+<li>U+200C ZERO WIDTH NON-JOINER: try adding one of: sundanese, mandaic, bhaiksuki, tirhuta, avestan, syriac, khudawadi, limbu, psalter-pahlavi, buhid, chakma, khojki, javanese, tifinagh, new-tai-lue, lepcha, arabic, takri, sharada, meetei-mayek, tagbanwa, tibetan, lao, modi, balinese, sogdian, newa, syloti-nagri, duployan, tai-tham, khmer, mahajani, hanunoo, oriya, gurmukhi, saurashtra, tai-viet, tamil, kannada, pahawh-hmong, gujarati, tagalog, grantha, buginese, bengali, cham, hatran, hebrew, rejang, sinhala, mongolian, devanagari, hanifi-rohingya, thai, malayalam, kayah-li, phags-pa, tai-le, masaram-gondi, nko, warang-citi, yi, gunjala-gondi, brahmi, dogra, kaithi, kharoshthi, telugu, siddham, manichaean, batak, thaana, zanabazar-square, myanmar</li>
+<li>U+200D ZERO WIDTH JOINER: try adding one of: mandaic, bhaiksuki, tirhuta, avestan, syriac, khudawadi, limbu, psalter-pahlavi, buhid, chakma, khojki, javanese, tifinagh, new-tai-lue, lepcha, arabic, takri, sharada, meetei-mayek, tagbanwa, tibetan, lao, modi, balinese, sogdian, newa, syloti-nagri, duployan, tai-tham, old-hungarian, khmer, mahajani, hanunoo, oriya, gurmukhi, saurashtra, tai-viet, tamil, kannada, pahawh-hmong, gujarati, tagalog, grantha, buginese, bengali, cham, rejang, hebrew, sundanese, sinhala, mongolian, devanagari, hanifi-rohingya, thai, malayalam, kayah-li, phags-pa, tai-le, masaram-gondi, nko, warang-citi, yi, gunjala-gondi, brahmi, dogra, kaithi, kharoshthi, telugu, siddham, manichaean, batak, thaana, zanabazar-square, myanmar</li>
 <li>U+2021 DOUBLE DAGGER: try adding adlam</li>
 <li>U+202F NARROW NO-BREAK SPACE: try adding one of: mongolian, yi</li>
 <li>U+2116 NUMERO SIGN: try adding cyrillic</li>
@@ -30209,7 +29615,7 @@ definitions.</p>
 <li>U+2264 LESS-THAN OR EQUAL TO: try adding math</li>
 <li>U+2265 GREATER-THAN OR EQUAL TO: try adding math</li>
 <li>U+25CA LOZENGE: try adding one of: symbols, math</li>
-<li>U+25CC DOTTED CIRCLE: try adding one of: myanmar, hanunoo, coptic, marchen, zanabazar-square, takri, elbasan, sogdian, kharoshthi, grantha, rejang, lao, javanese, syriac, sinhala, saurashtra, math, yi, mandaic, phags-pa, devanagari, manichaean, buhid, tifinagh, khmer, tai-tham, mongolian, tai-viet, batak, bhaiksuki, modi, kaithi, mende-kikakui, malayalam, canadian-aboriginal, sharada, tamil, mahajani, masaram-gondi, brahmi, music, symbols, tagbanwa, thai, dogra, buginese, kannada, balinese, chakma, gunjala-gondi, soyombo, hanifi-rohingya, lepcha, telugu, nko, bassa-vah, oriya, osage, hebrew, khojki, armenian, thaana, caucasian-albanian, newa, miao, tagalog, tibetan, duployan, new-tai-lue, bengali, meetei-mayek, limbu, syloti-nagri, ahom, khudawadi, wancho, adlam, sundanese, kayah-li, siddham, pahawh-hmong, gujarati, tai-le, tirhuta, cham, old-permic, warang-citi, gurmukhi, psalter-pahlavi</li>
+<li>U+25CC DOTTED CIRCLE: try adding one of: bhaiksuki, soyombo, psalter-pahlavi, javanese, balinese, tai-tham, armenian, hanunoo, oriya, tibetan, elbasan, sundanese, cham, hebrew, hanifi-rohingya, thai, masaram-gondi, coptic, tirhuta, tamil, batak, sinhala, limbu, khojki, tifinagh, new-tai-lue, sharada, tagbanwa, adlam, lao, sogdian, khmer, mahajani, tai-viet, saurashtra, gurmukhi, mende-kikakui, buginese, grantha, old-permic, math, kayah-li, phags-pa, kaithi, brahmi, kharoshthi, osage, newa, syloti-nagri, siddham, telugu, thaana, mandaic, syriac, chakma, canadian-aboriginal, marchen, lepcha, modi, duployan, music, wancho, kannada, pahawh-hmong, gujarati, tagalog, zanabazar-square, bengali, symbols, mongolian, devanagari, malayalam, tai-le, gunjala-gondi, dogra, myanmar, manichaean, caucasian-albanian, khudawadi, buhid, miao, takri, meetei-mayek, ahom, warang-citi, rejang, nko, yi, bassa-vah</li>
 <li>U+FB01 LATIN SMALL LIGATURE FI: not included in any glyphset definition</li>
 <li>U+FB02 LATIN SMALL LIGATURE FL: not included in any glyphset definition</li>
 </ul>
@@ -30244,24 +29650,6 @@ definitions.</p>
 </details>
 
 <details>
-    <summary>⚠️ <b>WARN</b> Are there caret positions declared for every ligature? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.gdef.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>This font lacks caret position values for ligature glyphs on its GDEF table.</p>
- [code: lacks-caret-pos]
-
-
-
-</div>
-</details>
-
-<details>
     <summary>⚠️ <b>WARN</b> Check font follows the Google Fonts vertical metric schema <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.vmetrics.html#"></a></summary>
     <div>
 
@@ -30281,26 +29669,8 @@ definitions.</p>
 </div>
 </details>
 
-<details><summary>[8] EduAUVICWANTHand-Medium.ttf</summary>
+<details><summary>[6] EduAUVICWANTHand-Medium.ttf</summary>
 <div>
-<details>
-    <summary>🔥 <b>FAIL</b> Space and non-breaking space have the same width? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* 🔥 **FAIL** <p>Space and non-breaking space have differing width: The space glyph named space is 360 font units wide, non-breaking space named (nbspace) is 290 font units wide, and both should be positive and the same. GlyphsApp has &quot;Sidebearing arithmetic&quot; (<a href="https://glyphsapp.com/tutorials/spacing">https://glyphsapp.com/tutorials/spacing</a>) which allows you to set the non-breaking space width to always equal the space width.</p>
- [code: different-widths]
-
-
-
-</div>
-</details>
-
 <details>
     <summary>⚠️ <b>WARN</b> Check for points out of bounds. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/opentype.glyf.html#"></a></summary>
     <div>
@@ -30323,6 +29693,10 @@ definitions.</p>
 * ('Adieresis', 1325, 2178)
 * ('Adieresis', 1325, 2130)
 * ('Agrave', 883, 2503)
+* ('Ecircumflex', 1132, 2460)
+* ('Ecircumflex', 1153, 2460)
+* ('Ecircumflex', 1174, 2460)
+* ('Egrave', 978, 2503)
 * ('Icircumflex', 1008, 2077)
 * ('Scedilla', 556, -659)
 * ('Scedilla', 504, -659)
@@ -30339,9 +29713,9 @@ definitions.</p>
 * ('ecircumflex', 941, 1221)
 * ('icircumflex', 697, 1221)
 * ('iogonek', -161, -272)
-* ('itilde', 50, 1349)
-* ('itilde', 50, 1373)
-* ('itilde', 50, 1401)
+* ('itilde', 50, 1322)
+* ('itilde', 50, 1346)
+* ('itilde', 50, 1375)
 * ('lcommaaccent', -40, -565)
 * ('ocircumflex', 927, 1221)
 * ('ubreve', 898, 1635)
@@ -30351,9 +29725,9 @@ definitions.</p>
 * ('ucircumflex', 748, 1598)
 * ('ucircumflex', 769, 1598)
 * ('ugrave', 572, 1641)
-* ('ytilde', 1069, 1395)
-* ('ytilde', 1069, 1370)
-* ('ytilde', 1069, 1340)
+* ('ytilde', 1069, 1369)
+* ('ytilde', 1069, 1343)
+* ('ytilde', 1069, 1314)
 * ('quotesinglbase', -60, -202)
 * ('quotesinglbase', -85, -202)
 * ('quotesinglbase', -165, -131) and ('quotesinglbase', -25, -202)</p>
@@ -30434,17 +29808,17 @@ be served. You can solve this by either manually adding additional
 subset declarations to METADATA.pb, or by editing the glyphset
 definitions.</p>
 <ul>
-<li>U+02C7 CARON: try adding one of: canadian-aboriginal, yi, tifinagh</li>
-<li>U+02D8 BREVE: try adding one of: canadian-aboriginal, yi</li>
-<li>U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi</li>
-<li>U+02DB OGONEK: try adding one of: canadian-aboriginal, yi</li>
+<li>U+02C7 CARON: try adding one of: tifinagh, yi, canadian-aboriginal</li>
+<li>U+02D8 BREVE: try adding one of: yi, canadian-aboriginal</li>
+<li>U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal</li>
+<li>U+02DB OGONEK: try adding one of: yi, canadian-aboriginal</li>
 <li>U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: coptic, math, tifinagh, cherokee</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, coptic, math, tifinagh</li>
 <li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: malayalam, canadian-aboriginal, tai-le, syriac, math, old-permic, coptic, tifinagh</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: tifinagh, malayalam, math, tai-le, syriac, coptic, canadian-aboriginal, old-permic</li>
 <li>U+030A COMBINING RING ABOVE: try adding syriac</li>
-<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
-<li>U+030C COMBINING CARON: try adding one of: tai-le, cherokee</li>
+<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
+<li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
 <li>U+0312 COMBINING TURNED COMMA ABOVE: not included in any glyphset definition</li>
 <li>U+0326 COMBINING COMMA BELOW: not included in any glyphset definition</li>
 <li>U+0327 COMBINING CEDILLA: not included in any glyphset definition</li>
@@ -30460,8 +29834,8 @@ definitions.</p>
 <li>U+2007 FIGURE SPACE: not included in any glyphset definition</li>
 <li>U+2008 PUNCTUATION SPACE: not included in any glyphset definition</li>
 <li>U+200A HAIR SPACE: not included in any glyphset definition</li>
-<li>U+200C ZERO WIDTH NON-JOINER: try adding one of: phags-pa, devanagari, duployan, myanmar, manichaean, hanunoo, tagbanwa, tibetan, thai, dogra, bengali, buhid, meetei-mayek, new-tai-lue, tifinagh, hatran, buginese, kannada, tirhuta, balinese, khmer, limbu, zanabazar-square, chakma, syloti-nagri, mongolian, tai-tham, takri, gunjala-gondi, sogdian, kharoshthi, tai-viet, hanifi-rohingya, khudawadi, sundanese, batak, avestan, bhaiksuki, kayah-li, modi, siddham, lepcha, grantha, thaana, telugu, kaithi, rejang, lao, malayalam, sharada, pahawh-hmong, gujarati, nko, tamil, mahajani, tai-le, masaram-gondi, arabic, javanese, cham, brahmi, oriya, saurashtra, sinhala, syriac, yi, hebrew, khojki, warang-citi, gurmukhi, psalter-pahlavi, newa, mandaic, tagalog</li>
-<li>U+200D ZERO WIDTH JOINER: try adding one of: phags-pa, devanagari, duployan, myanmar, manichaean, hanunoo, tagbanwa, tibetan, thai, dogra, bengali, buhid, meetei-mayek, new-tai-lue, tifinagh, buginese, kannada, tirhuta, balinese, khmer, limbu, zanabazar-square, chakma, syloti-nagri, mongolian, tai-tham, takri, gunjala-gondi, sogdian, kharoshthi, tai-viet, hanifi-rohingya, khudawadi, sundanese, batak, avestan, bhaiksuki, kayah-li, modi, siddham, lepcha, grantha, thaana, old-hungarian, telugu, kaithi, rejang, lao, malayalam, sharada, pahawh-hmong, gujarati, nko, tamil, mahajani, tai-le, masaram-gondi, arabic, javanese, cham, brahmi, oriya, saurashtra, sinhala, syriac, yi, hebrew, khojki, warang-citi, gurmukhi, psalter-pahlavi, newa, mandaic, tagalog</li>
+<li>U+200C ZERO WIDTH NON-JOINER: try adding one of: sundanese, mandaic, bhaiksuki, tirhuta, avestan, syriac, khudawadi, limbu, psalter-pahlavi, buhid, chakma, khojki, javanese, tifinagh, new-tai-lue, lepcha, arabic, takri, sharada, meetei-mayek, tagbanwa, tibetan, lao, modi, balinese, sogdian, newa, syloti-nagri, duployan, tai-tham, khmer, mahajani, hanunoo, oriya, gurmukhi, saurashtra, tai-viet, tamil, kannada, pahawh-hmong, gujarati, tagalog, grantha, buginese, bengali, cham, hatran, hebrew, rejang, sinhala, mongolian, devanagari, hanifi-rohingya, thai, malayalam, kayah-li, phags-pa, tai-le, masaram-gondi, nko, warang-citi, yi, gunjala-gondi, brahmi, dogra, kaithi, kharoshthi, telugu, siddham, manichaean, batak, thaana, zanabazar-square, myanmar</li>
+<li>U+200D ZERO WIDTH JOINER: try adding one of: mandaic, bhaiksuki, tirhuta, avestan, syriac, khudawadi, limbu, psalter-pahlavi, buhid, chakma, khojki, javanese, tifinagh, new-tai-lue, lepcha, arabic, takri, sharada, meetei-mayek, tagbanwa, tibetan, lao, modi, balinese, sogdian, newa, syloti-nagri, duployan, tai-tham, old-hungarian, khmer, mahajani, hanunoo, oriya, gurmukhi, saurashtra, tai-viet, tamil, kannada, pahawh-hmong, gujarati, tagalog, grantha, buginese, bengali, cham, rejang, hebrew, sundanese, sinhala, mongolian, devanagari, hanifi-rohingya, thai, malayalam, kayah-li, phags-pa, tai-le, masaram-gondi, nko, warang-citi, yi, gunjala-gondi, brahmi, dogra, kaithi, kharoshthi, telugu, siddham, manichaean, batak, thaana, zanabazar-square, myanmar</li>
 <li>U+2021 DOUBLE DAGGER: try adding adlam</li>
 <li>U+202F NARROW NO-BREAK SPACE: try adding one of: mongolian, yi</li>
 <li>U+2116 NUMERO SIGN: try adding cyrillic</li>
@@ -30478,7 +29852,7 @@ definitions.</p>
 <li>U+2264 LESS-THAN OR EQUAL TO: try adding math</li>
 <li>U+2265 GREATER-THAN OR EQUAL TO: try adding math</li>
 <li>U+25CA LOZENGE: try adding one of: symbols, math</li>
-<li>U+25CC DOTTED CIRCLE: try adding one of: myanmar, hanunoo, coptic, marchen, zanabazar-square, takri, elbasan, sogdian, kharoshthi, grantha, rejang, lao, javanese, syriac, sinhala, saurashtra, math, yi, mandaic, phags-pa, devanagari, manichaean, buhid, tifinagh, khmer, tai-tham, mongolian, tai-viet, batak, bhaiksuki, modi, kaithi, mende-kikakui, malayalam, canadian-aboriginal, sharada, tamil, mahajani, masaram-gondi, brahmi, music, symbols, tagbanwa, thai, dogra, buginese, kannada, balinese, chakma, gunjala-gondi, soyombo, hanifi-rohingya, lepcha, telugu, nko, bassa-vah, oriya, osage, hebrew, khojki, armenian, thaana, caucasian-albanian, newa, miao, tagalog, tibetan, duployan, new-tai-lue, bengali, meetei-mayek, limbu, syloti-nagri, ahom, khudawadi, wancho, adlam, sundanese, kayah-li, siddham, pahawh-hmong, gujarati, tai-le, tirhuta, cham, old-permic, warang-citi, gurmukhi, psalter-pahlavi</li>
+<li>U+25CC DOTTED CIRCLE: try adding one of: bhaiksuki, soyombo, psalter-pahlavi, javanese, balinese, tai-tham, armenian, hanunoo, oriya, tibetan, elbasan, sundanese, cham, hebrew, hanifi-rohingya, thai, masaram-gondi, coptic, tirhuta, tamil, batak, sinhala, limbu, khojki, tifinagh, new-tai-lue, sharada, tagbanwa, adlam, lao, sogdian, khmer, mahajani, tai-viet, saurashtra, gurmukhi, mende-kikakui, buginese, grantha, old-permic, math, kayah-li, phags-pa, kaithi, brahmi, kharoshthi, osage, newa, syloti-nagri, siddham, telugu, thaana, mandaic, syriac, chakma, canadian-aboriginal, marchen, lepcha, modi, duployan, music, wancho, kannada, pahawh-hmong, gujarati, tagalog, zanabazar-square, bengali, symbols, mongolian, devanagari, malayalam, tai-le, gunjala-gondi, dogra, myanmar, manichaean, caucasian-albanian, khudawadi, buhid, miao, takri, meetei-mayek, ahom, warang-citi, rejang, nko, yi, bassa-vah</li>
 <li>U+FB01 LATIN SMALL LIGATURE FI: not included in any glyphset definition</li>
 <li>U+FB02 LATIN SMALL LIGATURE FL: not included in any glyphset definition</li>
 </ul>
@@ -30513,24 +29887,6 @@ definitions.</p>
 </details>
 
 <details>
-    <summary>⚠️ <b>WARN</b> Are there caret positions declared for every ligature? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.gdef.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>This font lacks caret position values for ligature glyphs on its GDEF table.</p>
- [code: lacks-caret-pos]
-
-
-
-</div>
-</details>
-
-<details>
     <summary>⚠️ <b>WARN</b> Check font follows the Google Fonts vertical metric schema <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.vmetrics.html#"></a></summary>
     <div>
 
@@ -30550,26 +29906,8 @@ definitions.</p>
 </div>
 </details>
 
-<details><summary>[8] EduAUVICWANTHand-SemiBold.ttf</summary>
+<details><summary>[6] EduAUVICWANTHand-SemiBold.ttf</summary>
 <div>
-<details>
-    <summary>🔥 <b>FAIL</b> Space and non-breaking space have the same width? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* 🔥 **FAIL** <p>Space and non-breaking space have differing width: The space glyph named space is 360 font units wide, non-breaking space named (nbspace) is 290 font units wide, and both should be positive and the same. GlyphsApp has &quot;Sidebearing arithmetic&quot; (<a href="https://glyphsapp.com/tutorials/spacing">https://glyphsapp.com/tutorials/spacing</a>) which allows you to set the non-breaking space width to always equal the space width.</p>
- [code: different-widths]
-
-
-
-</div>
-</details>
-
 <details>
     <summary>⚠️ <b>WARN</b> Check for points out of bounds. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/opentype.glyf.html#"></a></summary>
     <div>
@@ -30583,16 +29921,16 @@ definitions.</p>
 * ⚠️ **WARN** <p>The following glyphs have coordinates which are out of bounds:
 * ('Acaron', 902, 2571)
 * ('Ccaron', 1046, 2571)
-* ('Dcaron', 1009, 2570)
-* ('Ecaron', 1007, 2570)
+* ('Dcaron', 934, 2570)
+* ('Ecaron', 1000, 2571)
 * ('Gcaron', 993, 2570)
 * ('IJ', 2592, 1799)
 * ('IJ', 2592, 1748)
 * ('IJ', 2592, 1698)
 * ('Icircumflex', 1094, 2091)
-* ('Itilde', 1178, 2269)
-* ('Itilde', 1178, 2235)
-* ('Itilde', 1178, 2197)
+* ('Itilde', 1178, 2259)
+* ('Itilde', 1178, 2225)
+* ('Itilde', 1178, 2187)
 * ('Ncaron', 995, 2570)
 * ('Ocaron', 971, 2570)
 * ('Rcaron', 916, 2570)
@@ -30607,14 +29945,14 @@ definitions.</p>
 * ('emacron', 1002, 1360)
 * ('emacron', 1002, 1311)
 * ('emacron', 1002, 1265)
-* ('etilde', 1078, 1413)
-* ('etilde', 1078, 1379)
-* ('etilde', 1078, 1341)
+* ('etilde', 1078, 1403)
+* ('etilde', 1078, 1369)
+* ('etilde', 1078, 1331)
 * ('gcaron', 488, 1714)
 * ('ncaron', 599, 1714)
-* ('ntilde', 1158, 1413)
-* ('ntilde', 1158, 1379)
-* ('ntilde', 1158, 1341)
+* ('ntilde', 1158, 1403)
+* ('ntilde', 1158, 1369)
+* ('ntilde', 1158, 1331)
 * ('ocaron', 517, 1714)
 * ('rcaron', 480, 1714)
 * ('scaron', 463, 1714)
@@ -30701,17 +30039,17 @@ be served. You can solve this by either manually adding additional
 subset declarations to METADATA.pb, or by editing the glyphset
 definitions.</p>
 <ul>
-<li>U+02C7 CARON: try adding one of: canadian-aboriginal, yi, tifinagh</li>
-<li>U+02D8 BREVE: try adding one of: canadian-aboriginal, yi</li>
-<li>U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi</li>
-<li>U+02DB OGONEK: try adding one of: canadian-aboriginal, yi</li>
+<li>U+02C7 CARON: try adding one of: tifinagh, yi, canadian-aboriginal</li>
+<li>U+02D8 BREVE: try adding one of: yi, canadian-aboriginal</li>
+<li>U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal</li>
+<li>U+02DB OGONEK: try adding one of: yi, canadian-aboriginal</li>
 <li>U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: coptic, math, tifinagh, cherokee</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, coptic, math, tifinagh</li>
 <li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: malayalam, canadian-aboriginal, tai-le, syriac, math, old-permic, coptic, tifinagh</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: tifinagh, malayalam, math, tai-le, syriac, coptic, canadian-aboriginal, old-permic</li>
 <li>U+030A COMBINING RING ABOVE: try adding syriac</li>
-<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
-<li>U+030C COMBINING CARON: try adding one of: tai-le, cherokee</li>
+<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
+<li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
 <li>U+0312 COMBINING TURNED COMMA ABOVE: not included in any glyphset definition</li>
 <li>U+0326 COMBINING COMMA BELOW: not included in any glyphset definition</li>
 <li>U+0327 COMBINING CEDILLA: not included in any glyphset definition</li>
@@ -30727,8 +30065,8 @@ definitions.</p>
 <li>U+2007 FIGURE SPACE: not included in any glyphset definition</li>
 <li>U+2008 PUNCTUATION SPACE: not included in any glyphset definition</li>
 <li>U+200A HAIR SPACE: not included in any glyphset definition</li>
-<li>U+200C ZERO WIDTH NON-JOINER: try adding one of: phags-pa, devanagari, duployan, myanmar, manichaean, hanunoo, tagbanwa, tibetan, thai, dogra, bengali, buhid, meetei-mayek, new-tai-lue, tifinagh, hatran, buginese, kannada, tirhuta, balinese, khmer, limbu, zanabazar-square, chakma, syloti-nagri, mongolian, tai-tham, takri, gunjala-gondi, sogdian, kharoshthi, tai-viet, hanifi-rohingya, khudawadi, sundanese, batak, avestan, bhaiksuki, kayah-li, modi, siddham, lepcha, grantha, thaana, telugu, kaithi, rejang, lao, malayalam, sharada, pahawh-hmong, gujarati, nko, tamil, mahajani, tai-le, masaram-gondi, arabic, javanese, cham, brahmi, oriya, saurashtra, sinhala, syriac, yi, hebrew, khojki, warang-citi, gurmukhi, psalter-pahlavi, newa, mandaic, tagalog</li>
-<li>U+200D ZERO WIDTH JOINER: try adding one of: phags-pa, devanagari, duployan, myanmar, manichaean, hanunoo, tagbanwa, tibetan, thai, dogra, bengali, buhid, meetei-mayek, new-tai-lue, tifinagh, buginese, kannada, tirhuta, balinese, khmer, limbu, zanabazar-square, chakma, syloti-nagri, mongolian, tai-tham, takri, gunjala-gondi, sogdian, kharoshthi, tai-viet, hanifi-rohingya, khudawadi, sundanese, batak, avestan, bhaiksuki, kayah-li, modi, siddham, lepcha, grantha, thaana, old-hungarian, telugu, kaithi, rejang, lao, malayalam, sharada, pahawh-hmong, gujarati, nko, tamil, mahajani, tai-le, masaram-gondi, arabic, javanese, cham, brahmi, oriya, saurashtra, sinhala, syriac, yi, hebrew, khojki, warang-citi, gurmukhi, psalter-pahlavi, newa, mandaic, tagalog</li>
+<li>U+200C ZERO WIDTH NON-JOINER: try adding one of: sundanese, mandaic, bhaiksuki, tirhuta, avestan, syriac, khudawadi, limbu, psalter-pahlavi, buhid, chakma, khojki, javanese, tifinagh, new-tai-lue, lepcha, arabic, takri, sharada, meetei-mayek, tagbanwa, tibetan, lao, modi, balinese, sogdian, newa, syloti-nagri, duployan, tai-tham, khmer, mahajani, hanunoo, oriya, gurmukhi, saurashtra, tai-viet, tamil, kannada, pahawh-hmong, gujarati, tagalog, grantha, buginese, bengali, cham, hatran, hebrew, rejang, sinhala, mongolian, devanagari, hanifi-rohingya, thai, malayalam, kayah-li, phags-pa, tai-le, masaram-gondi, nko, warang-citi, yi, gunjala-gondi, brahmi, dogra, kaithi, kharoshthi, telugu, siddham, manichaean, batak, thaana, zanabazar-square, myanmar</li>
+<li>U+200D ZERO WIDTH JOINER: try adding one of: mandaic, bhaiksuki, tirhuta, avestan, syriac, khudawadi, limbu, psalter-pahlavi, buhid, chakma, khojki, javanese, tifinagh, new-tai-lue, lepcha, arabic, takri, sharada, meetei-mayek, tagbanwa, tibetan, lao, modi, balinese, sogdian, newa, syloti-nagri, duployan, tai-tham, old-hungarian, khmer, mahajani, hanunoo, oriya, gurmukhi, saurashtra, tai-viet, tamil, kannada, pahawh-hmong, gujarati, tagalog, grantha, buginese, bengali, cham, rejang, hebrew, sundanese, sinhala, mongolian, devanagari, hanifi-rohingya, thai, malayalam, kayah-li, phags-pa, tai-le, masaram-gondi, nko, warang-citi, yi, gunjala-gondi, brahmi, dogra, kaithi, kharoshthi, telugu, siddham, manichaean, batak, thaana, zanabazar-square, myanmar</li>
 <li>U+2021 DOUBLE DAGGER: try adding adlam</li>
 <li>U+202F NARROW NO-BREAK SPACE: try adding one of: mongolian, yi</li>
 <li>U+2116 NUMERO SIGN: try adding cyrillic</li>
@@ -30745,7 +30083,7 @@ definitions.</p>
 <li>U+2264 LESS-THAN OR EQUAL TO: try adding math</li>
 <li>U+2265 GREATER-THAN OR EQUAL TO: try adding math</li>
 <li>U+25CA LOZENGE: try adding one of: symbols, math</li>
-<li>U+25CC DOTTED CIRCLE: try adding one of: myanmar, hanunoo, coptic, marchen, zanabazar-square, takri, elbasan, sogdian, kharoshthi, grantha, rejang, lao, javanese, syriac, sinhala, saurashtra, math, yi, mandaic, phags-pa, devanagari, manichaean, buhid, tifinagh, khmer, tai-tham, mongolian, tai-viet, batak, bhaiksuki, modi, kaithi, mende-kikakui, malayalam, canadian-aboriginal, sharada, tamil, mahajani, masaram-gondi, brahmi, music, symbols, tagbanwa, thai, dogra, buginese, kannada, balinese, chakma, gunjala-gondi, soyombo, hanifi-rohingya, lepcha, telugu, nko, bassa-vah, oriya, osage, hebrew, khojki, armenian, thaana, caucasian-albanian, newa, miao, tagalog, tibetan, duployan, new-tai-lue, bengali, meetei-mayek, limbu, syloti-nagri, ahom, khudawadi, wancho, adlam, sundanese, kayah-li, siddham, pahawh-hmong, gujarati, tai-le, tirhuta, cham, old-permic, warang-citi, gurmukhi, psalter-pahlavi</li>
+<li>U+25CC DOTTED CIRCLE: try adding one of: bhaiksuki, soyombo, psalter-pahlavi, javanese, balinese, tai-tham, armenian, hanunoo, oriya, tibetan, elbasan, sundanese, cham, hebrew, hanifi-rohingya, thai, masaram-gondi, coptic, tirhuta, tamil, batak, sinhala, limbu, khojki, tifinagh, new-tai-lue, sharada, tagbanwa, adlam, lao, sogdian, khmer, mahajani, tai-viet, saurashtra, gurmukhi, mende-kikakui, buginese, grantha, old-permic, math, kayah-li, phags-pa, kaithi, brahmi, kharoshthi, osage, newa, syloti-nagri, siddham, telugu, thaana, mandaic, syriac, chakma, canadian-aboriginal, marchen, lepcha, modi, duployan, music, wancho, kannada, pahawh-hmong, gujarati, tagalog, zanabazar-square, bengali, symbols, mongolian, devanagari, malayalam, tai-le, gunjala-gondi, dogra, myanmar, manichaean, caucasian-albanian, khudawadi, buhid, miao, takri, meetei-mayek, ahom, warang-citi, rejang, nko, yi, bassa-vah</li>
 <li>U+FB01 LATIN SMALL LIGATURE FI: not included in any glyphset definition</li>
 <li>U+FB02 LATIN SMALL LIGATURE FL: not included in any glyphset definition</li>
 </ul>
@@ -30780,24 +30118,6 @@ definitions.</p>
 </details>
 
 <details>
-    <summary>⚠️ <b>WARN</b> Are there caret positions declared for every ligature? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.gdef.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>This font lacks caret position values for ligature glyphs on its GDEF table.</p>
- [code: lacks-caret-pos]
-
-
-
-</div>
-</details>
-
-<details>
     <summary>⚠️ <b>WARN</b> Check font follows the Google Fonts vertical metric schema <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.vmetrics.html#"></a></summary>
     <div>
 
@@ -30817,26 +30137,8 @@ definitions.</p>
 </div>
 </details>
 
-<details><summary>[10] EduAUVICWANTCursive-SemiBold.ttf</summary>
+<details><summary>[8] EduAUVICWANTCursive-SemiBold.ttf</summary>
 <div>
-<details>
-    <summary>🔥 <b>FAIL</b> Space and non-breaking space have the same width? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* 🔥 **FAIL** <p>Space and non-breaking space have differing width: The space glyph named space is 360 font units wide, non-breaking space named (nbspace) is 290 font units wide, and both should be positive and the same. GlyphsApp has &quot;Sidebearing arithmetic&quot; (<a href="https://glyphsapp.com/tutorials/spacing">https://glyphsapp.com/tutorials/spacing</a>) which allows you to set the non-breaking space width to always equal the space width.</p>
- [code: different-widths]
-
-
-
-</div>
-</details>
-
 <details>
     <summary>🔥 <b>FAIL</b> Shapes languages in all GF glyphsets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.glyphset.html#"></a></summary>
     <div>
@@ -30905,16 +30207,16 @@ definitions.</p>
 * ⚠️ **WARN** <p>The following glyphs have coordinates which are out of bounds:
 * ('Acaron', 902, 2571)
 * ('Ccaron', 1046, 2571)
-* ('Dcaron', 1009, 2570)
-* ('Ecaron', 1007, 2570)
+* ('Dcaron', 934, 2570)
+* ('Ecaron', 1000, 2571)
 * ('Gcaron', 993, 2570)
 * ('IJ', 2592, 1799)
 * ('IJ', 2592, 1748)
 * ('IJ', 2592, 1698)
 * ('Icircumflex', 1094, 2091)
-* ('Itilde', 1178, 2269)
-* ('Itilde', 1178, 2235)
-* ('Itilde', 1178, 2197)
+* ('Itilde', 1178, 2259)
+* ('Itilde', 1178, 2225)
+* ('Itilde', 1178, 2187)
 * ('Ncaron', 995, 2570)
 * ('Ocaron', 971, 2570)
 * ('Rcaron', 916, 2570)
@@ -30929,14 +30231,14 @@ definitions.</p>
 * ('emacron', 1002, 1360)
 * ('emacron', 1002, 1311)
 * ('emacron', 1002, 1265)
-* ('etilde', 1078, 1413)
-* ('etilde', 1078, 1379)
-* ('etilde', 1078, 1341)
+* ('etilde', 1078, 1403)
+* ('etilde', 1078, 1369)
+* ('etilde', 1078, 1331)
 * ('gcaron', 488, 1714)
 * ('ncaron', 599, 1714)
-* ('ntilde', 1158, 1413)
-* ('ntilde', 1158, 1379)
-* ('ntilde', 1158, 1341)
+* ('ntilde', 1158, 1403)
+* ('ntilde', 1158, 1369)
+* ('ntilde', 1158, 1331)
 * ('ocaron', 517, 1714)
 * ('rcaron', 480, 1714)
 * ('scaron', 463, 1714)
@@ -31023,17 +30325,17 @@ be served. You can solve this by either manually adding additional
 subset declarations to METADATA.pb, or by editing the glyphset
 definitions.</p>
 <ul>
-<li>U+02C7 CARON: try adding one of: canadian-aboriginal, yi, tifinagh</li>
-<li>U+02D8 BREVE: try adding one of: canadian-aboriginal, yi</li>
-<li>U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi</li>
-<li>U+02DB OGONEK: try adding one of: canadian-aboriginal, yi</li>
+<li>U+02C7 CARON: try adding one of: tifinagh, yi, canadian-aboriginal</li>
+<li>U+02D8 BREVE: try adding one of: yi, canadian-aboriginal</li>
+<li>U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal</li>
+<li>U+02DB OGONEK: try adding one of: yi, canadian-aboriginal</li>
 <li>U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: coptic, math, tifinagh, cherokee</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, coptic, math, tifinagh</li>
 <li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: malayalam, canadian-aboriginal, tai-le, syriac, math, old-permic, coptic, tifinagh</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: tifinagh, malayalam, math, tai-le, syriac, coptic, canadian-aboriginal, old-permic</li>
 <li>U+030A COMBINING RING ABOVE: try adding syriac</li>
-<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
-<li>U+030C COMBINING CARON: try adding one of: tai-le, cherokee</li>
+<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
+<li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
 <li>U+0312 COMBINING TURNED COMMA ABOVE: not included in any glyphset definition</li>
 <li>U+0326 COMBINING COMMA BELOW: not included in any glyphset definition</li>
 <li>U+0327 COMBINING CEDILLA: not included in any glyphset definition</li>
@@ -31049,8 +30351,8 @@ definitions.</p>
 <li>U+2007 FIGURE SPACE: not included in any glyphset definition</li>
 <li>U+2008 PUNCTUATION SPACE: not included in any glyphset definition</li>
 <li>U+200A HAIR SPACE: not included in any glyphset definition</li>
-<li>U+200C ZERO WIDTH NON-JOINER: try adding one of: phags-pa, devanagari, duployan, myanmar, manichaean, hanunoo, tagbanwa, tibetan, thai, dogra, bengali, buhid, meetei-mayek, new-tai-lue, tifinagh, hatran, buginese, kannada, tirhuta, balinese, khmer, limbu, zanabazar-square, chakma, syloti-nagri, mongolian, tai-tham, takri, gunjala-gondi, sogdian, kharoshthi, tai-viet, hanifi-rohingya, khudawadi, sundanese, batak, avestan, bhaiksuki, kayah-li, modi, siddham, lepcha, grantha, thaana, telugu, kaithi, rejang, lao, malayalam, sharada, pahawh-hmong, gujarati, nko, tamil, mahajani, tai-le, masaram-gondi, arabic, javanese, cham, brahmi, oriya, saurashtra, sinhala, syriac, yi, hebrew, khojki, warang-citi, gurmukhi, psalter-pahlavi, newa, mandaic, tagalog</li>
-<li>U+200D ZERO WIDTH JOINER: try adding one of: phags-pa, devanagari, duployan, myanmar, manichaean, hanunoo, tagbanwa, tibetan, thai, dogra, bengali, buhid, meetei-mayek, new-tai-lue, tifinagh, buginese, kannada, tirhuta, balinese, khmer, limbu, zanabazar-square, chakma, syloti-nagri, mongolian, tai-tham, takri, gunjala-gondi, sogdian, kharoshthi, tai-viet, hanifi-rohingya, khudawadi, sundanese, batak, avestan, bhaiksuki, kayah-li, modi, siddham, lepcha, grantha, thaana, old-hungarian, telugu, kaithi, rejang, lao, malayalam, sharada, pahawh-hmong, gujarati, nko, tamil, mahajani, tai-le, masaram-gondi, arabic, javanese, cham, brahmi, oriya, saurashtra, sinhala, syriac, yi, hebrew, khojki, warang-citi, gurmukhi, psalter-pahlavi, newa, mandaic, tagalog</li>
+<li>U+200C ZERO WIDTH NON-JOINER: try adding one of: sundanese, mandaic, bhaiksuki, tirhuta, avestan, syriac, khudawadi, limbu, psalter-pahlavi, buhid, chakma, khojki, javanese, tifinagh, new-tai-lue, lepcha, arabic, takri, sharada, meetei-mayek, tagbanwa, tibetan, lao, modi, balinese, sogdian, newa, syloti-nagri, duployan, tai-tham, khmer, mahajani, hanunoo, oriya, gurmukhi, saurashtra, tai-viet, tamil, kannada, pahawh-hmong, gujarati, tagalog, grantha, buginese, bengali, cham, hatran, hebrew, rejang, sinhala, mongolian, devanagari, hanifi-rohingya, thai, malayalam, kayah-li, phags-pa, tai-le, masaram-gondi, nko, warang-citi, yi, gunjala-gondi, brahmi, dogra, kaithi, kharoshthi, telugu, siddham, manichaean, batak, thaana, zanabazar-square, myanmar</li>
+<li>U+200D ZERO WIDTH JOINER: try adding one of: mandaic, bhaiksuki, tirhuta, avestan, syriac, khudawadi, limbu, psalter-pahlavi, buhid, chakma, khojki, javanese, tifinagh, new-tai-lue, lepcha, arabic, takri, sharada, meetei-mayek, tagbanwa, tibetan, lao, modi, balinese, sogdian, newa, syloti-nagri, duployan, tai-tham, old-hungarian, khmer, mahajani, hanunoo, oriya, gurmukhi, saurashtra, tai-viet, tamil, kannada, pahawh-hmong, gujarati, tagalog, grantha, buginese, bengali, cham, rejang, hebrew, sundanese, sinhala, mongolian, devanagari, hanifi-rohingya, thai, malayalam, kayah-li, phags-pa, tai-le, masaram-gondi, nko, warang-citi, yi, gunjala-gondi, brahmi, dogra, kaithi, kharoshthi, telugu, siddham, manichaean, batak, thaana, zanabazar-square, myanmar</li>
 <li>U+2021 DOUBLE DAGGER: try adding adlam</li>
 <li>U+202F NARROW NO-BREAK SPACE: try adding one of: mongolian, yi</li>
 <li>U+2116 NUMERO SIGN: try adding cyrillic</li>
@@ -31067,7 +30369,7 @@ definitions.</p>
 <li>U+2264 LESS-THAN OR EQUAL TO: try adding math</li>
 <li>U+2265 GREATER-THAN OR EQUAL TO: try adding math</li>
 <li>U+25CA LOZENGE: try adding one of: symbols, math</li>
-<li>U+25CC DOTTED CIRCLE: try adding one of: myanmar, hanunoo, coptic, marchen, zanabazar-square, takri, elbasan, sogdian, kharoshthi, grantha, rejang, lao, javanese, syriac, sinhala, saurashtra, math, yi, mandaic, phags-pa, devanagari, manichaean, buhid, tifinagh, khmer, tai-tham, mongolian, tai-viet, batak, bhaiksuki, modi, kaithi, mende-kikakui, malayalam, canadian-aboriginal, sharada, tamil, mahajani, masaram-gondi, brahmi, music, symbols, tagbanwa, thai, dogra, buginese, kannada, balinese, chakma, gunjala-gondi, soyombo, hanifi-rohingya, lepcha, telugu, nko, bassa-vah, oriya, osage, hebrew, khojki, armenian, thaana, caucasian-albanian, newa, miao, tagalog, tibetan, duployan, new-tai-lue, bengali, meetei-mayek, limbu, syloti-nagri, ahom, khudawadi, wancho, adlam, sundanese, kayah-li, siddham, pahawh-hmong, gujarati, tai-le, tirhuta, cham, old-permic, warang-citi, gurmukhi, psalter-pahlavi</li>
+<li>U+25CC DOTTED CIRCLE: try adding one of: bhaiksuki, soyombo, psalter-pahlavi, javanese, balinese, tai-tham, armenian, hanunoo, oriya, tibetan, elbasan, sundanese, cham, hebrew, hanifi-rohingya, thai, masaram-gondi, coptic, tirhuta, tamil, batak, sinhala, limbu, khojki, tifinagh, new-tai-lue, sharada, tagbanwa, adlam, lao, sogdian, khmer, mahajani, tai-viet, saurashtra, gurmukhi, mende-kikakui, buginese, grantha, old-permic, math, kayah-li, phags-pa, kaithi, brahmi, kharoshthi, osage, newa, syloti-nagri, siddham, telugu, thaana, mandaic, syriac, chakma, canadian-aboriginal, marchen, lepcha, modi, duployan, music, wancho, kannada, pahawh-hmong, gujarati, tagalog, zanabazar-square, bengali, symbols, mongolian, devanagari, malayalam, tai-le, gunjala-gondi, dogra, myanmar, manichaean, caucasian-albanian, khudawadi, buhid, miao, takri, meetei-mayek, ahom, warang-citi, rejang, nko, yi, bassa-vah</li>
 <li>U+FB01 LATIN SMALL LIGATURE FI: not included in any glyphset definition</li>
 <li>U+FB02 LATIN SMALL LIGATURE FL: not included in any glyphset definition</li>
 </ul>
@@ -31102,24 +30404,6 @@ definitions.</p>
 </details>
 
 <details>
-    <summary>⚠️ <b>WARN</b> Are there caret positions declared for every ligature? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.gdef.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>This font lacks caret position values for ligature glyphs on its GDEF table.</p>
- [code: lacks-caret-pos]
-
-
-
-</div>
-</details>
-
-<details>
     <summary>⚠️ <b>WARN</b> Check font follows the Google Fonts vertical metric schema <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.vmetrics.html#"></a></summary>
     <div>
 
@@ -31139,26 +30423,8 @@ definitions.</p>
 </div>
 </details>
 
-<details><summary>[9] EduAUVICWANTCursive-Medium.ttf</summary>
+<details><summary>[7] EduAUVICWANTCursive-Medium.ttf</summary>
 <div>
-<details>
-    <summary>🔥 <b>FAIL</b> Space and non-breaking space have the same width? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* 🔥 **FAIL** <p>Space and non-breaking space have differing width: The space glyph named space is 360 font units wide, non-breaking space named (nbspace) is 290 font units wide, and both should be positive and the same. GlyphsApp has &quot;Sidebearing arithmetic&quot; (<a href="https://glyphsapp.com/tutorials/spacing">https://glyphsapp.com/tutorials/spacing</a>) which allows you to set the non-breaking space width to always equal the space width.</p>
- [code: different-widths]
-
-
-
-</div>
-</details>
-
 <details>
     <summary>🔥 <b>FAIL</b> Shapes languages in all GF glyphsets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.glyphset.html#"></a></summary>
     <div>
@@ -31213,6 +30479,10 @@ definitions.</p>
 * ('Adieresis', 1325, 2178)
 * ('Adieresis', 1325, 2130)
 * ('Agrave', 883, 2503)
+* ('Ecircumflex', 1132, 2460)
+* ('Ecircumflex', 1153, 2460)
+* ('Ecircumflex', 1174, 2460)
+* ('Egrave', 978, 2503)
 * ('Icircumflex', 1008, 2077)
 * ('Scedilla', 556, -659)
 * ('Scedilla', 504, -659)
@@ -31229,9 +30499,9 @@ definitions.</p>
 * ('ecircumflex', 941, 1221)
 * ('icircumflex', 697, 1221)
 * ('iogonek', -161, -272)
-* ('itilde', 50, 1349)
-* ('itilde', 50, 1373)
-* ('itilde', 50, 1401)
+* ('itilde', 50, 1322)
+* ('itilde', 50, 1346)
+* ('itilde', 50, 1375)
 * ('lcommaaccent', -40, -565)
 * ('ocircumflex', 927, 1221)
 * ('ubreve', 898, 1635)
@@ -31241,9 +30511,9 @@ definitions.</p>
 * ('ucircumflex', 748, 1598)
 * ('ucircumflex', 769, 1598)
 * ('ugrave', 572, 1641)
-* ('ytilde', 1069, 1395)
-* ('ytilde', 1069, 1370)
-* ('ytilde', 1069, 1340)
+* ('ytilde', 1069, 1369)
+* ('ytilde', 1069, 1343)
+* ('ytilde', 1069, 1314)
 * ('quotesinglbase', -60, -202)
 * ('quotesinglbase', -85, -202)
 * ('quotesinglbase', -165, -131) and ('quotesinglbase', -25, -202)</p>
@@ -31324,17 +30594,17 @@ be served. You can solve this by either manually adding additional
 subset declarations to METADATA.pb, or by editing the glyphset
 definitions.</p>
 <ul>
-<li>U+02C7 CARON: try adding one of: canadian-aboriginal, yi, tifinagh</li>
-<li>U+02D8 BREVE: try adding one of: canadian-aboriginal, yi</li>
-<li>U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi</li>
-<li>U+02DB OGONEK: try adding one of: canadian-aboriginal, yi</li>
+<li>U+02C7 CARON: try adding one of: tifinagh, yi, canadian-aboriginal</li>
+<li>U+02D8 BREVE: try adding one of: yi, canadian-aboriginal</li>
+<li>U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal</li>
+<li>U+02DB OGONEK: try adding one of: yi, canadian-aboriginal</li>
 <li>U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: coptic, math, tifinagh, cherokee</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, coptic, math, tifinagh</li>
 <li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: malayalam, canadian-aboriginal, tai-le, syriac, math, old-permic, coptic, tifinagh</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: tifinagh, malayalam, math, tai-le, syriac, coptic, canadian-aboriginal, old-permic</li>
 <li>U+030A COMBINING RING ABOVE: try adding syriac</li>
-<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
-<li>U+030C COMBINING CARON: try adding one of: tai-le, cherokee</li>
+<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
+<li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
 <li>U+0312 COMBINING TURNED COMMA ABOVE: not included in any glyphset definition</li>
 <li>U+0326 COMBINING COMMA BELOW: not included in any glyphset definition</li>
 <li>U+0327 COMBINING CEDILLA: not included in any glyphset definition</li>
@@ -31350,8 +30620,8 @@ definitions.</p>
 <li>U+2007 FIGURE SPACE: not included in any glyphset definition</li>
 <li>U+2008 PUNCTUATION SPACE: not included in any glyphset definition</li>
 <li>U+200A HAIR SPACE: not included in any glyphset definition</li>
-<li>U+200C ZERO WIDTH NON-JOINER: try adding one of: phags-pa, devanagari, duployan, myanmar, manichaean, hanunoo, tagbanwa, tibetan, thai, dogra, bengali, buhid, meetei-mayek, new-tai-lue, tifinagh, hatran, buginese, kannada, tirhuta, balinese, khmer, limbu, zanabazar-square, chakma, syloti-nagri, mongolian, tai-tham, takri, gunjala-gondi, sogdian, kharoshthi, tai-viet, hanifi-rohingya, khudawadi, sundanese, batak, avestan, bhaiksuki, kayah-li, modi, siddham, lepcha, grantha, thaana, telugu, kaithi, rejang, lao, malayalam, sharada, pahawh-hmong, gujarati, nko, tamil, mahajani, tai-le, masaram-gondi, arabic, javanese, cham, brahmi, oriya, saurashtra, sinhala, syriac, yi, hebrew, khojki, warang-citi, gurmukhi, psalter-pahlavi, newa, mandaic, tagalog</li>
-<li>U+200D ZERO WIDTH JOINER: try adding one of: phags-pa, devanagari, duployan, myanmar, manichaean, hanunoo, tagbanwa, tibetan, thai, dogra, bengali, buhid, meetei-mayek, new-tai-lue, tifinagh, buginese, kannada, tirhuta, balinese, khmer, limbu, zanabazar-square, chakma, syloti-nagri, mongolian, tai-tham, takri, gunjala-gondi, sogdian, kharoshthi, tai-viet, hanifi-rohingya, khudawadi, sundanese, batak, avestan, bhaiksuki, kayah-li, modi, siddham, lepcha, grantha, thaana, old-hungarian, telugu, kaithi, rejang, lao, malayalam, sharada, pahawh-hmong, gujarati, nko, tamil, mahajani, tai-le, masaram-gondi, arabic, javanese, cham, brahmi, oriya, saurashtra, sinhala, syriac, yi, hebrew, khojki, warang-citi, gurmukhi, psalter-pahlavi, newa, mandaic, tagalog</li>
+<li>U+200C ZERO WIDTH NON-JOINER: try adding one of: sundanese, mandaic, bhaiksuki, tirhuta, avestan, syriac, khudawadi, limbu, psalter-pahlavi, buhid, chakma, khojki, javanese, tifinagh, new-tai-lue, lepcha, arabic, takri, sharada, meetei-mayek, tagbanwa, tibetan, lao, modi, balinese, sogdian, newa, syloti-nagri, duployan, tai-tham, khmer, mahajani, hanunoo, oriya, gurmukhi, saurashtra, tai-viet, tamil, kannada, pahawh-hmong, gujarati, tagalog, grantha, buginese, bengali, cham, hatran, hebrew, rejang, sinhala, mongolian, devanagari, hanifi-rohingya, thai, malayalam, kayah-li, phags-pa, tai-le, masaram-gondi, nko, warang-citi, yi, gunjala-gondi, brahmi, dogra, kaithi, kharoshthi, telugu, siddham, manichaean, batak, thaana, zanabazar-square, myanmar</li>
+<li>U+200D ZERO WIDTH JOINER: try adding one of: mandaic, bhaiksuki, tirhuta, avestan, syriac, khudawadi, limbu, psalter-pahlavi, buhid, chakma, khojki, javanese, tifinagh, new-tai-lue, lepcha, arabic, takri, sharada, meetei-mayek, tagbanwa, tibetan, lao, modi, balinese, sogdian, newa, syloti-nagri, duployan, tai-tham, old-hungarian, khmer, mahajani, hanunoo, oriya, gurmukhi, saurashtra, tai-viet, tamil, kannada, pahawh-hmong, gujarati, tagalog, grantha, buginese, bengali, cham, rejang, hebrew, sundanese, sinhala, mongolian, devanagari, hanifi-rohingya, thai, malayalam, kayah-li, phags-pa, tai-le, masaram-gondi, nko, warang-citi, yi, gunjala-gondi, brahmi, dogra, kaithi, kharoshthi, telugu, siddham, manichaean, batak, thaana, zanabazar-square, myanmar</li>
 <li>U+2021 DOUBLE DAGGER: try adding adlam</li>
 <li>U+202F NARROW NO-BREAK SPACE: try adding one of: mongolian, yi</li>
 <li>U+2116 NUMERO SIGN: try adding cyrillic</li>
@@ -31368,7 +30638,7 @@ definitions.</p>
 <li>U+2264 LESS-THAN OR EQUAL TO: try adding math</li>
 <li>U+2265 GREATER-THAN OR EQUAL TO: try adding math</li>
 <li>U+25CA LOZENGE: try adding one of: symbols, math</li>
-<li>U+25CC DOTTED CIRCLE: try adding one of: myanmar, hanunoo, coptic, marchen, zanabazar-square, takri, elbasan, sogdian, kharoshthi, grantha, rejang, lao, javanese, syriac, sinhala, saurashtra, math, yi, mandaic, phags-pa, devanagari, manichaean, buhid, tifinagh, khmer, tai-tham, mongolian, tai-viet, batak, bhaiksuki, modi, kaithi, mende-kikakui, malayalam, canadian-aboriginal, sharada, tamil, mahajani, masaram-gondi, brahmi, music, symbols, tagbanwa, thai, dogra, buginese, kannada, balinese, chakma, gunjala-gondi, soyombo, hanifi-rohingya, lepcha, telugu, nko, bassa-vah, oriya, osage, hebrew, khojki, armenian, thaana, caucasian-albanian, newa, miao, tagalog, tibetan, duployan, new-tai-lue, bengali, meetei-mayek, limbu, syloti-nagri, ahom, khudawadi, wancho, adlam, sundanese, kayah-li, siddham, pahawh-hmong, gujarati, tai-le, tirhuta, cham, old-permic, warang-citi, gurmukhi, psalter-pahlavi</li>
+<li>U+25CC DOTTED CIRCLE: try adding one of: bhaiksuki, soyombo, psalter-pahlavi, javanese, balinese, tai-tham, armenian, hanunoo, oriya, tibetan, elbasan, sundanese, cham, hebrew, hanifi-rohingya, thai, masaram-gondi, coptic, tirhuta, tamil, batak, sinhala, limbu, khojki, tifinagh, new-tai-lue, sharada, tagbanwa, adlam, lao, sogdian, khmer, mahajani, tai-viet, saurashtra, gurmukhi, mende-kikakui, buginese, grantha, old-permic, math, kayah-li, phags-pa, kaithi, brahmi, kharoshthi, osage, newa, syloti-nagri, siddham, telugu, thaana, mandaic, syriac, chakma, canadian-aboriginal, marchen, lepcha, modi, duployan, music, wancho, kannada, pahawh-hmong, gujarati, tagalog, zanabazar-square, bengali, symbols, mongolian, devanagari, malayalam, tai-le, gunjala-gondi, dogra, myanmar, manichaean, caucasian-albanian, khudawadi, buhid, miao, takri, meetei-mayek, ahom, warang-citi, rejang, nko, yi, bassa-vah</li>
 <li>U+FB01 LATIN SMALL LIGATURE FI: not included in any glyphset definition</li>
 <li>U+FB02 LATIN SMALL LIGATURE FL: not included in any glyphset definition</li>
 </ul>
@@ -31403,24 +30673,6 @@ definitions.</p>
 </details>
 
 <details>
-    <summary>⚠️ <b>WARN</b> Are there caret positions declared for every ligature? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.gdef.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>This font lacks caret position values for ligature glyphs on its GDEF table.</p>
- [code: lacks-caret-pos]
-
-
-
-</div>
-</details>
-
-<details>
     <summary>⚠️ <b>WARN</b> Check font follows the Google Fonts vertical metric schema <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.vmetrics.html#"></a></summary>
     <div>
 
@@ -31440,26 +30692,8 @@ definitions.</p>
 </div>
 </details>
 
-<details><summary>[9] EduAUVICWANTPre-Medium.ttf</summary>
+<details><summary>[7] EduAUVICWANTPre-Medium.ttf</summary>
 <div>
-<details>
-    <summary>🔥 <b>FAIL</b> Space and non-breaking space have the same width? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* 🔥 **FAIL** <p>Space and non-breaking space have differing width: The space glyph named space is 360 font units wide, non-breaking space named (nbspace) is 290 font units wide, and both should be positive and the same. GlyphsApp has &quot;Sidebearing arithmetic&quot; (<a href="https://glyphsapp.com/tutorials/spacing">https://glyphsapp.com/tutorials/spacing</a>) which allows you to set the non-breaking space width to always equal the space width.</p>
- [code: different-widths]
-
-
-
-</div>
-</details>
-
 <details>
     <summary>🔥 <b>FAIL</b> Shapes languages in all GF glyphsets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.glyphset.html#"></a></summary>
     <div>
@@ -31514,6 +30748,10 @@ definitions.</p>
 * ('Adieresis', 1325, 2178)
 * ('Adieresis', 1325, 2130)
 * ('Agrave', 883, 2503)
+* ('Ecircumflex', 1132, 2460)
+* ('Ecircumflex', 1153, 2460)
+* ('Ecircumflex', 1174, 2460)
+* ('Egrave', 978, 2503)
 * ('Icircumflex', 1008, 2077)
 * ('Scedilla', 556, -659)
 * ('Scedilla', 504, -659)
@@ -31530,9 +30768,9 @@ definitions.</p>
 * ('ecircumflex', 941, 1221)
 * ('icircumflex', 697, 1221)
 * ('iogonek', -161, -272)
-* ('itilde', 50, 1349)
-* ('itilde', 50, 1373)
-* ('itilde', 50, 1401)
+* ('itilde', 50, 1322)
+* ('itilde', 50, 1346)
+* ('itilde', 50, 1375)
 * ('lcommaaccent', -40, -565)
 * ('ocircumflex', 927, 1221)
 * ('ubreve', 898, 1635)
@@ -31542,9 +30780,9 @@ definitions.</p>
 * ('ucircumflex', 748, 1598)
 * ('ucircumflex', 769, 1598)
 * ('ugrave', 572, 1641)
-* ('ytilde', 1069, 1395)
-* ('ytilde', 1069, 1370)
-* ('ytilde', 1069, 1340)
+* ('ytilde', 1069, 1369)
+* ('ytilde', 1069, 1343)
+* ('ytilde', 1069, 1314)
 * ('quotesinglbase', -60, -202)
 * ('quotesinglbase', -85, -202)
 * ('quotesinglbase', -165, -131) and ('quotesinglbase', -25, -202)</p>
@@ -31625,17 +30863,17 @@ be served. You can solve this by either manually adding additional
 subset declarations to METADATA.pb, or by editing the glyphset
 definitions.</p>
 <ul>
-<li>U+02C7 CARON: try adding one of: canadian-aboriginal, yi, tifinagh</li>
-<li>U+02D8 BREVE: try adding one of: canadian-aboriginal, yi</li>
-<li>U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi</li>
-<li>U+02DB OGONEK: try adding one of: canadian-aboriginal, yi</li>
+<li>U+02C7 CARON: try adding one of: tifinagh, yi, canadian-aboriginal</li>
+<li>U+02D8 BREVE: try adding one of: yi, canadian-aboriginal</li>
+<li>U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal</li>
+<li>U+02DB OGONEK: try adding one of: yi, canadian-aboriginal</li>
 <li>U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: coptic, math, tifinagh, cherokee</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, coptic, math, tifinagh</li>
 <li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: malayalam, canadian-aboriginal, tai-le, syriac, math, old-permic, coptic, tifinagh</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: tifinagh, malayalam, math, tai-le, syriac, coptic, canadian-aboriginal, old-permic</li>
 <li>U+030A COMBINING RING ABOVE: try adding syriac</li>
-<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
-<li>U+030C COMBINING CARON: try adding one of: tai-le, cherokee</li>
+<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
+<li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
 <li>U+0312 COMBINING TURNED COMMA ABOVE: not included in any glyphset definition</li>
 <li>U+0326 COMBINING COMMA BELOW: not included in any glyphset definition</li>
 <li>U+0327 COMBINING CEDILLA: not included in any glyphset definition</li>
@@ -31651,8 +30889,8 @@ definitions.</p>
 <li>U+2007 FIGURE SPACE: not included in any glyphset definition</li>
 <li>U+2008 PUNCTUATION SPACE: not included in any glyphset definition</li>
 <li>U+200A HAIR SPACE: not included in any glyphset definition</li>
-<li>U+200C ZERO WIDTH NON-JOINER: try adding one of: phags-pa, devanagari, duployan, myanmar, manichaean, hanunoo, tagbanwa, tibetan, thai, dogra, bengali, buhid, meetei-mayek, new-tai-lue, tifinagh, hatran, buginese, kannada, tirhuta, balinese, khmer, limbu, zanabazar-square, chakma, syloti-nagri, mongolian, tai-tham, takri, gunjala-gondi, sogdian, kharoshthi, tai-viet, hanifi-rohingya, khudawadi, sundanese, batak, avestan, bhaiksuki, kayah-li, modi, siddham, lepcha, grantha, thaana, telugu, kaithi, rejang, lao, malayalam, sharada, pahawh-hmong, gujarati, nko, tamil, mahajani, tai-le, masaram-gondi, arabic, javanese, cham, brahmi, oriya, saurashtra, sinhala, syriac, yi, hebrew, khojki, warang-citi, gurmukhi, psalter-pahlavi, newa, mandaic, tagalog</li>
-<li>U+200D ZERO WIDTH JOINER: try adding one of: phags-pa, devanagari, duployan, myanmar, manichaean, hanunoo, tagbanwa, tibetan, thai, dogra, bengali, buhid, meetei-mayek, new-tai-lue, tifinagh, buginese, kannada, tirhuta, balinese, khmer, limbu, zanabazar-square, chakma, syloti-nagri, mongolian, tai-tham, takri, gunjala-gondi, sogdian, kharoshthi, tai-viet, hanifi-rohingya, khudawadi, sundanese, batak, avestan, bhaiksuki, kayah-li, modi, siddham, lepcha, grantha, thaana, old-hungarian, telugu, kaithi, rejang, lao, malayalam, sharada, pahawh-hmong, gujarati, nko, tamil, mahajani, tai-le, masaram-gondi, arabic, javanese, cham, brahmi, oriya, saurashtra, sinhala, syriac, yi, hebrew, khojki, warang-citi, gurmukhi, psalter-pahlavi, newa, mandaic, tagalog</li>
+<li>U+200C ZERO WIDTH NON-JOINER: try adding one of: sundanese, mandaic, bhaiksuki, tirhuta, avestan, syriac, khudawadi, limbu, psalter-pahlavi, buhid, chakma, khojki, javanese, tifinagh, new-tai-lue, lepcha, arabic, takri, sharada, meetei-mayek, tagbanwa, tibetan, lao, modi, balinese, sogdian, newa, syloti-nagri, duployan, tai-tham, khmer, mahajani, hanunoo, oriya, gurmukhi, saurashtra, tai-viet, tamil, kannada, pahawh-hmong, gujarati, tagalog, grantha, buginese, bengali, cham, hatran, hebrew, rejang, sinhala, mongolian, devanagari, hanifi-rohingya, thai, malayalam, kayah-li, phags-pa, tai-le, masaram-gondi, nko, warang-citi, yi, gunjala-gondi, brahmi, dogra, kaithi, kharoshthi, telugu, siddham, manichaean, batak, thaana, zanabazar-square, myanmar</li>
+<li>U+200D ZERO WIDTH JOINER: try adding one of: mandaic, bhaiksuki, tirhuta, avestan, syriac, khudawadi, limbu, psalter-pahlavi, buhid, chakma, khojki, javanese, tifinagh, new-tai-lue, lepcha, arabic, takri, sharada, meetei-mayek, tagbanwa, tibetan, lao, modi, balinese, sogdian, newa, syloti-nagri, duployan, tai-tham, old-hungarian, khmer, mahajani, hanunoo, oriya, gurmukhi, saurashtra, tai-viet, tamil, kannada, pahawh-hmong, gujarati, tagalog, grantha, buginese, bengali, cham, rejang, hebrew, sundanese, sinhala, mongolian, devanagari, hanifi-rohingya, thai, malayalam, kayah-li, phags-pa, tai-le, masaram-gondi, nko, warang-citi, yi, gunjala-gondi, brahmi, dogra, kaithi, kharoshthi, telugu, siddham, manichaean, batak, thaana, zanabazar-square, myanmar</li>
 <li>U+2021 DOUBLE DAGGER: try adding adlam</li>
 <li>U+202F NARROW NO-BREAK SPACE: try adding one of: mongolian, yi</li>
 <li>U+2116 NUMERO SIGN: try adding cyrillic</li>
@@ -31669,7 +30907,7 @@ definitions.</p>
 <li>U+2264 LESS-THAN OR EQUAL TO: try adding math</li>
 <li>U+2265 GREATER-THAN OR EQUAL TO: try adding math</li>
 <li>U+25CA LOZENGE: try adding one of: symbols, math</li>
-<li>U+25CC DOTTED CIRCLE: try adding one of: myanmar, hanunoo, coptic, marchen, zanabazar-square, takri, elbasan, sogdian, kharoshthi, grantha, rejang, lao, javanese, syriac, sinhala, saurashtra, math, yi, mandaic, phags-pa, devanagari, manichaean, buhid, tifinagh, khmer, tai-tham, mongolian, tai-viet, batak, bhaiksuki, modi, kaithi, mende-kikakui, malayalam, canadian-aboriginal, sharada, tamil, mahajani, masaram-gondi, brahmi, music, symbols, tagbanwa, thai, dogra, buginese, kannada, balinese, chakma, gunjala-gondi, soyombo, hanifi-rohingya, lepcha, telugu, nko, bassa-vah, oriya, osage, hebrew, khojki, armenian, thaana, caucasian-albanian, newa, miao, tagalog, tibetan, duployan, new-tai-lue, bengali, meetei-mayek, limbu, syloti-nagri, ahom, khudawadi, wancho, adlam, sundanese, kayah-li, siddham, pahawh-hmong, gujarati, tai-le, tirhuta, cham, old-permic, warang-citi, gurmukhi, psalter-pahlavi</li>
+<li>U+25CC DOTTED CIRCLE: try adding one of: bhaiksuki, soyombo, psalter-pahlavi, javanese, balinese, tai-tham, armenian, hanunoo, oriya, tibetan, elbasan, sundanese, cham, hebrew, hanifi-rohingya, thai, masaram-gondi, coptic, tirhuta, tamil, batak, sinhala, limbu, khojki, tifinagh, new-tai-lue, sharada, tagbanwa, adlam, lao, sogdian, khmer, mahajani, tai-viet, saurashtra, gurmukhi, mende-kikakui, buginese, grantha, old-permic, math, kayah-li, phags-pa, kaithi, brahmi, kharoshthi, osage, newa, syloti-nagri, siddham, telugu, thaana, mandaic, syriac, chakma, canadian-aboriginal, marchen, lepcha, modi, duployan, music, wancho, kannada, pahawh-hmong, gujarati, tagalog, zanabazar-square, bengali, symbols, mongolian, devanagari, malayalam, tai-le, gunjala-gondi, dogra, myanmar, manichaean, caucasian-albanian, khudawadi, buhid, miao, takri, meetei-mayek, ahom, warang-citi, rejang, nko, yi, bassa-vah</li>
 <li>U+FB01 LATIN SMALL LIGATURE FI: not included in any glyphset definition</li>
 <li>U+FB02 LATIN SMALL LIGATURE FL: not included in any glyphset definition</li>
 </ul>
@@ -31704,24 +30942,6 @@ definitions.</p>
 </details>
 
 <details>
-    <summary>⚠️ <b>WARN</b> Are there caret positions declared for every ligature? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.gdef.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>This font lacks caret position values for ligature glyphs on its GDEF table.</p>
- [code: lacks-caret-pos]
-
-
-
-</div>
-</details>
-
-<details>
     <summary>⚠️ <b>WARN</b> Check font follows the Google Fonts vertical metric schema <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.vmetrics.html#"></a></summary>
     <div>
 
@@ -31741,26 +30961,8 @@ definitions.</p>
 </div>
 </details>
 
-<details><summary>[10] EduAUVICWANTPreGuides-Medium.ttf</summary>
+<details><summary>[8] EduAUVICWANTPreGuides-Medium.ttf</summary>
 <div>
-<details>
-    <summary>🔥 <b>FAIL</b> Space and non-breaking space have the same width? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* 🔥 **FAIL** <p>Space and non-breaking space have differing width: The space glyph named space is 360 font units wide, non-breaking space named (nbspace) is 290 font units wide, and both should be positive and the same. GlyphsApp has &quot;Sidebearing arithmetic&quot; (<a href="https://glyphsapp.com/tutorials/spacing">https://glyphsapp.com/tutorials/spacing</a>) which allows you to set the non-breaking space width to always equal the space width.</p>
- [code: different-widths]
-
-
-
-</div>
-</details>
-
 <details>
     <summary>🔥 <b>FAIL</b> Shapes languages in all GF glyphsets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.glyphset.html#"></a></summary>
     <div>
@@ -31920,17 +31122,17 @@ be served. You can solve this by either manually adding additional
 subset declarations to METADATA.pb, or by editing the glyphset
 definitions.</p>
 <ul>
-<li>U+02C7 CARON: try adding one of: canadian-aboriginal, yi, tifinagh</li>
-<li>U+02D8 BREVE: try adding one of: canadian-aboriginal, yi</li>
-<li>U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi</li>
-<li>U+02DB OGONEK: try adding one of: canadian-aboriginal, yi</li>
+<li>U+02C7 CARON: try adding one of: tifinagh, yi, canadian-aboriginal</li>
+<li>U+02D8 BREVE: try adding one of: yi, canadian-aboriginal</li>
+<li>U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal</li>
+<li>U+02DB OGONEK: try adding one of: yi, canadian-aboriginal</li>
 <li>U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: coptic, math, tifinagh, cherokee</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, coptic, math, tifinagh</li>
 <li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: malayalam, canadian-aboriginal, tai-le, syriac, math, old-permic, coptic, tifinagh</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: tifinagh, malayalam, math, tai-le, syriac, coptic, canadian-aboriginal, old-permic</li>
 <li>U+030A COMBINING RING ABOVE: try adding syriac</li>
-<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
-<li>U+030C COMBINING CARON: try adding one of: tai-le, cherokee</li>
+<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
+<li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
 <li>U+0312 COMBINING TURNED COMMA ABOVE: not included in any glyphset definition</li>
 <li>U+0326 COMBINING COMMA BELOW: not included in any glyphset definition</li>
 <li>U+0327 COMBINING CEDILLA: not included in any glyphset definition</li>
@@ -31946,8 +31148,8 @@ definitions.</p>
 <li>U+2007 FIGURE SPACE: not included in any glyphset definition</li>
 <li>U+2008 PUNCTUATION SPACE: not included in any glyphset definition</li>
 <li>U+200A HAIR SPACE: not included in any glyphset definition</li>
-<li>U+200C ZERO WIDTH NON-JOINER: try adding one of: phags-pa, devanagari, duployan, myanmar, manichaean, hanunoo, tagbanwa, tibetan, thai, dogra, bengali, buhid, meetei-mayek, new-tai-lue, tifinagh, hatran, buginese, kannada, tirhuta, balinese, khmer, limbu, zanabazar-square, chakma, syloti-nagri, mongolian, tai-tham, takri, gunjala-gondi, sogdian, kharoshthi, tai-viet, hanifi-rohingya, khudawadi, sundanese, batak, avestan, bhaiksuki, kayah-li, modi, siddham, lepcha, grantha, thaana, telugu, kaithi, rejang, lao, malayalam, sharada, pahawh-hmong, gujarati, nko, tamil, mahajani, tai-le, masaram-gondi, arabic, javanese, cham, brahmi, oriya, saurashtra, sinhala, syriac, yi, hebrew, khojki, warang-citi, gurmukhi, psalter-pahlavi, newa, mandaic, tagalog</li>
-<li>U+200D ZERO WIDTH JOINER: try adding one of: phags-pa, devanagari, duployan, myanmar, manichaean, hanunoo, tagbanwa, tibetan, thai, dogra, bengali, buhid, meetei-mayek, new-tai-lue, tifinagh, buginese, kannada, tirhuta, balinese, khmer, limbu, zanabazar-square, chakma, syloti-nagri, mongolian, tai-tham, takri, gunjala-gondi, sogdian, kharoshthi, tai-viet, hanifi-rohingya, khudawadi, sundanese, batak, avestan, bhaiksuki, kayah-li, modi, siddham, lepcha, grantha, thaana, old-hungarian, telugu, kaithi, rejang, lao, malayalam, sharada, pahawh-hmong, gujarati, nko, tamil, mahajani, tai-le, masaram-gondi, arabic, javanese, cham, brahmi, oriya, saurashtra, sinhala, syriac, yi, hebrew, khojki, warang-citi, gurmukhi, psalter-pahlavi, newa, mandaic, tagalog</li>
+<li>U+200C ZERO WIDTH NON-JOINER: try adding one of: sundanese, mandaic, bhaiksuki, tirhuta, avestan, syriac, khudawadi, limbu, psalter-pahlavi, buhid, chakma, khojki, javanese, tifinagh, new-tai-lue, lepcha, arabic, takri, sharada, meetei-mayek, tagbanwa, tibetan, lao, modi, balinese, sogdian, newa, syloti-nagri, duployan, tai-tham, khmer, mahajani, hanunoo, oriya, gurmukhi, saurashtra, tai-viet, tamil, kannada, pahawh-hmong, gujarati, tagalog, grantha, buginese, bengali, cham, hatran, hebrew, rejang, sinhala, mongolian, devanagari, hanifi-rohingya, thai, malayalam, kayah-li, phags-pa, tai-le, masaram-gondi, nko, warang-citi, yi, gunjala-gondi, brahmi, dogra, kaithi, kharoshthi, telugu, siddham, manichaean, batak, thaana, zanabazar-square, myanmar</li>
+<li>U+200D ZERO WIDTH JOINER: try adding one of: mandaic, bhaiksuki, tirhuta, avestan, syriac, khudawadi, limbu, psalter-pahlavi, buhid, chakma, khojki, javanese, tifinagh, new-tai-lue, lepcha, arabic, takri, sharada, meetei-mayek, tagbanwa, tibetan, lao, modi, balinese, sogdian, newa, syloti-nagri, duployan, tai-tham, old-hungarian, khmer, mahajani, hanunoo, oriya, gurmukhi, saurashtra, tai-viet, tamil, kannada, pahawh-hmong, gujarati, tagalog, grantha, buginese, bengali, cham, rejang, hebrew, sundanese, sinhala, mongolian, devanagari, hanifi-rohingya, thai, malayalam, kayah-li, phags-pa, tai-le, masaram-gondi, nko, warang-citi, yi, gunjala-gondi, brahmi, dogra, kaithi, kharoshthi, telugu, siddham, manichaean, batak, thaana, zanabazar-square, myanmar</li>
 <li>U+2021 DOUBLE DAGGER: try adding adlam</li>
 <li>U+202F NARROW NO-BREAK SPACE: try adding one of: mongolian, yi</li>
 <li>U+2116 NUMERO SIGN: try adding cyrillic</li>
@@ -31964,7 +31166,7 @@ definitions.</p>
 <li>U+2264 LESS-THAN OR EQUAL TO: try adding math</li>
 <li>U+2265 GREATER-THAN OR EQUAL TO: try adding math</li>
 <li>U+25CA LOZENGE: try adding one of: symbols, math</li>
-<li>U+25CC DOTTED CIRCLE: try adding one of: myanmar, hanunoo, coptic, marchen, zanabazar-square, takri, elbasan, sogdian, kharoshthi, grantha, rejang, lao, javanese, syriac, sinhala, saurashtra, math, yi, mandaic, phags-pa, devanagari, manichaean, buhid, tifinagh, khmer, tai-tham, mongolian, tai-viet, batak, bhaiksuki, modi, kaithi, mende-kikakui, malayalam, canadian-aboriginal, sharada, tamil, mahajani, masaram-gondi, brahmi, music, symbols, tagbanwa, thai, dogra, buginese, kannada, balinese, chakma, gunjala-gondi, soyombo, hanifi-rohingya, lepcha, telugu, nko, bassa-vah, oriya, osage, hebrew, khojki, armenian, thaana, caucasian-albanian, newa, miao, tagalog, tibetan, duployan, new-tai-lue, bengali, meetei-mayek, limbu, syloti-nagri, ahom, khudawadi, wancho, adlam, sundanese, kayah-li, siddham, pahawh-hmong, gujarati, tai-le, tirhuta, cham, old-permic, warang-citi, gurmukhi, psalter-pahlavi</li>
+<li>U+25CC DOTTED CIRCLE: try adding one of: bhaiksuki, soyombo, psalter-pahlavi, javanese, balinese, tai-tham, armenian, hanunoo, oriya, tibetan, elbasan, sundanese, cham, hebrew, hanifi-rohingya, thai, masaram-gondi, coptic, tirhuta, tamil, batak, sinhala, limbu, khojki, tifinagh, new-tai-lue, sharada, tagbanwa, adlam, lao, sogdian, khmer, mahajani, tai-viet, saurashtra, gurmukhi, mende-kikakui, buginese, grantha, old-permic, math, kayah-li, phags-pa, kaithi, brahmi, kharoshthi, osage, newa, syloti-nagri, siddham, telugu, thaana, mandaic, syriac, chakma, canadian-aboriginal, marchen, lepcha, modi, duployan, music, wancho, kannada, pahawh-hmong, gujarati, tagalog, zanabazar-square, bengali, symbols, mongolian, devanagari, malayalam, tai-le, gunjala-gondi, dogra, myanmar, manichaean, caucasian-albanian, khudawadi, buhid, miao, takri, meetei-mayek, ahom, warang-citi, rejang, nko, yi, bassa-vah</li>
 <li>U+FB01 LATIN SMALL LIGATURE FI: not included in any glyphset definition</li>
 <li>U+FB02 LATIN SMALL LIGATURE FL: not included in any glyphset definition</li>
 </ul>
@@ -31999,24 +31201,6 @@ definitions.</p>
 </details>
 
 <details>
-    <summary>⚠️ <b>WARN</b> Are there caret positions declared for every ligature? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.gdef.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>This font lacks caret position values for ligature glyphs on its GDEF table.</p>
- [code: lacks-caret-pos]
-
-
-
-</div>
-</details>
-
-<details>
     <summary>⚠️ <b>WARN</b> Check font follows the Google Fonts vertical metric schema <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.vmetrics.html#"></a></summary>
     <div>
 
@@ -32036,26 +31220,8 @@ definitions.</p>
 </div>
 </details>
 
-<details><summary>[10] EduAUVICWANTPreGuides-Regular.ttf</summary>
+<details><summary>[8] EduAUVICWANTPreGuides-Regular.ttf</summary>
 <div>
-<details>
-    <summary>🔥 <b>FAIL</b> Space and non-breaking space have the same width? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* 🔥 **FAIL** <p>Space and non-breaking space have differing width: The space glyph named space is 360 font units wide, non-breaking space named (nbspace) is 290 font units wide, and both should be positive and the same. GlyphsApp has &quot;Sidebearing arithmetic&quot; (<a href="https://glyphsapp.com/tutorials/spacing">https://glyphsapp.com/tutorials/spacing</a>) which allows you to set the non-breaking space width to always equal the space width.</p>
- [code: different-widths]
-
-
-
-</div>
-</details>
-
 <details>
     <summary>🔥 <b>FAIL</b> Shapes languages in all GF glyphsets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.glyphset.html#"></a></summary>
     <div>
@@ -32190,17 +31356,17 @@ be served. You can solve this by either manually adding additional
 subset declarations to METADATA.pb, or by editing the glyphset
 definitions.</p>
 <ul>
-<li>U+02C7 CARON: try adding one of: canadian-aboriginal, yi, tifinagh</li>
-<li>U+02D8 BREVE: try adding one of: canadian-aboriginal, yi</li>
-<li>U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi</li>
-<li>U+02DB OGONEK: try adding one of: canadian-aboriginal, yi</li>
+<li>U+02C7 CARON: try adding one of: tifinagh, yi, canadian-aboriginal</li>
+<li>U+02D8 BREVE: try adding one of: yi, canadian-aboriginal</li>
+<li>U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal</li>
+<li>U+02DB OGONEK: try adding one of: yi, canadian-aboriginal</li>
 <li>U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: coptic, math, tifinagh, cherokee</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, coptic, math, tifinagh</li>
 <li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: malayalam, canadian-aboriginal, tai-le, syriac, math, old-permic, coptic, tifinagh</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: tifinagh, malayalam, math, tai-le, syriac, coptic, canadian-aboriginal, old-permic</li>
 <li>U+030A COMBINING RING ABOVE: try adding syriac</li>
-<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
-<li>U+030C COMBINING CARON: try adding one of: tai-le, cherokee</li>
+<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
+<li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
 <li>U+0312 COMBINING TURNED COMMA ABOVE: not included in any glyphset definition</li>
 <li>U+0326 COMBINING COMMA BELOW: not included in any glyphset definition</li>
 <li>U+0327 COMBINING CEDILLA: not included in any glyphset definition</li>
@@ -32216,8 +31382,8 @@ definitions.</p>
 <li>U+2007 FIGURE SPACE: not included in any glyphset definition</li>
 <li>U+2008 PUNCTUATION SPACE: not included in any glyphset definition</li>
 <li>U+200A HAIR SPACE: not included in any glyphset definition</li>
-<li>U+200C ZERO WIDTH NON-JOINER: try adding one of: phags-pa, devanagari, duployan, myanmar, manichaean, hanunoo, tagbanwa, tibetan, thai, dogra, bengali, buhid, meetei-mayek, new-tai-lue, tifinagh, hatran, buginese, kannada, tirhuta, balinese, khmer, limbu, zanabazar-square, chakma, syloti-nagri, mongolian, tai-tham, takri, gunjala-gondi, sogdian, kharoshthi, tai-viet, hanifi-rohingya, khudawadi, sundanese, batak, avestan, bhaiksuki, kayah-li, modi, siddham, lepcha, grantha, thaana, telugu, kaithi, rejang, lao, malayalam, sharada, pahawh-hmong, gujarati, nko, tamil, mahajani, tai-le, masaram-gondi, arabic, javanese, cham, brahmi, oriya, saurashtra, sinhala, syriac, yi, hebrew, khojki, warang-citi, gurmukhi, psalter-pahlavi, newa, mandaic, tagalog</li>
-<li>U+200D ZERO WIDTH JOINER: try adding one of: phags-pa, devanagari, duployan, myanmar, manichaean, hanunoo, tagbanwa, tibetan, thai, dogra, bengali, buhid, meetei-mayek, new-tai-lue, tifinagh, buginese, kannada, tirhuta, balinese, khmer, limbu, zanabazar-square, chakma, syloti-nagri, mongolian, tai-tham, takri, gunjala-gondi, sogdian, kharoshthi, tai-viet, hanifi-rohingya, khudawadi, sundanese, batak, avestan, bhaiksuki, kayah-li, modi, siddham, lepcha, grantha, thaana, old-hungarian, telugu, kaithi, rejang, lao, malayalam, sharada, pahawh-hmong, gujarati, nko, tamil, mahajani, tai-le, masaram-gondi, arabic, javanese, cham, brahmi, oriya, saurashtra, sinhala, syriac, yi, hebrew, khojki, warang-citi, gurmukhi, psalter-pahlavi, newa, mandaic, tagalog</li>
+<li>U+200C ZERO WIDTH NON-JOINER: try adding one of: sundanese, mandaic, bhaiksuki, tirhuta, avestan, syriac, khudawadi, limbu, psalter-pahlavi, buhid, chakma, khojki, javanese, tifinagh, new-tai-lue, lepcha, arabic, takri, sharada, meetei-mayek, tagbanwa, tibetan, lao, modi, balinese, sogdian, newa, syloti-nagri, duployan, tai-tham, khmer, mahajani, hanunoo, oriya, gurmukhi, saurashtra, tai-viet, tamil, kannada, pahawh-hmong, gujarati, tagalog, grantha, buginese, bengali, cham, hatran, hebrew, rejang, sinhala, mongolian, devanagari, hanifi-rohingya, thai, malayalam, kayah-li, phags-pa, tai-le, masaram-gondi, nko, warang-citi, yi, gunjala-gondi, brahmi, dogra, kaithi, kharoshthi, telugu, siddham, manichaean, batak, thaana, zanabazar-square, myanmar</li>
+<li>U+200D ZERO WIDTH JOINER: try adding one of: mandaic, bhaiksuki, tirhuta, avestan, syriac, khudawadi, limbu, psalter-pahlavi, buhid, chakma, khojki, javanese, tifinagh, new-tai-lue, lepcha, arabic, takri, sharada, meetei-mayek, tagbanwa, tibetan, lao, modi, balinese, sogdian, newa, syloti-nagri, duployan, tai-tham, old-hungarian, khmer, mahajani, hanunoo, oriya, gurmukhi, saurashtra, tai-viet, tamil, kannada, pahawh-hmong, gujarati, tagalog, grantha, buginese, bengali, cham, rejang, hebrew, sundanese, sinhala, mongolian, devanagari, hanifi-rohingya, thai, malayalam, kayah-li, phags-pa, tai-le, masaram-gondi, nko, warang-citi, yi, gunjala-gondi, brahmi, dogra, kaithi, kharoshthi, telugu, siddham, manichaean, batak, thaana, zanabazar-square, myanmar</li>
 <li>U+2021 DOUBLE DAGGER: try adding adlam</li>
 <li>U+202F NARROW NO-BREAK SPACE: try adding one of: mongolian, yi</li>
 <li>U+2116 NUMERO SIGN: try adding cyrillic</li>
@@ -32234,7 +31400,7 @@ definitions.</p>
 <li>U+2264 LESS-THAN OR EQUAL TO: try adding math</li>
 <li>U+2265 GREATER-THAN OR EQUAL TO: try adding math</li>
 <li>U+25CA LOZENGE: try adding one of: symbols, math</li>
-<li>U+25CC DOTTED CIRCLE: try adding one of: myanmar, hanunoo, coptic, marchen, zanabazar-square, takri, elbasan, sogdian, kharoshthi, grantha, rejang, lao, javanese, syriac, sinhala, saurashtra, math, yi, mandaic, phags-pa, devanagari, manichaean, buhid, tifinagh, khmer, tai-tham, mongolian, tai-viet, batak, bhaiksuki, modi, kaithi, mende-kikakui, malayalam, canadian-aboriginal, sharada, tamil, mahajani, masaram-gondi, brahmi, music, symbols, tagbanwa, thai, dogra, buginese, kannada, balinese, chakma, gunjala-gondi, soyombo, hanifi-rohingya, lepcha, telugu, nko, bassa-vah, oriya, osage, hebrew, khojki, armenian, thaana, caucasian-albanian, newa, miao, tagalog, tibetan, duployan, new-tai-lue, bengali, meetei-mayek, limbu, syloti-nagri, ahom, khudawadi, wancho, adlam, sundanese, kayah-li, siddham, pahawh-hmong, gujarati, tai-le, tirhuta, cham, old-permic, warang-citi, gurmukhi, psalter-pahlavi</li>
+<li>U+25CC DOTTED CIRCLE: try adding one of: bhaiksuki, soyombo, psalter-pahlavi, javanese, balinese, tai-tham, armenian, hanunoo, oriya, tibetan, elbasan, sundanese, cham, hebrew, hanifi-rohingya, thai, masaram-gondi, coptic, tirhuta, tamil, batak, sinhala, limbu, khojki, tifinagh, new-tai-lue, sharada, tagbanwa, adlam, lao, sogdian, khmer, mahajani, tai-viet, saurashtra, gurmukhi, mende-kikakui, buginese, grantha, old-permic, math, kayah-li, phags-pa, kaithi, brahmi, kharoshthi, osage, newa, syloti-nagri, siddham, telugu, thaana, mandaic, syriac, chakma, canadian-aboriginal, marchen, lepcha, modi, duployan, music, wancho, kannada, pahawh-hmong, gujarati, tagalog, zanabazar-square, bengali, symbols, mongolian, devanagari, malayalam, tai-le, gunjala-gondi, dogra, myanmar, manichaean, caucasian-albanian, khudawadi, buhid, miao, takri, meetei-mayek, ahom, warang-citi, rejang, nko, yi, bassa-vah</li>
 <li>U+FB01 LATIN SMALL LIGATURE FI: not included in any glyphset definition</li>
 <li>U+FB02 LATIN SMALL LIGATURE FL: not included in any glyphset definition</li>
 </ul>
@@ -32287,24 +31453,6 @@ definitions.</p>
 </details>
 
 <details>
-    <summary>⚠️ <b>WARN</b> Are there caret positions declared for every ligature? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.gdef.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>This font lacks caret position values for ligature glyphs on its GDEF table.</p>
- [code: lacks-caret-pos]
-
-
-
-</div>
-</details>
-
-<details>
     <summary>⚠️ <b>WARN</b> Check font follows the Google Fonts vertical metric schema <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.vmetrics.html#"></a></summary>
     <div>
 
@@ -32324,26 +31472,8 @@ definitions.</p>
 </div>
 </details>
 
-<details><summary>[10] EduAUVICWANTCursiveGuides-Regular.ttf</summary>
+<details><summary>[8] EduAUVICWANTCursiveGuides-Regular.ttf</summary>
 <div>
-<details>
-    <summary>🔥 <b>FAIL</b> Space and non-breaking space have the same width? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* 🔥 **FAIL** <p>Space and non-breaking space have differing width: The space glyph named space is 360 font units wide, non-breaking space named (nbspace) is 290 font units wide, and both should be positive and the same. GlyphsApp has &quot;Sidebearing arithmetic&quot; (<a href="https://glyphsapp.com/tutorials/spacing">https://glyphsapp.com/tutorials/spacing</a>) which allows you to set the non-breaking space width to always equal the space width.</p>
- [code: different-widths]
-
-
-
-</div>
-</details>
-
 <details>
     <summary>🔥 <b>FAIL</b> Shapes languages in all GF glyphsets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.glyphset.html#"></a></summary>
     <div>
@@ -32478,17 +31608,17 @@ be served. You can solve this by either manually adding additional
 subset declarations to METADATA.pb, or by editing the glyphset
 definitions.</p>
 <ul>
-<li>U+02C7 CARON: try adding one of: canadian-aboriginal, yi, tifinagh</li>
-<li>U+02D8 BREVE: try adding one of: canadian-aboriginal, yi</li>
-<li>U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi</li>
-<li>U+02DB OGONEK: try adding one of: canadian-aboriginal, yi</li>
+<li>U+02C7 CARON: try adding one of: tifinagh, yi, canadian-aboriginal</li>
+<li>U+02D8 BREVE: try adding one of: yi, canadian-aboriginal</li>
+<li>U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal</li>
+<li>U+02DB OGONEK: try adding one of: yi, canadian-aboriginal</li>
 <li>U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: coptic, math, tifinagh, cherokee</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, coptic, math, tifinagh</li>
 <li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: malayalam, canadian-aboriginal, tai-le, syriac, math, old-permic, coptic, tifinagh</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: tifinagh, malayalam, math, tai-le, syriac, coptic, canadian-aboriginal, old-permic</li>
 <li>U+030A COMBINING RING ABOVE: try adding syriac</li>
-<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
-<li>U+030C COMBINING CARON: try adding one of: tai-le, cherokee</li>
+<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
+<li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
 <li>U+0312 COMBINING TURNED COMMA ABOVE: not included in any glyphset definition</li>
 <li>U+0326 COMBINING COMMA BELOW: not included in any glyphset definition</li>
 <li>U+0327 COMBINING CEDILLA: not included in any glyphset definition</li>
@@ -32504,8 +31634,8 @@ definitions.</p>
 <li>U+2007 FIGURE SPACE: not included in any glyphset definition</li>
 <li>U+2008 PUNCTUATION SPACE: not included in any glyphset definition</li>
 <li>U+200A HAIR SPACE: not included in any glyphset definition</li>
-<li>U+200C ZERO WIDTH NON-JOINER: try adding one of: phags-pa, devanagari, duployan, myanmar, manichaean, hanunoo, tagbanwa, tibetan, thai, dogra, bengali, buhid, meetei-mayek, new-tai-lue, tifinagh, hatran, buginese, kannada, tirhuta, balinese, khmer, limbu, zanabazar-square, chakma, syloti-nagri, mongolian, tai-tham, takri, gunjala-gondi, sogdian, kharoshthi, tai-viet, hanifi-rohingya, khudawadi, sundanese, batak, avestan, bhaiksuki, kayah-li, modi, siddham, lepcha, grantha, thaana, telugu, kaithi, rejang, lao, malayalam, sharada, pahawh-hmong, gujarati, nko, tamil, mahajani, tai-le, masaram-gondi, arabic, javanese, cham, brahmi, oriya, saurashtra, sinhala, syriac, yi, hebrew, khojki, warang-citi, gurmukhi, psalter-pahlavi, newa, mandaic, tagalog</li>
-<li>U+200D ZERO WIDTH JOINER: try adding one of: phags-pa, devanagari, duployan, myanmar, manichaean, hanunoo, tagbanwa, tibetan, thai, dogra, bengali, buhid, meetei-mayek, new-tai-lue, tifinagh, buginese, kannada, tirhuta, balinese, khmer, limbu, zanabazar-square, chakma, syloti-nagri, mongolian, tai-tham, takri, gunjala-gondi, sogdian, kharoshthi, tai-viet, hanifi-rohingya, khudawadi, sundanese, batak, avestan, bhaiksuki, kayah-li, modi, siddham, lepcha, grantha, thaana, old-hungarian, telugu, kaithi, rejang, lao, malayalam, sharada, pahawh-hmong, gujarati, nko, tamil, mahajani, tai-le, masaram-gondi, arabic, javanese, cham, brahmi, oriya, saurashtra, sinhala, syriac, yi, hebrew, khojki, warang-citi, gurmukhi, psalter-pahlavi, newa, mandaic, tagalog</li>
+<li>U+200C ZERO WIDTH NON-JOINER: try adding one of: sundanese, mandaic, bhaiksuki, tirhuta, avestan, syriac, khudawadi, limbu, psalter-pahlavi, buhid, chakma, khojki, javanese, tifinagh, new-tai-lue, lepcha, arabic, takri, sharada, meetei-mayek, tagbanwa, tibetan, lao, modi, balinese, sogdian, newa, syloti-nagri, duployan, tai-tham, khmer, mahajani, hanunoo, oriya, gurmukhi, saurashtra, tai-viet, tamil, kannada, pahawh-hmong, gujarati, tagalog, grantha, buginese, bengali, cham, hatran, hebrew, rejang, sinhala, mongolian, devanagari, hanifi-rohingya, thai, malayalam, kayah-li, phags-pa, tai-le, masaram-gondi, nko, warang-citi, yi, gunjala-gondi, brahmi, dogra, kaithi, kharoshthi, telugu, siddham, manichaean, batak, thaana, zanabazar-square, myanmar</li>
+<li>U+200D ZERO WIDTH JOINER: try adding one of: mandaic, bhaiksuki, tirhuta, avestan, syriac, khudawadi, limbu, psalter-pahlavi, buhid, chakma, khojki, javanese, tifinagh, new-tai-lue, lepcha, arabic, takri, sharada, meetei-mayek, tagbanwa, tibetan, lao, modi, balinese, sogdian, newa, syloti-nagri, duployan, tai-tham, old-hungarian, khmer, mahajani, hanunoo, oriya, gurmukhi, saurashtra, tai-viet, tamil, kannada, pahawh-hmong, gujarati, tagalog, grantha, buginese, bengali, cham, rejang, hebrew, sundanese, sinhala, mongolian, devanagari, hanifi-rohingya, thai, malayalam, kayah-li, phags-pa, tai-le, masaram-gondi, nko, warang-citi, yi, gunjala-gondi, brahmi, dogra, kaithi, kharoshthi, telugu, siddham, manichaean, batak, thaana, zanabazar-square, myanmar</li>
 <li>U+2021 DOUBLE DAGGER: try adding adlam</li>
 <li>U+202F NARROW NO-BREAK SPACE: try adding one of: mongolian, yi</li>
 <li>U+2116 NUMERO SIGN: try adding cyrillic</li>
@@ -32522,7 +31652,7 @@ definitions.</p>
 <li>U+2264 LESS-THAN OR EQUAL TO: try adding math</li>
 <li>U+2265 GREATER-THAN OR EQUAL TO: try adding math</li>
 <li>U+25CA LOZENGE: try adding one of: symbols, math</li>
-<li>U+25CC DOTTED CIRCLE: try adding one of: myanmar, hanunoo, coptic, marchen, zanabazar-square, takri, elbasan, sogdian, kharoshthi, grantha, rejang, lao, javanese, syriac, sinhala, saurashtra, math, yi, mandaic, phags-pa, devanagari, manichaean, buhid, tifinagh, khmer, tai-tham, mongolian, tai-viet, batak, bhaiksuki, modi, kaithi, mende-kikakui, malayalam, canadian-aboriginal, sharada, tamil, mahajani, masaram-gondi, brahmi, music, symbols, tagbanwa, thai, dogra, buginese, kannada, balinese, chakma, gunjala-gondi, soyombo, hanifi-rohingya, lepcha, telugu, nko, bassa-vah, oriya, osage, hebrew, khojki, armenian, thaana, caucasian-albanian, newa, miao, tagalog, tibetan, duployan, new-tai-lue, bengali, meetei-mayek, limbu, syloti-nagri, ahom, khudawadi, wancho, adlam, sundanese, kayah-li, siddham, pahawh-hmong, gujarati, tai-le, tirhuta, cham, old-permic, warang-citi, gurmukhi, psalter-pahlavi</li>
+<li>U+25CC DOTTED CIRCLE: try adding one of: bhaiksuki, soyombo, psalter-pahlavi, javanese, balinese, tai-tham, armenian, hanunoo, oriya, tibetan, elbasan, sundanese, cham, hebrew, hanifi-rohingya, thai, masaram-gondi, coptic, tirhuta, tamil, batak, sinhala, limbu, khojki, tifinagh, new-tai-lue, sharada, tagbanwa, adlam, lao, sogdian, khmer, mahajani, tai-viet, saurashtra, gurmukhi, mende-kikakui, buginese, grantha, old-permic, math, kayah-li, phags-pa, kaithi, brahmi, kharoshthi, osage, newa, syloti-nagri, siddham, telugu, thaana, mandaic, syriac, chakma, canadian-aboriginal, marchen, lepcha, modi, duployan, music, wancho, kannada, pahawh-hmong, gujarati, tagalog, zanabazar-square, bengali, symbols, mongolian, devanagari, malayalam, tai-le, gunjala-gondi, dogra, myanmar, manichaean, caucasian-albanian, khudawadi, buhid, miao, takri, meetei-mayek, ahom, warang-citi, rejang, nko, yi, bassa-vah</li>
 <li>U+FB01 LATIN SMALL LIGATURE FI: not included in any glyphset definition</li>
 <li>U+FB02 LATIN SMALL LIGATURE FL: not included in any glyphset definition</li>
 </ul>
@@ -32575,24 +31705,6 @@ definitions.</p>
 </details>
 
 <details>
-    <summary>⚠️ <b>WARN</b> Are there caret positions declared for every ligature? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.gdef.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>This font lacks caret position values for ligature glyphs on its GDEF table.</p>
- [code: lacks-caret-pos]
-
-
-
-</div>
-</details>
-
-<details>
     <summary>⚠️ <b>WARN</b> Check font follows the Google Fonts vertical metric schema <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.vmetrics.html#"></a></summary>
     <div>
 
@@ -32612,26 +31724,8 @@ definitions.</p>
 </div>
 </details>
 
-<details><summary>[9] EduAUVICWANTPreGuides-Bold.ttf</summary>
+<details><summary>[7] EduAUVICWANTPreGuides-Bold.ttf</summary>
 <div>
-<details>
-    <summary>🔥 <b>FAIL</b> Space and non-breaking space have the same width? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* 🔥 **FAIL** <p>Space and non-breaking space have differing width: The space glyph named space is 360 font units wide, non-breaking space named (nbspace) is 290 font units wide, and both should be positive and the same. GlyphsApp has &quot;Sidebearing arithmetic&quot; (<a href="https://glyphsapp.com/tutorials/spacing">https://glyphsapp.com/tutorials/spacing</a>) which allows you to set the non-breaking space width to always equal the space width.</p>
- [code: different-widths]
-
-
-
-</div>
-</details>
-
 <details>
     <summary>🔥 <b>FAIL</b> Shapes languages in all GF glyphsets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.glyphset.html#"></a></summary>
     <div>
@@ -32766,17 +31860,17 @@ be served. You can solve this by either manually adding additional
 subset declarations to METADATA.pb, or by editing the glyphset
 definitions.</p>
 <ul>
-<li>U+02C7 CARON: try adding one of: canadian-aboriginal, yi, tifinagh</li>
-<li>U+02D8 BREVE: try adding one of: canadian-aboriginal, yi</li>
-<li>U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi</li>
-<li>U+02DB OGONEK: try adding one of: canadian-aboriginal, yi</li>
+<li>U+02C7 CARON: try adding one of: tifinagh, yi, canadian-aboriginal</li>
+<li>U+02D8 BREVE: try adding one of: yi, canadian-aboriginal</li>
+<li>U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal</li>
+<li>U+02DB OGONEK: try adding one of: yi, canadian-aboriginal</li>
 <li>U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: coptic, math, tifinagh, cherokee</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, coptic, math, tifinagh</li>
 <li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: malayalam, canadian-aboriginal, tai-le, syriac, math, old-permic, coptic, tifinagh</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: tifinagh, malayalam, math, tai-le, syriac, coptic, canadian-aboriginal, old-permic</li>
 <li>U+030A COMBINING RING ABOVE: try adding syriac</li>
-<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
-<li>U+030C COMBINING CARON: try adding one of: tai-le, cherokee</li>
+<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
+<li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
 <li>U+0312 COMBINING TURNED COMMA ABOVE: not included in any glyphset definition</li>
 <li>U+0326 COMBINING COMMA BELOW: not included in any glyphset definition</li>
 <li>U+0327 COMBINING CEDILLA: not included in any glyphset definition</li>
@@ -32792,8 +31886,8 @@ definitions.</p>
 <li>U+2007 FIGURE SPACE: not included in any glyphset definition</li>
 <li>U+2008 PUNCTUATION SPACE: not included in any glyphset definition</li>
 <li>U+200A HAIR SPACE: not included in any glyphset definition</li>
-<li>U+200C ZERO WIDTH NON-JOINER: try adding one of: phags-pa, devanagari, duployan, myanmar, manichaean, hanunoo, tagbanwa, tibetan, thai, dogra, bengali, buhid, meetei-mayek, new-tai-lue, tifinagh, hatran, buginese, kannada, tirhuta, balinese, khmer, limbu, zanabazar-square, chakma, syloti-nagri, mongolian, tai-tham, takri, gunjala-gondi, sogdian, kharoshthi, tai-viet, hanifi-rohingya, khudawadi, sundanese, batak, avestan, bhaiksuki, kayah-li, modi, siddham, lepcha, grantha, thaana, telugu, kaithi, rejang, lao, malayalam, sharada, pahawh-hmong, gujarati, nko, tamil, mahajani, tai-le, masaram-gondi, arabic, javanese, cham, brahmi, oriya, saurashtra, sinhala, syriac, yi, hebrew, khojki, warang-citi, gurmukhi, psalter-pahlavi, newa, mandaic, tagalog</li>
-<li>U+200D ZERO WIDTH JOINER: try adding one of: phags-pa, devanagari, duployan, myanmar, manichaean, hanunoo, tagbanwa, tibetan, thai, dogra, bengali, buhid, meetei-mayek, new-tai-lue, tifinagh, buginese, kannada, tirhuta, balinese, khmer, limbu, zanabazar-square, chakma, syloti-nagri, mongolian, tai-tham, takri, gunjala-gondi, sogdian, kharoshthi, tai-viet, hanifi-rohingya, khudawadi, sundanese, batak, avestan, bhaiksuki, kayah-li, modi, siddham, lepcha, grantha, thaana, old-hungarian, telugu, kaithi, rejang, lao, malayalam, sharada, pahawh-hmong, gujarati, nko, tamil, mahajani, tai-le, masaram-gondi, arabic, javanese, cham, brahmi, oriya, saurashtra, sinhala, syriac, yi, hebrew, khojki, warang-citi, gurmukhi, psalter-pahlavi, newa, mandaic, tagalog</li>
+<li>U+200C ZERO WIDTH NON-JOINER: try adding one of: sundanese, mandaic, bhaiksuki, tirhuta, avestan, syriac, khudawadi, limbu, psalter-pahlavi, buhid, chakma, khojki, javanese, tifinagh, new-tai-lue, lepcha, arabic, takri, sharada, meetei-mayek, tagbanwa, tibetan, lao, modi, balinese, sogdian, newa, syloti-nagri, duployan, tai-tham, khmer, mahajani, hanunoo, oriya, gurmukhi, saurashtra, tai-viet, tamil, kannada, pahawh-hmong, gujarati, tagalog, grantha, buginese, bengali, cham, hatran, hebrew, rejang, sinhala, mongolian, devanagari, hanifi-rohingya, thai, malayalam, kayah-li, phags-pa, tai-le, masaram-gondi, nko, warang-citi, yi, gunjala-gondi, brahmi, dogra, kaithi, kharoshthi, telugu, siddham, manichaean, batak, thaana, zanabazar-square, myanmar</li>
+<li>U+200D ZERO WIDTH JOINER: try adding one of: mandaic, bhaiksuki, tirhuta, avestan, syriac, khudawadi, limbu, psalter-pahlavi, buhid, chakma, khojki, javanese, tifinagh, new-tai-lue, lepcha, arabic, takri, sharada, meetei-mayek, tagbanwa, tibetan, lao, modi, balinese, sogdian, newa, syloti-nagri, duployan, tai-tham, old-hungarian, khmer, mahajani, hanunoo, oriya, gurmukhi, saurashtra, tai-viet, tamil, kannada, pahawh-hmong, gujarati, tagalog, grantha, buginese, bengali, cham, rejang, hebrew, sundanese, sinhala, mongolian, devanagari, hanifi-rohingya, thai, malayalam, kayah-li, phags-pa, tai-le, masaram-gondi, nko, warang-citi, yi, gunjala-gondi, brahmi, dogra, kaithi, kharoshthi, telugu, siddham, manichaean, batak, thaana, zanabazar-square, myanmar</li>
 <li>U+2021 DOUBLE DAGGER: try adding adlam</li>
 <li>U+202F NARROW NO-BREAK SPACE: try adding one of: mongolian, yi</li>
 <li>U+2116 NUMERO SIGN: try adding cyrillic</li>
@@ -32810,7 +31904,7 @@ definitions.</p>
 <li>U+2264 LESS-THAN OR EQUAL TO: try adding math</li>
 <li>U+2265 GREATER-THAN OR EQUAL TO: try adding math</li>
 <li>U+25CA LOZENGE: try adding one of: symbols, math</li>
-<li>U+25CC DOTTED CIRCLE: try adding one of: myanmar, hanunoo, coptic, marchen, zanabazar-square, takri, elbasan, sogdian, kharoshthi, grantha, rejang, lao, javanese, syriac, sinhala, saurashtra, math, yi, mandaic, phags-pa, devanagari, manichaean, buhid, tifinagh, khmer, tai-tham, mongolian, tai-viet, batak, bhaiksuki, modi, kaithi, mende-kikakui, malayalam, canadian-aboriginal, sharada, tamil, mahajani, masaram-gondi, brahmi, music, symbols, tagbanwa, thai, dogra, buginese, kannada, balinese, chakma, gunjala-gondi, soyombo, hanifi-rohingya, lepcha, telugu, nko, bassa-vah, oriya, osage, hebrew, khojki, armenian, thaana, caucasian-albanian, newa, miao, tagalog, tibetan, duployan, new-tai-lue, bengali, meetei-mayek, limbu, syloti-nagri, ahom, khudawadi, wancho, adlam, sundanese, kayah-li, siddham, pahawh-hmong, gujarati, tai-le, tirhuta, cham, old-permic, warang-citi, gurmukhi, psalter-pahlavi</li>
+<li>U+25CC DOTTED CIRCLE: try adding one of: bhaiksuki, soyombo, psalter-pahlavi, javanese, balinese, tai-tham, armenian, hanunoo, oriya, tibetan, elbasan, sundanese, cham, hebrew, hanifi-rohingya, thai, masaram-gondi, coptic, tirhuta, tamil, batak, sinhala, limbu, khojki, tifinagh, new-tai-lue, sharada, tagbanwa, adlam, lao, sogdian, khmer, mahajani, tai-viet, saurashtra, gurmukhi, mende-kikakui, buginese, grantha, old-permic, math, kayah-li, phags-pa, kaithi, brahmi, kharoshthi, osage, newa, syloti-nagri, siddham, telugu, thaana, mandaic, syriac, chakma, canadian-aboriginal, marchen, lepcha, modi, duployan, music, wancho, kannada, pahawh-hmong, gujarati, tagalog, zanabazar-square, bengali, symbols, mongolian, devanagari, malayalam, tai-le, gunjala-gondi, dogra, myanmar, manichaean, caucasian-albanian, khudawadi, buhid, miao, takri, meetei-mayek, ahom, warang-citi, rejang, nko, yi, bassa-vah</li>
 <li>U+FB01 LATIN SMALL LIGATURE FI: not included in any glyphset definition</li>
 <li>U+FB02 LATIN SMALL LIGATURE FL: not included in any glyphset definition</li>
 </ul>
@@ -32845,24 +31939,6 @@ definitions.</p>
 </details>
 
 <details>
-    <summary>⚠️ <b>WARN</b> Are there caret positions declared for every ligature? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.gdef.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>This font lacks caret position values for ligature glyphs on its GDEF table.</p>
- [code: lacks-caret-pos]
-
-
-
-</div>
-</details>
-
-<details>
     <summary>⚠️ <b>WARN</b> Check font follows the Google Fonts vertical metric schema <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.vmetrics.html#"></a></summary>
     <div>
 
@@ -32882,26 +31958,8 @@ definitions.</p>
 </div>
 </details>
 
-<details><summary>[8] EduAUVICWANTGuides-Bold.ttf</summary>
+<details><summary>[6] EduAUVICWANTGuides-Bold.ttf</summary>
 <div>
-<details>
-    <summary>🔥 <b>FAIL</b> Space and non-breaking space have the same width? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* 🔥 **FAIL** <p>Space and non-breaking space have differing width: The space glyph named space is 360 font units wide, non-breaking space named (nbspace) is 290 font units wide, and both should be positive and the same. GlyphsApp has &quot;Sidebearing arithmetic&quot; (<a href="https://glyphsapp.com/tutorials/spacing">https://glyphsapp.com/tutorials/spacing</a>) which allows you to set the non-breaking space width to always equal the space width.</p>
- [code: different-widths]
-
-
-
-</div>
-</details>
-
 <details>
     <summary>⚠️ <b>WARN</b> Check accent of Lcaron, dcaron, lcaron, tcaron <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#"></a></summary>
     <div>
@@ -33004,17 +32062,17 @@ be served. You can solve this by either manually adding additional
 subset declarations to METADATA.pb, or by editing the glyphset
 definitions.</p>
 <ul>
-<li>U+02C7 CARON: try adding one of: canadian-aboriginal, yi, tifinagh</li>
-<li>U+02D8 BREVE: try adding one of: canadian-aboriginal, yi</li>
-<li>U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi</li>
-<li>U+02DB OGONEK: try adding one of: canadian-aboriginal, yi</li>
+<li>U+02C7 CARON: try adding one of: tifinagh, yi, canadian-aboriginal</li>
+<li>U+02D8 BREVE: try adding one of: yi, canadian-aboriginal</li>
+<li>U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal</li>
+<li>U+02DB OGONEK: try adding one of: yi, canadian-aboriginal</li>
 <li>U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: coptic, math, tifinagh, cherokee</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, coptic, math, tifinagh</li>
 <li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: malayalam, canadian-aboriginal, tai-le, syriac, math, old-permic, coptic, tifinagh</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: tifinagh, malayalam, math, tai-le, syriac, coptic, canadian-aboriginal, old-permic</li>
 <li>U+030A COMBINING RING ABOVE: try adding syriac</li>
-<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
-<li>U+030C COMBINING CARON: try adding one of: tai-le, cherokee</li>
+<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
+<li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
 <li>U+0312 COMBINING TURNED COMMA ABOVE: not included in any glyphset definition</li>
 <li>U+0326 COMBINING COMMA BELOW: not included in any glyphset definition</li>
 <li>U+0327 COMBINING CEDILLA: not included in any glyphset definition</li>
@@ -33030,8 +32088,8 @@ definitions.</p>
 <li>U+2007 FIGURE SPACE: not included in any glyphset definition</li>
 <li>U+2008 PUNCTUATION SPACE: not included in any glyphset definition</li>
 <li>U+200A HAIR SPACE: not included in any glyphset definition</li>
-<li>U+200C ZERO WIDTH NON-JOINER: try adding one of: phags-pa, devanagari, duployan, myanmar, manichaean, hanunoo, tagbanwa, tibetan, thai, dogra, bengali, buhid, meetei-mayek, new-tai-lue, tifinagh, hatran, buginese, kannada, tirhuta, balinese, khmer, limbu, zanabazar-square, chakma, syloti-nagri, mongolian, tai-tham, takri, gunjala-gondi, sogdian, kharoshthi, tai-viet, hanifi-rohingya, khudawadi, sundanese, batak, avestan, bhaiksuki, kayah-li, modi, siddham, lepcha, grantha, thaana, telugu, kaithi, rejang, lao, malayalam, sharada, pahawh-hmong, gujarati, nko, tamil, mahajani, tai-le, masaram-gondi, arabic, javanese, cham, brahmi, oriya, saurashtra, sinhala, syriac, yi, hebrew, khojki, warang-citi, gurmukhi, psalter-pahlavi, newa, mandaic, tagalog</li>
-<li>U+200D ZERO WIDTH JOINER: try adding one of: phags-pa, devanagari, duployan, myanmar, manichaean, hanunoo, tagbanwa, tibetan, thai, dogra, bengali, buhid, meetei-mayek, new-tai-lue, tifinagh, buginese, kannada, tirhuta, balinese, khmer, limbu, zanabazar-square, chakma, syloti-nagri, mongolian, tai-tham, takri, gunjala-gondi, sogdian, kharoshthi, tai-viet, hanifi-rohingya, khudawadi, sundanese, batak, avestan, bhaiksuki, kayah-li, modi, siddham, lepcha, grantha, thaana, old-hungarian, telugu, kaithi, rejang, lao, malayalam, sharada, pahawh-hmong, gujarati, nko, tamil, mahajani, tai-le, masaram-gondi, arabic, javanese, cham, brahmi, oriya, saurashtra, sinhala, syriac, yi, hebrew, khojki, warang-citi, gurmukhi, psalter-pahlavi, newa, mandaic, tagalog</li>
+<li>U+200C ZERO WIDTH NON-JOINER: try adding one of: sundanese, mandaic, bhaiksuki, tirhuta, avestan, syriac, khudawadi, limbu, psalter-pahlavi, buhid, chakma, khojki, javanese, tifinagh, new-tai-lue, lepcha, arabic, takri, sharada, meetei-mayek, tagbanwa, tibetan, lao, modi, balinese, sogdian, newa, syloti-nagri, duployan, tai-tham, khmer, mahajani, hanunoo, oriya, gurmukhi, saurashtra, tai-viet, tamil, kannada, pahawh-hmong, gujarati, tagalog, grantha, buginese, bengali, cham, hatran, hebrew, rejang, sinhala, mongolian, devanagari, hanifi-rohingya, thai, malayalam, kayah-li, phags-pa, tai-le, masaram-gondi, nko, warang-citi, yi, gunjala-gondi, brahmi, dogra, kaithi, kharoshthi, telugu, siddham, manichaean, batak, thaana, zanabazar-square, myanmar</li>
+<li>U+200D ZERO WIDTH JOINER: try adding one of: mandaic, bhaiksuki, tirhuta, avestan, syriac, khudawadi, limbu, psalter-pahlavi, buhid, chakma, khojki, javanese, tifinagh, new-tai-lue, lepcha, arabic, takri, sharada, meetei-mayek, tagbanwa, tibetan, lao, modi, balinese, sogdian, newa, syloti-nagri, duployan, tai-tham, old-hungarian, khmer, mahajani, hanunoo, oriya, gurmukhi, saurashtra, tai-viet, tamil, kannada, pahawh-hmong, gujarati, tagalog, grantha, buginese, bengali, cham, rejang, hebrew, sundanese, sinhala, mongolian, devanagari, hanifi-rohingya, thai, malayalam, kayah-li, phags-pa, tai-le, masaram-gondi, nko, warang-citi, yi, gunjala-gondi, brahmi, dogra, kaithi, kharoshthi, telugu, siddham, manichaean, batak, thaana, zanabazar-square, myanmar</li>
 <li>U+2021 DOUBLE DAGGER: try adding adlam</li>
 <li>U+202F NARROW NO-BREAK SPACE: try adding one of: mongolian, yi</li>
 <li>U+2116 NUMERO SIGN: try adding cyrillic</li>
@@ -33048,7 +32106,7 @@ definitions.</p>
 <li>U+2264 LESS-THAN OR EQUAL TO: try adding math</li>
 <li>U+2265 GREATER-THAN OR EQUAL TO: try adding math</li>
 <li>U+25CA LOZENGE: try adding one of: symbols, math</li>
-<li>U+25CC DOTTED CIRCLE: try adding one of: myanmar, hanunoo, coptic, marchen, zanabazar-square, takri, elbasan, sogdian, kharoshthi, grantha, rejang, lao, javanese, syriac, sinhala, saurashtra, math, yi, mandaic, phags-pa, devanagari, manichaean, buhid, tifinagh, khmer, tai-tham, mongolian, tai-viet, batak, bhaiksuki, modi, kaithi, mende-kikakui, malayalam, canadian-aboriginal, sharada, tamil, mahajani, masaram-gondi, brahmi, music, symbols, tagbanwa, thai, dogra, buginese, kannada, balinese, chakma, gunjala-gondi, soyombo, hanifi-rohingya, lepcha, telugu, nko, bassa-vah, oriya, osage, hebrew, khojki, armenian, thaana, caucasian-albanian, newa, miao, tagalog, tibetan, duployan, new-tai-lue, bengali, meetei-mayek, limbu, syloti-nagri, ahom, khudawadi, wancho, adlam, sundanese, kayah-li, siddham, pahawh-hmong, gujarati, tai-le, tirhuta, cham, old-permic, warang-citi, gurmukhi, psalter-pahlavi</li>
+<li>U+25CC DOTTED CIRCLE: try adding one of: bhaiksuki, soyombo, psalter-pahlavi, javanese, balinese, tai-tham, armenian, hanunoo, oriya, tibetan, elbasan, sundanese, cham, hebrew, hanifi-rohingya, thai, masaram-gondi, coptic, tirhuta, tamil, batak, sinhala, limbu, khojki, tifinagh, new-tai-lue, sharada, tagbanwa, adlam, lao, sogdian, khmer, mahajani, tai-viet, saurashtra, gurmukhi, mende-kikakui, buginese, grantha, old-permic, math, kayah-li, phags-pa, kaithi, brahmi, kharoshthi, osage, newa, syloti-nagri, siddham, telugu, thaana, mandaic, syriac, chakma, canadian-aboriginal, marchen, lepcha, modi, duployan, music, wancho, kannada, pahawh-hmong, gujarati, tagalog, zanabazar-square, bengali, symbols, mongolian, devanagari, malayalam, tai-le, gunjala-gondi, dogra, myanmar, manichaean, caucasian-albanian, khudawadi, buhid, miao, takri, meetei-mayek, ahom, warang-citi, rejang, nko, yi, bassa-vah</li>
 <li>U+FB01 LATIN SMALL LIGATURE FI: not included in any glyphset definition</li>
 <li>U+FB02 LATIN SMALL LIGATURE FL: not included in any glyphset definition</li>
 </ul>
@@ -33083,24 +32141,6 @@ definitions.</p>
 </details>
 
 <details>
-    <summary>⚠️ <b>WARN</b> Are there caret positions declared for every ligature? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.gdef.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>This font lacks caret position values for ligature glyphs on its GDEF table.</p>
- [code: lacks-caret-pos]
-
-
-
-</div>
-</details>
-
-<details>
     <summary>⚠️ <b>WARN</b> Check font follows the Google Fonts vertical metric schema <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.vmetrics.html#"></a></summary>
     <div>
 
@@ -33120,26 +32160,8 @@ definitions.</p>
 </div>
 </details>
 
-<details><summary>[10] EduAUVICWANTCursiveGuides-SemiBold.ttf</summary>
+<details><summary>[8] EduAUVICWANTCursiveGuides-SemiBold.ttf</summary>
 <div>
-<details>
-    <summary>🔥 <b>FAIL</b> Space and non-breaking space have the same width? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* 🔥 **FAIL** <p>Space and non-breaking space have differing width: The space glyph named space is 360 font units wide, non-breaking space named (nbspace) is 290 font units wide, and both should be positive and the same. GlyphsApp has &quot;Sidebearing arithmetic&quot; (<a href="https://glyphsapp.com/tutorials/spacing">https://glyphsapp.com/tutorials/spacing</a>) which allows you to set the non-breaking space width to always equal the space width.</p>
- [code: different-widths]
-
-
-
-</div>
-</details>
-
 <details>
     <summary>🔥 <b>FAIL</b> Shapes languages in all GF glyphsets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.glyphset.html#"></a></summary>
     <div>
@@ -33299,17 +32321,17 @@ be served. You can solve this by either manually adding additional
 subset declarations to METADATA.pb, or by editing the glyphset
 definitions.</p>
 <ul>
-<li>U+02C7 CARON: try adding one of: canadian-aboriginal, yi, tifinagh</li>
-<li>U+02D8 BREVE: try adding one of: canadian-aboriginal, yi</li>
-<li>U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi</li>
-<li>U+02DB OGONEK: try adding one of: canadian-aboriginal, yi</li>
+<li>U+02C7 CARON: try adding one of: tifinagh, yi, canadian-aboriginal</li>
+<li>U+02D8 BREVE: try adding one of: yi, canadian-aboriginal</li>
+<li>U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal</li>
+<li>U+02DB OGONEK: try adding one of: yi, canadian-aboriginal</li>
 <li>U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: coptic, math, tifinagh, cherokee</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, coptic, math, tifinagh</li>
 <li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: malayalam, canadian-aboriginal, tai-le, syriac, math, old-permic, coptic, tifinagh</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: tifinagh, malayalam, math, tai-le, syriac, coptic, canadian-aboriginal, old-permic</li>
 <li>U+030A COMBINING RING ABOVE: try adding syriac</li>
-<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
-<li>U+030C COMBINING CARON: try adding one of: tai-le, cherokee</li>
+<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
+<li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
 <li>U+0312 COMBINING TURNED COMMA ABOVE: not included in any glyphset definition</li>
 <li>U+0326 COMBINING COMMA BELOW: not included in any glyphset definition</li>
 <li>U+0327 COMBINING CEDILLA: not included in any glyphset definition</li>
@@ -33325,8 +32347,8 @@ definitions.</p>
 <li>U+2007 FIGURE SPACE: not included in any glyphset definition</li>
 <li>U+2008 PUNCTUATION SPACE: not included in any glyphset definition</li>
 <li>U+200A HAIR SPACE: not included in any glyphset definition</li>
-<li>U+200C ZERO WIDTH NON-JOINER: try adding one of: phags-pa, devanagari, duployan, myanmar, manichaean, hanunoo, tagbanwa, tibetan, thai, dogra, bengali, buhid, meetei-mayek, new-tai-lue, tifinagh, hatran, buginese, kannada, tirhuta, balinese, khmer, limbu, zanabazar-square, chakma, syloti-nagri, mongolian, tai-tham, takri, gunjala-gondi, sogdian, kharoshthi, tai-viet, hanifi-rohingya, khudawadi, sundanese, batak, avestan, bhaiksuki, kayah-li, modi, siddham, lepcha, grantha, thaana, telugu, kaithi, rejang, lao, malayalam, sharada, pahawh-hmong, gujarati, nko, tamil, mahajani, tai-le, masaram-gondi, arabic, javanese, cham, brahmi, oriya, saurashtra, sinhala, syriac, yi, hebrew, khojki, warang-citi, gurmukhi, psalter-pahlavi, newa, mandaic, tagalog</li>
-<li>U+200D ZERO WIDTH JOINER: try adding one of: phags-pa, devanagari, duployan, myanmar, manichaean, hanunoo, tagbanwa, tibetan, thai, dogra, bengali, buhid, meetei-mayek, new-tai-lue, tifinagh, buginese, kannada, tirhuta, balinese, khmer, limbu, zanabazar-square, chakma, syloti-nagri, mongolian, tai-tham, takri, gunjala-gondi, sogdian, kharoshthi, tai-viet, hanifi-rohingya, khudawadi, sundanese, batak, avestan, bhaiksuki, kayah-li, modi, siddham, lepcha, grantha, thaana, old-hungarian, telugu, kaithi, rejang, lao, malayalam, sharada, pahawh-hmong, gujarati, nko, tamil, mahajani, tai-le, masaram-gondi, arabic, javanese, cham, brahmi, oriya, saurashtra, sinhala, syriac, yi, hebrew, khojki, warang-citi, gurmukhi, psalter-pahlavi, newa, mandaic, tagalog</li>
+<li>U+200C ZERO WIDTH NON-JOINER: try adding one of: sundanese, mandaic, bhaiksuki, tirhuta, avestan, syriac, khudawadi, limbu, psalter-pahlavi, buhid, chakma, khojki, javanese, tifinagh, new-tai-lue, lepcha, arabic, takri, sharada, meetei-mayek, tagbanwa, tibetan, lao, modi, balinese, sogdian, newa, syloti-nagri, duployan, tai-tham, khmer, mahajani, hanunoo, oriya, gurmukhi, saurashtra, tai-viet, tamil, kannada, pahawh-hmong, gujarati, tagalog, grantha, buginese, bengali, cham, hatran, hebrew, rejang, sinhala, mongolian, devanagari, hanifi-rohingya, thai, malayalam, kayah-li, phags-pa, tai-le, masaram-gondi, nko, warang-citi, yi, gunjala-gondi, brahmi, dogra, kaithi, kharoshthi, telugu, siddham, manichaean, batak, thaana, zanabazar-square, myanmar</li>
+<li>U+200D ZERO WIDTH JOINER: try adding one of: mandaic, bhaiksuki, tirhuta, avestan, syriac, khudawadi, limbu, psalter-pahlavi, buhid, chakma, khojki, javanese, tifinagh, new-tai-lue, lepcha, arabic, takri, sharada, meetei-mayek, tagbanwa, tibetan, lao, modi, balinese, sogdian, newa, syloti-nagri, duployan, tai-tham, old-hungarian, khmer, mahajani, hanunoo, oriya, gurmukhi, saurashtra, tai-viet, tamil, kannada, pahawh-hmong, gujarati, tagalog, grantha, buginese, bengali, cham, rejang, hebrew, sundanese, sinhala, mongolian, devanagari, hanifi-rohingya, thai, malayalam, kayah-li, phags-pa, tai-le, masaram-gondi, nko, warang-citi, yi, gunjala-gondi, brahmi, dogra, kaithi, kharoshthi, telugu, siddham, manichaean, batak, thaana, zanabazar-square, myanmar</li>
 <li>U+2021 DOUBLE DAGGER: try adding adlam</li>
 <li>U+202F NARROW NO-BREAK SPACE: try adding one of: mongolian, yi</li>
 <li>U+2116 NUMERO SIGN: try adding cyrillic</li>
@@ -33343,7 +32365,7 @@ definitions.</p>
 <li>U+2264 LESS-THAN OR EQUAL TO: try adding math</li>
 <li>U+2265 GREATER-THAN OR EQUAL TO: try adding math</li>
 <li>U+25CA LOZENGE: try adding one of: symbols, math</li>
-<li>U+25CC DOTTED CIRCLE: try adding one of: myanmar, hanunoo, coptic, marchen, zanabazar-square, takri, elbasan, sogdian, kharoshthi, grantha, rejang, lao, javanese, syriac, sinhala, saurashtra, math, yi, mandaic, phags-pa, devanagari, manichaean, buhid, tifinagh, khmer, tai-tham, mongolian, tai-viet, batak, bhaiksuki, modi, kaithi, mende-kikakui, malayalam, canadian-aboriginal, sharada, tamil, mahajani, masaram-gondi, brahmi, music, symbols, tagbanwa, thai, dogra, buginese, kannada, balinese, chakma, gunjala-gondi, soyombo, hanifi-rohingya, lepcha, telugu, nko, bassa-vah, oriya, osage, hebrew, khojki, armenian, thaana, caucasian-albanian, newa, miao, tagalog, tibetan, duployan, new-tai-lue, bengali, meetei-mayek, limbu, syloti-nagri, ahom, khudawadi, wancho, adlam, sundanese, kayah-li, siddham, pahawh-hmong, gujarati, tai-le, tirhuta, cham, old-permic, warang-citi, gurmukhi, psalter-pahlavi</li>
+<li>U+25CC DOTTED CIRCLE: try adding one of: bhaiksuki, soyombo, psalter-pahlavi, javanese, balinese, tai-tham, armenian, hanunoo, oriya, tibetan, elbasan, sundanese, cham, hebrew, hanifi-rohingya, thai, masaram-gondi, coptic, tirhuta, tamil, batak, sinhala, limbu, khojki, tifinagh, new-tai-lue, sharada, tagbanwa, adlam, lao, sogdian, khmer, mahajani, tai-viet, saurashtra, gurmukhi, mende-kikakui, buginese, grantha, old-permic, math, kayah-li, phags-pa, kaithi, brahmi, kharoshthi, osage, newa, syloti-nagri, siddham, telugu, thaana, mandaic, syriac, chakma, canadian-aboriginal, marchen, lepcha, modi, duployan, music, wancho, kannada, pahawh-hmong, gujarati, tagalog, zanabazar-square, bengali, symbols, mongolian, devanagari, malayalam, tai-le, gunjala-gondi, dogra, myanmar, manichaean, caucasian-albanian, khudawadi, buhid, miao, takri, meetei-mayek, ahom, warang-citi, rejang, nko, yi, bassa-vah</li>
 <li>U+FB01 LATIN SMALL LIGATURE FI: not included in any glyphset definition</li>
 <li>U+FB02 LATIN SMALL LIGATURE FL: not included in any glyphset definition</li>
 </ul>
@@ -33378,24 +32400,6 @@ definitions.</p>
 </details>
 
 <details>
-    <summary>⚠️ <b>WARN</b> Are there caret positions declared for every ligature? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.gdef.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>This font lacks caret position values for ligature glyphs on its GDEF table.</p>
- [code: lacks-caret-pos]
-
-
-
-</div>
-</details>
-
-<details>
     <summary>⚠️ <b>WARN</b> Check font follows the Google Fonts vertical metric schema <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.vmetrics.html#"></a></summary>
     <div>
 
@@ -33415,26 +32419,8 @@ definitions.</p>
 </div>
 </details>
 
-<details><summary>[8] EduAUVICWANTGuides-Regular.ttf</summary>
+<details><summary>[6] EduAUVICWANTGuides-Regular.ttf</summary>
 <div>
-<details>
-    <summary>🔥 <b>FAIL</b> Space and non-breaking space have the same width? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* 🔥 **FAIL** <p>Space and non-breaking space have differing width: The space glyph named space is 360 font units wide, non-breaking space named (nbspace) is 290 font units wide, and both should be positive and the same. GlyphsApp has &quot;Sidebearing arithmetic&quot; (<a href="https://glyphsapp.com/tutorials/spacing">https://glyphsapp.com/tutorials/spacing</a>) which allows you to set the non-breaking space width to always equal the space width.</p>
- [code: different-widths]
-
-
-
-</div>
-</details>
-
 <details>
     <summary>⚠️ <b>WARN</b> Check accent of Lcaron, dcaron, lcaron, tcaron <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#"></a></summary>
     <div>
@@ -33537,17 +32523,17 @@ be served. You can solve this by either manually adding additional
 subset declarations to METADATA.pb, or by editing the glyphset
 definitions.</p>
 <ul>
-<li>U+02C7 CARON: try adding one of: canadian-aboriginal, yi, tifinagh</li>
-<li>U+02D8 BREVE: try adding one of: canadian-aboriginal, yi</li>
-<li>U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi</li>
-<li>U+02DB OGONEK: try adding one of: canadian-aboriginal, yi</li>
+<li>U+02C7 CARON: try adding one of: tifinagh, yi, canadian-aboriginal</li>
+<li>U+02D8 BREVE: try adding one of: yi, canadian-aboriginal</li>
+<li>U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal</li>
+<li>U+02DB OGONEK: try adding one of: yi, canadian-aboriginal</li>
 <li>U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: coptic, math, tifinagh, cherokee</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, coptic, math, tifinagh</li>
 <li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: malayalam, canadian-aboriginal, tai-le, syriac, math, old-permic, coptic, tifinagh</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: tifinagh, malayalam, math, tai-le, syriac, coptic, canadian-aboriginal, old-permic</li>
 <li>U+030A COMBINING RING ABOVE: try adding syriac</li>
-<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
-<li>U+030C COMBINING CARON: try adding one of: tai-le, cherokee</li>
+<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
+<li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
 <li>U+0312 COMBINING TURNED COMMA ABOVE: not included in any glyphset definition</li>
 <li>U+0326 COMBINING COMMA BELOW: not included in any glyphset definition</li>
 <li>U+0327 COMBINING CEDILLA: not included in any glyphset definition</li>
@@ -33563,8 +32549,8 @@ definitions.</p>
 <li>U+2007 FIGURE SPACE: not included in any glyphset definition</li>
 <li>U+2008 PUNCTUATION SPACE: not included in any glyphset definition</li>
 <li>U+200A HAIR SPACE: not included in any glyphset definition</li>
-<li>U+200C ZERO WIDTH NON-JOINER: try adding one of: phags-pa, devanagari, duployan, myanmar, manichaean, hanunoo, tagbanwa, tibetan, thai, dogra, bengali, buhid, meetei-mayek, new-tai-lue, tifinagh, hatran, buginese, kannada, tirhuta, balinese, khmer, limbu, zanabazar-square, chakma, syloti-nagri, mongolian, tai-tham, takri, gunjala-gondi, sogdian, kharoshthi, tai-viet, hanifi-rohingya, khudawadi, sundanese, batak, avestan, bhaiksuki, kayah-li, modi, siddham, lepcha, grantha, thaana, telugu, kaithi, rejang, lao, malayalam, sharada, pahawh-hmong, gujarati, nko, tamil, mahajani, tai-le, masaram-gondi, arabic, javanese, cham, brahmi, oriya, saurashtra, sinhala, syriac, yi, hebrew, khojki, warang-citi, gurmukhi, psalter-pahlavi, newa, mandaic, tagalog</li>
-<li>U+200D ZERO WIDTH JOINER: try adding one of: phags-pa, devanagari, duployan, myanmar, manichaean, hanunoo, tagbanwa, tibetan, thai, dogra, bengali, buhid, meetei-mayek, new-tai-lue, tifinagh, buginese, kannada, tirhuta, balinese, khmer, limbu, zanabazar-square, chakma, syloti-nagri, mongolian, tai-tham, takri, gunjala-gondi, sogdian, kharoshthi, tai-viet, hanifi-rohingya, khudawadi, sundanese, batak, avestan, bhaiksuki, kayah-li, modi, siddham, lepcha, grantha, thaana, old-hungarian, telugu, kaithi, rejang, lao, malayalam, sharada, pahawh-hmong, gujarati, nko, tamil, mahajani, tai-le, masaram-gondi, arabic, javanese, cham, brahmi, oriya, saurashtra, sinhala, syriac, yi, hebrew, khojki, warang-citi, gurmukhi, psalter-pahlavi, newa, mandaic, tagalog</li>
+<li>U+200C ZERO WIDTH NON-JOINER: try adding one of: sundanese, mandaic, bhaiksuki, tirhuta, avestan, syriac, khudawadi, limbu, psalter-pahlavi, buhid, chakma, khojki, javanese, tifinagh, new-tai-lue, lepcha, arabic, takri, sharada, meetei-mayek, tagbanwa, tibetan, lao, modi, balinese, sogdian, newa, syloti-nagri, duployan, tai-tham, khmer, mahajani, hanunoo, oriya, gurmukhi, saurashtra, tai-viet, tamil, kannada, pahawh-hmong, gujarati, tagalog, grantha, buginese, bengali, cham, hatran, hebrew, rejang, sinhala, mongolian, devanagari, hanifi-rohingya, thai, malayalam, kayah-li, phags-pa, tai-le, masaram-gondi, nko, warang-citi, yi, gunjala-gondi, brahmi, dogra, kaithi, kharoshthi, telugu, siddham, manichaean, batak, thaana, zanabazar-square, myanmar</li>
+<li>U+200D ZERO WIDTH JOINER: try adding one of: mandaic, bhaiksuki, tirhuta, avestan, syriac, khudawadi, limbu, psalter-pahlavi, buhid, chakma, khojki, javanese, tifinagh, new-tai-lue, lepcha, arabic, takri, sharada, meetei-mayek, tagbanwa, tibetan, lao, modi, balinese, sogdian, newa, syloti-nagri, duployan, tai-tham, old-hungarian, khmer, mahajani, hanunoo, oriya, gurmukhi, saurashtra, tai-viet, tamil, kannada, pahawh-hmong, gujarati, tagalog, grantha, buginese, bengali, cham, rejang, hebrew, sundanese, sinhala, mongolian, devanagari, hanifi-rohingya, thai, malayalam, kayah-li, phags-pa, tai-le, masaram-gondi, nko, warang-citi, yi, gunjala-gondi, brahmi, dogra, kaithi, kharoshthi, telugu, siddham, manichaean, batak, thaana, zanabazar-square, myanmar</li>
 <li>U+2021 DOUBLE DAGGER: try adding adlam</li>
 <li>U+202F NARROW NO-BREAK SPACE: try adding one of: mongolian, yi</li>
 <li>U+2116 NUMERO SIGN: try adding cyrillic</li>
@@ -33581,7 +32567,7 @@ definitions.</p>
 <li>U+2264 LESS-THAN OR EQUAL TO: try adding math</li>
 <li>U+2265 GREATER-THAN OR EQUAL TO: try adding math</li>
 <li>U+25CA LOZENGE: try adding one of: symbols, math</li>
-<li>U+25CC DOTTED CIRCLE: try adding one of: myanmar, hanunoo, coptic, marchen, zanabazar-square, takri, elbasan, sogdian, kharoshthi, grantha, rejang, lao, javanese, syriac, sinhala, saurashtra, math, yi, mandaic, phags-pa, devanagari, manichaean, buhid, tifinagh, khmer, tai-tham, mongolian, tai-viet, batak, bhaiksuki, modi, kaithi, mende-kikakui, malayalam, canadian-aboriginal, sharada, tamil, mahajani, masaram-gondi, brahmi, music, symbols, tagbanwa, thai, dogra, buginese, kannada, balinese, chakma, gunjala-gondi, soyombo, hanifi-rohingya, lepcha, telugu, nko, bassa-vah, oriya, osage, hebrew, khojki, armenian, thaana, caucasian-albanian, newa, miao, tagalog, tibetan, duployan, new-tai-lue, bengali, meetei-mayek, limbu, syloti-nagri, ahom, khudawadi, wancho, adlam, sundanese, kayah-li, siddham, pahawh-hmong, gujarati, tai-le, tirhuta, cham, old-permic, warang-citi, gurmukhi, psalter-pahlavi</li>
+<li>U+25CC DOTTED CIRCLE: try adding one of: bhaiksuki, soyombo, psalter-pahlavi, javanese, balinese, tai-tham, armenian, hanunoo, oriya, tibetan, elbasan, sundanese, cham, hebrew, hanifi-rohingya, thai, masaram-gondi, coptic, tirhuta, tamil, batak, sinhala, limbu, khojki, tifinagh, new-tai-lue, sharada, tagbanwa, adlam, lao, sogdian, khmer, mahajani, tai-viet, saurashtra, gurmukhi, mende-kikakui, buginese, grantha, old-permic, math, kayah-li, phags-pa, kaithi, brahmi, kharoshthi, osage, newa, syloti-nagri, siddham, telugu, thaana, mandaic, syriac, chakma, canadian-aboriginal, marchen, lepcha, modi, duployan, music, wancho, kannada, pahawh-hmong, gujarati, tagalog, zanabazar-square, bengali, symbols, mongolian, devanagari, malayalam, tai-le, gunjala-gondi, dogra, myanmar, manichaean, caucasian-albanian, khudawadi, buhid, miao, takri, meetei-mayek, ahom, warang-citi, rejang, nko, yi, bassa-vah</li>
 <li>U+FB01 LATIN SMALL LIGATURE FI: not included in any glyphset definition</li>
 <li>U+FB02 LATIN SMALL LIGATURE FL: not included in any glyphset definition</li>
 </ul>
@@ -33616,24 +32602,6 @@ definitions.</p>
 </details>
 
 <details>
-    <summary>⚠️ <b>WARN</b> Are there caret positions declared for every ligature? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.gdef.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>This font lacks caret position values for ligature glyphs on its GDEF table.</p>
- [code: lacks-caret-pos]
-
-
-
-</div>
-</details>
-
-<details>
     <summary>⚠️ <b>WARN</b> Check font follows the Google Fonts vertical metric schema <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.vmetrics.html#"></a></summary>
     <div>
 
@@ -33653,26 +32621,8 @@ definitions.</p>
 </div>
 </details>
 
-<details><summary>[8] EduAUVICWANTGuides-SemiBold.ttf</summary>
+<details><summary>[6] EduAUVICWANTGuides-SemiBold.ttf</summary>
 <div>
-<details>
-    <summary>🔥 <b>FAIL</b> Space and non-breaking space have the same width? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* 🔥 **FAIL** <p>Space and non-breaking space have differing width: The space glyph named space is 360 font units wide, non-breaking space named (nbspace) is 290 font units wide, and both should be positive and the same. GlyphsApp has &quot;Sidebearing arithmetic&quot; (<a href="https://glyphsapp.com/tutorials/spacing">https://glyphsapp.com/tutorials/spacing</a>) which allows you to set the non-breaking space width to always equal the space width.</p>
- [code: different-widths]
-
-
-
-</div>
-</details>
-
 <details>
     <summary>⚠️ <b>WARN</b> Check accent of Lcaron, dcaron, lcaron, tcaron <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#"></a></summary>
     <div>
@@ -33777,17 +32727,17 @@ be served. You can solve this by either manually adding additional
 subset declarations to METADATA.pb, or by editing the glyphset
 definitions.</p>
 <ul>
-<li>U+02C7 CARON: try adding one of: canadian-aboriginal, yi, tifinagh</li>
-<li>U+02D8 BREVE: try adding one of: canadian-aboriginal, yi</li>
-<li>U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi</li>
-<li>U+02DB OGONEK: try adding one of: canadian-aboriginal, yi</li>
+<li>U+02C7 CARON: try adding one of: tifinagh, yi, canadian-aboriginal</li>
+<li>U+02D8 BREVE: try adding one of: yi, canadian-aboriginal</li>
+<li>U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal</li>
+<li>U+02DB OGONEK: try adding one of: yi, canadian-aboriginal</li>
 <li>U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: coptic, math, tifinagh, cherokee</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, coptic, math, tifinagh</li>
 <li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: malayalam, canadian-aboriginal, tai-le, syriac, math, old-permic, coptic, tifinagh</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: tifinagh, malayalam, math, tai-le, syriac, coptic, canadian-aboriginal, old-permic</li>
 <li>U+030A COMBINING RING ABOVE: try adding syriac</li>
-<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
-<li>U+030C COMBINING CARON: try adding one of: tai-le, cherokee</li>
+<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
+<li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
 <li>U+0312 COMBINING TURNED COMMA ABOVE: not included in any glyphset definition</li>
 <li>U+0326 COMBINING COMMA BELOW: not included in any glyphset definition</li>
 <li>U+0327 COMBINING CEDILLA: not included in any glyphset definition</li>
@@ -33803,8 +32753,8 @@ definitions.</p>
 <li>U+2007 FIGURE SPACE: not included in any glyphset definition</li>
 <li>U+2008 PUNCTUATION SPACE: not included in any glyphset definition</li>
 <li>U+200A HAIR SPACE: not included in any glyphset definition</li>
-<li>U+200C ZERO WIDTH NON-JOINER: try adding one of: phags-pa, devanagari, duployan, myanmar, manichaean, hanunoo, tagbanwa, tibetan, thai, dogra, bengali, buhid, meetei-mayek, new-tai-lue, tifinagh, hatran, buginese, kannada, tirhuta, balinese, khmer, limbu, zanabazar-square, chakma, syloti-nagri, mongolian, tai-tham, takri, gunjala-gondi, sogdian, kharoshthi, tai-viet, hanifi-rohingya, khudawadi, sundanese, batak, avestan, bhaiksuki, kayah-li, modi, siddham, lepcha, grantha, thaana, telugu, kaithi, rejang, lao, malayalam, sharada, pahawh-hmong, gujarati, nko, tamil, mahajani, tai-le, masaram-gondi, arabic, javanese, cham, brahmi, oriya, saurashtra, sinhala, syriac, yi, hebrew, khojki, warang-citi, gurmukhi, psalter-pahlavi, newa, mandaic, tagalog</li>
-<li>U+200D ZERO WIDTH JOINER: try adding one of: phags-pa, devanagari, duployan, myanmar, manichaean, hanunoo, tagbanwa, tibetan, thai, dogra, bengali, buhid, meetei-mayek, new-tai-lue, tifinagh, buginese, kannada, tirhuta, balinese, khmer, limbu, zanabazar-square, chakma, syloti-nagri, mongolian, tai-tham, takri, gunjala-gondi, sogdian, kharoshthi, tai-viet, hanifi-rohingya, khudawadi, sundanese, batak, avestan, bhaiksuki, kayah-li, modi, siddham, lepcha, grantha, thaana, old-hungarian, telugu, kaithi, rejang, lao, malayalam, sharada, pahawh-hmong, gujarati, nko, tamil, mahajani, tai-le, masaram-gondi, arabic, javanese, cham, brahmi, oriya, saurashtra, sinhala, syriac, yi, hebrew, khojki, warang-citi, gurmukhi, psalter-pahlavi, newa, mandaic, tagalog</li>
+<li>U+200C ZERO WIDTH NON-JOINER: try adding one of: sundanese, mandaic, bhaiksuki, tirhuta, avestan, syriac, khudawadi, limbu, psalter-pahlavi, buhid, chakma, khojki, javanese, tifinagh, new-tai-lue, lepcha, arabic, takri, sharada, meetei-mayek, tagbanwa, tibetan, lao, modi, balinese, sogdian, newa, syloti-nagri, duployan, tai-tham, khmer, mahajani, hanunoo, oriya, gurmukhi, saurashtra, tai-viet, tamil, kannada, pahawh-hmong, gujarati, tagalog, grantha, buginese, bengali, cham, hatran, hebrew, rejang, sinhala, mongolian, devanagari, hanifi-rohingya, thai, malayalam, kayah-li, phags-pa, tai-le, masaram-gondi, nko, warang-citi, yi, gunjala-gondi, brahmi, dogra, kaithi, kharoshthi, telugu, siddham, manichaean, batak, thaana, zanabazar-square, myanmar</li>
+<li>U+200D ZERO WIDTH JOINER: try adding one of: mandaic, bhaiksuki, tirhuta, avestan, syriac, khudawadi, limbu, psalter-pahlavi, buhid, chakma, khojki, javanese, tifinagh, new-tai-lue, lepcha, arabic, takri, sharada, meetei-mayek, tagbanwa, tibetan, lao, modi, balinese, sogdian, newa, syloti-nagri, duployan, tai-tham, old-hungarian, khmer, mahajani, hanunoo, oriya, gurmukhi, saurashtra, tai-viet, tamil, kannada, pahawh-hmong, gujarati, tagalog, grantha, buginese, bengali, cham, rejang, hebrew, sundanese, sinhala, mongolian, devanagari, hanifi-rohingya, thai, malayalam, kayah-li, phags-pa, tai-le, masaram-gondi, nko, warang-citi, yi, gunjala-gondi, brahmi, dogra, kaithi, kharoshthi, telugu, siddham, manichaean, batak, thaana, zanabazar-square, myanmar</li>
 <li>U+2021 DOUBLE DAGGER: try adding adlam</li>
 <li>U+202F NARROW NO-BREAK SPACE: try adding one of: mongolian, yi</li>
 <li>U+2116 NUMERO SIGN: try adding cyrillic</li>
@@ -33821,7 +32771,7 @@ definitions.</p>
 <li>U+2264 LESS-THAN OR EQUAL TO: try adding math</li>
 <li>U+2265 GREATER-THAN OR EQUAL TO: try adding math</li>
 <li>U+25CA LOZENGE: try adding one of: symbols, math</li>
-<li>U+25CC DOTTED CIRCLE: try adding one of: myanmar, hanunoo, coptic, marchen, zanabazar-square, takri, elbasan, sogdian, kharoshthi, grantha, rejang, lao, javanese, syriac, sinhala, saurashtra, math, yi, mandaic, phags-pa, devanagari, manichaean, buhid, tifinagh, khmer, tai-tham, mongolian, tai-viet, batak, bhaiksuki, modi, kaithi, mende-kikakui, malayalam, canadian-aboriginal, sharada, tamil, mahajani, masaram-gondi, brahmi, music, symbols, tagbanwa, thai, dogra, buginese, kannada, balinese, chakma, gunjala-gondi, soyombo, hanifi-rohingya, lepcha, telugu, nko, bassa-vah, oriya, osage, hebrew, khojki, armenian, thaana, caucasian-albanian, newa, miao, tagalog, tibetan, duployan, new-tai-lue, bengali, meetei-mayek, limbu, syloti-nagri, ahom, khudawadi, wancho, adlam, sundanese, kayah-li, siddham, pahawh-hmong, gujarati, tai-le, tirhuta, cham, old-permic, warang-citi, gurmukhi, psalter-pahlavi</li>
+<li>U+25CC DOTTED CIRCLE: try adding one of: bhaiksuki, soyombo, psalter-pahlavi, javanese, balinese, tai-tham, armenian, hanunoo, oriya, tibetan, elbasan, sundanese, cham, hebrew, hanifi-rohingya, thai, masaram-gondi, coptic, tirhuta, tamil, batak, sinhala, limbu, khojki, tifinagh, new-tai-lue, sharada, tagbanwa, adlam, lao, sogdian, khmer, mahajani, tai-viet, saurashtra, gurmukhi, mende-kikakui, buginese, grantha, old-permic, math, kayah-li, phags-pa, kaithi, brahmi, kharoshthi, osage, newa, syloti-nagri, siddham, telugu, thaana, mandaic, syriac, chakma, canadian-aboriginal, marchen, lepcha, modi, duployan, music, wancho, kannada, pahawh-hmong, gujarati, tagalog, zanabazar-square, bengali, symbols, mongolian, devanagari, malayalam, tai-le, gunjala-gondi, dogra, myanmar, manichaean, caucasian-albanian, khudawadi, buhid, miao, takri, meetei-mayek, ahom, warang-citi, rejang, nko, yi, bassa-vah</li>
 <li>U+FB01 LATIN SMALL LIGATURE FI: not included in any glyphset definition</li>
 <li>U+FB02 LATIN SMALL LIGATURE FL: not included in any glyphset definition</li>
 </ul>
@@ -33856,24 +32806,6 @@ definitions.</p>
 </details>
 
 <details>
-    <summary>⚠️ <b>WARN</b> Are there caret positions declared for every ligature? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.gdef.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>This font lacks caret position values for ligature glyphs on its GDEF table.</p>
- [code: lacks-caret-pos]
-
-
-
-</div>
-</details>
-
-<details>
     <summary>⚠️ <b>WARN</b> Check font follows the Google Fonts vertical metric schema <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.vmetrics.html#"></a></summary>
     <div>
 
@@ -33893,26 +32825,8 @@ definitions.</p>
 </div>
 </details>
 
-<details><summary>[10] EduAUVICWANTPreGuides-SemiBold.ttf</summary>
+<details><summary>[8] EduAUVICWANTPreGuides-SemiBold.ttf</summary>
 <div>
-<details>
-    <summary>🔥 <b>FAIL</b> Space and non-breaking space have the same width? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* 🔥 **FAIL** <p>Space and non-breaking space have differing width: The space glyph named space is 360 font units wide, non-breaking space named (nbspace) is 290 font units wide, and both should be positive and the same. GlyphsApp has &quot;Sidebearing arithmetic&quot; (<a href="https://glyphsapp.com/tutorials/spacing">https://glyphsapp.com/tutorials/spacing</a>) which allows you to set the non-breaking space width to always equal the space width.</p>
- [code: different-widths]
-
-
-
-</div>
-</details>
-
 <details>
     <summary>🔥 <b>FAIL</b> Shapes languages in all GF glyphsets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.glyphset.html#"></a></summary>
     <div>
@@ -34072,17 +32986,17 @@ be served. You can solve this by either manually adding additional
 subset declarations to METADATA.pb, or by editing the glyphset
 definitions.</p>
 <ul>
-<li>U+02C7 CARON: try adding one of: canadian-aboriginal, yi, tifinagh</li>
-<li>U+02D8 BREVE: try adding one of: canadian-aboriginal, yi</li>
-<li>U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi</li>
-<li>U+02DB OGONEK: try adding one of: canadian-aboriginal, yi</li>
+<li>U+02C7 CARON: try adding one of: tifinagh, yi, canadian-aboriginal</li>
+<li>U+02D8 BREVE: try adding one of: yi, canadian-aboriginal</li>
+<li>U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal</li>
+<li>U+02DB OGONEK: try adding one of: yi, canadian-aboriginal</li>
 <li>U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: coptic, math, tifinagh, cherokee</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, coptic, math, tifinagh</li>
 <li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: malayalam, canadian-aboriginal, tai-le, syriac, math, old-permic, coptic, tifinagh</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: tifinagh, malayalam, math, tai-le, syriac, coptic, canadian-aboriginal, old-permic</li>
 <li>U+030A COMBINING RING ABOVE: try adding syriac</li>
-<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
-<li>U+030C COMBINING CARON: try adding one of: tai-le, cherokee</li>
+<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
+<li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
 <li>U+0312 COMBINING TURNED COMMA ABOVE: not included in any glyphset definition</li>
 <li>U+0326 COMBINING COMMA BELOW: not included in any glyphset definition</li>
 <li>U+0327 COMBINING CEDILLA: not included in any glyphset definition</li>
@@ -34098,8 +33012,8 @@ definitions.</p>
 <li>U+2007 FIGURE SPACE: not included in any glyphset definition</li>
 <li>U+2008 PUNCTUATION SPACE: not included in any glyphset definition</li>
 <li>U+200A HAIR SPACE: not included in any glyphset definition</li>
-<li>U+200C ZERO WIDTH NON-JOINER: try adding one of: phags-pa, devanagari, duployan, myanmar, manichaean, hanunoo, tagbanwa, tibetan, thai, dogra, bengali, buhid, meetei-mayek, new-tai-lue, tifinagh, hatran, buginese, kannada, tirhuta, balinese, khmer, limbu, zanabazar-square, chakma, syloti-nagri, mongolian, tai-tham, takri, gunjala-gondi, sogdian, kharoshthi, tai-viet, hanifi-rohingya, khudawadi, sundanese, batak, avestan, bhaiksuki, kayah-li, modi, siddham, lepcha, grantha, thaana, telugu, kaithi, rejang, lao, malayalam, sharada, pahawh-hmong, gujarati, nko, tamil, mahajani, tai-le, masaram-gondi, arabic, javanese, cham, brahmi, oriya, saurashtra, sinhala, syriac, yi, hebrew, khojki, warang-citi, gurmukhi, psalter-pahlavi, newa, mandaic, tagalog</li>
-<li>U+200D ZERO WIDTH JOINER: try adding one of: phags-pa, devanagari, duployan, myanmar, manichaean, hanunoo, tagbanwa, tibetan, thai, dogra, bengali, buhid, meetei-mayek, new-tai-lue, tifinagh, buginese, kannada, tirhuta, balinese, khmer, limbu, zanabazar-square, chakma, syloti-nagri, mongolian, tai-tham, takri, gunjala-gondi, sogdian, kharoshthi, tai-viet, hanifi-rohingya, khudawadi, sundanese, batak, avestan, bhaiksuki, kayah-li, modi, siddham, lepcha, grantha, thaana, old-hungarian, telugu, kaithi, rejang, lao, malayalam, sharada, pahawh-hmong, gujarati, nko, tamil, mahajani, tai-le, masaram-gondi, arabic, javanese, cham, brahmi, oriya, saurashtra, sinhala, syriac, yi, hebrew, khojki, warang-citi, gurmukhi, psalter-pahlavi, newa, mandaic, tagalog</li>
+<li>U+200C ZERO WIDTH NON-JOINER: try adding one of: sundanese, mandaic, bhaiksuki, tirhuta, avestan, syriac, khudawadi, limbu, psalter-pahlavi, buhid, chakma, khojki, javanese, tifinagh, new-tai-lue, lepcha, arabic, takri, sharada, meetei-mayek, tagbanwa, tibetan, lao, modi, balinese, sogdian, newa, syloti-nagri, duployan, tai-tham, khmer, mahajani, hanunoo, oriya, gurmukhi, saurashtra, tai-viet, tamil, kannada, pahawh-hmong, gujarati, tagalog, grantha, buginese, bengali, cham, hatran, hebrew, rejang, sinhala, mongolian, devanagari, hanifi-rohingya, thai, malayalam, kayah-li, phags-pa, tai-le, masaram-gondi, nko, warang-citi, yi, gunjala-gondi, brahmi, dogra, kaithi, kharoshthi, telugu, siddham, manichaean, batak, thaana, zanabazar-square, myanmar</li>
+<li>U+200D ZERO WIDTH JOINER: try adding one of: mandaic, bhaiksuki, tirhuta, avestan, syriac, khudawadi, limbu, psalter-pahlavi, buhid, chakma, khojki, javanese, tifinagh, new-tai-lue, lepcha, arabic, takri, sharada, meetei-mayek, tagbanwa, tibetan, lao, modi, balinese, sogdian, newa, syloti-nagri, duployan, tai-tham, old-hungarian, khmer, mahajani, hanunoo, oriya, gurmukhi, saurashtra, tai-viet, tamil, kannada, pahawh-hmong, gujarati, tagalog, grantha, buginese, bengali, cham, rejang, hebrew, sundanese, sinhala, mongolian, devanagari, hanifi-rohingya, thai, malayalam, kayah-li, phags-pa, tai-le, masaram-gondi, nko, warang-citi, yi, gunjala-gondi, brahmi, dogra, kaithi, kharoshthi, telugu, siddham, manichaean, batak, thaana, zanabazar-square, myanmar</li>
 <li>U+2021 DOUBLE DAGGER: try adding adlam</li>
 <li>U+202F NARROW NO-BREAK SPACE: try adding one of: mongolian, yi</li>
 <li>U+2116 NUMERO SIGN: try adding cyrillic</li>
@@ -34116,7 +33030,7 @@ definitions.</p>
 <li>U+2264 LESS-THAN OR EQUAL TO: try adding math</li>
 <li>U+2265 GREATER-THAN OR EQUAL TO: try adding math</li>
 <li>U+25CA LOZENGE: try adding one of: symbols, math</li>
-<li>U+25CC DOTTED CIRCLE: try adding one of: myanmar, hanunoo, coptic, marchen, zanabazar-square, takri, elbasan, sogdian, kharoshthi, grantha, rejang, lao, javanese, syriac, sinhala, saurashtra, math, yi, mandaic, phags-pa, devanagari, manichaean, buhid, tifinagh, khmer, tai-tham, mongolian, tai-viet, batak, bhaiksuki, modi, kaithi, mende-kikakui, malayalam, canadian-aboriginal, sharada, tamil, mahajani, masaram-gondi, brahmi, music, symbols, tagbanwa, thai, dogra, buginese, kannada, balinese, chakma, gunjala-gondi, soyombo, hanifi-rohingya, lepcha, telugu, nko, bassa-vah, oriya, osage, hebrew, khojki, armenian, thaana, caucasian-albanian, newa, miao, tagalog, tibetan, duployan, new-tai-lue, bengali, meetei-mayek, limbu, syloti-nagri, ahom, khudawadi, wancho, adlam, sundanese, kayah-li, siddham, pahawh-hmong, gujarati, tai-le, tirhuta, cham, old-permic, warang-citi, gurmukhi, psalter-pahlavi</li>
+<li>U+25CC DOTTED CIRCLE: try adding one of: bhaiksuki, soyombo, psalter-pahlavi, javanese, balinese, tai-tham, armenian, hanunoo, oriya, tibetan, elbasan, sundanese, cham, hebrew, hanifi-rohingya, thai, masaram-gondi, coptic, tirhuta, tamil, batak, sinhala, limbu, khojki, tifinagh, new-tai-lue, sharada, tagbanwa, adlam, lao, sogdian, khmer, mahajani, tai-viet, saurashtra, gurmukhi, mende-kikakui, buginese, grantha, old-permic, math, kayah-li, phags-pa, kaithi, brahmi, kharoshthi, osage, newa, syloti-nagri, siddham, telugu, thaana, mandaic, syriac, chakma, canadian-aboriginal, marchen, lepcha, modi, duployan, music, wancho, kannada, pahawh-hmong, gujarati, tagalog, zanabazar-square, bengali, symbols, mongolian, devanagari, malayalam, tai-le, gunjala-gondi, dogra, myanmar, manichaean, caucasian-albanian, khudawadi, buhid, miao, takri, meetei-mayek, ahom, warang-citi, rejang, nko, yi, bassa-vah</li>
 <li>U+FB01 LATIN SMALL LIGATURE FI: not included in any glyphset definition</li>
 <li>U+FB02 LATIN SMALL LIGATURE FL: not included in any glyphset definition</li>
 </ul>
@@ -34151,24 +33065,6 @@ definitions.</p>
 </details>
 
 <details>
-    <summary>⚠️ <b>WARN</b> Are there caret positions declared for every ligature? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.gdef.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>This font lacks caret position values for ligature glyphs on its GDEF table.</p>
- [code: lacks-caret-pos]
-
-
-
-</div>
-</details>
-
-<details>
     <summary>⚠️ <b>WARN</b> Check font follows the Google Fonts vertical metric schema <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.vmetrics.html#"></a></summary>
     <div>
 
@@ -34188,26 +33084,8 @@ definitions.</p>
 </div>
 </details>
 
-<details><summary>[10] EduAUVICWANTCursiveGuides-Bold.ttf</summary>
+<details><summary>[8] EduAUVICWANTCursiveGuides-Bold.ttf</summary>
 <div>
-<details>
-    <summary>🔥 <b>FAIL</b> Space and non-breaking space have the same width? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* 🔥 **FAIL** <p>Space and non-breaking space have differing width: The space glyph named space is 360 font units wide, non-breaking space named (nbspace) is 290 font units wide, and both should be positive and the same. GlyphsApp has &quot;Sidebearing arithmetic&quot; (<a href="https://glyphsapp.com/tutorials/spacing">https://glyphsapp.com/tutorials/spacing</a>) which allows you to set the non-breaking space width to always equal the space width.</p>
- [code: different-widths]
-
-
-
-</div>
-</details>
-
 <details>
     <summary>🔥 <b>FAIL</b> Shapes languages in all GF glyphsets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.glyphset.html#"></a></summary>
     <div>
@@ -34342,17 +33220,17 @@ be served. You can solve this by either manually adding additional
 subset declarations to METADATA.pb, or by editing the glyphset
 definitions.</p>
 <ul>
-<li>U+02C7 CARON: try adding one of: canadian-aboriginal, yi, tifinagh</li>
-<li>U+02D8 BREVE: try adding one of: canadian-aboriginal, yi</li>
-<li>U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi</li>
-<li>U+02DB OGONEK: try adding one of: canadian-aboriginal, yi</li>
+<li>U+02C7 CARON: try adding one of: tifinagh, yi, canadian-aboriginal</li>
+<li>U+02D8 BREVE: try adding one of: yi, canadian-aboriginal</li>
+<li>U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal</li>
+<li>U+02DB OGONEK: try adding one of: yi, canadian-aboriginal</li>
 <li>U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: coptic, math, tifinagh, cherokee</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, coptic, math, tifinagh</li>
 <li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: malayalam, canadian-aboriginal, tai-le, syriac, math, old-permic, coptic, tifinagh</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: tifinagh, malayalam, math, tai-le, syriac, coptic, canadian-aboriginal, old-permic</li>
 <li>U+030A COMBINING RING ABOVE: try adding syriac</li>
-<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
-<li>U+030C COMBINING CARON: try adding one of: tai-le, cherokee</li>
+<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
+<li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
 <li>U+0312 COMBINING TURNED COMMA ABOVE: not included in any glyphset definition</li>
 <li>U+0326 COMBINING COMMA BELOW: not included in any glyphset definition</li>
 <li>U+0327 COMBINING CEDILLA: not included in any glyphset definition</li>
@@ -34368,8 +33246,8 @@ definitions.</p>
 <li>U+2007 FIGURE SPACE: not included in any glyphset definition</li>
 <li>U+2008 PUNCTUATION SPACE: not included in any glyphset definition</li>
 <li>U+200A HAIR SPACE: not included in any glyphset definition</li>
-<li>U+200C ZERO WIDTH NON-JOINER: try adding one of: phags-pa, devanagari, duployan, myanmar, manichaean, hanunoo, tagbanwa, tibetan, thai, dogra, bengali, buhid, meetei-mayek, new-tai-lue, tifinagh, hatran, buginese, kannada, tirhuta, balinese, khmer, limbu, zanabazar-square, chakma, syloti-nagri, mongolian, tai-tham, takri, gunjala-gondi, sogdian, kharoshthi, tai-viet, hanifi-rohingya, khudawadi, sundanese, batak, avestan, bhaiksuki, kayah-li, modi, siddham, lepcha, grantha, thaana, telugu, kaithi, rejang, lao, malayalam, sharada, pahawh-hmong, gujarati, nko, tamil, mahajani, tai-le, masaram-gondi, arabic, javanese, cham, brahmi, oriya, saurashtra, sinhala, syriac, yi, hebrew, khojki, warang-citi, gurmukhi, psalter-pahlavi, newa, mandaic, tagalog</li>
-<li>U+200D ZERO WIDTH JOINER: try adding one of: phags-pa, devanagari, duployan, myanmar, manichaean, hanunoo, tagbanwa, tibetan, thai, dogra, bengali, buhid, meetei-mayek, new-tai-lue, tifinagh, buginese, kannada, tirhuta, balinese, khmer, limbu, zanabazar-square, chakma, syloti-nagri, mongolian, tai-tham, takri, gunjala-gondi, sogdian, kharoshthi, tai-viet, hanifi-rohingya, khudawadi, sundanese, batak, avestan, bhaiksuki, kayah-li, modi, siddham, lepcha, grantha, thaana, old-hungarian, telugu, kaithi, rejang, lao, malayalam, sharada, pahawh-hmong, gujarati, nko, tamil, mahajani, tai-le, masaram-gondi, arabic, javanese, cham, brahmi, oriya, saurashtra, sinhala, syriac, yi, hebrew, khojki, warang-citi, gurmukhi, psalter-pahlavi, newa, mandaic, tagalog</li>
+<li>U+200C ZERO WIDTH NON-JOINER: try adding one of: sundanese, mandaic, bhaiksuki, tirhuta, avestan, syriac, khudawadi, limbu, psalter-pahlavi, buhid, chakma, khojki, javanese, tifinagh, new-tai-lue, lepcha, arabic, takri, sharada, meetei-mayek, tagbanwa, tibetan, lao, modi, balinese, sogdian, newa, syloti-nagri, duployan, tai-tham, khmer, mahajani, hanunoo, oriya, gurmukhi, saurashtra, tai-viet, tamil, kannada, pahawh-hmong, gujarati, tagalog, grantha, buginese, bengali, cham, hatran, hebrew, rejang, sinhala, mongolian, devanagari, hanifi-rohingya, thai, malayalam, kayah-li, phags-pa, tai-le, masaram-gondi, nko, warang-citi, yi, gunjala-gondi, brahmi, dogra, kaithi, kharoshthi, telugu, siddham, manichaean, batak, thaana, zanabazar-square, myanmar</li>
+<li>U+200D ZERO WIDTH JOINER: try adding one of: mandaic, bhaiksuki, tirhuta, avestan, syriac, khudawadi, limbu, psalter-pahlavi, buhid, chakma, khojki, javanese, tifinagh, new-tai-lue, lepcha, arabic, takri, sharada, meetei-mayek, tagbanwa, tibetan, lao, modi, balinese, sogdian, newa, syloti-nagri, duployan, tai-tham, old-hungarian, khmer, mahajani, hanunoo, oriya, gurmukhi, saurashtra, tai-viet, tamil, kannada, pahawh-hmong, gujarati, tagalog, grantha, buginese, bengali, cham, rejang, hebrew, sundanese, sinhala, mongolian, devanagari, hanifi-rohingya, thai, malayalam, kayah-li, phags-pa, tai-le, masaram-gondi, nko, warang-citi, yi, gunjala-gondi, brahmi, dogra, kaithi, kharoshthi, telugu, siddham, manichaean, batak, thaana, zanabazar-square, myanmar</li>
 <li>U+2021 DOUBLE DAGGER: try adding adlam</li>
 <li>U+202F NARROW NO-BREAK SPACE: try adding one of: mongolian, yi</li>
 <li>U+2116 NUMERO SIGN: try adding cyrillic</li>
@@ -34386,7 +33264,7 @@ definitions.</p>
 <li>U+2264 LESS-THAN OR EQUAL TO: try adding math</li>
 <li>U+2265 GREATER-THAN OR EQUAL TO: try adding math</li>
 <li>U+25CA LOZENGE: try adding one of: symbols, math</li>
-<li>U+25CC DOTTED CIRCLE: try adding one of: myanmar, hanunoo, coptic, marchen, zanabazar-square, takri, elbasan, sogdian, kharoshthi, grantha, rejang, lao, javanese, syriac, sinhala, saurashtra, math, yi, mandaic, phags-pa, devanagari, manichaean, buhid, tifinagh, khmer, tai-tham, mongolian, tai-viet, batak, bhaiksuki, modi, kaithi, mende-kikakui, malayalam, canadian-aboriginal, sharada, tamil, mahajani, masaram-gondi, brahmi, music, symbols, tagbanwa, thai, dogra, buginese, kannada, balinese, chakma, gunjala-gondi, soyombo, hanifi-rohingya, lepcha, telugu, nko, bassa-vah, oriya, osage, hebrew, khojki, armenian, thaana, caucasian-albanian, newa, miao, tagalog, tibetan, duployan, new-tai-lue, bengali, meetei-mayek, limbu, syloti-nagri, ahom, khudawadi, wancho, adlam, sundanese, kayah-li, siddham, pahawh-hmong, gujarati, tai-le, tirhuta, cham, old-permic, warang-citi, gurmukhi, psalter-pahlavi</li>
+<li>U+25CC DOTTED CIRCLE: try adding one of: bhaiksuki, soyombo, psalter-pahlavi, javanese, balinese, tai-tham, armenian, hanunoo, oriya, tibetan, elbasan, sundanese, cham, hebrew, hanifi-rohingya, thai, masaram-gondi, coptic, tirhuta, tamil, batak, sinhala, limbu, khojki, tifinagh, new-tai-lue, sharada, tagbanwa, adlam, lao, sogdian, khmer, mahajani, tai-viet, saurashtra, gurmukhi, mende-kikakui, buginese, grantha, old-permic, math, kayah-li, phags-pa, kaithi, brahmi, kharoshthi, osage, newa, syloti-nagri, siddham, telugu, thaana, mandaic, syriac, chakma, canadian-aboriginal, marchen, lepcha, modi, duployan, music, wancho, kannada, pahawh-hmong, gujarati, tagalog, zanabazar-square, bengali, symbols, mongolian, devanagari, malayalam, tai-le, gunjala-gondi, dogra, myanmar, manichaean, caucasian-albanian, khudawadi, buhid, miao, takri, meetei-mayek, ahom, warang-citi, rejang, nko, yi, bassa-vah</li>
 <li>U+FB01 LATIN SMALL LIGATURE FI: not included in any glyphset definition</li>
 <li>U+FB02 LATIN SMALL LIGATURE FL: not included in any glyphset definition</li>
 </ul>
@@ -34439,24 +33317,6 @@ definitions.</p>
 </details>
 
 <details>
-    <summary>⚠️ <b>WARN</b> Are there caret positions declared for every ligature? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.gdef.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>This font lacks caret position values for ligature glyphs on its GDEF table.</p>
- [code: lacks-caret-pos]
-
-
-
-</div>
-</details>
-
-<details>
     <summary>⚠️ <b>WARN</b> Check font follows the Google Fonts vertical metric schema <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.vmetrics.html#"></a></summary>
     <div>
 
@@ -34476,26 +33336,8 @@ definitions.</p>
 </div>
 </details>
 
-<details><summary>[8] EduAUVICWANTGuides-Medium.ttf</summary>
+<details><summary>[6] EduAUVICWANTGuides-Medium.ttf</summary>
 <div>
-<details>
-    <summary>🔥 <b>FAIL</b> Space and non-breaking space have the same width? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* 🔥 **FAIL** <p>Space and non-breaking space have differing width: The space glyph named space is 360 font units wide, non-breaking space named (nbspace) is 290 font units wide, and both should be positive and the same. GlyphsApp has &quot;Sidebearing arithmetic&quot; (<a href="https://glyphsapp.com/tutorials/spacing">https://glyphsapp.com/tutorials/spacing</a>) which allows you to set the non-breaking space width to always equal the space width.</p>
- [code: different-widths]
-
-
-
-</div>
-</details>
-
 <details>
     <summary>⚠️ <b>WARN</b> Check accent of Lcaron, dcaron, lcaron, tcaron <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#"></a></summary>
     <div>
@@ -34600,17 +33442,17 @@ be served. You can solve this by either manually adding additional
 subset declarations to METADATA.pb, or by editing the glyphset
 definitions.</p>
 <ul>
-<li>U+02C7 CARON: try adding one of: canadian-aboriginal, yi, tifinagh</li>
-<li>U+02D8 BREVE: try adding one of: canadian-aboriginal, yi</li>
-<li>U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi</li>
-<li>U+02DB OGONEK: try adding one of: canadian-aboriginal, yi</li>
+<li>U+02C7 CARON: try adding one of: tifinagh, yi, canadian-aboriginal</li>
+<li>U+02D8 BREVE: try adding one of: yi, canadian-aboriginal</li>
+<li>U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal</li>
+<li>U+02DB OGONEK: try adding one of: yi, canadian-aboriginal</li>
 <li>U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: coptic, math, tifinagh, cherokee</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, coptic, math, tifinagh</li>
 <li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: malayalam, canadian-aboriginal, tai-le, syriac, math, old-permic, coptic, tifinagh</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: tifinagh, malayalam, math, tai-le, syriac, coptic, canadian-aboriginal, old-permic</li>
 <li>U+030A COMBINING RING ABOVE: try adding syriac</li>
-<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
-<li>U+030C COMBINING CARON: try adding one of: tai-le, cherokee</li>
+<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
+<li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
 <li>U+0312 COMBINING TURNED COMMA ABOVE: not included in any glyphset definition</li>
 <li>U+0326 COMBINING COMMA BELOW: not included in any glyphset definition</li>
 <li>U+0327 COMBINING CEDILLA: not included in any glyphset definition</li>
@@ -34626,8 +33468,8 @@ definitions.</p>
 <li>U+2007 FIGURE SPACE: not included in any glyphset definition</li>
 <li>U+2008 PUNCTUATION SPACE: not included in any glyphset definition</li>
 <li>U+200A HAIR SPACE: not included in any glyphset definition</li>
-<li>U+200C ZERO WIDTH NON-JOINER: try adding one of: phags-pa, devanagari, duployan, myanmar, manichaean, hanunoo, tagbanwa, tibetan, thai, dogra, bengali, buhid, meetei-mayek, new-tai-lue, tifinagh, hatran, buginese, kannada, tirhuta, balinese, khmer, limbu, zanabazar-square, chakma, syloti-nagri, mongolian, tai-tham, takri, gunjala-gondi, sogdian, kharoshthi, tai-viet, hanifi-rohingya, khudawadi, sundanese, batak, avestan, bhaiksuki, kayah-li, modi, siddham, lepcha, grantha, thaana, telugu, kaithi, rejang, lao, malayalam, sharada, pahawh-hmong, gujarati, nko, tamil, mahajani, tai-le, masaram-gondi, arabic, javanese, cham, brahmi, oriya, saurashtra, sinhala, syriac, yi, hebrew, khojki, warang-citi, gurmukhi, psalter-pahlavi, newa, mandaic, tagalog</li>
-<li>U+200D ZERO WIDTH JOINER: try adding one of: phags-pa, devanagari, duployan, myanmar, manichaean, hanunoo, tagbanwa, tibetan, thai, dogra, bengali, buhid, meetei-mayek, new-tai-lue, tifinagh, buginese, kannada, tirhuta, balinese, khmer, limbu, zanabazar-square, chakma, syloti-nagri, mongolian, tai-tham, takri, gunjala-gondi, sogdian, kharoshthi, tai-viet, hanifi-rohingya, khudawadi, sundanese, batak, avestan, bhaiksuki, kayah-li, modi, siddham, lepcha, grantha, thaana, old-hungarian, telugu, kaithi, rejang, lao, malayalam, sharada, pahawh-hmong, gujarati, nko, tamil, mahajani, tai-le, masaram-gondi, arabic, javanese, cham, brahmi, oriya, saurashtra, sinhala, syriac, yi, hebrew, khojki, warang-citi, gurmukhi, psalter-pahlavi, newa, mandaic, tagalog</li>
+<li>U+200C ZERO WIDTH NON-JOINER: try adding one of: sundanese, mandaic, bhaiksuki, tirhuta, avestan, syriac, khudawadi, limbu, psalter-pahlavi, buhid, chakma, khojki, javanese, tifinagh, new-tai-lue, lepcha, arabic, takri, sharada, meetei-mayek, tagbanwa, tibetan, lao, modi, balinese, sogdian, newa, syloti-nagri, duployan, tai-tham, khmer, mahajani, hanunoo, oriya, gurmukhi, saurashtra, tai-viet, tamil, kannada, pahawh-hmong, gujarati, tagalog, grantha, buginese, bengali, cham, hatran, hebrew, rejang, sinhala, mongolian, devanagari, hanifi-rohingya, thai, malayalam, kayah-li, phags-pa, tai-le, masaram-gondi, nko, warang-citi, yi, gunjala-gondi, brahmi, dogra, kaithi, kharoshthi, telugu, siddham, manichaean, batak, thaana, zanabazar-square, myanmar</li>
+<li>U+200D ZERO WIDTH JOINER: try adding one of: mandaic, bhaiksuki, tirhuta, avestan, syriac, khudawadi, limbu, psalter-pahlavi, buhid, chakma, khojki, javanese, tifinagh, new-tai-lue, lepcha, arabic, takri, sharada, meetei-mayek, tagbanwa, tibetan, lao, modi, balinese, sogdian, newa, syloti-nagri, duployan, tai-tham, old-hungarian, khmer, mahajani, hanunoo, oriya, gurmukhi, saurashtra, tai-viet, tamil, kannada, pahawh-hmong, gujarati, tagalog, grantha, buginese, bengali, cham, rejang, hebrew, sundanese, sinhala, mongolian, devanagari, hanifi-rohingya, thai, malayalam, kayah-li, phags-pa, tai-le, masaram-gondi, nko, warang-citi, yi, gunjala-gondi, brahmi, dogra, kaithi, kharoshthi, telugu, siddham, manichaean, batak, thaana, zanabazar-square, myanmar</li>
 <li>U+2021 DOUBLE DAGGER: try adding adlam</li>
 <li>U+202F NARROW NO-BREAK SPACE: try adding one of: mongolian, yi</li>
 <li>U+2116 NUMERO SIGN: try adding cyrillic</li>
@@ -34644,7 +33486,7 @@ definitions.</p>
 <li>U+2264 LESS-THAN OR EQUAL TO: try adding math</li>
 <li>U+2265 GREATER-THAN OR EQUAL TO: try adding math</li>
 <li>U+25CA LOZENGE: try adding one of: symbols, math</li>
-<li>U+25CC DOTTED CIRCLE: try adding one of: myanmar, hanunoo, coptic, marchen, zanabazar-square, takri, elbasan, sogdian, kharoshthi, grantha, rejang, lao, javanese, syriac, sinhala, saurashtra, math, yi, mandaic, phags-pa, devanagari, manichaean, buhid, tifinagh, khmer, tai-tham, mongolian, tai-viet, batak, bhaiksuki, modi, kaithi, mende-kikakui, malayalam, canadian-aboriginal, sharada, tamil, mahajani, masaram-gondi, brahmi, music, symbols, tagbanwa, thai, dogra, buginese, kannada, balinese, chakma, gunjala-gondi, soyombo, hanifi-rohingya, lepcha, telugu, nko, bassa-vah, oriya, osage, hebrew, khojki, armenian, thaana, caucasian-albanian, newa, miao, tagalog, tibetan, duployan, new-tai-lue, bengali, meetei-mayek, limbu, syloti-nagri, ahom, khudawadi, wancho, adlam, sundanese, kayah-li, siddham, pahawh-hmong, gujarati, tai-le, tirhuta, cham, old-permic, warang-citi, gurmukhi, psalter-pahlavi</li>
+<li>U+25CC DOTTED CIRCLE: try adding one of: bhaiksuki, soyombo, psalter-pahlavi, javanese, balinese, tai-tham, armenian, hanunoo, oriya, tibetan, elbasan, sundanese, cham, hebrew, hanifi-rohingya, thai, masaram-gondi, coptic, tirhuta, tamil, batak, sinhala, limbu, khojki, tifinagh, new-tai-lue, sharada, tagbanwa, adlam, lao, sogdian, khmer, mahajani, tai-viet, saurashtra, gurmukhi, mende-kikakui, buginese, grantha, old-permic, math, kayah-li, phags-pa, kaithi, brahmi, kharoshthi, osage, newa, syloti-nagri, siddham, telugu, thaana, mandaic, syriac, chakma, canadian-aboriginal, marchen, lepcha, modi, duployan, music, wancho, kannada, pahawh-hmong, gujarati, tagalog, zanabazar-square, bengali, symbols, mongolian, devanagari, malayalam, tai-le, gunjala-gondi, dogra, myanmar, manichaean, caucasian-albanian, khudawadi, buhid, miao, takri, meetei-mayek, ahom, warang-citi, rejang, nko, yi, bassa-vah</li>
 <li>U+FB01 LATIN SMALL LIGATURE FI: not included in any glyphset definition</li>
 <li>U+FB02 LATIN SMALL LIGATURE FL: not included in any glyphset definition</li>
 </ul>
@@ -34679,24 +33521,6 @@ definitions.</p>
 </details>
 
 <details>
-    <summary>⚠️ <b>WARN</b> Are there caret positions declared for every ligature? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.gdef.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>This font lacks caret position values for ligature glyphs on its GDEF table.</p>
- [code: lacks-caret-pos]
-
-
-
-</div>
-</details>
-
-<details>
     <summary>⚠️ <b>WARN</b> Check font follows the Google Fonts vertical metric schema <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.vmetrics.html#"></a></summary>
     <div>
 
@@ -34716,26 +33540,8 @@ definitions.</p>
 </div>
 </details>
 
-<details><summary>[10] EduAUVICWANTCursiveGuides-Medium.ttf</summary>
+<details><summary>[8] EduAUVICWANTCursiveGuides-Medium.ttf</summary>
 <div>
-<details>
-    <summary>🔥 <b>FAIL</b> Space and non-breaking space have the same width? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* 🔥 **FAIL** <p>Space and non-breaking space have differing width: The space glyph named space is 360 font units wide, non-breaking space named (nbspace) is 290 font units wide, and both should be positive and the same. GlyphsApp has &quot;Sidebearing arithmetic&quot; (<a href="https://glyphsapp.com/tutorials/spacing">https://glyphsapp.com/tutorials/spacing</a>) which allows you to set the non-breaking space width to always equal the space width.</p>
- [code: different-widths]
-
-
-
-</div>
-</details>
-
 <details>
     <summary>🔥 <b>FAIL</b> Shapes languages in all GF glyphsets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.glyphset.html#"></a></summary>
     <div>
@@ -34895,17 +33701,17 @@ be served. You can solve this by either manually adding additional
 subset declarations to METADATA.pb, or by editing the glyphset
 definitions.</p>
 <ul>
-<li>U+02C7 CARON: try adding one of: canadian-aboriginal, yi, tifinagh</li>
-<li>U+02D8 BREVE: try adding one of: canadian-aboriginal, yi</li>
-<li>U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi</li>
-<li>U+02DB OGONEK: try adding one of: canadian-aboriginal, yi</li>
+<li>U+02C7 CARON: try adding one of: tifinagh, yi, canadian-aboriginal</li>
+<li>U+02D8 BREVE: try adding one of: yi, canadian-aboriginal</li>
+<li>U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal</li>
+<li>U+02DB OGONEK: try adding one of: yi, canadian-aboriginal</li>
 <li>U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: coptic, math, tifinagh, cherokee</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, coptic, math, tifinagh</li>
 <li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: malayalam, canadian-aboriginal, tai-le, syriac, math, old-permic, coptic, tifinagh</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: tifinagh, malayalam, math, tai-le, syriac, coptic, canadian-aboriginal, old-permic</li>
 <li>U+030A COMBINING RING ABOVE: try adding syriac</li>
-<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
-<li>U+030C COMBINING CARON: try adding one of: tai-le, cherokee</li>
+<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
+<li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
 <li>U+0312 COMBINING TURNED COMMA ABOVE: not included in any glyphset definition</li>
 <li>U+0326 COMBINING COMMA BELOW: not included in any glyphset definition</li>
 <li>U+0327 COMBINING CEDILLA: not included in any glyphset definition</li>
@@ -34921,8 +33727,8 @@ definitions.</p>
 <li>U+2007 FIGURE SPACE: not included in any glyphset definition</li>
 <li>U+2008 PUNCTUATION SPACE: not included in any glyphset definition</li>
 <li>U+200A HAIR SPACE: not included in any glyphset definition</li>
-<li>U+200C ZERO WIDTH NON-JOINER: try adding one of: phags-pa, devanagari, duployan, myanmar, manichaean, hanunoo, tagbanwa, tibetan, thai, dogra, bengali, buhid, meetei-mayek, new-tai-lue, tifinagh, hatran, buginese, kannada, tirhuta, balinese, khmer, limbu, zanabazar-square, chakma, syloti-nagri, mongolian, tai-tham, takri, gunjala-gondi, sogdian, kharoshthi, tai-viet, hanifi-rohingya, khudawadi, sundanese, batak, avestan, bhaiksuki, kayah-li, modi, siddham, lepcha, grantha, thaana, telugu, kaithi, rejang, lao, malayalam, sharada, pahawh-hmong, gujarati, nko, tamil, mahajani, tai-le, masaram-gondi, arabic, javanese, cham, brahmi, oriya, saurashtra, sinhala, syriac, yi, hebrew, khojki, warang-citi, gurmukhi, psalter-pahlavi, newa, mandaic, tagalog</li>
-<li>U+200D ZERO WIDTH JOINER: try adding one of: phags-pa, devanagari, duployan, myanmar, manichaean, hanunoo, tagbanwa, tibetan, thai, dogra, bengali, buhid, meetei-mayek, new-tai-lue, tifinagh, buginese, kannada, tirhuta, balinese, khmer, limbu, zanabazar-square, chakma, syloti-nagri, mongolian, tai-tham, takri, gunjala-gondi, sogdian, kharoshthi, tai-viet, hanifi-rohingya, khudawadi, sundanese, batak, avestan, bhaiksuki, kayah-li, modi, siddham, lepcha, grantha, thaana, old-hungarian, telugu, kaithi, rejang, lao, malayalam, sharada, pahawh-hmong, gujarati, nko, tamil, mahajani, tai-le, masaram-gondi, arabic, javanese, cham, brahmi, oriya, saurashtra, sinhala, syriac, yi, hebrew, khojki, warang-citi, gurmukhi, psalter-pahlavi, newa, mandaic, tagalog</li>
+<li>U+200C ZERO WIDTH NON-JOINER: try adding one of: sundanese, mandaic, bhaiksuki, tirhuta, avestan, syriac, khudawadi, limbu, psalter-pahlavi, buhid, chakma, khojki, javanese, tifinagh, new-tai-lue, lepcha, arabic, takri, sharada, meetei-mayek, tagbanwa, tibetan, lao, modi, balinese, sogdian, newa, syloti-nagri, duployan, tai-tham, khmer, mahajani, hanunoo, oriya, gurmukhi, saurashtra, tai-viet, tamil, kannada, pahawh-hmong, gujarati, tagalog, grantha, buginese, bengali, cham, hatran, hebrew, rejang, sinhala, mongolian, devanagari, hanifi-rohingya, thai, malayalam, kayah-li, phags-pa, tai-le, masaram-gondi, nko, warang-citi, yi, gunjala-gondi, brahmi, dogra, kaithi, kharoshthi, telugu, siddham, manichaean, batak, thaana, zanabazar-square, myanmar</li>
+<li>U+200D ZERO WIDTH JOINER: try adding one of: mandaic, bhaiksuki, tirhuta, avestan, syriac, khudawadi, limbu, psalter-pahlavi, buhid, chakma, khojki, javanese, tifinagh, new-tai-lue, lepcha, arabic, takri, sharada, meetei-mayek, tagbanwa, tibetan, lao, modi, balinese, sogdian, newa, syloti-nagri, duployan, tai-tham, old-hungarian, khmer, mahajani, hanunoo, oriya, gurmukhi, saurashtra, tai-viet, tamil, kannada, pahawh-hmong, gujarati, tagalog, grantha, buginese, bengali, cham, rejang, hebrew, sundanese, sinhala, mongolian, devanagari, hanifi-rohingya, thai, malayalam, kayah-li, phags-pa, tai-le, masaram-gondi, nko, warang-citi, yi, gunjala-gondi, brahmi, dogra, kaithi, kharoshthi, telugu, siddham, manichaean, batak, thaana, zanabazar-square, myanmar</li>
 <li>U+2021 DOUBLE DAGGER: try adding adlam</li>
 <li>U+202F NARROW NO-BREAK SPACE: try adding one of: mongolian, yi</li>
 <li>U+2116 NUMERO SIGN: try adding cyrillic</li>
@@ -34939,7 +33745,7 @@ definitions.</p>
 <li>U+2264 LESS-THAN OR EQUAL TO: try adding math</li>
 <li>U+2265 GREATER-THAN OR EQUAL TO: try adding math</li>
 <li>U+25CA LOZENGE: try adding one of: symbols, math</li>
-<li>U+25CC DOTTED CIRCLE: try adding one of: myanmar, hanunoo, coptic, marchen, zanabazar-square, takri, elbasan, sogdian, kharoshthi, grantha, rejang, lao, javanese, syriac, sinhala, saurashtra, math, yi, mandaic, phags-pa, devanagari, manichaean, buhid, tifinagh, khmer, tai-tham, mongolian, tai-viet, batak, bhaiksuki, modi, kaithi, mende-kikakui, malayalam, canadian-aboriginal, sharada, tamil, mahajani, masaram-gondi, brahmi, music, symbols, tagbanwa, thai, dogra, buginese, kannada, balinese, chakma, gunjala-gondi, soyombo, hanifi-rohingya, lepcha, telugu, nko, bassa-vah, oriya, osage, hebrew, khojki, armenian, thaana, caucasian-albanian, newa, miao, tagalog, tibetan, duployan, new-tai-lue, bengali, meetei-mayek, limbu, syloti-nagri, ahom, khudawadi, wancho, adlam, sundanese, kayah-li, siddham, pahawh-hmong, gujarati, tai-le, tirhuta, cham, old-permic, warang-citi, gurmukhi, psalter-pahlavi</li>
+<li>U+25CC DOTTED CIRCLE: try adding one of: bhaiksuki, soyombo, psalter-pahlavi, javanese, balinese, tai-tham, armenian, hanunoo, oriya, tibetan, elbasan, sundanese, cham, hebrew, hanifi-rohingya, thai, masaram-gondi, coptic, tirhuta, tamil, batak, sinhala, limbu, khojki, tifinagh, new-tai-lue, sharada, tagbanwa, adlam, lao, sogdian, khmer, mahajani, tai-viet, saurashtra, gurmukhi, mende-kikakui, buginese, grantha, old-permic, math, kayah-li, phags-pa, kaithi, brahmi, kharoshthi, osage, newa, syloti-nagri, siddham, telugu, thaana, mandaic, syriac, chakma, canadian-aboriginal, marchen, lepcha, modi, duployan, music, wancho, kannada, pahawh-hmong, gujarati, tagalog, zanabazar-square, bengali, symbols, mongolian, devanagari, malayalam, tai-le, gunjala-gondi, dogra, myanmar, manichaean, caucasian-albanian, khudawadi, buhid, miao, takri, meetei-mayek, ahom, warang-citi, rejang, nko, yi, bassa-vah</li>
 <li>U+FB01 LATIN SMALL LIGATURE FI: not included in any glyphset definition</li>
 <li>U+FB02 LATIN SMALL LIGATURE FL: not included in any glyphset definition</li>
 </ul>
@@ -34974,24 +33780,6 @@ definitions.</p>
 </details>
 
 <details>
-    <summary>⚠️ <b>WARN</b> Are there caret positions declared for every ligature? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.gdef.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>This font lacks caret position values for ligature glyphs on its GDEF table.</p>
- [code: lacks-caret-pos]
-
-
-
-</div>
-</details>
-
-<details>
     <summary>⚠️ <b>WARN</b> Check font follows the Google Fonts vertical metric schema <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.vmetrics.html#"></a></summary>
     <div>
 
@@ -35011,26 +33799,8 @@ definitions.</p>
 </div>
 </details>
 
-<details><summary>[7] EduAUVICWANTHand-Regular.ttf</summary>
+<details><summary>[5] EduAUVICWANTHand-Regular.ttf</summary>
 <div>
-<details>
-    <summary>🔥 <b>FAIL</b> Space and non-breaking space have the same width? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* 🔥 **FAIL** <p>Space and non-breaking space have differing width: The space glyph named space is 360 font units wide, non-breaking space named (nbspace) is 290 font units wide, and both should be positive and the same. GlyphsApp has &quot;Sidebearing arithmetic&quot; (<a href="https://glyphsapp.com/tutorials/spacing">https://glyphsapp.com/tutorials/spacing</a>) which allows you to set the non-breaking space width to always equal the space width.</p>
- [code: different-widths]
-
-
-
-</div>
-</details>
-
 <details>
     <summary>⚠️ <b>WARN</b> Check math signs have the same width. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#"></a></summary>
     <div>
@@ -35098,17 +33868,17 @@ be served. You can solve this by either manually adding additional
 subset declarations to METADATA.pb, or by editing the glyphset
 definitions.</p>
 <ul>
-<li>U+02C7 CARON: try adding one of: canadian-aboriginal, yi, tifinagh</li>
-<li>U+02D8 BREVE: try adding one of: canadian-aboriginal, yi</li>
-<li>U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi</li>
-<li>U+02DB OGONEK: try adding one of: canadian-aboriginal, yi</li>
+<li>U+02C7 CARON: try adding one of: tifinagh, yi, canadian-aboriginal</li>
+<li>U+02D8 BREVE: try adding one of: yi, canadian-aboriginal</li>
+<li>U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal</li>
+<li>U+02DB OGONEK: try adding one of: yi, canadian-aboriginal</li>
 <li>U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: coptic, math, tifinagh, cherokee</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, coptic, math, tifinagh</li>
 <li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: malayalam, canadian-aboriginal, tai-le, syriac, math, old-permic, coptic, tifinagh</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: tifinagh, malayalam, math, tai-le, syriac, coptic, canadian-aboriginal, old-permic</li>
 <li>U+030A COMBINING RING ABOVE: try adding syriac</li>
-<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
-<li>U+030C COMBINING CARON: try adding one of: tai-le, cherokee</li>
+<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
+<li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
 <li>U+0312 COMBINING TURNED COMMA ABOVE: not included in any glyphset definition</li>
 <li>U+0326 COMBINING COMMA BELOW: not included in any glyphset definition</li>
 <li>U+0327 COMBINING CEDILLA: not included in any glyphset definition</li>
@@ -35124,8 +33894,8 @@ definitions.</p>
 <li>U+2007 FIGURE SPACE: not included in any glyphset definition</li>
 <li>U+2008 PUNCTUATION SPACE: not included in any glyphset definition</li>
 <li>U+200A HAIR SPACE: not included in any glyphset definition</li>
-<li>U+200C ZERO WIDTH NON-JOINER: try adding one of: phags-pa, devanagari, duployan, myanmar, manichaean, hanunoo, tagbanwa, tibetan, thai, dogra, bengali, buhid, meetei-mayek, new-tai-lue, tifinagh, hatran, buginese, kannada, tirhuta, balinese, khmer, limbu, zanabazar-square, chakma, syloti-nagri, mongolian, tai-tham, takri, gunjala-gondi, sogdian, kharoshthi, tai-viet, hanifi-rohingya, khudawadi, sundanese, batak, avestan, bhaiksuki, kayah-li, modi, siddham, lepcha, grantha, thaana, telugu, kaithi, rejang, lao, malayalam, sharada, pahawh-hmong, gujarati, nko, tamil, mahajani, tai-le, masaram-gondi, arabic, javanese, cham, brahmi, oriya, saurashtra, sinhala, syriac, yi, hebrew, khojki, warang-citi, gurmukhi, psalter-pahlavi, newa, mandaic, tagalog</li>
-<li>U+200D ZERO WIDTH JOINER: try adding one of: phags-pa, devanagari, duployan, myanmar, manichaean, hanunoo, tagbanwa, tibetan, thai, dogra, bengali, buhid, meetei-mayek, new-tai-lue, tifinagh, buginese, kannada, tirhuta, balinese, khmer, limbu, zanabazar-square, chakma, syloti-nagri, mongolian, tai-tham, takri, gunjala-gondi, sogdian, kharoshthi, tai-viet, hanifi-rohingya, khudawadi, sundanese, batak, avestan, bhaiksuki, kayah-li, modi, siddham, lepcha, grantha, thaana, old-hungarian, telugu, kaithi, rejang, lao, malayalam, sharada, pahawh-hmong, gujarati, nko, tamil, mahajani, tai-le, masaram-gondi, arabic, javanese, cham, brahmi, oriya, saurashtra, sinhala, syriac, yi, hebrew, khojki, warang-citi, gurmukhi, psalter-pahlavi, newa, mandaic, tagalog</li>
+<li>U+200C ZERO WIDTH NON-JOINER: try adding one of: sundanese, mandaic, bhaiksuki, tirhuta, avestan, syriac, khudawadi, limbu, psalter-pahlavi, buhid, chakma, khojki, javanese, tifinagh, new-tai-lue, lepcha, arabic, takri, sharada, meetei-mayek, tagbanwa, tibetan, lao, modi, balinese, sogdian, newa, syloti-nagri, duployan, tai-tham, khmer, mahajani, hanunoo, oriya, gurmukhi, saurashtra, tai-viet, tamil, kannada, pahawh-hmong, gujarati, tagalog, grantha, buginese, bengali, cham, hatran, hebrew, rejang, sinhala, mongolian, devanagari, hanifi-rohingya, thai, malayalam, kayah-li, phags-pa, tai-le, masaram-gondi, nko, warang-citi, yi, gunjala-gondi, brahmi, dogra, kaithi, kharoshthi, telugu, siddham, manichaean, batak, thaana, zanabazar-square, myanmar</li>
+<li>U+200D ZERO WIDTH JOINER: try adding one of: mandaic, bhaiksuki, tirhuta, avestan, syriac, khudawadi, limbu, psalter-pahlavi, buhid, chakma, khojki, javanese, tifinagh, new-tai-lue, lepcha, arabic, takri, sharada, meetei-mayek, tagbanwa, tibetan, lao, modi, balinese, sogdian, newa, syloti-nagri, duployan, tai-tham, old-hungarian, khmer, mahajani, hanunoo, oriya, gurmukhi, saurashtra, tai-viet, tamil, kannada, pahawh-hmong, gujarati, tagalog, grantha, buginese, bengali, cham, rejang, hebrew, sundanese, sinhala, mongolian, devanagari, hanifi-rohingya, thai, malayalam, kayah-li, phags-pa, tai-le, masaram-gondi, nko, warang-citi, yi, gunjala-gondi, brahmi, dogra, kaithi, kharoshthi, telugu, siddham, manichaean, batak, thaana, zanabazar-square, myanmar</li>
 <li>U+2021 DOUBLE DAGGER: try adding adlam</li>
 <li>U+202F NARROW NO-BREAK SPACE: try adding one of: mongolian, yi</li>
 <li>U+2116 NUMERO SIGN: try adding cyrillic</li>
@@ -35142,7 +33912,7 @@ definitions.</p>
 <li>U+2264 LESS-THAN OR EQUAL TO: try adding math</li>
 <li>U+2265 GREATER-THAN OR EQUAL TO: try adding math</li>
 <li>U+25CA LOZENGE: try adding one of: symbols, math</li>
-<li>U+25CC DOTTED CIRCLE: try adding one of: myanmar, hanunoo, coptic, marchen, zanabazar-square, takri, elbasan, sogdian, kharoshthi, grantha, rejang, lao, javanese, syriac, sinhala, saurashtra, math, yi, mandaic, phags-pa, devanagari, manichaean, buhid, tifinagh, khmer, tai-tham, mongolian, tai-viet, batak, bhaiksuki, modi, kaithi, mende-kikakui, malayalam, canadian-aboriginal, sharada, tamil, mahajani, masaram-gondi, brahmi, music, symbols, tagbanwa, thai, dogra, buginese, kannada, balinese, chakma, gunjala-gondi, soyombo, hanifi-rohingya, lepcha, telugu, nko, bassa-vah, oriya, osage, hebrew, khojki, armenian, thaana, caucasian-albanian, newa, miao, tagalog, tibetan, duployan, new-tai-lue, bengali, meetei-mayek, limbu, syloti-nagri, ahom, khudawadi, wancho, adlam, sundanese, kayah-li, siddham, pahawh-hmong, gujarati, tai-le, tirhuta, cham, old-permic, warang-citi, gurmukhi, psalter-pahlavi</li>
+<li>U+25CC DOTTED CIRCLE: try adding one of: bhaiksuki, soyombo, psalter-pahlavi, javanese, balinese, tai-tham, armenian, hanunoo, oriya, tibetan, elbasan, sundanese, cham, hebrew, hanifi-rohingya, thai, masaram-gondi, coptic, tirhuta, tamil, batak, sinhala, limbu, khojki, tifinagh, new-tai-lue, sharada, tagbanwa, adlam, lao, sogdian, khmer, mahajani, tai-viet, saurashtra, gurmukhi, mende-kikakui, buginese, grantha, old-permic, math, kayah-li, phags-pa, kaithi, brahmi, kharoshthi, osage, newa, syloti-nagri, siddham, telugu, thaana, mandaic, syriac, chakma, canadian-aboriginal, marchen, lepcha, modi, duployan, music, wancho, kannada, pahawh-hmong, gujarati, tagalog, zanabazar-square, bengali, symbols, mongolian, devanagari, malayalam, tai-le, gunjala-gondi, dogra, myanmar, manichaean, caucasian-albanian, khudawadi, buhid, miao, takri, meetei-mayek, ahom, warang-citi, rejang, nko, yi, bassa-vah</li>
 <li>U+FB01 LATIN SMALL LIGATURE FI: not included in any glyphset definition</li>
 <li>U+FB02 LATIN SMALL LIGATURE FL: not included in any glyphset definition</li>
 </ul>
@@ -35177,24 +33947,6 @@ definitions.</p>
 </details>
 
 <details>
-    <summary>⚠️ <b>WARN</b> Are there caret positions declared for every ligature? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.gdef.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>This font lacks caret position values for ligature glyphs on its GDEF table.</p>
- [code: lacks-caret-pos]
-
-
-
-</div>
-</details>
-
-<details>
     <summary>⚠️ <b>WARN</b> Check font follows the Google Fonts vertical metric schema <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.vmetrics.html#"></a></summary>
     <div>
 
@@ -35214,26 +33966,8 @@ definitions.</p>
 </div>
 </details>
 
-<details><summary>[7] EduAUVICWANTHand-Bold.ttf</summary>
+<details><summary>[5] EduAUVICWANTHand-Bold.ttf</summary>
 <div>
-<details>
-    <summary>🔥 <b>FAIL</b> Space and non-breaking space have the same width? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* 🔥 **FAIL** <p>Space and non-breaking space have differing width: The space glyph named space is 360 font units wide, non-breaking space named (nbspace) is 290 font units wide, and both should be positive and the same. GlyphsApp has &quot;Sidebearing arithmetic&quot; (<a href="https://glyphsapp.com/tutorials/spacing">https://glyphsapp.com/tutorials/spacing</a>) which allows you to set the non-breaking space width to always equal the space width.</p>
- [code: different-widths]
-
-
-
-</div>
-</details>
-
 <details>
     <summary>⚠️ <b>WARN</b> Check math signs have the same width. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#"></a></summary>
     <div>
@@ -35301,17 +34035,17 @@ be served. You can solve this by either manually adding additional
 subset declarations to METADATA.pb, or by editing the glyphset
 definitions.</p>
 <ul>
-<li>U+02C7 CARON: try adding one of: canadian-aboriginal, yi, tifinagh</li>
-<li>U+02D8 BREVE: try adding one of: canadian-aboriginal, yi</li>
-<li>U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi</li>
-<li>U+02DB OGONEK: try adding one of: canadian-aboriginal, yi</li>
+<li>U+02C7 CARON: try adding one of: tifinagh, yi, canadian-aboriginal</li>
+<li>U+02D8 BREVE: try adding one of: yi, canadian-aboriginal</li>
+<li>U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal</li>
+<li>U+02DB OGONEK: try adding one of: yi, canadian-aboriginal</li>
 <li>U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: coptic, math, tifinagh, cherokee</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, coptic, math, tifinagh</li>
 <li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: malayalam, canadian-aboriginal, tai-le, syriac, math, old-permic, coptic, tifinagh</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: tifinagh, malayalam, math, tai-le, syriac, coptic, canadian-aboriginal, old-permic</li>
 <li>U+030A COMBINING RING ABOVE: try adding syriac</li>
-<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
-<li>U+030C COMBINING CARON: try adding one of: tai-le, cherokee</li>
+<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
+<li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
 <li>U+0312 COMBINING TURNED COMMA ABOVE: not included in any glyphset definition</li>
 <li>U+0326 COMBINING COMMA BELOW: not included in any glyphset definition</li>
 <li>U+0327 COMBINING CEDILLA: not included in any glyphset definition</li>
@@ -35327,8 +34061,8 @@ definitions.</p>
 <li>U+2007 FIGURE SPACE: not included in any glyphset definition</li>
 <li>U+2008 PUNCTUATION SPACE: not included in any glyphset definition</li>
 <li>U+200A HAIR SPACE: not included in any glyphset definition</li>
-<li>U+200C ZERO WIDTH NON-JOINER: try adding one of: phags-pa, devanagari, duployan, myanmar, manichaean, hanunoo, tagbanwa, tibetan, thai, dogra, bengali, buhid, meetei-mayek, new-tai-lue, tifinagh, hatran, buginese, kannada, tirhuta, balinese, khmer, limbu, zanabazar-square, chakma, syloti-nagri, mongolian, tai-tham, takri, gunjala-gondi, sogdian, kharoshthi, tai-viet, hanifi-rohingya, khudawadi, sundanese, batak, avestan, bhaiksuki, kayah-li, modi, siddham, lepcha, grantha, thaana, telugu, kaithi, rejang, lao, malayalam, sharada, pahawh-hmong, gujarati, nko, tamil, mahajani, tai-le, masaram-gondi, arabic, javanese, cham, brahmi, oriya, saurashtra, sinhala, syriac, yi, hebrew, khojki, warang-citi, gurmukhi, psalter-pahlavi, newa, mandaic, tagalog</li>
-<li>U+200D ZERO WIDTH JOINER: try adding one of: phags-pa, devanagari, duployan, myanmar, manichaean, hanunoo, tagbanwa, tibetan, thai, dogra, bengali, buhid, meetei-mayek, new-tai-lue, tifinagh, buginese, kannada, tirhuta, balinese, khmer, limbu, zanabazar-square, chakma, syloti-nagri, mongolian, tai-tham, takri, gunjala-gondi, sogdian, kharoshthi, tai-viet, hanifi-rohingya, khudawadi, sundanese, batak, avestan, bhaiksuki, kayah-li, modi, siddham, lepcha, grantha, thaana, old-hungarian, telugu, kaithi, rejang, lao, malayalam, sharada, pahawh-hmong, gujarati, nko, tamil, mahajani, tai-le, masaram-gondi, arabic, javanese, cham, brahmi, oriya, saurashtra, sinhala, syriac, yi, hebrew, khojki, warang-citi, gurmukhi, psalter-pahlavi, newa, mandaic, tagalog</li>
+<li>U+200C ZERO WIDTH NON-JOINER: try adding one of: sundanese, mandaic, bhaiksuki, tirhuta, avestan, syriac, khudawadi, limbu, psalter-pahlavi, buhid, chakma, khojki, javanese, tifinagh, new-tai-lue, lepcha, arabic, takri, sharada, meetei-mayek, tagbanwa, tibetan, lao, modi, balinese, sogdian, newa, syloti-nagri, duployan, tai-tham, khmer, mahajani, hanunoo, oriya, gurmukhi, saurashtra, tai-viet, tamil, kannada, pahawh-hmong, gujarati, tagalog, grantha, buginese, bengali, cham, hatran, hebrew, rejang, sinhala, mongolian, devanagari, hanifi-rohingya, thai, malayalam, kayah-li, phags-pa, tai-le, masaram-gondi, nko, warang-citi, yi, gunjala-gondi, brahmi, dogra, kaithi, kharoshthi, telugu, siddham, manichaean, batak, thaana, zanabazar-square, myanmar</li>
+<li>U+200D ZERO WIDTH JOINER: try adding one of: mandaic, bhaiksuki, tirhuta, avestan, syriac, khudawadi, limbu, psalter-pahlavi, buhid, chakma, khojki, javanese, tifinagh, new-tai-lue, lepcha, arabic, takri, sharada, meetei-mayek, tagbanwa, tibetan, lao, modi, balinese, sogdian, newa, syloti-nagri, duployan, tai-tham, old-hungarian, khmer, mahajani, hanunoo, oriya, gurmukhi, saurashtra, tai-viet, tamil, kannada, pahawh-hmong, gujarati, tagalog, grantha, buginese, bengali, cham, rejang, hebrew, sundanese, sinhala, mongolian, devanagari, hanifi-rohingya, thai, malayalam, kayah-li, phags-pa, tai-le, masaram-gondi, nko, warang-citi, yi, gunjala-gondi, brahmi, dogra, kaithi, kharoshthi, telugu, siddham, manichaean, batak, thaana, zanabazar-square, myanmar</li>
 <li>U+2021 DOUBLE DAGGER: try adding adlam</li>
 <li>U+202F NARROW NO-BREAK SPACE: try adding one of: mongolian, yi</li>
 <li>U+2116 NUMERO SIGN: try adding cyrillic</li>
@@ -35345,7 +34079,7 @@ definitions.</p>
 <li>U+2264 LESS-THAN OR EQUAL TO: try adding math</li>
 <li>U+2265 GREATER-THAN OR EQUAL TO: try adding math</li>
 <li>U+25CA LOZENGE: try adding one of: symbols, math</li>
-<li>U+25CC DOTTED CIRCLE: try adding one of: myanmar, hanunoo, coptic, marchen, zanabazar-square, takri, elbasan, sogdian, kharoshthi, grantha, rejang, lao, javanese, syriac, sinhala, saurashtra, math, yi, mandaic, phags-pa, devanagari, manichaean, buhid, tifinagh, khmer, tai-tham, mongolian, tai-viet, batak, bhaiksuki, modi, kaithi, mende-kikakui, malayalam, canadian-aboriginal, sharada, tamil, mahajani, masaram-gondi, brahmi, music, symbols, tagbanwa, thai, dogra, buginese, kannada, balinese, chakma, gunjala-gondi, soyombo, hanifi-rohingya, lepcha, telugu, nko, bassa-vah, oriya, osage, hebrew, khojki, armenian, thaana, caucasian-albanian, newa, miao, tagalog, tibetan, duployan, new-tai-lue, bengali, meetei-mayek, limbu, syloti-nagri, ahom, khudawadi, wancho, adlam, sundanese, kayah-li, siddham, pahawh-hmong, gujarati, tai-le, tirhuta, cham, old-permic, warang-citi, gurmukhi, psalter-pahlavi</li>
+<li>U+25CC DOTTED CIRCLE: try adding one of: bhaiksuki, soyombo, psalter-pahlavi, javanese, balinese, tai-tham, armenian, hanunoo, oriya, tibetan, elbasan, sundanese, cham, hebrew, hanifi-rohingya, thai, masaram-gondi, coptic, tirhuta, tamil, batak, sinhala, limbu, khojki, tifinagh, new-tai-lue, sharada, tagbanwa, adlam, lao, sogdian, khmer, mahajani, tai-viet, saurashtra, gurmukhi, mende-kikakui, buginese, grantha, old-permic, math, kayah-li, phags-pa, kaithi, brahmi, kharoshthi, osage, newa, syloti-nagri, siddham, telugu, thaana, mandaic, syriac, chakma, canadian-aboriginal, marchen, lepcha, modi, duployan, music, wancho, kannada, pahawh-hmong, gujarati, tagalog, zanabazar-square, bengali, symbols, mongolian, devanagari, malayalam, tai-le, gunjala-gondi, dogra, myanmar, manichaean, caucasian-albanian, khudawadi, buhid, miao, takri, meetei-mayek, ahom, warang-citi, rejang, nko, yi, bassa-vah</li>
 <li>U+FB01 LATIN SMALL LIGATURE FI: not included in any glyphset definition</li>
 <li>U+FB02 LATIN SMALL LIGATURE FL: not included in any glyphset definition</li>
 </ul>
@@ -35380,24 +34114,6 @@ definitions.</p>
 </details>
 
 <details>
-    <summary>⚠️ <b>WARN</b> Are there caret positions declared for every ligature? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.gdef.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>This font lacks caret position values for ligature glyphs on its GDEF table.</p>
- [code: lacks-caret-pos]
-
-
-
-</div>
-</details>
-
-<details>
     <summary>⚠️ <b>WARN</b> Check font follows the Google Fonts vertical metric schema <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.vmetrics.html#"></a></summary>
     <div>
 
@@ -35417,26 +34133,8 @@ definitions.</p>
 </div>
 </details>
 
-<details><summary>[8] EduAUVICWANTCursive-Regular.ttf</summary>
+<details><summary>[6] EduAUVICWANTCursive-Regular.ttf</summary>
 <div>
-<details>
-    <summary>🔥 <b>FAIL</b> Space and non-breaking space have the same width? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* 🔥 **FAIL** <p>Space and non-breaking space have differing width: The space glyph named space is 360 font units wide, non-breaking space named (nbspace) is 290 font units wide, and both should be positive and the same. GlyphsApp has &quot;Sidebearing arithmetic&quot; (<a href="https://glyphsapp.com/tutorials/spacing">https://glyphsapp.com/tutorials/spacing</a>) which allows you to set the non-breaking space width to always equal the space width.</p>
- [code: different-widths]
-
-
-
-</div>
-</details>
-
 <details>
     <summary>🔥 <b>FAIL</b> Shapes languages in all GF glyphsets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.glyphset.html#"></a></summary>
     <div>
@@ -35536,17 +34234,17 @@ be served. You can solve this by either manually adding additional
 subset declarations to METADATA.pb, or by editing the glyphset
 definitions.</p>
 <ul>
-<li>U+02C7 CARON: try adding one of: canadian-aboriginal, yi, tifinagh</li>
-<li>U+02D8 BREVE: try adding one of: canadian-aboriginal, yi</li>
-<li>U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi</li>
-<li>U+02DB OGONEK: try adding one of: canadian-aboriginal, yi</li>
+<li>U+02C7 CARON: try adding one of: tifinagh, yi, canadian-aboriginal</li>
+<li>U+02D8 BREVE: try adding one of: yi, canadian-aboriginal</li>
+<li>U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal</li>
+<li>U+02DB OGONEK: try adding one of: yi, canadian-aboriginal</li>
 <li>U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: coptic, math, tifinagh, cherokee</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, coptic, math, tifinagh</li>
 <li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: malayalam, canadian-aboriginal, tai-le, syriac, math, old-permic, coptic, tifinagh</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: tifinagh, malayalam, math, tai-le, syriac, coptic, canadian-aboriginal, old-permic</li>
 <li>U+030A COMBINING RING ABOVE: try adding syriac</li>
-<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
-<li>U+030C COMBINING CARON: try adding one of: tai-le, cherokee</li>
+<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
+<li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
 <li>U+0312 COMBINING TURNED COMMA ABOVE: not included in any glyphset definition</li>
 <li>U+0326 COMBINING COMMA BELOW: not included in any glyphset definition</li>
 <li>U+0327 COMBINING CEDILLA: not included in any glyphset definition</li>
@@ -35562,8 +34260,8 @@ definitions.</p>
 <li>U+2007 FIGURE SPACE: not included in any glyphset definition</li>
 <li>U+2008 PUNCTUATION SPACE: not included in any glyphset definition</li>
 <li>U+200A HAIR SPACE: not included in any glyphset definition</li>
-<li>U+200C ZERO WIDTH NON-JOINER: try adding one of: phags-pa, devanagari, duployan, myanmar, manichaean, hanunoo, tagbanwa, tibetan, thai, dogra, bengali, buhid, meetei-mayek, new-tai-lue, tifinagh, hatran, buginese, kannada, tirhuta, balinese, khmer, limbu, zanabazar-square, chakma, syloti-nagri, mongolian, tai-tham, takri, gunjala-gondi, sogdian, kharoshthi, tai-viet, hanifi-rohingya, khudawadi, sundanese, batak, avestan, bhaiksuki, kayah-li, modi, siddham, lepcha, grantha, thaana, telugu, kaithi, rejang, lao, malayalam, sharada, pahawh-hmong, gujarati, nko, tamil, mahajani, tai-le, masaram-gondi, arabic, javanese, cham, brahmi, oriya, saurashtra, sinhala, syriac, yi, hebrew, khojki, warang-citi, gurmukhi, psalter-pahlavi, newa, mandaic, tagalog</li>
-<li>U+200D ZERO WIDTH JOINER: try adding one of: phags-pa, devanagari, duployan, myanmar, manichaean, hanunoo, tagbanwa, tibetan, thai, dogra, bengali, buhid, meetei-mayek, new-tai-lue, tifinagh, buginese, kannada, tirhuta, balinese, khmer, limbu, zanabazar-square, chakma, syloti-nagri, mongolian, tai-tham, takri, gunjala-gondi, sogdian, kharoshthi, tai-viet, hanifi-rohingya, khudawadi, sundanese, batak, avestan, bhaiksuki, kayah-li, modi, siddham, lepcha, grantha, thaana, old-hungarian, telugu, kaithi, rejang, lao, malayalam, sharada, pahawh-hmong, gujarati, nko, tamil, mahajani, tai-le, masaram-gondi, arabic, javanese, cham, brahmi, oriya, saurashtra, sinhala, syriac, yi, hebrew, khojki, warang-citi, gurmukhi, psalter-pahlavi, newa, mandaic, tagalog</li>
+<li>U+200C ZERO WIDTH NON-JOINER: try adding one of: sundanese, mandaic, bhaiksuki, tirhuta, avestan, syriac, khudawadi, limbu, psalter-pahlavi, buhid, chakma, khojki, javanese, tifinagh, new-tai-lue, lepcha, arabic, takri, sharada, meetei-mayek, tagbanwa, tibetan, lao, modi, balinese, sogdian, newa, syloti-nagri, duployan, tai-tham, khmer, mahajani, hanunoo, oriya, gurmukhi, saurashtra, tai-viet, tamil, kannada, pahawh-hmong, gujarati, tagalog, grantha, buginese, bengali, cham, hatran, hebrew, rejang, sinhala, mongolian, devanagari, hanifi-rohingya, thai, malayalam, kayah-li, phags-pa, tai-le, masaram-gondi, nko, warang-citi, yi, gunjala-gondi, brahmi, dogra, kaithi, kharoshthi, telugu, siddham, manichaean, batak, thaana, zanabazar-square, myanmar</li>
+<li>U+200D ZERO WIDTH JOINER: try adding one of: mandaic, bhaiksuki, tirhuta, avestan, syriac, khudawadi, limbu, psalter-pahlavi, buhid, chakma, khojki, javanese, tifinagh, new-tai-lue, lepcha, arabic, takri, sharada, meetei-mayek, tagbanwa, tibetan, lao, modi, balinese, sogdian, newa, syloti-nagri, duployan, tai-tham, old-hungarian, khmer, mahajani, hanunoo, oriya, gurmukhi, saurashtra, tai-viet, tamil, kannada, pahawh-hmong, gujarati, tagalog, grantha, buginese, bengali, cham, rejang, hebrew, sundanese, sinhala, mongolian, devanagari, hanifi-rohingya, thai, malayalam, kayah-li, phags-pa, tai-le, masaram-gondi, nko, warang-citi, yi, gunjala-gondi, brahmi, dogra, kaithi, kharoshthi, telugu, siddham, manichaean, batak, thaana, zanabazar-square, myanmar</li>
 <li>U+2021 DOUBLE DAGGER: try adding adlam</li>
 <li>U+202F NARROW NO-BREAK SPACE: try adding one of: mongolian, yi</li>
 <li>U+2116 NUMERO SIGN: try adding cyrillic</li>
@@ -35580,7 +34278,7 @@ definitions.</p>
 <li>U+2264 LESS-THAN OR EQUAL TO: try adding math</li>
 <li>U+2265 GREATER-THAN OR EQUAL TO: try adding math</li>
 <li>U+25CA LOZENGE: try adding one of: symbols, math</li>
-<li>U+25CC DOTTED CIRCLE: try adding one of: myanmar, hanunoo, coptic, marchen, zanabazar-square, takri, elbasan, sogdian, kharoshthi, grantha, rejang, lao, javanese, syriac, sinhala, saurashtra, math, yi, mandaic, phags-pa, devanagari, manichaean, buhid, tifinagh, khmer, tai-tham, mongolian, tai-viet, batak, bhaiksuki, modi, kaithi, mende-kikakui, malayalam, canadian-aboriginal, sharada, tamil, mahajani, masaram-gondi, brahmi, music, symbols, tagbanwa, thai, dogra, buginese, kannada, balinese, chakma, gunjala-gondi, soyombo, hanifi-rohingya, lepcha, telugu, nko, bassa-vah, oriya, osage, hebrew, khojki, armenian, thaana, caucasian-albanian, newa, miao, tagalog, tibetan, duployan, new-tai-lue, bengali, meetei-mayek, limbu, syloti-nagri, ahom, khudawadi, wancho, adlam, sundanese, kayah-li, siddham, pahawh-hmong, gujarati, tai-le, tirhuta, cham, old-permic, warang-citi, gurmukhi, psalter-pahlavi</li>
+<li>U+25CC DOTTED CIRCLE: try adding one of: bhaiksuki, soyombo, psalter-pahlavi, javanese, balinese, tai-tham, armenian, hanunoo, oriya, tibetan, elbasan, sundanese, cham, hebrew, hanifi-rohingya, thai, masaram-gondi, coptic, tirhuta, tamil, batak, sinhala, limbu, khojki, tifinagh, new-tai-lue, sharada, tagbanwa, adlam, lao, sogdian, khmer, mahajani, tai-viet, saurashtra, gurmukhi, mende-kikakui, buginese, grantha, old-permic, math, kayah-li, phags-pa, kaithi, brahmi, kharoshthi, osage, newa, syloti-nagri, siddham, telugu, thaana, mandaic, syriac, chakma, canadian-aboriginal, marchen, lepcha, modi, duployan, music, wancho, kannada, pahawh-hmong, gujarati, tagalog, zanabazar-square, bengali, symbols, mongolian, devanagari, malayalam, tai-le, gunjala-gondi, dogra, myanmar, manichaean, caucasian-albanian, khudawadi, buhid, miao, takri, meetei-mayek, ahom, warang-citi, rejang, nko, yi, bassa-vah</li>
 <li>U+FB01 LATIN SMALL LIGATURE FI: not included in any glyphset definition</li>
 <li>U+FB02 LATIN SMALL LIGATURE FL: not included in any glyphset definition</li>
 </ul>
@@ -35615,24 +34313,6 @@ definitions.</p>
 </details>
 
 <details>
-    <summary>⚠️ <b>WARN</b> Are there caret positions declared for every ligature? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.gdef.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>This font lacks caret position values for ligature glyphs on its GDEF table.</p>
- [code: lacks-caret-pos]
-
-
-
-</div>
-</details>
-
-<details>
     <summary>⚠️ <b>WARN</b> Check font follows the Google Fonts vertical metric schema <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.vmetrics.html#"></a></summary>
     <div>
 
@@ -35652,26 +34332,8 @@ definitions.</p>
 </div>
 </details>
 
-<details><summary>[8] EduAUVICWANTCursive-Bold.ttf</summary>
+<details><summary>[6] EduAUVICWANTCursive-Bold.ttf</summary>
 <div>
-<details>
-    <summary>🔥 <b>FAIL</b> Space and non-breaking space have the same width? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* 🔥 **FAIL** <p>Space and non-breaking space have differing width: The space glyph named space is 360 font units wide, non-breaking space named (nbspace) is 290 font units wide, and both should be positive and the same. GlyphsApp has &quot;Sidebearing arithmetic&quot; (<a href="https://glyphsapp.com/tutorials/spacing">https://glyphsapp.com/tutorials/spacing</a>) which allows you to set the non-breaking space width to always equal the space width.</p>
- [code: different-widths]
-
-
-
-</div>
-</details>
-
 <details>
     <summary>🔥 <b>FAIL</b> Shapes languages in all GF glyphsets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.glyphset.html#"></a></summary>
     <div>
@@ -35771,17 +34433,17 @@ be served. You can solve this by either manually adding additional
 subset declarations to METADATA.pb, or by editing the glyphset
 definitions.</p>
 <ul>
-<li>U+02C7 CARON: try adding one of: canadian-aboriginal, yi, tifinagh</li>
-<li>U+02D8 BREVE: try adding one of: canadian-aboriginal, yi</li>
-<li>U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi</li>
-<li>U+02DB OGONEK: try adding one of: canadian-aboriginal, yi</li>
+<li>U+02C7 CARON: try adding one of: tifinagh, yi, canadian-aboriginal</li>
+<li>U+02D8 BREVE: try adding one of: yi, canadian-aboriginal</li>
+<li>U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal</li>
+<li>U+02DB OGONEK: try adding one of: yi, canadian-aboriginal</li>
 <li>U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: coptic, math, tifinagh, cherokee</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, coptic, math, tifinagh</li>
 <li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: malayalam, canadian-aboriginal, tai-le, syriac, math, old-permic, coptic, tifinagh</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: tifinagh, malayalam, math, tai-le, syriac, coptic, canadian-aboriginal, old-permic</li>
 <li>U+030A COMBINING RING ABOVE: try adding syriac</li>
-<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
-<li>U+030C COMBINING CARON: try adding one of: tai-le, cherokee</li>
+<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
+<li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
 <li>U+0312 COMBINING TURNED COMMA ABOVE: not included in any glyphset definition</li>
 <li>U+0326 COMBINING COMMA BELOW: not included in any glyphset definition</li>
 <li>U+0327 COMBINING CEDILLA: not included in any glyphset definition</li>
@@ -35797,8 +34459,8 @@ definitions.</p>
 <li>U+2007 FIGURE SPACE: not included in any glyphset definition</li>
 <li>U+2008 PUNCTUATION SPACE: not included in any glyphset definition</li>
 <li>U+200A HAIR SPACE: not included in any glyphset definition</li>
-<li>U+200C ZERO WIDTH NON-JOINER: try adding one of: phags-pa, devanagari, duployan, myanmar, manichaean, hanunoo, tagbanwa, tibetan, thai, dogra, bengali, buhid, meetei-mayek, new-tai-lue, tifinagh, hatran, buginese, kannada, tirhuta, balinese, khmer, limbu, zanabazar-square, chakma, syloti-nagri, mongolian, tai-tham, takri, gunjala-gondi, sogdian, kharoshthi, tai-viet, hanifi-rohingya, khudawadi, sundanese, batak, avestan, bhaiksuki, kayah-li, modi, siddham, lepcha, grantha, thaana, telugu, kaithi, rejang, lao, malayalam, sharada, pahawh-hmong, gujarati, nko, tamil, mahajani, tai-le, masaram-gondi, arabic, javanese, cham, brahmi, oriya, saurashtra, sinhala, syriac, yi, hebrew, khojki, warang-citi, gurmukhi, psalter-pahlavi, newa, mandaic, tagalog</li>
-<li>U+200D ZERO WIDTH JOINER: try adding one of: phags-pa, devanagari, duployan, myanmar, manichaean, hanunoo, tagbanwa, tibetan, thai, dogra, bengali, buhid, meetei-mayek, new-tai-lue, tifinagh, buginese, kannada, tirhuta, balinese, khmer, limbu, zanabazar-square, chakma, syloti-nagri, mongolian, tai-tham, takri, gunjala-gondi, sogdian, kharoshthi, tai-viet, hanifi-rohingya, khudawadi, sundanese, batak, avestan, bhaiksuki, kayah-li, modi, siddham, lepcha, grantha, thaana, old-hungarian, telugu, kaithi, rejang, lao, malayalam, sharada, pahawh-hmong, gujarati, nko, tamil, mahajani, tai-le, masaram-gondi, arabic, javanese, cham, brahmi, oriya, saurashtra, sinhala, syriac, yi, hebrew, khojki, warang-citi, gurmukhi, psalter-pahlavi, newa, mandaic, tagalog</li>
+<li>U+200C ZERO WIDTH NON-JOINER: try adding one of: sundanese, mandaic, bhaiksuki, tirhuta, avestan, syriac, khudawadi, limbu, psalter-pahlavi, buhid, chakma, khojki, javanese, tifinagh, new-tai-lue, lepcha, arabic, takri, sharada, meetei-mayek, tagbanwa, tibetan, lao, modi, balinese, sogdian, newa, syloti-nagri, duployan, tai-tham, khmer, mahajani, hanunoo, oriya, gurmukhi, saurashtra, tai-viet, tamil, kannada, pahawh-hmong, gujarati, tagalog, grantha, buginese, bengali, cham, hatran, hebrew, rejang, sinhala, mongolian, devanagari, hanifi-rohingya, thai, malayalam, kayah-li, phags-pa, tai-le, masaram-gondi, nko, warang-citi, yi, gunjala-gondi, brahmi, dogra, kaithi, kharoshthi, telugu, siddham, manichaean, batak, thaana, zanabazar-square, myanmar</li>
+<li>U+200D ZERO WIDTH JOINER: try adding one of: mandaic, bhaiksuki, tirhuta, avestan, syriac, khudawadi, limbu, psalter-pahlavi, buhid, chakma, khojki, javanese, tifinagh, new-tai-lue, lepcha, arabic, takri, sharada, meetei-mayek, tagbanwa, tibetan, lao, modi, balinese, sogdian, newa, syloti-nagri, duployan, tai-tham, old-hungarian, khmer, mahajani, hanunoo, oriya, gurmukhi, saurashtra, tai-viet, tamil, kannada, pahawh-hmong, gujarati, tagalog, grantha, buginese, bengali, cham, rejang, hebrew, sundanese, sinhala, mongolian, devanagari, hanifi-rohingya, thai, malayalam, kayah-li, phags-pa, tai-le, masaram-gondi, nko, warang-citi, yi, gunjala-gondi, brahmi, dogra, kaithi, kharoshthi, telugu, siddham, manichaean, batak, thaana, zanabazar-square, myanmar</li>
 <li>U+2021 DOUBLE DAGGER: try adding adlam</li>
 <li>U+202F NARROW NO-BREAK SPACE: try adding one of: mongolian, yi</li>
 <li>U+2116 NUMERO SIGN: try adding cyrillic</li>
@@ -35815,7 +34477,7 @@ definitions.</p>
 <li>U+2264 LESS-THAN OR EQUAL TO: try adding math</li>
 <li>U+2265 GREATER-THAN OR EQUAL TO: try adding math</li>
 <li>U+25CA LOZENGE: try adding one of: symbols, math</li>
-<li>U+25CC DOTTED CIRCLE: try adding one of: myanmar, hanunoo, coptic, marchen, zanabazar-square, takri, elbasan, sogdian, kharoshthi, grantha, rejang, lao, javanese, syriac, sinhala, saurashtra, math, yi, mandaic, phags-pa, devanagari, manichaean, buhid, tifinagh, khmer, tai-tham, mongolian, tai-viet, batak, bhaiksuki, modi, kaithi, mende-kikakui, malayalam, canadian-aboriginal, sharada, tamil, mahajani, masaram-gondi, brahmi, music, symbols, tagbanwa, thai, dogra, buginese, kannada, balinese, chakma, gunjala-gondi, soyombo, hanifi-rohingya, lepcha, telugu, nko, bassa-vah, oriya, osage, hebrew, khojki, armenian, thaana, caucasian-albanian, newa, miao, tagalog, tibetan, duployan, new-tai-lue, bengali, meetei-mayek, limbu, syloti-nagri, ahom, khudawadi, wancho, adlam, sundanese, kayah-li, siddham, pahawh-hmong, gujarati, tai-le, tirhuta, cham, old-permic, warang-citi, gurmukhi, psalter-pahlavi</li>
+<li>U+25CC DOTTED CIRCLE: try adding one of: bhaiksuki, soyombo, psalter-pahlavi, javanese, balinese, tai-tham, armenian, hanunoo, oriya, tibetan, elbasan, sundanese, cham, hebrew, hanifi-rohingya, thai, masaram-gondi, coptic, tirhuta, tamil, batak, sinhala, limbu, khojki, tifinagh, new-tai-lue, sharada, tagbanwa, adlam, lao, sogdian, khmer, mahajani, tai-viet, saurashtra, gurmukhi, mende-kikakui, buginese, grantha, old-permic, math, kayah-li, phags-pa, kaithi, brahmi, kharoshthi, osage, newa, syloti-nagri, siddham, telugu, thaana, mandaic, syriac, chakma, canadian-aboriginal, marchen, lepcha, modi, duployan, music, wancho, kannada, pahawh-hmong, gujarati, tagalog, zanabazar-square, bengali, symbols, mongolian, devanagari, malayalam, tai-le, gunjala-gondi, dogra, myanmar, manichaean, caucasian-albanian, khudawadi, buhid, miao, takri, meetei-mayek, ahom, warang-citi, rejang, nko, yi, bassa-vah</li>
 <li>U+FB01 LATIN SMALL LIGATURE FI: not included in any glyphset definition</li>
 <li>U+FB02 LATIN SMALL LIGATURE FL: not included in any glyphset definition</li>
 </ul>
@@ -35850,24 +34512,6 @@ definitions.</p>
 </details>
 
 <details>
-    <summary>⚠️ <b>WARN</b> Are there caret positions declared for every ligature? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.gdef.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>This font lacks caret position values for ligature glyphs on its GDEF table.</p>
- [code: lacks-caret-pos]
-
-
-
-</div>
-</details>
-
-<details>
     <summary>⚠️ <b>WARN</b> Check font follows the Google Fonts vertical metric schema <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.vmetrics.html#"></a></summary>
     <div>
 
@@ -35887,26 +34531,8 @@ definitions.</p>
 </div>
 </details>
 
-<details><summary>[8] EduAUVICWANTPre-Regular.ttf</summary>
+<details><summary>[6] EduAUVICWANTPre-Regular.ttf</summary>
 <div>
-<details>
-    <summary>🔥 <b>FAIL</b> Space and non-breaking space have the same width? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* 🔥 **FAIL** <p>Space and non-breaking space have differing width: The space glyph named space is 360 font units wide, non-breaking space named (nbspace) is 290 font units wide, and both should be positive and the same. GlyphsApp has &quot;Sidebearing arithmetic&quot; (<a href="https://glyphsapp.com/tutorials/spacing">https://glyphsapp.com/tutorials/spacing</a>) which allows you to set the non-breaking space width to always equal the space width.</p>
- [code: different-widths]
-
-
-
-</div>
-</details>
-
 <details>
     <summary>🔥 <b>FAIL</b> Shapes languages in all GF glyphsets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.glyphset.html#"></a></summary>
     <div>
@@ -36006,17 +34632,17 @@ be served. You can solve this by either manually adding additional
 subset declarations to METADATA.pb, or by editing the glyphset
 definitions.</p>
 <ul>
-<li>U+02C7 CARON: try adding one of: canadian-aboriginal, yi, tifinagh</li>
-<li>U+02D8 BREVE: try adding one of: canadian-aboriginal, yi</li>
-<li>U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi</li>
-<li>U+02DB OGONEK: try adding one of: canadian-aboriginal, yi</li>
+<li>U+02C7 CARON: try adding one of: tifinagh, yi, canadian-aboriginal</li>
+<li>U+02D8 BREVE: try adding one of: yi, canadian-aboriginal</li>
+<li>U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal</li>
+<li>U+02DB OGONEK: try adding one of: yi, canadian-aboriginal</li>
 <li>U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: coptic, math, tifinagh, cherokee</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, coptic, math, tifinagh</li>
 <li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: malayalam, canadian-aboriginal, tai-le, syriac, math, old-permic, coptic, tifinagh</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: tifinagh, malayalam, math, tai-le, syriac, coptic, canadian-aboriginal, old-permic</li>
 <li>U+030A COMBINING RING ABOVE: try adding syriac</li>
-<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
-<li>U+030C COMBINING CARON: try adding one of: tai-le, cherokee</li>
+<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
+<li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
 <li>U+0312 COMBINING TURNED COMMA ABOVE: not included in any glyphset definition</li>
 <li>U+0326 COMBINING COMMA BELOW: not included in any glyphset definition</li>
 <li>U+0327 COMBINING CEDILLA: not included in any glyphset definition</li>
@@ -36032,8 +34658,8 @@ definitions.</p>
 <li>U+2007 FIGURE SPACE: not included in any glyphset definition</li>
 <li>U+2008 PUNCTUATION SPACE: not included in any glyphset definition</li>
 <li>U+200A HAIR SPACE: not included in any glyphset definition</li>
-<li>U+200C ZERO WIDTH NON-JOINER: try adding one of: phags-pa, devanagari, duployan, myanmar, manichaean, hanunoo, tagbanwa, tibetan, thai, dogra, bengali, buhid, meetei-mayek, new-tai-lue, tifinagh, hatran, buginese, kannada, tirhuta, balinese, khmer, limbu, zanabazar-square, chakma, syloti-nagri, mongolian, tai-tham, takri, gunjala-gondi, sogdian, kharoshthi, tai-viet, hanifi-rohingya, khudawadi, sundanese, batak, avestan, bhaiksuki, kayah-li, modi, siddham, lepcha, grantha, thaana, telugu, kaithi, rejang, lao, malayalam, sharada, pahawh-hmong, gujarati, nko, tamil, mahajani, tai-le, masaram-gondi, arabic, javanese, cham, brahmi, oriya, saurashtra, sinhala, syriac, yi, hebrew, khojki, warang-citi, gurmukhi, psalter-pahlavi, newa, mandaic, tagalog</li>
-<li>U+200D ZERO WIDTH JOINER: try adding one of: phags-pa, devanagari, duployan, myanmar, manichaean, hanunoo, tagbanwa, tibetan, thai, dogra, bengali, buhid, meetei-mayek, new-tai-lue, tifinagh, buginese, kannada, tirhuta, balinese, khmer, limbu, zanabazar-square, chakma, syloti-nagri, mongolian, tai-tham, takri, gunjala-gondi, sogdian, kharoshthi, tai-viet, hanifi-rohingya, khudawadi, sundanese, batak, avestan, bhaiksuki, kayah-li, modi, siddham, lepcha, grantha, thaana, old-hungarian, telugu, kaithi, rejang, lao, malayalam, sharada, pahawh-hmong, gujarati, nko, tamil, mahajani, tai-le, masaram-gondi, arabic, javanese, cham, brahmi, oriya, saurashtra, sinhala, syriac, yi, hebrew, khojki, warang-citi, gurmukhi, psalter-pahlavi, newa, mandaic, tagalog</li>
+<li>U+200C ZERO WIDTH NON-JOINER: try adding one of: sundanese, mandaic, bhaiksuki, tirhuta, avestan, syriac, khudawadi, limbu, psalter-pahlavi, buhid, chakma, khojki, javanese, tifinagh, new-tai-lue, lepcha, arabic, takri, sharada, meetei-mayek, tagbanwa, tibetan, lao, modi, balinese, sogdian, newa, syloti-nagri, duployan, tai-tham, khmer, mahajani, hanunoo, oriya, gurmukhi, saurashtra, tai-viet, tamil, kannada, pahawh-hmong, gujarati, tagalog, grantha, buginese, bengali, cham, hatran, hebrew, rejang, sinhala, mongolian, devanagari, hanifi-rohingya, thai, malayalam, kayah-li, phags-pa, tai-le, masaram-gondi, nko, warang-citi, yi, gunjala-gondi, brahmi, dogra, kaithi, kharoshthi, telugu, siddham, manichaean, batak, thaana, zanabazar-square, myanmar</li>
+<li>U+200D ZERO WIDTH JOINER: try adding one of: mandaic, bhaiksuki, tirhuta, avestan, syriac, khudawadi, limbu, psalter-pahlavi, buhid, chakma, khojki, javanese, tifinagh, new-tai-lue, lepcha, arabic, takri, sharada, meetei-mayek, tagbanwa, tibetan, lao, modi, balinese, sogdian, newa, syloti-nagri, duployan, tai-tham, old-hungarian, khmer, mahajani, hanunoo, oriya, gurmukhi, saurashtra, tai-viet, tamil, kannada, pahawh-hmong, gujarati, tagalog, grantha, buginese, bengali, cham, rejang, hebrew, sundanese, sinhala, mongolian, devanagari, hanifi-rohingya, thai, malayalam, kayah-li, phags-pa, tai-le, masaram-gondi, nko, warang-citi, yi, gunjala-gondi, brahmi, dogra, kaithi, kharoshthi, telugu, siddham, manichaean, batak, thaana, zanabazar-square, myanmar</li>
 <li>U+2021 DOUBLE DAGGER: try adding adlam</li>
 <li>U+202F NARROW NO-BREAK SPACE: try adding one of: mongolian, yi</li>
 <li>U+2116 NUMERO SIGN: try adding cyrillic</li>
@@ -36050,7 +34676,7 @@ definitions.</p>
 <li>U+2264 LESS-THAN OR EQUAL TO: try adding math</li>
 <li>U+2265 GREATER-THAN OR EQUAL TO: try adding math</li>
 <li>U+25CA LOZENGE: try adding one of: symbols, math</li>
-<li>U+25CC DOTTED CIRCLE: try adding one of: myanmar, hanunoo, coptic, marchen, zanabazar-square, takri, elbasan, sogdian, kharoshthi, grantha, rejang, lao, javanese, syriac, sinhala, saurashtra, math, yi, mandaic, phags-pa, devanagari, manichaean, buhid, tifinagh, khmer, tai-tham, mongolian, tai-viet, batak, bhaiksuki, modi, kaithi, mende-kikakui, malayalam, canadian-aboriginal, sharada, tamil, mahajani, masaram-gondi, brahmi, music, symbols, tagbanwa, thai, dogra, buginese, kannada, balinese, chakma, gunjala-gondi, soyombo, hanifi-rohingya, lepcha, telugu, nko, bassa-vah, oriya, osage, hebrew, khojki, armenian, thaana, caucasian-albanian, newa, miao, tagalog, tibetan, duployan, new-tai-lue, bengali, meetei-mayek, limbu, syloti-nagri, ahom, khudawadi, wancho, adlam, sundanese, kayah-li, siddham, pahawh-hmong, gujarati, tai-le, tirhuta, cham, old-permic, warang-citi, gurmukhi, psalter-pahlavi</li>
+<li>U+25CC DOTTED CIRCLE: try adding one of: bhaiksuki, soyombo, psalter-pahlavi, javanese, balinese, tai-tham, armenian, hanunoo, oriya, tibetan, elbasan, sundanese, cham, hebrew, hanifi-rohingya, thai, masaram-gondi, coptic, tirhuta, tamil, batak, sinhala, limbu, khojki, tifinagh, new-tai-lue, sharada, tagbanwa, adlam, lao, sogdian, khmer, mahajani, tai-viet, saurashtra, gurmukhi, mende-kikakui, buginese, grantha, old-permic, math, kayah-li, phags-pa, kaithi, brahmi, kharoshthi, osage, newa, syloti-nagri, siddham, telugu, thaana, mandaic, syriac, chakma, canadian-aboriginal, marchen, lepcha, modi, duployan, music, wancho, kannada, pahawh-hmong, gujarati, tagalog, zanabazar-square, bengali, symbols, mongolian, devanagari, malayalam, tai-le, gunjala-gondi, dogra, myanmar, manichaean, caucasian-albanian, khudawadi, buhid, miao, takri, meetei-mayek, ahom, warang-citi, rejang, nko, yi, bassa-vah</li>
 <li>U+FB01 LATIN SMALL LIGATURE FI: not included in any glyphset definition</li>
 <li>U+FB02 LATIN SMALL LIGATURE FL: not included in any glyphset definition</li>
 </ul>
@@ -36085,24 +34711,6 @@ definitions.</p>
 </details>
 
 <details>
-    <summary>⚠️ <b>WARN</b> Are there caret positions declared for every ligature? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.gdef.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>This font lacks caret position values for ligature glyphs on its GDEF table.</p>
- [code: lacks-caret-pos]
-
-
-
-</div>
-</details>
-
-<details>
     <summary>⚠️ <b>WARN</b> Check font follows the Google Fonts vertical metric schema <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.vmetrics.html#"></a></summary>
     <div>
 
@@ -36122,26 +34730,8 @@ definitions.</p>
 </div>
 </details>
 
-<details><summary>[8] EduAUVICWANTPre-Bold.ttf</summary>
+<details><summary>[6] EduAUVICWANTPre-Bold.ttf</summary>
 <div>
-<details>
-    <summary>🔥 <b>FAIL</b> Space and non-breaking space have the same width? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* 🔥 **FAIL** <p>Space and non-breaking space have differing width: The space glyph named space is 360 font units wide, non-breaking space named (nbspace) is 290 font units wide, and both should be positive and the same. GlyphsApp has &quot;Sidebearing arithmetic&quot; (<a href="https://glyphsapp.com/tutorials/spacing">https://glyphsapp.com/tutorials/spacing</a>) which allows you to set the non-breaking space width to always equal the space width.</p>
- [code: different-widths]
-
-
-
-</div>
-</details>
-
 <details>
     <summary>🔥 <b>FAIL</b> Shapes languages in all GF glyphsets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.glyphset.html#"></a></summary>
     <div>
@@ -36241,17 +34831,17 @@ be served. You can solve this by either manually adding additional
 subset declarations to METADATA.pb, or by editing the glyphset
 definitions.</p>
 <ul>
-<li>U+02C7 CARON: try adding one of: canadian-aboriginal, yi, tifinagh</li>
-<li>U+02D8 BREVE: try adding one of: canadian-aboriginal, yi</li>
-<li>U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi</li>
-<li>U+02DB OGONEK: try adding one of: canadian-aboriginal, yi</li>
+<li>U+02C7 CARON: try adding one of: tifinagh, yi, canadian-aboriginal</li>
+<li>U+02D8 BREVE: try adding one of: yi, canadian-aboriginal</li>
+<li>U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal</li>
+<li>U+02DB OGONEK: try adding one of: yi, canadian-aboriginal</li>
 <li>U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: coptic, math, tifinagh, cherokee</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, coptic, math, tifinagh</li>
 <li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: malayalam, canadian-aboriginal, tai-le, syriac, math, old-permic, coptic, tifinagh</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: tifinagh, malayalam, math, tai-le, syriac, coptic, canadian-aboriginal, old-permic</li>
 <li>U+030A COMBINING RING ABOVE: try adding syriac</li>
-<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
-<li>U+030C COMBINING CARON: try adding one of: tai-le, cherokee</li>
+<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
+<li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
 <li>U+0312 COMBINING TURNED COMMA ABOVE: not included in any glyphset definition</li>
 <li>U+0326 COMBINING COMMA BELOW: not included in any glyphset definition</li>
 <li>U+0327 COMBINING CEDILLA: not included in any glyphset definition</li>
@@ -36267,8 +34857,8 @@ definitions.</p>
 <li>U+2007 FIGURE SPACE: not included in any glyphset definition</li>
 <li>U+2008 PUNCTUATION SPACE: not included in any glyphset definition</li>
 <li>U+200A HAIR SPACE: not included in any glyphset definition</li>
-<li>U+200C ZERO WIDTH NON-JOINER: try adding one of: phags-pa, devanagari, duployan, myanmar, manichaean, hanunoo, tagbanwa, tibetan, thai, dogra, bengali, buhid, meetei-mayek, new-tai-lue, tifinagh, hatran, buginese, kannada, tirhuta, balinese, khmer, limbu, zanabazar-square, chakma, syloti-nagri, mongolian, tai-tham, takri, gunjala-gondi, sogdian, kharoshthi, tai-viet, hanifi-rohingya, khudawadi, sundanese, batak, avestan, bhaiksuki, kayah-li, modi, siddham, lepcha, grantha, thaana, telugu, kaithi, rejang, lao, malayalam, sharada, pahawh-hmong, gujarati, nko, tamil, mahajani, tai-le, masaram-gondi, arabic, javanese, cham, brahmi, oriya, saurashtra, sinhala, syriac, yi, hebrew, khojki, warang-citi, gurmukhi, psalter-pahlavi, newa, mandaic, tagalog</li>
-<li>U+200D ZERO WIDTH JOINER: try adding one of: phags-pa, devanagari, duployan, myanmar, manichaean, hanunoo, tagbanwa, tibetan, thai, dogra, bengali, buhid, meetei-mayek, new-tai-lue, tifinagh, buginese, kannada, tirhuta, balinese, khmer, limbu, zanabazar-square, chakma, syloti-nagri, mongolian, tai-tham, takri, gunjala-gondi, sogdian, kharoshthi, tai-viet, hanifi-rohingya, khudawadi, sundanese, batak, avestan, bhaiksuki, kayah-li, modi, siddham, lepcha, grantha, thaana, old-hungarian, telugu, kaithi, rejang, lao, malayalam, sharada, pahawh-hmong, gujarati, nko, tamil, mahajani, tai-le, masaram-gondi, arabic, javanese, cham, brahmi, oriya, saurashtra, sinhala, syriac, yi, hebrew, khojki, warang-citi, gurmukhi, psalter-pahlavi, newa, mandaic, tagalog</li>
+<li>U+200C ZERO WIDTH NON-JOINER: try adding one of: sundanese, mandaic, bhaiksuki, tirhuta, avestan, syriac, khudawadi, limbu, psalter-pahlavi, buhid, chakma, khojki, javanese, tifinagh, new-tai-lue, lepcha, arabic, takri, sharada, meetei-mayek, tagbanwa, tibetan, lao, modi, balinese, sogdian, newa, syloti-nagri, duployan, tai-tham, khmer, mahajani, hanunoo, oriya, gurmukhi, saurashtra, tai-viet, tamil, kannada, pahawh-hmong, gujarati, tagalog, grantha, buginese, bengali, cham, hatran, hebrew, rejang, sinhala, mongolian, devanagari, hanifi-rohingya, thai, malayalam, kayah-li, phags-pa, tai-le, masaram-gondi, nko, warang-citi, yi, gunjala-gondi, brahmi, dogra, kaithi, kharoshthi, telugu, siddham, manichaean, batak, thaana, zanabazar-square, myanmar</li>
+<li>U+200D ZERO WIDTH JOINER: try adding one of: mandaic, bhaiksuki, tirhuta, avestan, syriac, khudawadi, limbu, psalter-pahlavi, buhid, chakma, khojki, javanese, tifinagh, new-tai-lue, lepcha, arabic, takri, sharada, meetei-mayek, tagbanwa, tibetan, lao, modi, balinese, sogdian, newa, syloti-nagri, duployan, tai-tham, old-hungarian, khmer, mahajani, hanunoo, oriya, gurmukhi, saurashtra, tai-viet, tamil, kannada, pahawh-hmong, gujarati, tagalog, grantha, buginese, bengali, cham, rejang, hebrew, sundanese, sinhala, mongolian, devanagari, hanifi-rohingya, thai, malayalam, kayah-li, phags-pa, tai-le, masaram-gondi, nko, warang-citi, yi, gunjala-gondi, brahmi, dogra, kaithi, kharoshthi, telugu, siddham, manichaean, batak, thaana, zanabazar-square, myanmar</li>
 <li>U+2021 DOUBLE DAGGER: try adding adlam</li>
 <li>U+202F NARROW NO-BREAK SPACE: try adding one of: mongolian, yi</li>
 <li>U+2116 NUMERO SIGN: try adding cyrillic</li>
@@ -36285,7 +34875,7 @@ definitions.</p>
 <li>U+2264 LESS-THAN OR EQUAL TO: try adding math</li>
 <li>U+2265 GREATER-THAN OR EQUAL TO: try adding math</li>
 <li>U+25CA LOZENGE: try adding one of: symbols, math</li>
-<li>U+25CC DOTTED CIRCLE: try adding one of: myanmar, hanunoo, coptic, marchen, zanabazar-square, takri, elbasan, sogdian, kharoshthi, grantha, rejang, lao, javanese, syriac, sinhala, saurashtra, math, yi, mandaic, phags-pa, devanagari, manichaean, buhid, tifinagh, khmer, tai-tham, mongolian, tai-viet, batak, bhaiksuki, modi, kaithi, mende-kikakui, malayalam, canadian-aboriginal, sharada, tamil, mahajani, masaram-gondi, brahmi, music, symbols, tagbanwa, thai, dogra, buginese, kannada, balinese, chakma, gunjala-gondi, soyombo, hanifi-rohingya, lepcha, telugu, nko, bassa-vah, oriya, osage, hebrew, khojki, armenian, thaana, caucasian-albanian, newa, miao, tagalog, tibetan, duployan, new-tai-lue, bengali, meetei-mayek, limbu, syloti-nagri, ahom, khudawadi, wancho, adlam, sundanese, kayah-li, siddham, pahawh-hmong, gujarati, tai-le, tirhuta, cham, old-permic, warang-citi, gurmukhi, psalter-pahlavi</li>
+<li>U+25CC DOTTED CIRCLE: try adding one of: bhaiksuki, soyombo, psalter-pahlavi, javanese, balinese, tai-tham, armenian, hanunoo, oriya, tibetan, elbasan, sundanese, cham, hebrew, hanifi-rohingya, thai, masaram-gondi, coptic, tirhuta, tamil, batak, sinhala, limbu, khojki, tifinagh, new-tai-lue, sharada, tagbanwa, adlam, lao, sogdian, khmer, mahajani, tai-viet, saurashtra, gurmukhi, mende-kikakui, buginese, grantha, old-permic, math, kayah-li, phags-pa, kaithi, brahmi, kharoshthi, osage, newa, syloti-nagri, siddham, telugu, thaana, mandaic, syriac, chakma, canadian-aboriginal, marchen, lepcha, modi, duployan, music, wancho, kannada, pahawh-hmong, gujarati, tagalog, zanabazar-square, bengali, symbols, mongolian, devanagari, malayalam, tai-le, gunjala-gondi, dogra, myanmar, manichaean, caucasian-albanian, khudawadi, buhid, miao, takri, meetei-mayek, ahom, warang-citi, rejang, nko, yi, bassa-vah</li>
 <li>U+FB01 LATIN SMALL LIGATURE FI: not included in any glyphset definition</li>
 <li>U+FB02 LATIN SMALL LIGATURE FL: not included in any glyphset definition</li>
 </ul>
@@ -36313,24 +34903,6 @@ definitions.</p>
 - f + l
 </code></pre>
  [code: lacks-kern-info]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>⚠️ <b>WARN</b> Are there caret positions declared for every ligature? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.gdef.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>This font lacks caret position values for ligature glyphs on its GDEF table.</p>
- [code: lacks-caret-pos]
 
 
 
@@ -36364,8 +34936,8 @@ definitions.</p>
 
 | 💥 ERROR | ☠ FATAL | 🔥 FAIL | ⚠️ WARN | ⏩ SKIP | ℹ️ INFO | ✅ PASS | 🔎 DEBUG | 
 | ---|---|---|---|---|---|---|---|
-| 0 | 0 | 152 | 327 | 6219 | 455 | 5185 | 0 | 
-| 0% | 0% | 1% | 3% | 50% | 4% | 42% | 0% | 
+| 0 | 0 | 96 | 303 | 6219 | 437 | 5283 | 0 | 
+| 0% | 0% | 1% | 2% | 50% | 4% | 43% | 0% | 
 
 
 
